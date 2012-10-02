@@ -1,0 +1,66 @@
+showMove
+showMove foo
+enterMove
+enterMove [
+enterMove [2
+enterMove [ 2
+enterMove [2,
+enterMove [ 2 ,
+enterMove [ ]
+enterMove [2]
+enterMove [ 2, ]
+enterMove [2,3] foo
+doMove
+doMove [
+doMove [2
+doMove [ 2
+doMove [2,
+doMove [ 2 ,
+doMove [ ]
+doMove [2]
+doMove [ 2, ]
+doMove [2,3] foo
+showMove
+showBoard
+showBoard foo
+showMoveHist
+showMoveHist foo
+showVal
+showVal foo
+doMove [2,3]
+showMove
+enterMove [2,2]
+showMove
+applyMove
+showMove
+doMove [2,2]
+showMove
+doMove [2,1]
+doMove [1,1]
+doMove [0,1]
+showVal 
+showBoard
+showMoveHist
+saveBoard
+saveBoard !
+saveBoard othello1board
+saveMove
+saveMove !
+saveMove othello1move
+undoLastMove      
+undoLastMove -1   
+undoLastMove 0    
+undoLastMove 1
+showBoard
+showMoveHist
+loadMove othello1move
+applyMove
+showBoard
+showMoveHist
+undoLastMove 2
+showBoard
+showMoveHist
+undoLastMove 100
+showBoard
+showMoveHist
+quit

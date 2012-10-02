@@ -1,0 +1,98 @@
+# Enter/do a bunch of bad moves.
+showMove
+showMove foo
+enterMove
+enterMove [
+enterMove [2
+enterMove [ 2
+enterMove [2,
+enterMove [ 2 ,
+enterMove [ ]
+enterMove [2]
+enterMove [ 2, ]
+enterMove [2,3] foo
+doMove
+doMove [
+doMove [2
+doMove [ 2
+doMove [2,
+doMove [ 2 ,
+doMove [ ]
+doMove [2]
+doMove [ 2, ]
+doMove [2,3] foo
+showMove
+
+# Test comparing moves (don't apply any)
+enterMove [4,4]
+compareMove [4,4] # Should be ==
+compareMove [3,5] # Should be <
+compareMove [4,3] # Should be <
+compareMove [4,5] # Should be >
+compareMove [5,1] # Should be >
+enterMove [0,0]
+compareMove Pass
+
+# Make sure the move history is empty and the board is default.
+showBoard
+showBoard foo
+showMoveHist
+showMoveHist foo
+
+# Do five simple, legal moves. Test doMove and enter/applyMove. Show moves as
+# we go, as well.
+showVal
+showVal foo
+doMove [2,3]
+showMove
+enterMove [2,2]
+showMove
+applyMove
+showMove
+doMove [2,2]
+showMove
+doMove [2,1]
+doMove [1,1]
+doMove [0,1]
+
+# Test showVal, but more subtly, test that [0,1] was considered a 'one space
+# away from an edge' piece, and not an edge piece.
+showVal 
+
+# Make sure the board and move history are valid at this point.
+showBoard
+showMoveHist
+
+# Save the board and move to later load. Try invalid filenames first.
+saveBoard
+saveBoard !
+saveBoard othello1board
+saveMove
+saveMove !
+saveMove othello1move
+
+# Undo one move, verify board and move history. Try invalid undos first.
+undoLastMove      # Invalid
+undoLastMove -1   # Invalid
+undoLastMove 0    # Valid, but no-op
+undoLastMove 1
+showBoard
+showMoveHist
+
+# Apply legal saved move.
+loadMove othello1move
+applyMove
+showBoard
+showMoveHist
+
+# Try undoing multiple moves.
+undoLastMove 2
+showBoard
+showMoveHist
+
+# Undo to the beginning.
+undoLastMove 100
+showBoard
+showMoveHist
+
+quit
