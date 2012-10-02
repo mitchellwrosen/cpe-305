@@ -21,6 +21,14 @@ doMove [2]
 doMove [ 2, ]
 doMove [2,3] foo
 showMove
+enterMove [4,4]
+compareMove [4,4] 
+compareMove [3,5] 
+compareMove [4,3] 
+compareMove [4,5] 
+compareMove [5,1] 
+enterMove [0,0]
+compareMove Pass
 showBoard
 showBoard foo
 showMoveHist
