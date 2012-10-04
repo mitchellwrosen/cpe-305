@@ -1,0 +1,33 @@
+# Create a board with one of each type of space.
+doMove [2,3]
+doMove [2,2]
+doMove [2,1]
+doMove [1,1]
+doMove [0,1]
+doMove [0,0]
+doMove [3,2]
+doMove [2,0]
+
+# Test setOptions
+setOptions
+foo
+setOptions
+no
+setOptions
+n
+setOptions
+Y
+setOptions
+yfoo    # Garbage after 'y' OK
+-1      # Out of range
+101     # Out of range.
+[13     # Badly formatted input.
+13 foo  # Unexpected garbage after value.
+13.5    # Unexpected garbage after value.
+13      # Side weight
+37      # Near-side weight
+41      # Corner weight
+93      # Inner weight
+showAll
+
+# Leave off the quit

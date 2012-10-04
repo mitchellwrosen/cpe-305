@@ -113,7 +113,13 @@ doMove [1,7]
 showBoard
 doMove [5,7]
 showBoard
+# Sweet, we got to a point where a player has to pass. Save board first, do
+# the pass, then compare to the saved board. The pieces are all the same, but
+# the comparison should be un-equal due to it being a different player's move.
+saveBoard othello1board
 doMove Pass
+compareKeys othello1board
+
 showBoard
 doMove [7,5]
 showBoard

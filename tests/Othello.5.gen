@@ -1,0 +1,19 @@
+# Play a tie-game.
+testPlay 1 100
+showAll
+undoLastMove 100
+showAll
+
+# White wins.
+testPlay 2 100
+showAll
+undoLastMove 100
+showAll
+
+# Black wins.
+testPlay 4 100
+showAll
+undoLastMove 100
+showAll
+
+quit

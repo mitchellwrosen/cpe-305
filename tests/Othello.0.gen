@@ -1,6 +1,5 @@
-# Enter/do a bunch of bad moves.
+# Enter a bunch of badly formatted moves.
 showMove
-showMove foo
 enterMove
 enterMove [
 enterMove [2
@@ -11,17 +10,27 @@ enterMove [ ]
 enterMove [2]
 enterMove [ 2, ]
 enterMove [2,3] foo
-doMove
-doMove [
-doMove [2
-doMove [ 2
-doMove [2,
-doMove [ 2 ,
-doMove [ ]
-doMove [2]
-doMove [ 2, ]
-doMove [2,3] foo
+enterMove [-1, 1]
+enterMove [1, -1]
+enterMove [8, 1]
+enterMove [1, 8]
+enterMove [1 1]
+enterMove pass
+enterMove Pass
 showMove
+
+# Test commands with garbage/invalid after.
+showMove foo
+showBoard foo
+showMoveHist foo
+showVal foo
+saveBoard
+saveBoard !
+saveMove
+saveMove !
+undoLastMove      
+undoLastMove -1   
+undoLastMove 0    # Valid, but no-op
 
 # Test comparing moves (don't apply any)
 enterMove [4,4]
@@ -32,17 +41,11 @@ compareMove [4,5] # Should be >
 compareMove [5,1] # Should be >
 enterMove [0,0]
 compareMove Pass
-
-# Make sure the move history is empty and the board is default.
-showBoard
-showBoard foo
-showMoveHist
-showMoveHist foo
+showAll
 
 # Do five simple, legal moves. Test doMove and enter/applyMove. Show moves as
 # we go, as well.
 showVal
-showVal foo
 doMove [2,3]
 showMove
 enterMove [2,2]
@@ -54,45 +57,29 @@ showMove
 doMove [2,1]
 doMove [1,1]
 doMove [0,1]
+showAll
 
-# Test showVal, but more subtly, test that [0,1] was considered a 'one space
-# away from an edge' piece, and not an edge piece.
-showVal 
-
-# Make sure the board and move history are valid at this point.
-showBoard
-showMoveHist
-
-# Save the board and move to later load. Try invalid filenames first.
-saveBoard
-saveBoard !
+# Save the board and move to later load.
 saveBoard othello1board
-saveMove
-saveMove !
 saveMove othello1move
 
-# Undo one move, verify board and move history. Try invalid undos first.
-undoLastMove      # Invalid
-undoLastMove -1   # Invalid
-undoLastMove 0    # Valid, but no-op
+# Undo one move, verify board and move history.
 undoLastMove 1
-showBoard
-showMoveHist
+showAll
 
 # Apply legal saved move.
 loadMove othello1move
 applyMove
-showBoard
-showMoveHist
+showAll
 
 # Try undoing multiple moves.
 undoLastMove 2
-showBoard
-showMoveHist
+loadMove othello1move
+applyMove
+showAll
 
 # Undo to the beginning.
 undoLastMove 100
-showBoard
-showMoveHist
+showAll
 
 quit

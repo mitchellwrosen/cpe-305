@@ -1,0 +1,32 @@
+# Save board stuff, compare keys.
+saveBoard othello3board
+compareKeys foo
+compareKeys othello3board
+compareKeys othello3board foo # Should work.
+doMove [2,3] # Current > saved.
+compareKeys othello3board
+doMove [2,2] # Current < saved.
+compareKeys othello3board
+
+# Change weights, save, change weights again, load, show val.
+doMove [2,1]
+showAll
+setOptions
+y
+50
+50
+50
+50
+showAll
+saveBoard othello3board
+setOptions
+y
+100
+100
+100
+100
+showAll
+loadBoard othello3board
+showAll
+
+quit
