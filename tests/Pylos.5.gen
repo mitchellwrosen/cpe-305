@@ -1,0 +1,13 @@
+# White wins.
+testPlay 3 200
+showAll
+undoLastMove 200
+showAll
+
+# Black wins.
+testPlay 1 200
+showAll
+undoLastMove 200
+showAll
+
+quit
