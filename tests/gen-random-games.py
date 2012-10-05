@@ -24,8 +24,8 @@ with open('Othello.test.gen', 'w') as genfile:
     genfile.write('%s %s\n' % (command, 'a' * 1000)) 
 
   genfile.write('\n# Bunch of compareMoves\n')
-  for row1 in [x-1 for x in xrange(9)]:
-    for col1 in [x-1 for x in xrange(9)]:
+  for row1 in [-1, 2, 5, 8]:
+    for col1 in [-1, 2, 5, 8]:
       genfile.write('enterMove [%s,%s]\n' % (row1, col1))
       if row1 in xrange(8) and col1 in xrange(8):
         for row2 in xrange(8):
@@ -40,7 +40,7 @@ with open('Othello.test.gen', 'w') as genfile:
 ###########################################################
 with open('Othello.test1.gen', 'w') as genfile:
   genfile.write('\n# Play quick games\n')
-  games = 20
+  games = 15
   for i in xrange(games):
     genfile.write('showAll\n')
     genfile.write('testRun %d 20\n' % (i*2000))
@@ -132,14 +132,9 @@ with open('Pylos.test1.gen', 'w') as genfile:
         for i in xrange(3):
           genfile.write('compareMove Play at [%s,%s] taking [%s,%s]\n' % (row1, col1, i, i))
           genfile.write('compareMove Promote from [%s,%s] to [%s,%s]\n' % (row1, col1, i, i))
-          for j in xrange(3):
-            genfile.write('compareMove Play at [%s,%s] taking [%s,%s] and [%s,%s]\n' % (
-                row1, col1, i, i, j, j))
-            genfile.write('compareMove Promote from [%s,%s] to [%s,%s] taking [%s,%s]\n' % (
-                row1, col1, i, i, j, j))
-            for k in xrange(3):
-              genfile.write('compareMove Promote from [%s,%s] to [%s,%s] taking [%s,%s] and [%s,%s]\n' % (
-                  row1, col1, i, i, j, j, k, k))
+          genfile.write('compareMove Play at [%s,%s] taking [%s,%s] and [%s,%s]\n' % (row1, col1, i, i, i, i))
+          genfile.write('compareMove Promote from [%s,%s] to [%s,%s] taking [%s,%s]\n' % (
+              row1, col1, i, i, i, i))
             
   """
   for move in ['Play at [1,1]', 'Play at [1,1] taking [1,2]', 

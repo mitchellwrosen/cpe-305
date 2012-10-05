@@ -118,46 +118,6 @@ keyMoveCount
 testRun 28000 20
 saveBoard b14
 saveMove m14
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
-testRun 30000 20
-saveBoard b15
-saveMove m15
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
-testRun 32000 20
-saveBoard b16
-saveMove m16
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
-testRun 34000 20
-saveBoard b17
-saveMove m17
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
-testRun 36000 20
-saveBoard b18
-saveMove m18
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
-testRun 38000 20
-saveBoard b19
-saveMove m19
 loadBoard b0
 showBoard
 showMove
@@ -179,11 +139,6 @@ compareKeys b11
 compareKeys b12
 compareKeys b13
 compareKeys b14
-compareKeys b15
-compareKeys b16
-compareKeys b17
-compareKeys b18
-compareKeys b19
 undoLastMove 30
 showBoard
 showMove
@@ -205,11 +160,6 @@ compareKeys b11
 compareKeys b12
 compareKeys b13
 compareKeys b14
-compareKeys b15
-compareKeys b16
-compareKeys b17
-compareKeys b18
-compareKeys b19
 loadBoard b1
 showBoard
 showMove
@@ -231,11 +181,6 @@ compareKeys b11
 compareKeys b12
 compareKeys b13
 compareKeys b14
-compareKeys b15
-compareKeys b16
-compareKeys b17
-compareKeys b18
-compareKeys b19
 undoLastMove 30
 showBoard
 showMove
@@ -257,11 +202,6 @@ compareKeys b11
 compareKeys b12
 compareKeys b13
 compareKeys b14
-compareKeys b15
-compareKeys b16
-compareKeys b17
-compareKeys b18
-compareKeys b19
 loadBoard b2
 showBoard
 showMove
@@ -283,11 +223,6 @@ compareKeys b11
 compareKeys b12
 compareKeys b13
 compareKeys b14
-compareKeys b15
-compareKeys b16
-compareKeys b17
-compareKeys b18
-compareKeys b19
 undoLastMove 30
 showBoard
 showMove
@@ -309,11 +244,6 @@ compareKeys b11
 compareKeys b12
 compareKeys b13
 compareKeys b14
-compareKeys b15
-compareKeys b16
-compareKeys b17
-compareKeys b18
-compareKeys b19
 loadBoard b3
 showBoard
 showMove
@@ -335,11 +265,6 @@ compareKeys b11
 compareKeys b12
 compareKeys b13
 compareKeys b14
-compareKeys b15
-compareKeys b16
-compareKeys b17
-compareKeys b18
-compareKeys b19
 undoLastMove 30
 showBoard
 showMove
@@ -361,11 +286,6 @@ compareKeys b11
 compareKeys b12
 compareKeys b13
 compareKeys b14
-compareKeys b15
-compareKeys b16
-compareKeys b17
-compareKeys b18
-compareKeys b19
 loadBoard b4
 showBoard
 showMove
@@ -387,11 +307,6 @@ compareKeys b11
 compareKeys b12
 compareKeys b13
 compareKeys b14
-compareKeys b15
-compareKeys b16
-compareKeys b17
-compareKeys b18
-compareKeys b19
 undoLastMove 30
 showBoard
 showMove
@@ -413,11 +328,6 @@ compareKeys b11
 compareKeys b12
 compareKeys b13
 compareKeys b14
-compareKeys b15
-compareKeys b16
-compareKeys b17
-compareKeys b18
-compareKeys b19
 loadBoard b5
 showBoard
 showMove
@@ -439,11 +349,6 @@ compareKeys b11
 compareKeys b12
 compareKeys b13
 compareKeys b14
-compareKeys b15
-compareKeys b16
-compareKeys b17
-compareKeys b18
-compareKeys b19
 undoLastMove 30
 showBoard
 showMove
@@ -465,11 +370,6 @@ compareKeys b11
 compareKeys b12
 compareKeys b13
 compareKeys b14
-compareKeys b15
-compareKeys b16
-compareKeys b17
-compareKeys b18
-compareKeys b19
 loadBoard b6
 showBoard
 showMove
@@ -491,11 +391,6 @@ compareKeys b11
 compareKeys b12
 compareKeys b13
 compareKeys b14
-compareKeys b15
-compareKeys b16
-compareKeys b17
-compareKeys b18
-compareKeys b19
 undoLastMove 30
 showBoard
 showMove
@@ -517,11 +412,6 @@ compareKeys b11
 compareKeys b12
 compareKeys b13
 compareKeys b14
-compareKeys b15
-compareKeys b16
-compareKeys b17
-compareKeys b18
-compareKeys b19
 loadBoard b7
 showBoard
 showMove
@@ -543,11 +433,6 @@ compareKeys b11
 compareKeys b12
 compareKeys b13
 compareKeys b14
-compareKeys b15
-compareKeys b16
-compareKeys b17
-compareKeys b18
-compareKeys b19
 undoLastMove 30
 showBoard
 showMove
@@ -569,11 +454,6 @@ compareKeys b11
 compareKeys b12
 compareKeys b13
 compareKeys b14
-compareKeys b15
-compareKeys b16
-compareKeys b17
-compareKeys b18
-compareKeys b19
 loadBoard b8
 showBoard
 showMove
@@ -595,11 +475,6 @@ compareKeys b11
 compareKeys b12
 compareKeys b13
 compareKeys b14
-compareKeys b15
-compareKeys b16
-compareKeys b17
-compareKeys b18
-compareKeys b19
 undoLastMove 30
 showBoard
 showMove
@@ -621,11 +496,6 @@ compareKeys b11
 compareKeys b12
 compareKeys b13
 compareKeys b14
-compareKeys b15
-compareKeys b16
-compareKeys b17
-compareKeys b18
-compareKeys b19
 loadBoard b9
 showBoard
 showMove
@@ -647,11 +517,6 @@ compareKeys b11
 compareKeys b12
 compareKeys b13
 compareKeys b14
-compareKeys b15
-compareKeys b16
-compareKeys b17
-compareKeys b18
-compareKeys b19
 undoLastMove 30
 showBoard
 showMove
@@ -673,11 +538,6 @@ compareKeys b11
 compareKeys b12
 compareKeys b13
 compareKeys b14
-compareKeys b15
-compareKeys b16
-compareKeys b17
-compareKeys b18
-compareKeys b19
 loadBoard b10
 showBoard
 showMove
@@ -699,11 +559,6 @@ compareKeys b11
 compareKeys b12
 compareKeys b13
 compareKeys b14
-compareKeys b15
-compareKeys b16
-compareKeys b17
-compareKeys b18
-compareKeys b19
 undoLastMove 30
 showBoard
 showMove
@@ -725,11 +580,6 @@ compareKeys b11
 compareKeys b12
 compareKeys b13
 compareKeys b14
-compareKeys b15
-compareKeys b16
-compareKeys b17
-compareKeys b18
-compareKeys b19
 loadBoard b11
 showBoard
 showMove
@@ -751,11 +601,6 @@ compareKeys b11
 compareKeys b12
 compareKeys b13
 compareKeys b14
-compareKeys b15
-compareKeys b16
-compareKeys b17
-compareKeys b18
-compareKeys b19
 undoLastMove 30
 showBoard
 showMove
@@ -777,11 +622,6 @@ compareKeys b11
 compareKeys b12
 compareKeys b13
 compareKeys b14
-compareKeys b15
-compareKeys b16
-compareKeys b17
-compareKeys b18
-compareKeys b19
 loadBoard b12
 showBoard
 showMove
@@ -803,11 +643,6 @@ compareKeys b11
 compareKeys b12
 compareKeys b13
 compareKeys b14
-compareKeys b15
-compareKeys b16
-compareKeys b17
-compareKeys b18
-compareKeys b19
 undoLastMove 30
 showBoard
 showMove
@@ -829,11 +664,6 @@ compareKeys b11
 compareKeys b12
 compareKeys b13
 compareKeys b14
-compareKeys b15
-compareKeys b16
-compareKeys b17
-compareKeys b18
-compareKeys b19
 loadBoard b13
 showBoard
 showMove
@@ -855,11 +685,6 @@ compareKeys b11
 compareKeys b12
 compareKeys b13
 compareKeys b14
-compareKeys b15
-compareKeys b16
-compareKeys b17
-compareKeys b18
-compareKeys b19
 undoLastMove 30
 showBoard
 showMove
@@ -881,11 +706,6 @@ compareKeys b11
 compareKeys b12
 compareKeys b13
 compareKeys b14
-compareKeys b15
-compareKeys b16
-compareKeys b17
-compareKeys b18
-compareKeys b19
 loadBoard b14
 showBoard
 showMove
@@ -907,11 +727,6 @@ compareKeys b11
 compareKeys b12
 compareKeys b13
 compareKeys b14
-compareKeys b15
-compareKeys b16
-compareKeys b17
-compareKeys b18
-compareKeys b19
 undoLastMove 30
 showBoard
 showMove
@@ -933,271 +748,6 @@ compareKeys b11
 compareKeys b12
 compareKeys b13
 compareKeys b14
-compareKeys b15
-compareKeys b16
-compareKeys b17
-compareKeys b18
-compareKeys b19
-loadBoard b15
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
-compareKeys b0
-compareKeys b1
-compareKeys b2
-compareKeys b3
-compareKeys b4
-compareKeys b5
-compareKeys b6
-compareKeys b7
-compareKeys b8
-compareKeys b9
-compareKeys b10
-compareKeys b11
-compareKeys b12
-compareKeys b13
-compareKeys b14
-compareKeys b15
-compareKeys b16
-compareKeys b17
-compareKeys b18
-compareKeys b19
-undoLastMove 30
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
-compareKeys b0
-compareKeys b1
-compareKeys b2
-compareKeys b3
-compareKeys b4
-compareKeys b5
-compareKeys b6
-compareKeys b7
-compareKeys b8
-compareKeys b9
-compareKeys b10
-compareKeys b11
-compareKeys b12
-compareKeys b13
-compareKeys b14
-compareKeys b15
-compareKeys b16
-compareKeys b17
-compareKeys b18
-compareKeys b19
-loadBoard b16
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
-compareKeys b0
-compareKeys b1
-compareKeys b2
-compareKeys b3
-compareKeys b4
-compareKeys b5
-compareKeys b6
-compareKeys b7
-compareKeys b8
-compareKeys b9
-compareKeys b10
-compareKeys b11
-compareKeys b12
-compareKeys b13
-compareKeys b14
-compareKeys b15
-compareKeys b16
-compareKeys b17
-compareKeys b18
-compareKeys b19
-undoLastMove 30
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
-compareKeys b0
-compareKeys b1
-compareKeys b2
-compareKeys b3
-compareKeys b4
-compareKeys b5
-compareKeys b6
-compareKeys b7
-compareKeys b8
-compareKeys b9
-compareKeys b10
-compareKeys b11
-compareKeys b12
-compareKeys b13
-compareKeys b14
-compareKeys b15
-compareKeys b16
-compareKeys b17
-compareKeys b18
-compareKeys b19
-loadBoard b17
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
-compareKeys b0
-compareKeys b1
-compareKeys b2
-compareKeys b3
-compareKeys b4
-compareKeys b5
-compareKeys b6
-compareKeys b7
-compareKeys b8
-compareKeys b9
-compareKeys b10
-compareKeys b11
-compareKeys b12
-compareKeys b13
-compareKeys b14
-compareKeys b15
-compareKeys b16
-compareKeys b17
-compareKeys b18
-compareKeys b19
-undoLastMove 30
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
-compareKeys b0
-compareKeys b1
-compareKeys b2
-compareKeys b3
-compareKeys b4
-compareKeys b5
-compareKeys b6
-compareKeys b7
-compareKeys b8
-compareKeys b9
-compareKeys b10
-compareKeys b11
-compareKeys b12
-compareKeys b13
-compareKeys b14
-compareKeys b15
-compareKeys b16
-compareKeys b17
-compareKeys b18
-compareKeys b19
-loadBoard b18
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
-compareKeys b0
-compareKeys b1
-compareKeys b2
-compareKeys b3
-compareKeys b4
-compareKeys b5
-compareKeys b6
-compareKeys b7
-compareKeys b8
-compareKeys b9
-compareKeys b10
-compareKeys b11
-compareKeys b12
-compareKeys b13
-compareKeys b14
-compareKeys b15
-compareKeys b16
-compareKeys b17
-compareKeys b18
-compareKeys b19
-undoLastMove 30
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
-compareKeys b0
-compareKeys b1
-compareKeys b2
-compareKeys b3
-compareKeys b4
-compareKeys b5
-compareKeys b6
-compareKeys b7
-compareKeys b8
-compareKeys b9
-compareKeys b10
-compareKeys b11
-compareKeys b12
-compareKeys b13
-compareKeys b14
-compareKeys b15
-compareKeys b16
-compareKeys b17
-compareKeys b18
-compareKeys b19
-loadBoard b19
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
-compareKeys b0
-compareKeys b1
-compareKeys b2
-compareKeys b3
-compareKeys b4
-compareKeys b5
-compareKeys b6
-compareKeys b7
-compareKeys b8
-compareKeys b9
-compareKeys b10
-compareKeys b11
-compareKeys b12
-compareKeys b13
-compareKeys b14
-compareKeys b15
-compareKeys b16
-compareKeys b17
-compareKeys b18
-compareKeys b19
-undoLastMove 30
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
-compareKeys b0
-compareKeys b1
-compareKeys b2
-compareKeys b3
-compareKeys b4
-compareKeys b5
-compareKeys b6
-compareKeys b7
-compareKeys b8
-compareKeys b9
-compareKeys b10
-compareKeys b11
-compareKeys b12
-compareKeys b13
-compareKeys b14
-compareKeys b15
-compareKeys b16
-compareKeys b17
-compareKeys b18
-compareKeys b19
 loadMove m0
 showBoard
 showMove
@@ -1367,66 +917,6 @@ showMoveHist
 showVal
 keyMoveCount
 loadMove m14
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
-applyMove
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
-loadMove m15
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
-applyMove
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
-loadMove m16
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
-applyMove
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
-loadMove m17
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
-applyMove
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
-loadMove m18
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
-applyMove
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
-loadMove m19
 showBoard
 showMove
 showMoveHist
