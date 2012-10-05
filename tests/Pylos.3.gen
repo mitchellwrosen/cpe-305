@@ -1,0 +1,153 @@
+# Save 10 boards, compare all keys.
+testRun 1 50
+showAll
+saveBoard pylos3board1
+testRun 2 50
+showAll
+saveBoard pylos3board2
+testRun 3 50
+showAll
+saveBoard pylos3board3
+testRun 4 50
+showAll
+saveBoard pylos3board4
+testRun 5 50
+showAll
+saveBoard pylos3board5
+testRun 6 50
+showAll
+saveBoard pylos3board6
+testRun 7 50
+showAll
+saveBoard pylos3board7
+testRun 8 50
+showAll
+saveBoard pylos3board8
+testRun 9 50
+showAll
+saveBoard pylos3board9
+testRun 10 50
+showAll
+saveBoard pylos3board10
+
+loadBoard pylos3board1
+compareKeys pylos3board1
+compareKeys pylos3board2
+compareKeys pylos3board3
+compareKeys pylos3board4
+compareKeys pylos3board5
+compareKeys pylos3board6
+compareKeys pylos3board7
+compareKeys pylos3board8
+compareKeys pylos3board9
+compareKeys pylos3board10
+
+loadBoard pylos3board2
+compareKeys pylos3board1
+compareKeys pylos3board2
+compareKeys pylos3board3
+compareKeys pylos3board4
+compareKeys pylos3board5
+compareKeys pylos3board6
+compareKeys pylos3board7
+compareKeys pylos3board8
+compareKeys pylos3board9
+compareKeys pylos3board10
+
+loadBoard pylos3board3
+compareKeys pylos3board1
+compareKeys pylos3board2
+compareKeys pylos3board3
+compareKeys pylos3board4
+compareKeys pylos3board5
+compareKeys pylos3board6
+compareKeys pylos3board7
+compareKeys pylos3board8
+compareKeys pylos3board9
+compareKeys pylos3board10
+
+loadBoard pylos3board4
+compareKeys pylos3board1
+compareKeys pylos3board2
+compareKeys pylos3board3
+compareKeys pylos3board4
+compareKeys pylos3board5
+compareKeys pylos3board6
+compareKeys pylos3board7
+compareKeys pylos3board8
+compareKeys pylos3board9
+compareKeys pylos3board10
+
+loadBoard pylos3board5
+compareKeys pylos3board1
+compareKeys pylos3board2
+compareKeys pylos3board3
+compareKeys pylos3board4
+compareKeys pylos3board5
+compareKeys pylos3board6
+compareKeys pylos3board7
+compareKeys pylos3board8
+compareKeys pylos3board9
+compareKeys pylos3board10
+
+loadBoard pylos3board6
+compareKeys pylos3board1
+compareKeys pylos3board2
+compareKeys pylos3board3
+compareKeys pylos3board4
+compareKeys pylos3board5
+compareKeys pylos3board6
+compareKeys pylos3board7
+compareKeys pylos3board8
+compareKeys pylos3board9
+compareKeys pylos3board10
+
+loadBoard pylos3board7
+compareKeys pylos3board1
+compareKeys pylos3board2
+compareKeys pylos3board3
+compareKeys pylos3board4
+compareKeys pylos3board5
+compareKeys pylos3board6
+compareKeys pylos3board7
+compareKeys pylos3board8
+compareKeys pylos3board9
+compareKeys pylos3board10
+
+loadBoard pylos3board8
+compareKeys pylos3board1
+compareKeys pylos3board2
+compareKeys pylos3board3
+compareKeys pylos3board4
+compareKeys pylos3board5
+compareKeys pylos3board6
+compareKeys pylos3board7
+compareKeys pylos3board8
+compareKeys pylos3board9
+compareKeys pylos3board10
+
+loadBoard pylos3board9
+compareKeys pylos3board1
+compareKeys pylos3board2
+compareKeys pylos3board3
+compareKeys pylos3board4
+compareKeys pylos3board5
+compareKeys pylos3board6
+compareKeys pylos3board7
+compareKeys pylos3board8
+compareKeys pylos3board9
+compareKeys pylos3board10
+
+loadBoard pylos3board10
+compareKeys pylos3board1
+compareKeys pylos3board2
+compareKeys pylos3board3
+compareKeys pylos3board4
+compareKeys pylos3board5
+compareKeys pylos3board6
+compareKeys pylos3board7
+compareKeys pylos3board8
+compareKeys pylos3board9
+compareKeys pylos3board10
+
+quit

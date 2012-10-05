@@ -1,5 +1,5 @@
 # Enter a bunch of badly formatted moves.
-showMove
+showAll
 enterMove
 enterMove Play at [
 enterMove Play at [0
@@ -14,7 +14,12 @@ enterMove Play at [-1, 1]
 enterMove Play at [4, 1]
 enterMove Play at [1 1]
 enterMove Play at[0,0]
+enterMove Playat[0,0]
 enterMove Play   at   [     0,     0    ]
+enterMove      Play   at   [     0,     0    ]
+enterMove      play   at   [     0,     0    ]
+enterMove      play   At   [     0,     0    ]
+enterMove      Play   At   [     0,     0    ]
 enterMove Play at [0,0] taking
 enterMove Play at [0,0] taking []
 enterMove Play at [0,0] taking [-1,1]
@@ -24,13 +29,17 @@ enterMove Play at [0,0] taking [1,1] and [4,1]
 enterMove Play at [0,0] taking [1,1] and [2,2] foo
 enterMove Play at [0,0] taking [2,2] and [1,1]
 enterMove Play at [0,0] taking [2,2] and [1,1] foo
+enterMove Play at [0,0]      taking [1,1] and [2,2]
+enterMove Play at [0,0]      Taking [1,1] and [2,2]
 enterMove Promote [0,0] to [1,1]
 enterMove Promote from [0,0]
+enterMove Promotefrom [0,0] to [1,1]
 enterMove Promote from [0,0] to
 enterMove Promote from [0,0] to []
 enterMove Promote from [0,0] to [1,-1]
 enterMove Promote from [0,0] to [1,1] foo
-showMove
+enterMove Play at aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+showAll
 
 # Test commands with garbage/invalid after.
 showMove foo
@@ -50,21 +59,24 @@ enterMove Play at [2,2]
 compareMove Play at [2,2] # Should be ==
 compareMove Play at [1,2] # Should be <
 compareMove Play at [2,1] # Should be <
+compareMove Play at [2,2] taking [0,0] # Should be >
 compareMove Play at [3,1] # Should be >
 compareMove Play at [2,3] # Should be >
-showAll
+compareMove Promote from [0,0] to [1,1] # Should be <
+compareMove Promote from [0,0] to [2,2] # Should be >
 
+# Test an alignment 
 # Do five simple, legal moves. Test doMove and enter/applyMove. Show moves as
 # we go, as well.
-showVal
+showAll
 doMove [2,3]
-showMove
+showAll
 enterMove [2,2]
-showMove
+showAll
 applyMove
-showMove
+showAll
 doMove [2,2]
-showMove
+showAll
 doMove [2,1]
 doMove [1,1]
 doMove [0,1]
@@ -102,9 +114,9 @@ enterMove Play   at   [  2  , 1  ]  taking [1,1] dammit
 enterMove Promote from [2,2]
 enterMove Play at [[2,3]
 enterMove Play at [3,1]]
-showMove
+showAll
 enterMove Play  at  [1,1]   taking  [1,2]   
-showMove
+showAll
 saveMove Move1.pls
 compareMove Play at [1,2] taking [0,0]
 compareMove Promote from [1,0] to [1,1]
@@ -113,7 +125,7 @@ compareMove Play at [1,1] taking [1,2] and [0,0]
 enterMove  Promote from  [1 ,1] to [1,3] taking [2,2]  and  [3,3
 enterMove  Promote from  [1 ,1] to [1,3] taking [2,1]  and  [3,3]  dammit
 enterMove  Promote from  [1 ,0] taking [1,1]  and  [3,3]
-showMove
+showAll
 enterMove Promote from [1,1] to [1,2]
 saveMove Move2.pls
 compareMove Play at [1,1] taking [2,3]
@@ -124,13 +136,13 @@ compareMove Promote from [1,1] to [1,1] taking [3,3]
 enterMove Promote from [1,2] to [2,3] taking [0,3] and [1,2]
 saveMove Move3.pls
 loadMove Move1.pls
-showMove
+showAll
 loadMove Move2.pls
-showMove
+showAll
 loadMove Move3.pls
-showMove
+showAll
 
 enterMove Play at [-1,0]
 enterMove Play at [0,4]
-showMove
+showAll
 quit
