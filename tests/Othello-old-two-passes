@@ -1,0 +1,120 @@
+doMove [2,3]
+showBoard
+doMove [2,2]
+showBoard
+doMove [3,2]
+showBoard
+doMove [4,2]
+showBoard
+doMove [3,1]
+showBoard
+doMove [2,4]
+showBoard
+doMove [1,2]
+showBoard
+doMove [1,1]
+showBoard
+doMove [1,0]
+showBoard
+doMove [0,0]
+showBoard
+doMove [1,3]
+showBoard
+doMove [2,0]
+showBoard
+doMove [3,5]
+showBoard
+doMove [0,2]
+showBoard
+doMove [5,2]
+showBoard
+doMove [4,6]
+showBoard
+doMove [5,4]
+showBoard
+doMove [5,3]
+showBoard
+doMove [1,4]
+showBoard
+doMove [0,4]
+showBoard
+doMove [2,1]
+showBoard
+doMove [6,5]
+showBoard
+doMove [5,5]
+showBoard
+doMove [6,4]
+showBoard
+doMove [5,6]
+showBoard
+doMove [4,5]
+showBoard
+doMove [0,1]
+showBoard
+doMove [0,3]
+showBoard
+doMove [0,5]
+showBoard
+doMove [0,6]
+showBoard
+doMove [2,5]
+showBoard
+doMove [1,5]
+showBoard
+doMove [1,6]
+showBoard
+doMove [0,7]
+showBoard
+doMove [2,6]
+showBoard
+doMove [2,7]
+showBoard
+doMove [3,6]
+showBoard
+doMove [3,7]
+showBoard
+doMove [4,1]
+showBoard
+doMove [5,1]
+showBoard
+doMove [6,1]
+showBoard
+doMove [7,0]
+showBoard
+doMove [6,2]
+showBoard
+doMove [7,1]
+showBoard
+doMove [6,3]
+showBoard
+doMove [6,7]
+showBoard
+doMove [6,6]
+showBoard
+doMove [7,4]
+showBoard
+doMove [6,0]
+showBoard
+doMove [7,2]
+showBoard
+doMove [4,7]
+showBoard
+doMove [5,0]
+showBoard
+doMove [1,7]
+showBoard
+doMove [5,7]
+showBoard
+saveBoard othello1board
+doMove Pass
+compareKeys othello1board
+showBoard
+doMove [7,5]
+showBoard
+doMove Pass
+showBoard
+doMove Pass
+showBoard
+showVal
+quit

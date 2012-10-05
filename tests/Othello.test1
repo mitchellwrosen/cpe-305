@@ -1,0 +1,1441 @@
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+testRun 0 20
+saveBoard b0
+saveMove m0
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+testRun 2000 20
+saveBoard b1
+saveMove m1
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+testRun 4000 20
+saveBoard b2
+saveMove m2
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+testRun 6000 20
+saveBoard b3
+saveMove m3
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+testRun 8000 20
+saveBoard b4
+saveMove m4
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+testRun 10000 20
+saveBoard b5
+saveMove m5
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+testRun 12000 20
+saveBoard b6
+saveMove m6
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+testRun 14000 20
+saveBoard b7
+saveMove m7
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+testRun 16000 20
+saveBoard b8
+saveMove m8
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+testRun 18000 20
+saveBoard b9
+saveMove m9
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+testRun 20000 20
+saveBoard b10
+saveMove m10
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+testRun 22000 20
+saveBoard b11
+saveMove m11
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+testRun 24000 20
+saveBoard b12
+saveMove m12
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+testRun 26000 20
+saveBoard b13
+saveMove m13
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+testRun 28000 20
+saveBoard b14
+saveMove m14
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+testRun 30000 20
+saveBoard b15
+saveMove m15
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+testRun 32000 20
+saveBoard b16
+saveMove m16
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+testRun 34000 20
+saveBoard b17
+saveMove m17
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+testRun 36000 20
+saveBoard b18
+saveMove m18
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+testRun 38000 20
+saveBoard b19
+saveMove m19
+loadBoard b0
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+compareKeys b9
+compareKeys b10
+compareKeys b11
+compareKeys b12
+compareKeys b13
+compareKeys b14
+compareKeys b15
+compareKeys b16
+compareKeys b17
+compareKeys b18
+compareKeys b19
+undoLastMove 30
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+compareKeys b9
+compareKeys b10
+compareKeys b11
+compareKeys b12
+compareKeys b13
+compareKeys b14
+compareKeys b15
+compareKeys b16
+compareKeys b17
+compareKeys b18
+compareKeys b19
+loadBoard b1
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+compareKeys b9
+compareKeys b10
+compareKeys b11
+compareKeys b12
+compareKeys b13
+compareKeys b14
+compareKeys b15
+compareKeys b16
+compareKeys b17
+compareKeys b18
+compareKeys b19
+undoLastMove 30
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+compareKeys b9
+compareKeys b10
+compareKeys b11
+compareKeys b12
+compareKeys b13
+compareKeys b14
+compareKeys b15
+compareKeys b16
+compareKeys b17
+compareKeys b18
+compareKeys b19
+loadBoard b2
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+compareKeys b9
+compareKeys b10
+compareKeys b11
+compareKeys b12
+compareKeys b13
+compareKeys b14
+compareKeys b15
+compareKeys b16
+compareKeys b17
+compareKeys b18
+compareKeys b19
+undoLastMove 30
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+compareKeys b9
+compareKeys b10
+compareKeys b11
+compareKeys b12
+compareKeys b13
+compareKeys b14
+compareKeys b15
+compareKeys b16
+compareKeys b17
+compareKeys b18
+compareKeys b19
+loadBoard b3
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+compareKeys b9
+compareKeys b10
+compareKeys b11
+compareKeys b12
+compareKeys b13
+compareKeys b14
+compareKeys b15
+compareKeys b16
+compareKeys b17
+compareKeys b18
+compareKeys b19
+undoLastMove 30
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+compareKeys b9
+compareKeys b10
+compareKeys b11
+compareKeys b12
+compareKeys b13
+compareKeys b14
+compareKeys b15
+compareKeys b16
+compareKeys b17
+compareKeys b18
+compareKeys b19
+loadBoard b4
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+compareKeys b9
+compareKeys b10
+compareKeys b11
+compareKeys b12
+compareKeys b13
+compareKeys b14
+compareKeys b15
+compareKeys b16
+compareKeys b17
+compareKeys b18
+compareKeys b19
+undoLastMove 30
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+compareKeys b9
+compareKeys b10
+compareKeys b11
+compareKeys b12
+compareKeys b13
+compareKeys b14
+compareKeys b15
+compareKeys b16
+compareKeys b17
+compareKeys b18
+compareKeys b19
+loadBoard b5
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+compareKeys b9
+compareKeys b10
+compareKeys b11
+compareKeys b12
+compareKeys b13
+compareKeys b14
+compareKeys b15
+compareKeys b16
+compareKeys b17
+compareKeys b18
+compareKeys b19
+undoLastMove 30
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+compareKeys b9
+compareKeys b10
+compareKeys b11
+compareKeys b12
+compareKeys b13
+compareKeys b14
+compareKeys b15
+compareKeys b16
+compareKeys b17
+compareKeys b18
+compareKeys b19
+loadBoard b6
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+compareKeys b9
+compareKeys b10
+compareKeys b11
+compareKeys b12
+compareKeys b13
+compareKeys b14
+compareKeys b15
+compareKeys b16
+compareKeys b17
+compareKeys b18
+compareKeys b19
+undoLastMove 30
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+compareKeys b9
+compareKeys b10
+compareKeys b11
+compareKeys b12
+compareKeys b13
+compareKeys b14
+compareKeys b15
+compareKeys b16
+compareKeys b17
+compareKeys b18
+compareKeys b19
+loadBoard b7
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+compareKeys b9
+compareKeys b10
+compareKeys b11
+compareKeys b12
+compareKeys b13
+compareKeys b14
+compareKeys b15
+compareKeys b16
+compareKeys b17
+compareKeys b18
+compareKeys b19
+undoLastMove 30
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+compareKeys b9
+compareKeys b10
+compareKeys b11
+compareKeys b12
+compareKeys b13
+compareKeys b14
+compareKeys b15
+compareKeys b16
+compareKeys b17
+compareKeys b18
+compareKeys b19
+loadBoard b8
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+compareKeys b9
+compareKeys b10
+compareKeys b11
+compareKeys b12
+compareKeys b13
+compareKeys b14
+compareKeys b15
+compareKeys b16
+compareKeys b17
+compareKeys b18
+compareKeys b19
+undoLastMove 30
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+compareKeys b9
+compareKeys b10
+compareKeys b11
+compareKeys b12
+compareKeys b13
+compareKeys b14
+compareKeys b15
+compareKeys b16
+compareKeys b17
+compareKeys b18
+compareKeys b19
+loadBoard b9
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+compareKeys b9
+compareKeys b10
+compareKeys b11
+compareKeys b12
+compareKeys b13
+compareKeys b14
+compareKeys b15
+compareKeys b16
+compareKeys b17
+compareKeys b18
+compareKeys b19
+undoLastMove 30
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+compareKeys b9
+compareKeys b10
+compareKeys b11
+compareKeys b12
+compareKeys b13
+compareKeys b14
+compareKeys b15
+compareKeys b16
+compareKeys b17
+compareKeys b18
+compareKeys b19
+loadBoard b10
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+compareKeys b9
+compareKeys b10
+compareKeys b11
+compareKeys b12
+compareKeys b13
+compareKeys b14
+compareKeys b15
+compareKeys b16
+compareKeys b17
+compareKeys b18
+compareKeys b19
+undoLastMove 30
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+compareKeys b9
+compareKeys b10
+compareKeys b11
+compareKeys b12
+compareKeys b13
+compareKeys b14
+compareKeys b15
+compareKeys b16
+compareKeys b17
+compareKeys b18
+compareKeys b19
+loadBoard b11
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+compareKeys b9
+compareKeys b10
+compareKeys b11
+compareKeys b12
+compareKeys b13
+compareKeys b14
+compareKeys b15
+compareKeys b16
+compareKeys b17
+compareKeys b18
+compareKeys b19
+undoLastMove 30
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+compareKeys b9
+compareKeys b10
+compareKeys b11
+compareKeys b12
+compareKeys b13
+compareKeys b14
+compareKeys b15
+compareKeys b16
+compareKeys b17
+compareKeys b18
+compareKeys b19
+loadBoard b12
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+compareKeys b9
+compareKeys b10
+compareKeys b11
+compareKeys b12
+compareKeys b13
+compareKeys b14
+compareKeys b15
+compareKeys b16
+compareKeys b17
+compareKeys b18
+compareKeys b19
+undoLastMove 30
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+compareKeys b9
+compareKeys b10
+compareKeys b11
+compareKeys b12
+compareKeys b13
+compareKeys b14
+compareKeys b15
+compareKeys b16
+compareKeys b17
+compareKeys b18
+compareKeys b19
+loadBoard b13
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+compareKeys b9
+compareKeys b10
+compareKeys b11
+compareKeys b12
+compareKeys b13
+compareKeys b14
+compareKeys b15
+compareKeys b16
+compareKeys b17
+compareKeys b18
+compareKeys b19
+undoLastMove 30
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+compareKeys b9
+compareKeys b10
+compareKeys b11
+compareKeys b12
+compareKeys b13
+compareKeys b14
+compareKeys b15
+compareKeys b16
+compareKeys b17
+compareKeys b18
+compareKeys b19
+loadBoard b14
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+compareKeys b9
+compareKeys b10
+compareKeys b11
+compareKeys b12
+compareKeys b13
+compareKeys b14
+compareKeys b15
+compareKeys b16
+compareKeys b17
+compareKeys b18
+compareKeys b19
+undoLastMove 30
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+compareKeys b9
+compareKeys b10
+compareKeys b11
+compareKeys b12
+compareKeys b13
+compareKeys b14
+compareKeys b15
+compareKeys b16
+compareKeys b17
+compareKeys b18
+compareKeys b19
+loadBoard b15
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+compareKeys b9
+compareKeys b10
+compareKeys b11
+compareKeys b12
+compareKeys b13
+compareKeys b14
+compareKeys b15
+compareKeys b16
+compareKeys b17
+compareKeys b18
+compareKeys b19
+undoLastMove 30
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+compareKeys b9
+compareKeys b10
+compareKeys b11
+compareKeys b12
+compareKeys b13
+compareKeys b14
+compareKeys b15
+compareKeys b16
+compareKeys b17
+compareKeys b18
+compareKeys b19
+loadBoard b16
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+compareKeys b9
+compareKeys b10
+compareKeys b11
+compareKeys b12
+compareKeys b13
+compareKeys b14
+compareKeys b15
+compareKeys b16
+compareKeys b17
+compareKeys b18
+compareKeys b19
+undoLastMove 30
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+compareKeys b9
+compareKeys b10
+compareKeys b11
+compareKeys b12
+compareKeys b13
+compareKeys b14
+compareKeys b15
+compareKeys b16
+compareKeys b17
+compareKeys b18
+compareKeys b19
+loadBoard b17
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+compareKeys b9
+compareKeys b10
+compareKeys b11
+compareKeys b12
+compareKeys b13
+compareKeys b14
+compareKeys b15
+compareKeys b16
+compareKeys b17
+compareKeys b18
+compareKeys b19
+undoLastMove 30
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+compareKeys b9
+compareKeys b10
+compareKeys b11
+compareKeys b12
+compareKeys b13
+compareKeys b14
+compareKeys b15
+compareKeys b16
+compareKeys b17
+compareKeys b18
+compareKeys b19
+loadBoard b18
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+compareKeys b9
+compareKeys b10
+compareKeys b11
+compareKeys b12
+compareKeys b13
+compareKeys b14
+compareKeys b15
+compareKeys b16
+compareKeys b17
+compareKeys b18
+compareKeys b19
+undoLastMove 30
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+compareKeys b9
+compareKeys b10
+compareKeys b11
+compareKeys b12
+compareKeys b13
+compareKeys b14
+compareKeys b15
+compareKeys b16
+compareKeys b17
+compareKeys b18
+compareKeys b19
+loadBoard b19
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+compareKeys b9
+compareKeys b10
+compareKeys b11
+compareKeys b12
+compareKeys b13
+compareKeys b14
+compareKeys b15
+compareKeys b16
+compareKeys b17
+compareKeys b18
+compareKeys b19
+undoLastMove 30
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+compareKeys b9
+compareKeys b10
+compareKeys b11
+compareKeys b12
+compareKeys b13
+compareKeys b14
+compareKeys b15
+compareKeys b16
+compareKeys b17
+compareKeys b18
+compareKeys b19
+loadMove m0
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+applyMove
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+loadMove m1
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+applyMove
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+loadMove m2
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+applyMove
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+loadMove m3
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+applyMove
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+loadMove m4
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+applyMove
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+loadMove m5
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+applyMove
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+loadMove m6
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+applyMove
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+loadMove m7
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+applyMove
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+loadMove m8
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+applyMove
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+loadMove m9
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+applyMove
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+loadMove m10
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+applyMove
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+loadMove m11
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+applyMove
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+loadMove m12
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+applyMove
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+loadMove m13
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+applyMove
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+loadMove m14
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+applyMove
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+loadMove m15
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+applyMove
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+loadMove m16
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+applyMove
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+loadMove m17
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+applyMove
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+loadMove m18
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+applyMove
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+loadMove m19
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+applyMove
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+quit

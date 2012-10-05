@@ -1,0 +1,2551 @@
+showBoard
+showMove
+showMoveHist
+showVal
+keyMoveCount
+enterMove  Play  at  00
+enterMove  Play  at  00]
+enterMove  Play  at  00  ]  
+enterMove  Play  at  0,0
+enterMove  Play  at  0,0]
+enterMove  Play  at  0,0  ]  
+enterMove  Play  at  0  ,  0
+enterMove  Play  at  0  ,  0]
+enterMove  Play  at  0  ,  0  ]  
+enterMove  Play  at  [00
+enterMove  Play  at  [00]
+enterMove  Play  at  [00  ]  
+enterMove  Play  at  [0,0
+enterMove  Play  at  [0,0]
+enterMove  Play  at  [0,0  ]  
+enterMove  Play  at  [0  ,  0
+enterMove  Play  at  [0  ,  0]
+enterMove  Play  at  [0  ,  0  ]  
+enterMove  Play  at    [  00
+enterMove  Play  at    [  00]
+enterMove  Play  at    [  00  ]  
+enterMove  Play  at    [  0,0
+enterMove  Play  at    [  0,0]
+enterMove  Play  at    [  0,0  ]  
+enterMove  Play  at    [  0  ,  0
+enterMove  Play  at    [  0  ,  0]
+enterMove  Play  at    [  0  ,  0  ]  
+enterMove  Play at [0,0]11
+enterMove  Play at [0,0]11]
+enterMove  Play at [0,0]11  ]  
+enterMove  Play at [0,0]1,1
+enterMove  Play at [0,0]1,1]
+enterMove  Play at [0,0]1,1  ]  
+enterMove  Play at [0,0]1  ,  1
+enterMove  Play at [0,0]1  ,  1]
+enterMove  Play at [0,0]1  ,  1  ]  
+enterMove  Play at [0,0][11
+enterMove  Play at [0,0][11]
+enterMove  Play at [0,0][11  ]  
+enterMove  Play at [0,0][1,1
+enterMove  Play at [0,0][1,1]
+enterMove  Play at [0,0][1,1  ]  
+enterMove  Play at [0,0][1  ,  1
+enterMove  Play at [0,0][1  ,  1]
+enterMove  Play at [0,0][1  ,  1  ]  
+enterMove  Play at [0,0]  [  11
+enterMove  Play at [0,0]  [  11]
+enterMove  Play at [0,0]  [  11  ]  
+enterMove  Play at [0,0]  [  1,1
+enterMove  Play at [0,0]  [  1,1]
+enterMove  Play at [0,0]  [  1,1  ]  
+enterMove  Play at [0,0]  [  1  ,  1
+enterMove  Play at [0,0]  [  1  ,  1]
+enterMove  Play at [0,0]  [  1  ,  1  ]  
+enterMove  Play at [0,0]taking11
+enterMove  Play at [0,0]taking11]
+enterMove  Play at [0,0]taking11  ]  
+enterMove  Play at [0,0]taking1,1
+enterMove  Play at [0,0]taking1,1]
+enterMove  Play at [0,0]taking1,1  ]  
+enterMove  Play at [0,0]taking1  ,  1
+enterMove  Play at [0,0]taking1  ,  1]
+enterMove  Play at [0,0]taking1  ,  1  ]  
+enterMove  Play at [0,0]taking[11
+enterMove  Play at [0,0]taking[11]
+enterMove  Play at [0,0]taking[11  ]  
+enterMove  Play at [0,0]taking[1,1
+enterMove  Play at [0,0]taking[1,1]
+enterMove  Play at [0,0]taking[1,1  ]  
+enterMove  Play at [0,0]taking[1  ,  1
+enterMove  Play at [0,0]taking[1  ,  1]
+enterMove  Play at [0,0]taking[1  ,  1  ]  
+enterMove  Play at [0,0]taking  [  11
+enterMove  Play at [0,0]taking  [  11]
+enterMove  Play at [0,0]taking  [  11  ]  
+enterMove  Play at [0,0]taking  [  1,1
+enterMove  Play at [0,0]taking  [  1,1]
+enterMove  Play at [0,0]taking  [  1,1  ]  
+enterMove  Play at [0,0]taking  [  1  ,  1
+enterMove  Play at [0,0]taking  [  1  ,  1]
+enterMove  Play at [0,0]taking  [  1  ,  1  ]  
+enterMove  Play at [0,0]  taking  11
+enterMove  Play at [0,0]  taking  11]
+enterMove  Play at [0,0]  taking  11  ]  
+enterMove  Play at [0,0]  taking  1,1
+enterMove  Play at [0,0]  taking  1,1]
+enterMove  Play at [0,0]  taking  1,1  ]  
+enterMove  Play at [0,0]  taking  1  ,  1
+enterMove  Play at [0,0]  taking  1  ,  1]
+enterMove  Play at [0,0]  taking  1  ,  1  ]  
+enterMove  Play at [0,0]  taking  [11
+enterMove  Play at [0,0]  taking  [11]
+enterMove  Play at [0,0]  taking  [11  ]  
+enterMove  Play at [0,0]  taking  [1,1
+enterMove  Play at [0,0]  taking  [1,1]
+enterMove  Play at [0,0]  taking  [1,1  ]  
+enterMove  Play at [0,0]  taking  [1  ,  1
+enterMove  Play at [0,0]  taking  [1  ,  1]
+enterMove  Play at [0,0]  taking  [1  ,  1  ]  
+enterMove  Play at [0,0]  taking    [  11
+enterMove  Play at [0,0]  taking    [  11]
+enterMove  Play at [0,0]  taking    [  11  ]  
+enterMove  Play at [0,0]  taking    [  1,1
+enterMove  Play at [0,0]  taking    [  1,1]
+enterMove  Play at [0,0]  taking    [  1,1  ]  
+enterMove  Play at [0,0]  taking    [  1  ,  1
+enterMove  Play at [0,0]  taking    [  1  ,  1]
+enterMove  Play at [0,0]  taking    [  1  ,  1  ]  
+enterMove  Play at [0,0] taking [1,1]22
+enterMove  Play at [0,0] taking [1,1]22]
+enterMove  Play at [0,0] taking [1,1]22  ]  
+enterMove  Play at [0,0] taking [1,1]2,2
+enterMove  Play at [0,0] taking [1,1]2,2]
+enterMove  Play at [0,0] taking [1,1]2,2  ]  
+enterMove  Play at [0,0] taking [1,1]2  ,  2
+enterMove  Play at [0,0] taking [1,1]2  ,  2]
+enterMove  Play at [0,0] taking [1,1]2  ,  2  ]  
+enterMove  Play at [0,0] taking [1,1][22
+enterMove  Play at [0,0] taking [1,1][22]
+enterMove  Play at [0,0] taking [1,1][22  ]  
+enterMove  Play at [0,0] taking [1,1][2,2
+enterMove  Play at [0,0] taking [1,1][2,2]
+enterMove  Play at [0,0] taking [1,1][2,2  ]  
+enterMove  Play at [0,0] taking [1,1][2  ,  2
+enterMove  Play at [0,0] taking [1,1][2  ,  2]
+enterMove  Play at [0,0] taking [1,1][2  ,  2  ]  
+enterMove  Play at [0,0] taking [1,1]  [  22
+enterMove  Play at [0,0] taking [1,1]  [  22]
+enterMove  Play at [0,0] taking [1,1]  [  22  ]  
+enterMove  Play at [0,0] taking [1,1]  [  2,2
+enterMove  Play at [0,0] taking [1,1]  [  2,2]
+enterMove  Play at [0,0] taking [1,1]  [  2,2  ]  
+enterMove  Play at [0,0] taking [1,1]  [  2  ,  2
+enterMove  Play at [0,0] taking [1,1]  [  2  ,  2]
+enterMove  Play at [0,0] taking [1,1]  [  2  ,  2  ]  
+enterMove  Play at [0,0] taking [1,1]and22
+enterMove  Play at [0,0] taking [1,1]and22]
+enterMove  Play at [0,0] taking [1,1]and22  ]  
+enterMove  Play at [0,0] taking [1,1]and2,2
+enterMove  Play at [0,0] taking [1,1]and2,2]
+enterMove  Play at [0,0] taking [1,1]and2,2  ]  
+enterMove  Play at [0,0] taking [1,1]and2  ,  2
+enterMove  Play at [0,0] taking [1,1]and2  ,  2]
+enterMove  Play at [0,0] taking [1,1]and2  ,  2  ]  
+enterMove  Play at [0,0] taking [1,1]and[22
+enterMove  Play at [0,0] taking [1,1]and[22]
+enterMove  Play at [0,0] taking [1,1]and[22  ]  
+enterMove  Play at [0,0] taking [1,1]and[2,2
+enterMove  Play at [0,0] taking [1,1]and[2,2]
+enterMove  Play at [0,0] taking [1,1]and[2,2  ]  
+enterMove  Play at [0,0] taking [1,1]and[2  ,  2
+enterMove  Play at [0,0] taking [1,1]and[2  ,  2]
+enterMove  Play at [0,0] taking [1,1]and[2  ,  2  ]  
+enterMove  Play at [0,0] taking [1,1]and  [  22
+enterMove  Play at [0,0] taking [1,1]and  [  22]
+enterMove  Play at [0,0] taking [1,1]and  [  22  ]  
+enterMove  Play at [0,0] taking [1,1]and  [  2,2
+enterMove  Play at [0,0] taking [1,1]and  [  2,2]
+enterMove  Play at [0,0] taking [1,1]and  [  2,2  ]  
+enterMove  Play at [0,0] taking [1,1]and  [  2  ,  2
+enterMove  Play at [0,0] taking [1,1]and  [  2  ,  2]
+enterMove  Play at [0,0] taking [1,1]and  [  2  ,  2  ]  
+enterMove  Play at [0,0] taking [1,1]  and  22
+enterMove  Play at [0,0] taking [1,1]  and  22]
+enterMove  Play at [0,0] taking [1,1]  and  22  ]  
+enterMove  Play at [0,0] taking [1,1]  and  2,2
+enterMove  Play at [0,0] taking [1,1]  and  2,2]
+enterMove  Play at [0,0] taking [1,1]  and  2,2  ]  
+enterMove  Play at [0,0] taking [1,1]  and  2  ,  2
+enterMove  Play at [0,0] taking [1,1]  and  2  ,  2]
+enterMove  Play at [0,0] taking [1,1]  and  2  ,  2  ]  
+enterMove  Play at [0,0] taking [1,1]  and  [22
+enterMove  Play at [0,0] taking [1,1]  and  [22]
+enterMove  Play at [0,0] taking [1,1]  and  [22  ]  
+enterMove  Play at [0,0] taking [1,1]  and  [2,2
+enterMove  Play at [0,0] taking [1,1]  and  [2,2]
+enterMove  Play at [0,0] taking [1,1]  and  [2,2  ]  
+enterMove  Play at [0,0] taking [1,1]  and  [2  ,  2
+enterMove  Play at [0,0] taking [1,1]  and  [2  ,  2]
+enterMove  Play at [0,0] taking [1,1]  and  [2  ,  2  ]  
+enterMove  Play at [0,0] taking [1,1]  and    [  22
+enterMove  Play at [0,0] taking [1,1]  and    [  22]
+enterMove  Play at [0,0] taking [1,1]  and    [  22  ]  
+enterMove  Play at [0,0] taking [1,1]  and    [  2,2
+enterMove  Play at [0,0] taking [1,1]  and    [  2,2]
+enterMove  Play at [0,0] taking [1,1]  and    [  2,2  ]  
+enterMove  Play at [0,0] taking [1,1]  and    [  2  ,  2
+enterMove  Play at [0,0] taking [1,1]  and    [  2  ,  2]
+enterMove  Play at [0,0] taking [1,1]  and    [  2  ,  2  ]  
+enterMove  Promote  from  0011
+enterMove  Promote  from  0011]
+enterMove  Promote  from  0011  ]  
+enterMove  Promote  from  001,1
+enterMove  Promote  from  001,1]
+enterMove  Promote  from  001,1  ]  
+enterMove  Promote  from  001  ,  1
+enterMove  Promote  from  001  ,  1]
+enterMove  Promote  from  001  ,  1  ]  
+enterMove  Promote  from  00[11
+enterMove  Promote  from  00[11]
+enterMove  Promote  from  00[11  ]  
+enterMove  Promote  from  00[1,1
+enterMove  Promote  from  00[1,1]
+enterMove  Promote  from  00[1,1  ]  
+enterMove  Promote  from  00[1  ,  1
+enterMove  Promote  from  00[1  ,  1]
+enterMove  Promote  from  00[1  ,  1  ]  
+enterMove  Promote  from  00  [  11
+enterMove  Promote  from  00  [  11]
+enterMove  Promote  from  00  [  11  ]  
+enterMove  Promote  from  00  [  1,1
+enterMove  Promote  from  00  [  1,1]
+enterMove  Promote  from  00  [  1,1  ]  
+enterMove  Promote  from  00  [  1  ,  1
+enterMove  Promote  from  00  [  1  ,  1]
+enterMove  Promote  from  00  [  1  ,  1  ]  
+enterMove  Promote  from  00to11
+enterMove  Promote  from  00to11]
+enterMove  Promote  from  00to11  ]  
+enterMove  Promote  from  00to1,1
+enterMove  Promote  from  00to1,1]
+enterMove  Promote  from  00to1,1  ]  
+enterMove  Promote  from  00to1  ,  1
+enterMove  Promote  from  00to1  ,  1]
+enterMove  Promote  from  00to1  ,  1  ]  
+enterMove  Promote  from  00to[11
+enterMove  Promote  from  00to[11]
+enterMove  Promote  from  00to[11  ]  
+enterMove  Promote  from  00to[1,1
+enterMove  Promote  from  00to[1,1]
+enterMove  Promote  from  00to[1,1  ]  
+enterMove  Promote  from  00to[1  ,  1
+enterMove  Promote  from  00to[1  ,  1]
+enterMove  Promote  from  00to[1  ,  1  ]  
+enterMove  Promote  from  00to  [  11
+enterMove  Promote  from  00to  [  11]
+enterMove  Promote  from  00to  [  11  ]  
+enterMove  Promote  from  00to  [  1,1
+enterMove  Promote  from  00to  [  1,1]
+enterMove  Promote  from  00to  [  1,1  ]  
+enterMove  Promote  from  00to  [  1  ,  1
+enterMove  Promote  from  00to  [  1  ,  1]
+enterMove  Promote  from  00to  [  1  ,  1  ]  
+enterMove  Promote  from  00  to  11
+enterMove  Promote  from  00  to  11]
+enterMove  Promote  from  00  to  11  ]  
+enterMove  Promote  from  00  to  1,1
+enterMove  Promote  from  00  to  1,1]
+enterMove  Promote  from  00  to  1,1  ]  
+enterMove  Promote  from  00  to  1  ,  1
+enterMove  Promote  from  00  to  1  ,  1]
+enterMove  Promote  from  00  to  1  ,  1  ]  
+enterMove  Promote  from  00  to  [11
+enterMove  Promote  from  00  to  [11]
+enterMove  Promote  from  00  to  [11  ]  
+enterMove  Promote  from  00  to  [1,1
+enterMove  Promote  from  00  to  [1,1]
+enterMove  Promote  from  00  to  [1,1  ]  
+enterMove  Promote  from  00  to  [1  ,  1
+enterMove  Promote  from  00  to  [1  ,  1]
+enterMove  Promote  from  00  to  [1  ,  1  ]  
+enterMove  Promote  from  00  to    [  11
+enterMove  Promote  from  00  to    [  11]
+enterMove  Promote  from  00  to    [  11  ]  
+enterMove  Promote  from  00  to    [  1,1
+enterMove  Promote  from  00  to    [  1,1]
+enterMove  Promote  from  00  to    [  1,1  ]  
+enterMove  Promote  from  00  to    [  1  ,  1
+enterMove  Promote  from  00  to    [  1  ,  1]
+enterMove  Promote  from  00  to    [  1  ,  1  ]  
+enterMove  Promote  from  00]11
+enterMove  Promote  from  00]11]
+enterMove  Promote  from  00]11  ]  
+enterMove  Promote  from  00]1,1
+enterMove  Promote  from  00]1,1]
+enterMove  Promote  from  00]1,1  ]  
+enterMove  Promote  from  00]1  ,  1
+enterMove  Promote  from  00]1  ,  1]
+enterMove  Promote  from  00]1  ,  1  ]  
+enterMove  Promote  from  00][11
+enterMove  Promote  from  00][11]
+enterMove  Promote  from  00][11  ]  
+enterMove  Promote  from  00][1,1
+enterMove  Promote  from  00][1,1]
+enterMove  Promote  from  00][1,1  ]  
+enterMove  Promote  from  00][1  ,  1
+enterMove  Promote  from  00][1  ,  1]
+enterMove  Promote  from  00][1  ,  1  ]  
+enterMove  Promote  from  00]  [  11
+enterMove  Promote  from  00]  [  11]
+enterMove  Promote  from  00]  [  11  ]  
+enterMove  Promote  from  00]  [  1,1
+enterMove  Promote  from  00]  [  1,1]
+enterMove  Promote  from  00]  [  1,1  ]  
+enterMove  Promote  from  00]  [  1  ,  1
+enterMove  Promote  from  00]  [  1  ,  1]
+enterMove  Promote  from  00]  [  1  ,  1  ]  
+enterMove  Promote  from  00]to11
+enterMove  Promote  from  00]to11]
+enterMove  Promote  from  00]to11  ]  
+enterMove  Promote  from  00]to1,1
+enterMove  Promote  from  00]to1,1]
+enterMove  Promote  from  00]to1,1  ]  
+enterMove  Promote  from  00]to1  ,  1
+enterMove  Promote  from  00]to1  ,  1]
+enterMove  Promote  from  00]to1  ,  1  ]  
+enterMove  Promote  from  00]to[11
+enterMove  Promote  from  00]to[11]
+enterMove  Promote  from  00]to[11  ]  
+enterMove  Promote  from  00]to[1,1
+enterMove  Promote  from  00]to[1,1]
+enterMove  Promote  from  00]to[1,1  ]  
+enterMove  Promote  from  00]to[1  ,  1
+enterMove  Promote  from  00]to[1  ,  1]
+enterMove  Promote  from  00]to[1  ,  1  ]  
+enterMove  Promote  from  00]to  [  11
+enterMove  Promote  from  00]to  [  11]
+enterMove  Promote  from  00]to  [  11  ]  
+enterMove  Promote  from  00]to  [  1,1
+enterMove  Promote  from  00]to  [  1,1]
+enterMove  Promote  from  00]to  [  1,1  ]  
+enterMove  Promote  from  00]to  [  1  ,  1
+enterMove  Promote  from  00]to  [  1  ,  1]
+enterMove  Promote  from  00]to  [  1  ,  1  ]  
+enterMove  Promote  from  00]  to  11
+enterMove  Promote  from  00]  to  11]
+enterMove  Promote  from  00]  to  11  ]  
+enterMove  Promote  from  00]  to  1,1
+enterMove  Promote  from  00]  to  1,1]
+enterMove  Promote  from  00]  to  1,1  ]  
+enterMove  Promote  from  00]  to  1  ,  1
+enterMove  Promote  from  00]  to  1  ,  1]
+enterMove  Promote  from  00]  to  1  ,  1  ]  
+enterMove  Promote  from  00]  to  [11
+enterMove  Promote  from  00]  to  [11]
+enterMove  Promote  from  00]  to  [11  ]  
+enterMove  Promote  from  00]  to  [1,1
+enterMove  Promote  from  00]  to  [1,1]
+enterMove  Promote  from  00]  to  [1,1  ]  
+enterMove  Promote  from  00]  to  [1  ,  1
+enterMove  Promote  from  00]  to  [1  ,  1]
+enterMove  Promote  from  00]  to  [1  ,  1  ]  
+enterMove  Promote  from  00]  to    [  11
+enterMove  Promote  from  00]  to    [  11]
+enterMove  Promote  from  00]  to    [  11  ]  
+enterMove  Promote  from  00]  to    [  1,1
+enterMove  Promote  from  00]  to    [  1,1]
+enterMove  Promote  from  00]  to    [  1,1  ]  
+enterMove  Promote  from  00]  to    [  1  ,  1
+enterMove  Promote  from  00]  to    [  1  ,  1]
+enterMove  Promote  from  00]  to    [  1  ,  1  ]  
+enterMove  Promote  from  00  ]  11
+enterMove  Promote  from  00  ]  11]
+enterMove  Promote  from  00  ]  11  ]  
+enterMove  Promote  from  00  ]  1,1
+enterMove  Promote  from  00  ]  1,1]
+enterMove  Promote  from  00  ]  1,1  ]  
+enterMove  Promote  from  00  ]  1  ,  1
+enterMove  Promote  from  00  ]  1  ,  1]
+enterMove  Promote  from  00  ]  1  ,  1  ]  
+enterMove  Promote  from  00  ]  [11
+enterMove  Promote  from  00  ]  [11]
+enterMove  Promote  from  00  ]  [11  ]  
+enterMove  Promote  from  00  ]  [1,1
+enterMove  Promote  from  00  ]  [1,1]
+enterMove  Promote  from  00  ]  [1,1  ]  
+enterMove  Promote  from  00  ]  [1  ,  1
+enterMove  Promote  from  00  ]  [1  ,  1]
+enterMove  Promote  from  00  ]  [1  ,  1  ]  
+enterMove  Promote  from  00  ]    [  11
+enterMove  Promote  from  00  ]    [  11]
+enterMove  Promote  from  00  ]    [  11  ]  
+enterMove  Promote  from  00  ]    [  1,1
+enterMove  Promote  from  00  ]    [  1,1]
+enterMove  Promote  from  00  ]    [  1,1  ]  
+enterMove  Promote  from  00  ]    [  1  ,  1
+enterMove  Promote  from  00  ]    [  1  ,  1]
+enterMove  Promote  from  00  ]    [  1  ,  1  ]  
+enterMove  Promote  from  00  ]  to11
+enterMove  Promote  from  00  ]  to11]
+enterMove  Promote  from  00  ]  to11  ]  
+enterMove  Promote  from  00  ]  to1,1
+enterMove  Promote  from  00  ]  to1,1]
+enterMove  Promote  from  00  ]  to1,1  ]  
+enterMove  Promote  from  00  ]  to1  ,  1
+enterMove  Promote  from  00  ]  to1  ,  1]
+enterMove  Promote  from  00  ]  to1  ,  1  ]  
+enterMove  Promote  from  00  ]  to[11
+enterMove  Promote  from  00  ]  to[11]
+enterMove  Promote  from  00  ]  to[11  ]  
+enterMove  Promote  from  00  ]  to[1,1
+enterMove  Promote  from  00  ]  to[1,1]
+enterMove  Promote  from  00  ]  to[1,1  ]  
+enterMove  Promote  from  00  ]  to[1  ,  1
+enterMove  Promote  from  00  ]  to[1  ,  1]
+enterMove  Promote  from  00  ]  to[1  ,  1  ]  
+enterMove  Promote  from  00  ]  to  [  11
+enterMove  Promote  from  00  ]  to  [  11]
+enterMove  Promote  from  00  ]  to  [  11  ]  
+enterMove  Promote  from  00  ]  to  [  1,1
+enterMove  Promote  from  00  ]  to  [  1,1]
+enterMove  Promote  from  00  ]  to  [  1,1  ]  
+enterMove  Promote  from  00  ]  to  [  1  ,  1
+enterMove  Promote  from  00  ]  to  [  1  ,  1]
+enterMove  Promote  from  00  ]  to  [  1  ,  1  ]  
+enterMove  Promote  from  00  ]    to  11
+enterMove  Promote  from  00  ]    to  11]
+enterMove  Promote  from  00  ]    to  11  ]  
+enterMove  Promote  from  00  ]    to  1,1
+enterMove  Promote  from  00  ]    to  1,1]
+enterMove  Promote  from  00  ]    to  1,1  ]  
+enterMove  Promote  from  00  ]    to  1  ,  1
+enterMove  Promote  from  00  ]    to  1  ,  1]
+enterMove  Promote  from  00  ]    to  1  ,  1  ]  
+enterMove  Promote  from  00  ]    to  [11
+enterMove  Promote  from  00  ]    to  [11]
+enterMove  Promote  from  00  ]    to  [11  ]  
+enterMove  Promote  from  00  ]    to  [1,1
+enterMove  Promote  from  00  ]    to  [1,1]
+enterMove  Promote  from  00  ]    to  [1,1  ]  
+enterMove  Promote  from  00  ]    to  [1  ,  1
+enterMove  Promote  from  00  ]    to  [1  ,  1]
+enterMove  Promote  from  00  ]    to  [1  ,  1  ]  
+enterMove  Promote  from  00  ]    to    [  11
+enterMove  Promote  from  00  ]    to    [  11]
+enterMove  Promote  from  00  ]    to    [  11  ]  
+enterMove  Promote  from  00  ]    to    [  1,1
+enterMove  Promote  from  00  ]    to    [  1,1]
+enterMove  Promote  from  00  ]    to    [  1,1  ]  
+enterMove  Promote  from  00  ]    to    [  1  ,  1
+enterMove  Promote  from  00  ]    to    [  1  ,  1]
+enterMove  Promote  from  00  ]    to    [  1  ,  1  ]  
+enterMove  Promote  from  0,011
+enterMove  Promote  from  0,011]
+enterMove  Promote  from  0,011  ]  
+enterMove  Promote  from  0,01,1
+enterMove  Promote  from  0,01,1]
+enterMove  Promote  from  0,01,1  ]  
+enterMove  Promote  from  0,01  ,  1
+enterMove  Promote  from  0,01  ,  1]
+enterMove  Promote  from  0,01  ,  1  ]  
+enterMove  Promote  from  0,0[11
+enterMove  Promote  from  0,0[11]
+enterMove  Promote  from  0,0[11  ]  
+enterMove  Promote  from  0,0[1,1
+enterMove  Promote  from  0,0[1,1]
+enterMove  Promote  from  0,0[1,1  ]  
+enterMove  Promote  from  0,0[1  ,  1
+enterMove  Promote  from  0,0[1  ,  1]
+enterMove  Promote  from  0,0[1  ,  1  ]  
+enterMove  Promote  from  0,0  [  11
+enterMove  Promote  from  0,0  [  11]
+enterMove  Promote  from  0,0  [  11  ]  
+enterMove  Promote  from  0,0  [  1,1
+enterMove  Promote  from  0,0  [  1,1]
+enterMove  Promote  from  0,0  [  1,1  ]  
+enterMove  Promote  from  0,0  [  1  ,  1
+enterMove  Promote  from  0,0  [  1  ,  1]
+enterMove  Promote  from  0,0  [  1  ,  1  ]  
+enterMove  Promote  from  0,0to11
+enterMove  Promote  from  0,0to11]
+enterMove  Promote  from  0,0to11  ]  
+enterMove  Promote  from  0,0to1,1
+enterMove  Promote  from  0,0to1,1]
+enterMove  Promote  from  0,0to1,1  ]  
+enterMove  Promote  from  0,0to1  ,  1
+enterMove  Promote  from  0,0to1  ,  1]
+enterMove  Promote  from  0,0to1  ,  1  ]  
+enterMove  Promote  from  0,0to[11
+enterMove  Promote  from  0,0to[11]
+enterMove  Promote  from  0,0to[11  ]  
+enterMove  Promote  from  0,0to[1,1
+enterMove  Promote  from  0,0to[1,1]
+enterMove  Promote  from  0,0to[1,1  ]  
+enterMove  Promote  from  0,0to[1  ,  1
+enterMove  Promote  from  0,0to[1  ,  1]
+enterMove  Promote  from  0,0to[1  ,  1  ]  
+enterMove  Promote  from  0,0to  [  11
+enterMove  Promote  from  0,0to  [  11]
+enterMove  Promote  from  0,0to  [  11  ]  
+enterMove  Promote  from  0,0to  [  1,1
+enterMove  Promote  from  0,0to  [  1,1]
+enterMove  Promote  from  0,0to  [  1,1  ]  
+enterMove  Promote  from  0,0to  [  1  ,  1
+enterMove  Promote  from  0,0to  [  1  ,  1]
+enterMove  Promote  from  0,0to  [  1  ,  1  ]  
+enterMove  Promote  from  0,0  to  11
+enterMove  Promote  from  0,0  to  11]
+enterMove  Promote  from  0,0  to  11  ]  
+enterMove  Promote  from  0,0  to  1,1
+enterMove  Promote  from  0,0  to  1,1]
+enterMove  Promote  from  0,0  to  1,1  ]  
+enterMove  Promote  from  0,0  to  1  ,  1
+enterMove  Promote  from  0,0  to  1  ,  1]
+enterMove  Promote  from  0,0  to  1  ,  1  ]  
+enterMove  Promote  from  0,0  to  [11
+enterMove  Promote  from  0,0  to  [11]
+enterMove  Promote  from  0,0  to  [11  ]  
+enterMove  Promote  from  0,0  to  [1,1
+enterMove  Promote  from  0,0  to  [1,1]
+enterMove  Promote  from  0,0  to  [1,1  ]  
+enterMove  Promote  from  0,0  to  [1  ,  1
+enterMove  Promote  from  0,0  to  [1  ,  1]
+enterMove  Promote  from  0,0  to  [1  ,  1  ]  
+enterMove  Promote  from  0,0  to    [  11
+enterMove  Promote  from  0,0  to    [  11]
+enterMove  Promote  from  0,0  to    [  11  ]  
+enterMove  Promote  from  0,0  to    [  1,1
+enterMove  Promote  from  0,0  to    [  1,1]
+enterMove  Promote  from  0,0  to    [  1,1  ]  
+enterMove  Promote  from  0,0  to    [  1  ,  1
+enterMove  Promote  from  0,0  to    [  1  ,  1]
+enterMove  Promote  from  0,0  to    [  1  ,  1  ]  
+enterMove  Promote  from  0,0]11
+enterMove  Promote  from  0,0]11]
+enterMove  Promote  from  0,0]11  ]  
+enterMove  Promote  from  0,0]1,1
+enterMove  Promote  from  0,0]1,1]
+enterMove  Promote  from  0,0]1,1  ]  
+enterMove  Promote  from  0,0]1  ,  1
+enterMove  Promote  from  0,0]1  ,  1]
+enterMove  Promote  from  0,0]1  ,  1  ]  
+enterMove  Promote  from  0,0][11
+enterMove  Promote  from  0,0][11]
+enterMove  Promote  from  0,0][11  ]  
+enterMove  Promote  from  0,0][1,1
+enterMove  Promote  from  0,0][1,1]
+enterMove  Promote  from  0,0][1,1  ]  
+enterMove  Promote  from  0,0][1  ,  1
+enterMove  Promote  from  0,0][1  ,  1]
+enterMove  Promote  from  0,0][1  ,  1  ]  
+enterMove  Promote  from  0,0]  [  11
+enterMove  Promote  from  0,0]  [  11]
+enterMove  Promote  from  0,0]  [  11  ]  
+enterMove  Promote  from  0,0]  [  1,1
+enterMove  Promote  from  0,0]  [  1,1]
+enterMove  Promote  from  0,0]  [  1,1  ]  
+enterMove  Promote  from  0,0]  [  1  ,  1
+enterMove  Promote  from  0,0]  [  1  ,  1]
+enterMove  Promote  from  0,0]  [  1  ,  1  ]  
+enterMove  Promote  from  0,0]to11
+enterMove  Promote  from  0,0]to11]
+enterMove  Promote  from  0,0]to11  ]  
+enterMove  Promote  from  0,0]to1,1
+enterMove  Promote  from  0,0]to1,1]
+enterMove  Promote  from  0,0]to1,1  ]  
+enterMove  Promote  from  0,0]to1  ,  1
+enterMove  Promote  from  0,0]to1  ,  1]
+enterMove  Promote  from  0,0]to1  ,  1  ]  
+enterMove  Promote  from  0,0]to[11
+enterMove  Promote  from  0,0]to[11]
+enterMove  Promote  from  0,0]to[11  ]  
+enterMove  Promote  from  0,0]to[1,1
+enterMove  Promote  from  0,0]to[1,1]
+enterMove  Promote  from  0,0]to[1,1  ]  
+enterMove  Promote  from  0,0]to[1  ,  1
+enterMove  Promote  from  0,0]to[1  ,  1]
+enterMove  Promote  from  0,0]to[1  ,  1  ]  
+enterMove  Promote  from  0,0]to  [  11
+enterMove  Promote  from  0,0]to  [  11]
+enterMove  Promote  from  0,0]to  [  11  ]  
+enterMove  Promote  from  0,0]to  [  1,1
+enterMove  Promote  from  0,0]to  [  1,1]
+enterMove  Promote  from  0,0]to  [  1,1  ]  
+enterMove  Promote  from  0,0]to  [  1  ,  1
+enterMove  Promote  from  0,0]to  [  1  ,  1]
+enterMove  Promote  from  0,0]to  [  1  ,  1  ]  
+enterMove  Promote  from  0,0]  to  11
+enterMove  Promote  from  0,0]  to  11]
+enterMove  Promote  from  0,0]  to  11  ]  
+enterMove  Promote  from  0,0]  to  1,1
+enterMove  Promote  from  0,0]  to  1,1]
+enterMove  Promote  from  0,0]  to  1,1  ]  
+enterMove  Promote  from  0,0]  to  1  ,  1
+enterMove  Promote  from  0,0]  to  1  ,  1]
+enterMove  Promote  from  0,0]  to  1  ,  1  ]  
+enterMove  Promote  from  0,0]  to  [11
+enterMove  Promote  from  0,0]  to  [11]
+enterMove  Promote  from  0,0]  to  [11  ]  
+enterMove  Promote  from  0,0]  to  [1,1
+enterMove  Promote  from  0,0]  to  [1,1]
+enterMove  Promote  from  0,0]  to  [1,1  ]  
+enterMove  Promote  from  0,0]  to  [1  ,  1
+enterMove  Promote  from  0,0]  to  [1  ,  1]
+enterMove  Promote  from  0,0]  to  [1  ,  1  ]  
+enterMove  Promote  from  0,0]  to    [  11
+enterMove  Promote  from  0,0]  to    [  11]
+enterMove  Promote  from  0,0]  to    [  11  ]  
+enterMove  Promote  from  0,0]  to    [  1,1
+enterMove  Promote  from  0,0]  to    [  1,1]
+enterMove  Promote  from  0,0]  to    [  1,1  ]  
+enterMove  Promote  from  0,0]  to    [  1  ,  1
+enterMove  Promote  from  0,0]  to    [  1  ,  1]
+enterMove  Promote  from  0,0]  to    [  1  ,  1  ]  
+enterMove  Promote  from  0,0  ]  11
+enterMove  Promote  from  0,0  ]  11]
+enterMove  Promote  from  0,0  ]  11  ]  
+enterMove  Promote  from  0,0  ]  1,1
+enterMove  Promote  from  0,0  ]  1,1]
+enterMove  Promote  from  0,0  ]  1,1  ]  
+enterMove  Promote  from  0,0  ]  1  ,  1
+enterMove  Promote  from  0,0  ]  1  ,  1]
+enterMove  Promote  from  0,0  ]  1  ,  1  ]  
+enterMove  Promote  from  0,0  ]  [11
+enterMove  Promote  from  0,0  ]  [11]
+enterMove  Promote  from  0,0  ]  [11  ]  
+enterMove  Promote  from  0,0  ]  [1,1
+enterMove  Promote  from  0,0  ]  [1,1]
+enterMove  Promote  from  0,0  ]  [1,1  ]  
+enterMove  Promote  from  0,0  ]  [1  ,  1
+enterMove  Promote  from  0,0  ]  [1  ,  1]
+enterMove  Promote  from  0,0  ]  [1  ,  1  ]  
+enterMove  Promote  from  0,0  ]    [  11
+enterMove  Promote  from  0,0  ]    [  11]
+enterMove  Promote  from  0,0  ]    [  11  ]  
+enterMove  Promote  from  0,0  ]    [  1,1
+enterMove  Promote  from  0,0  ]    [  1,1]
+enterMove  Promote  from  0,0  ]    [  1,1  ]  
+enterMove  Promote  from  0,0  ]    [  1  ,  1
+enterMove  Promote  from  0,0  ]    [  1  ,  1]
+enterMove  Promote  from  0,0  ]    [  1  ,  1  ]  
+enterMove  Promote  from  0,0  ]  to11
+enterMove  Promote  from  0,0  ]  to11]
+enterMove  Promote  from  0,0  ]  to11  ]  
+enterMove  Promote  from  0,0  ]  to1,1
+enterMove  Promote  from  0,0  ]  to1,1]
+enterMove  Promote  from  0,0  ]  to1,1  ]  
+enterMove  Promote  from  0,0  ]  to1  ,  1
+enterMove  Promote  from  0,0  ]  to1  ,  1]
+enterMove  Promote  from  0,0  ]  to1  ,  1  ]  
+enterMove  Promote  from  0,0  ]  to[11
+enterMove  Promote  from  0,0  ]  to[11]
+enterMove  Promote  from  0,0  ]  to[11  ]  
+enterMove  Promote  from  0,0  ]  to[1,1
+enterMove  Promote  from  0,0  ]  to[1,1]
+enterMove  Promote  from  0,0  ]  to[1,1  ]  
+enterMove  Promote  from  0,0  ]  to[1  ,  1
+enterMove  Promote  from  0,0  ]  to[1  ,  1]
+enterMove  Promote  from  0,0  ]  to[1  ,  1  ]  
+enterMove  Promote  from  0,0  ]  to  [  11
+enterMove  Promote  from  0,0  ]  to  [  11]
+enterMove  Promote  from  0,0  ]  to  [  11  ]  
+enterMove  Promote  from  0,0  ]  to  [  1,1
+enterMove  Promote  from  0,0  ]  to  [  1,1]
+enterMove  Promote  from  0,0  ]  to  [  1,1  ]  
+enterMove  Promote  from  0,0  ]  to  [  1  ,  1
+enterMove  Promote  from  0,0  ]  to  [  1  ,  1]
+enterMove  Promote  from  0,0  ]  to  [  1  ,  1  ]  
+enterMove  Promote  from  0,0  ]    to  11
+enterMove  Promote  from  0,0  ]    to  11]
+enterMove  Promote  from  0,0  ]    to  11  ]  
+enterMove  Promote  from  0,0  ]    to  1,1
+enterMove  Promote  from  0,0  ]    to  1,1]
+enterMove  Promote  from  0,0  ]    to  1,1  ]  
+enterMove  Promote  from  0,0  ]    to  1  ,  1
+enterMove  Promote  from  0,0  ]    to  1  ,  1]
+enterMove  Promote  from  0,0  ]    to  1  ,  1  ]  
+enterMove  Promote  from  0,0  ]    to  [11
+enterMove  Promote  from  0,0  ]    to  [11]
+enterMove  Promote  from  0,0  ]    to  [11  ]  
+enterMove  Promote  from  0,0  ]    to  [1,1
+enterMove  Promote  from  0,0  ]    to  [1,1]
+enterMove  Promote  from  0,0  ]    to  [1,1  ]  
+enterMove  Promote  from  0,0  ]    to  [1  ,  1
+enterMove  Promote  from  0,0  ]    to  [1  ,  1]
+enterMove  Promote  from  0,0  ]    to  [1  ,  1  ]  
+enterMove  Promote  from  0,0  ]    to    [  11
+enterMove  Promote  from  0,0  ]    to    [  11]
+enterMove  Promote  from  0,0  ]    to    [  11  ]  
+enterMove  Promote  from  0,0  ]    to    [  1,1
+enterMove  Promote  from  0,0  ]    to    [  1,1]
+enterMove  Promote  from  0,0  ]    to    [  1,1  ]  
+enterMove  Promote  from  0,0  ]    to    [  1  ,  1
+enterMove  Promote  from  0,0  ]    to    [  1  ,  1]
+enterMove  Promote  from  0,0  ]    to    [  1  ,  1  ]  
+enterMove  Promote  from  0  ,  011
+enterMove  Promote  from  0  ,  011]
+enterMove  Promote  from  0  ,  011  ]  
+enterMove  Promote  from  0  ,  01,1
+enterMove  Promote  from  0  ,  01,1]
+enterMove  Promote  from  0  ,  01,1  ]  
+enterMove  Promote  from  0  ,  01  ,  1
+enterMove  Promote  from  0  ,  01  ,  1]
+enterMove  Promote  from  0  ,  01  ,  1  ]  
+enterMove  Promote  from  0  ,  0[11
+enterMove  Promote  from  0  ,  0[11]
+enterMove  Promote  from  0  ,  0[11  ]  
+enterMove  Promote  from  0  ,  0[1,1
+enterMove  Promote  from  0  ,  0[1,1]
+enterMove  Promote  from  0  ,  0[1,1  ]  
+enterMove  Promote  from  0  ,  0[1  ,  1
+enterMove  Promote  from  0  ,  0[1  ,  1]
+enterMove  Promote  from  0  ,  0[1  ,  1  ]  
+enterMove  Promote  from  0  ,  0  [  11
+enterMove  Promote  from  0  ,  0  [  11]
+enterMove  Promote  from  0  ,  0  [  11  ]  
+enterMove  Promote  from  0  ,  0  [  1,1
+enterMove  Promote  from  0  ,  0  [  1,1]
+enterMove  Promote  from  0  ,  0  [  1,1  ]  
+enterMove  Promote  from  0  ,  0  [  1  ,  1
+enterMove  Promote  from  0  ,  0  [  1  ,  1]
+enterMove  Promote  from  0  ,  0  [  1  ,  1  ]  
+enterMove  Promote  from  0  ,  0to11
+enterMove  Promote  from  0  ,  0to11]
+enterMove  Promote  from  0  ,  0to11  ]  
+enterMove  Promote  from  0  ,  0to1,1
+enterMove  Promote  from  0  ,  0to1,1]
+enterMove  Promote  from  0  ,  0to1,1  ]  
+enterMove  Promote  from  0  ,  0to1  ,  1
+enterMove  Promote  from  0  ,  0to1  ,  1]
+enterMove  Promote  from  0  ,  0to1  ,  1  ]  
+enterMove  Promote  from  0  ,  0to[11
+enterMove  Promote  from  0  ,  0to[11]
+enterMove  Promote  from  0  ,  0to[11  ]  
+enterMove  Promote  from  0  ,  0to[1,1
+enterMove  Promote  from  0  ,  0to[1,1]
+enterMove  Promote  from  0  ,  0to[1,1  ]  
+enterMove  Promote  from  0  ,  0to[1  ,  1
+enterMove  Promote  from  0  ,  0to[1  ,  1]
+enterMove  Promote  from  0  ,  0to[1  ,  1  ]  
+enterMove  Promote  from  0  ,  0to  [  11
+enterMove  Promote  from  0  ,  0to  [  11]
+enterMove  Promote  from  0  ,  0to  [  11  ]  
+enterMove  Promote  from  0  ,  0to  [  1,1
+enterMove  Promote  from  0  ,  0to  [  1,1]
+enterMove  Promote  from  0  ,  0to  [  1,1  ]  
+enterMove  Promote  from  0  ,  0to  [  1  ,  1
+enterMove  Promote  from  0  ,  0to  [  1  ,  1]
+enterMove  Promote  from  0  ,  0to  [  1  ,  1  ]  
+enterMove  Promote  from  0  ,  0  to  11
+enterMove  Promote  from  0  ,  0  to  11]
+enterMove  Promote  from  0  ,  0  to  11  ]  
+enterMove  Promote  from  0  ,  0  to  1,1
+enterMove  Promote  from  0  ,  0  to  1,1]
+enterMove  Promote  from  0  ,  0  to  1,1  ]  
+enterMove  Promote  from  0  ,  0  to  1  ,  1
+enterMove  Promote  from  0  ,  0  to  1  ,  1]
+enterMove  Promote  from  0  ,  0  to  1  ,  1  ]  
+enterMove  Promote  from  0  ,  0  to  [11
+enterMove  Promote  from  0  ,  0  to  [11]
+enterMove  Promote  from  0  ,  0  to  [11  ]  
+enterMove  Promote  from  0  ,  0  to  [1,1
+enterMove  Promote  from  0  ,  0  to  [1,1]
+enterMove  Promote  from  0  ,  0  to  [1,1  ]  
+enterMove  Promote  from  0  ,  0  to  [1  ,  1
+enterMove  Promote  from  0  ,  0  to  [1  ,  1]
+enterMove  Promote  from  0  ,  0  to  [1  ,  1  ]  
+enterMove  Promote  from  0  ,  0  to    [  11
+enterMove  Promote  from  0  ,  0  to    [  11]
+enterMove  Promote  from  0  ,  0  to    [  11  ]  
+enterMove  Promote  from  0  ,  0  to    [  1,1
+enterMove  Promote  from  0  ,  0  to    [  1,1]
+enterMove  Promote  from  0  ,  0  to    [  1,1  ]  
+enterMove  Promote  from  0  ,  0  to    [  1  ,  1
+enterMove  Promote  from  0  ,  0  to    [  1  ,  1]
+enterMove  Promote  from  0  ,  0  to    [  1  ,  1  ]  
+enterMove  Promote  from  0  ,  0]11
+enterMove  Promote  from  0  ,  0]11]
+enterMove  Promote  from  0  ,  0]11  ]  
+enterMove  Promote  from  0  ,  0]1,1
+enterMove  Promote  from  0  ,  0]1,1]
+enterMove  Promote  from  0  ,  0]1,1  ]  
+enterMove  Promote  from  0  ,  0]1  ,  1
+enterMove  Promote  from  0  ,  0]1  ,  1]
+enterMove  Promote  from  0  ,  0]1  ,  1  ]  
+enterMove  Promote  from  0  ,  0][11
+enterMove  Promote  from  0  ,  0][11]
+enterMove  Promote  from  0  ,  0][11  ]  
+enterMove  Promote  from  0  ,  0][1,1
+enterMove  Promote  from  0  ,  0][1,1]
+enterMove  Promote  from  0  ,  0][1,1  ]  
+enterMove  Promote  from  0  ,  0][1  ,  1
+enterMove  Promote  from  0  ,  0][1  ,  1]
+enterMove  Promote  from  0  ,  0][1  ,  1  ]  
+enterMove  Promote  from  0  ,  0]  [  11
+enterMove  Promote  from  0  ,  0]  [  11]
+enterMove  Promote  from  0  ,  0]  [  11  ]  
+enterMove  Promote  from  0  ,  0]  [  1,1
+enterMove  Promote  from  0  ,  0]  [  1,1]
+enterMove  Promote  from  0  ,  0]  [  1,1  ]  
+enterMove  Promote  from  0  ,  0]  [  1  ,  1
+enterMove  Promote  from  0  ,  0]  [  1  ,  1]
+enterMove  Promote  from  0  ,  0]  [  1  ,  1  ]  
+enterMove  Promote  from  0  ,  0]to11
+enterMove  Promote  from  0  ,  0]to11]
+enterMove  Promote  from  0  ,  0]to11  ]  
+enterMove  Promote  from  0  ,  0]to1,1
+enterMove  Promote  from  0  ,  0]to1,1]
+enterMove  Promote  from  0  ,  0]to1,1  ]  
+enterMove  Promote  from  0  ,  0]to1  ,  1
+enterMove  Promote  from  0  ,  0]to1  ,  1]
+enterMove  Promote  from  0  ,  0]to1  ,  1  ]  
+enterMove  Promote  from  0  ,  0]to[11
+enterMove  Promote  from  0  ,  0]to[11]
+enterMove  Promote  from  0  ,  0]to[11  ]  
+enterMove  Promote  from  0  ,  0]to[1,1
+enterMove  Promote  from  0  ,  0]to[1,1]
+enterMove  Promote  from  0  ,  0]to[1,1  ]  
+enterMove  Promote  from  0  ,  0]to[1  ,  1
+enterMove  Promote  from  0  ,  0]to[1  ,  1]
+enterMove  Promote  from  0  ,  0]to[1  ,  1  ]  
+enterMove  Promote  from  0  ,  0]to  [  11
+enterMove  Promote  from  0  ,  0]to  [  11]
+enterMove  Promote  from  0  ,  0]to  [  11  ]  
+enterMove  Promote  from  0  ,  0]to  [  1,1
+enterMove  Promote  from  0  ,  0]to  [  1,1]
+enterMove  Promote  from  0  ,  0]to  [  1,1  ]  
+enterMove  Promote  from  0  ,  0]to  [  1  ,  1
+enterMove  Promote  from  0  ,  0]to  [  1  ,  1]
+enterMove  Promote  from  0  ,  0]to  [  1  ,  1  ]  
+enterMove  Promote  from  0  ,  0]  to  11
+enterMove  Promote  from  0  ,  0]  to  11]
+enterMove  Promote  from  0  ,  0]  to  11  ]  
+enterMove  Promote  from  0  ,  0]  to  1,1
+enterMove  Promote  from  0  ,  0]  to  1,1]
+enterMove  Promote  from  0  ,  0]  to  1,1  ]  
+enterMove  Promote  from  0  ,  0]  to  1  ,  1
+enterMove  Promote  from  0  ,  0]  to  1  ,  1]
+enterMove  Promote  from  0  ,  0]  to  1  ,  1  ]  
+enterMove  Promote  from  0  ,  0]  to  [11
+enterMove  Promote  from  0  ,  0]  to  [11]
+enterMove  Promote  from  0  ,  0]  to  [11  ]  
+enterMove  Promote  from  0  ,  0]  to  [1,1
+enterMove  Promote  from  0  ,  0]  to  [1,1]
+enterMove  Promote  from  0  ,  0]  to  [1,1  ]  
+enterMove  Promote  from  0  ,  0]  to  [1  ,  1
+enterMove  Promote  from  0  ,  0]  to  [1  ,  1]
+enterMove  Promote  from  0  ,  0]  to  [1  ,  1  ]  
+enterMove  Promote  from  0  ,  0]  to    [  11
+enterMove  Promote  from  0  ,  0]  to    [  11]
+enterMove  Promote  from  0  ,  0]  to    [  11  ]  
+enterMove  Promote  from  0  ,  0]  to    [  1,1
+enterMove  Promote  from  0  ,  0]  to    [  1,1]
+enterMove  Promote  from  0  ,  0]  to    [  1,1  ]  
+enterMove  Promote  from  0  ,  0]  to    [  1  ,  1
+enterMove  Promote  from  0  ,  0]  to    [  1  ,  1]
+enterMove  Promote  from  0  ,  0]  to    [  1  ,  1  ]  
+enterMove  Promote  from  0  ,  0  ]  11
+enterMove  Promote  from  0  ,  0  ]  11]
+enterMove  Promote  from  0  ,  0  ]  11  ]  
+enterMove  Promote  from  0  ,  0  ]  1,1
+enterMove  Promote  from  0  ,  0  ]  1,1]
+enterMove  Promote  from  0  ,  0  ]  1,1  ]  
+enterMove  Promote  from  0  ,  0  ]  1  ,  1
+enterMove  Promote  from  0  ,  0  ]  1  ,  1]
+enterMove  Promote  from  0  ,  0  ]  1  ,  1  ]  
+enterMove  Promote  from  0  ,  0  ]  [11
+enterMove  Promote  from  0  ,  0  ]  [11]
+enterMove  Promote  from  0  ,  0  ]  [11  ]  
+enterMove  Promote  from  0  ,  0  ]  [1,1
+enterMove  Promote  from  0  ,  0  ]  [1,1]
+enterMove  Promote  from  0  ,  0  ]  [1,1  ]  
+enterMove  Promote  from  0  ,  0  ]  [1  ,  1
+enterMove  Promote  from  0  ,  0  ]  [1  ,  1]
+enterMove  Promote  from  0  ,  0  ]  [1  ,  1  ]  
+enterMove  Promote  from  0  ,  0  ]    [  11
+enterMove  Promote  from  0  ,  0  ]    [  11]
+enterMove  Promote  from  0  ,  0  ]    [  11  ]  
+enterMove  Promote  from  0  ,  0  ]    [  1,1
+enterMove  Promote  from  0  ,  0  ]    [  1,1]
+enterMove  Promote  from  0  ,  0  ]    [  1,1  ]  
+enterMove  Promote  from  0  ,  0  ]    [  1  ,  1
+enterMove  Promote  from  0  ,  0  ]    [  1  ,  1]
+enterMove  Promote  from  0  ,  0  ]    [  1  ,  1  ]  
+enterMove  Promote  from  0  ,  0  ]  to11
+enterMove  Promote  from  0  ,  0  ]  to11]
+enterMove  Promote  from  0  ,  0  ]  to11  ]  
+enterMove  Promote  from  0  ,  0  ]  to1,1
+enterMove  Promote  from  0  ,  0  ]  to1,1]
+enterMove  Promote  from  0  ,  0  ]  to1,1  ]  
+enterMove  Promote  from  0  ,  0  ]  to1  ,  1
+enterMove  Promote  from  0  ,  0  ]  to1  ,  1]
+enterMove  Promote  from  0  ,  0  ]  to1  ,  1  ]  
+enterMove  Promote  from  0  ,  0  ]  to[11
+enterMove  Promote  from  0  ,  0  ]  to[11]
+enterMove  Promote  from  0  ,  0  ]  to[11  ]  
+enterMove  Promote  from  0  ,  0  ]  to[1,1
+enterMove  Promote  from  0  ,  0  ]  to[1,1]
+enterMove  Promote  from  0  ,  0  ]  to[1,1  ]  
+enterMove  Promote  from  0  ,  0  ]  to[1  ,  1
+enterMove  Promote  from  0  ,  0  ]  to[1  ,  1]
+enterMove  Promote  from  0  ,  0  ]  to[1  ,  1  ]  
+enterMove  Promote  from  0  ,  0  ]  to  [  11
+enterMove  Promote  from  0  ,  0  ]  to  [  11]
+enterMove  Promote  from  0  ,  0  ]  to  [  11  ]  
+enterMove  Promote  from  0  ,  0  ]  to  [  1,1
+enterMove  Promote  from  0  ,  0  ]  to  [  1,1]
+enterMove  Promote  from  0  ,  0  ]  to  [  1,1  ]  
+enterMove  Promote  from  0  ,  0  ]  to  [  1  ,  1
+enterMove  Promote  from  0  ,  0  ]  to  [  1  ,  1]
+enterMove  Promote  from  0  ,  0  ]  to  [  1  ,  1  ]  
+enterMove  Promote  from  0  ,  0  ]    to  11
+enterMove  Promote  from  0  ,  0  ]    to  11]
+enterMove  Promote  from  0  ,  0  ]    to  11  ]  
+enterMove  Promote  from  0  ,  0  ]    to  1,1
+enterMove  Promote  from  0  ,  0  ]    to  1,1]
+enterMove  Promote  from  0  ,  0  ]    to  1,1  ]  
+enterMove  Promote  from  0  ,  0  ]    to  1  ,  1
+enterMove  Promote  from  0  ,  0  ]    to  1  ,  1]
+enterMove  Promote  from  0  ,  0  ]    to  1  ,  1  ]  
+enterMove  Promote  from  0  ,  0  ]    to  [11
+enterMove  Promote  from  0  ,  0  ]    to  [11]
+enterMove  Promote  from  0  ,  0  ]    to  [11  ]  
+enterMove  Promote  from  0  ,  0  ]    to  [1,1
+enterMove  Promote  from  0  ,  0  ]    to  [1,1]
+enterMove  Promote  from  0  ,  0  ]    to  [1,1  ]  
+enterMove  Promote  from  0  ,  0  ]    to  [1  ,  1
+enterMove  Promote  from  0  ,  0  ]    to  [1  ,  1]
+enterMove  Promote  from  0  ,  0  ]    to  [1  ,  1  ]  
+enterMove  Promote  from  0  ,  0  ]    to    [  11
+enterMove  Promote  from  0  ,  0  ]    to    [  11]
+enterMove  Promote  from  0  ,  0  ]    to    [  11  ]  
+enterMove  Promote  from  0  ,  0  ]    to    [  1,1
+enterMove  Promote  from  0  ,  0  ]    to    [  1,1]
+enterMove  Promote  from  0  ,  0  ]    to    [  1,1  ]  
+enterMove  Promote  from  0  ,  0  ]    to    [  1  ,  1
+enterMove  Promote  from  0  ,  0  ]    to    [  1  ,  1]
+enterMove  Promote  from  0  ,  0  ]    to    [  1  ,  1  ]  
+enterMove  Promote  from  [0011
+enterMove  Promote  from  [0011]
+enterMove  Promote  from  [0011  ]  
+enterMove  Promote  from  [001,1
+enterMove  Promote  from  [001,1]
+enterMove  Promote  from  [001,1  ]  
+enterMove  Promote  from  [001  ,  1
+enterMove  Promote  from  [001  ,  1]
+enterMove  Promote  from  [001  ,  1  ]  
+enterMove  Promote  from  [00[11
+enterMove  Promote  from  [00[11]
+enterMove  Promote  from  [00[11  ]  
+enterMove  Promote  from  [00[1,1
+enterMove  Promote  from  [00[1,1]
+enterMove  Promote  from  [00[1,1  ]  
+enterMove  Promote  from  [00[1  ,  1
+enterMove  Promote  from  [00[1  ,  1]
+enterMove  Promote  from  [00[1  ,  1  ]  
+enterMove  Promote  from  [00  [  11
+enterMove  Promote  from  [00  [  11]
+enterMove  Promote  from  [00  [  11  ]  
+enterMove  Promote  from  [00  [  1,1
+enterMove  Promote  from  [00  [  1,1]
+enterMove  Promote  from  [00  [  1,1  ]  
+enterMove  Promote  from  [00  [  1  ,  1
+enterMove  Promote  from  [00  [  1  ,  1]
+enterMove  Promote  from  [00  [  1  ,  1  ]  
+enterMove  Promote  from  [00to11
+enterMove  Promote  from  [00to11]
+enterMove  Promote  from  [00to11  ]  
+enterMove  Promote  from  [00to1,1
+enterMove  Promote  from  [00to1,1]
+enterMove  Promote  from  [00to1,1  ]  
+enterMove  Promote  from  [00to1  ,  1
+enterMove  Promote  from  [00to1  ,  1]
+enterMove  Promote  from  [00to1  ,  1  ]  
+enterMove  Promote  from  [00to[11
+enterMove  Promote  from  [00to[11]
+enterMove  Promote  from  [00to[11  ]  
+enterMove  Promote  from  [00to[1,1
+enterMove  Promote  from  [00to[1,1]
+enterMove  Promote  from  [00to[1,1  ]  
+enterMove  Promote  from  [00to[1  ,  1
+enterMove  Promote  from  [00to[1  ,  1]
+enterMove  Promote  from  [00to[1  ,  1  ]  
+enterMove  Promote  from  [00to  [  11
+enterMove  Promote  from  [00to  [  11]
+enterMove  Promote  from  [00to  [  11  ]  
+enterMove  Promote  from  [00to  [  1,1
+enterMove  Promote  from  [00to  [  1,1]
+enterMove  Promote  from  [00to  [  1,1  ]  
+enterMove  Promote  from  [00to  [  1  ,  1
+enterMove  Promote  from  [00to  [  1  ,  1]
+enterMove  Promote  from  [00to  [  1  ,  1  ]  
+enterMove  Promote  from  [00  to  11
+enterMove  Promote  from  [00  to  11]
+enterMove  Promote  from  [00  to  11  ]  
+enterMove  Promote  from  [00  to  1,1
+enterMove  Promote  from  [00  to  1,1]
+enterMove  Promote  from  [00  to  1,1  ]  
+enterMove  Promote  from  [00  to  1  ,  1
+enterMove  Promote  from  [00  to  1  ,  1]
+enterMove  Promote  from  [00  to  1  ,  1  ]  
+enterMove  Promote  from  [00  to  [11
+enterMove  Promote  from  [00  to  [11]
+enterMove  Promote  from  [00  to  [11  ]  
+enterMove  Promote  from  [00  to  [1,1
+enterMove  Promote  from  [00  to  [1,1]
+enterMove  Promote  from  [00  to  [1,1  ]  
+enterMove  Promote  from  [00  to  [1  ,  1
+enterMove  Promote  from  [00  to  [1  ,  1]
+enterMove  Promote  from  [00  to  [1  ,  1  ]  
+enterMove  Promote  from  [00  to    [  11
+enterMove  Promote  from  [00  to    [  11]
+enterMove  Promote  from  [00  to    [  11  ]  
+enterMove  Promote  from  [00  to    [  1,1
+enterMove  Promote  from  [00  to    [  1,1]
+enterMove  Promote  from  [00  to    [  1,1  ]  
+enterMove  Promote  from  [00  to    [  1  ,  1
+enterMove  Promote  from  [00  to    [  1  ,  1]
+enterMove  Promote  from  [00  to    [  1  ,  1  ]  
+enterMove  Promote  from  [00]11
+enterMove  Promote  from  [00]11]
+enterMove  Promote  from  [00]11  ]  
+enterMove  Promote  from  [00]1,1
+enterMove  Promote  from  [00]1,1]
+enterMove  Promote  from  [00]1,1  ]  
+enterMove  Promote  from  [00]1  ,  1
+enterMove  Promote  from  [00]1  ,  1]
+enterMove  Promote  from  [00]1  ,  1  ]  
+enterMove  Promote  from  [00][11
+enterMove  Promote  from  [00][11]
+enterMove  Promote  from  [00][11  ]  
+enterMove  Promote  from  [00][1,1
+enterMove  Promote  from  [00][1,1]
+enterMove  Promote  from  [00][1,1  ]  
+enterMove  Promote  from  [00][1  ,  1
+enterMove  Promote  from  [00][1  ,  1]
+enterMove  Promote  from  [00][1  ,  1  ]  
+enterMove  Promote  from  [00]  [  11
+enterMove  Promote  from  [00]  [  11]
+enterMove  Promote  from  [00]  [  11  ]  
+enterMove  Promote  from  [00]  [  1,1
+enterMove  Promote  from  [00]  [  1,1]
+enterMove  Promote  from  [00]  [  1,1  ]  
+enterMove  Promote  from  [00]  [  1  ,  1
+enterMove  Promote  from  [00]  [  1  ,  1]
+enterMove  Promote  from  [00]  [  1  ,  1  ]  
+enterMove  Promote  from  [00]to11
+enterMove  Promote  from  [00]to11]
+enterMove  Promote  from  [00]to11  ]  
+enterMove  Promote  from  [00]to1,1
+enterMove  Promote  from  [00]to1,1]
+enterMove  Promote  from  [00]to1,1  ]  
+enterMove  Promote  from  [00]to1  ,  1
+enterMove  Promote  from  [00]to1  ,  1]
+enterMove  Promote  from  [00]to1  ,  1  ]  
+enterMove  Promote  from  [00]to[11
+enterMove  Promote  from  [00]to[11]
+enterMove  Promote  from  [00]to[11  ]  
+enterMove  Promote  from  [00]to[1,1
+enterMove  Promote  from  [00]to[1,1]
+enterMove  Promote  from  [00]to[1,1  ]  
+enterMove  Promote  from  [00]to[1  ,  1
+enterMove  Promote  from  [00]to[1  ,  1]
+enterMove  Promote  from  [00]to[1  ,  1  ]  
+enterMove  Promote  from  [00]to  [  11
+enterMove  Promote  from  [00]to  [  11]
+enterMove  Promote  from  [00]to  [  11  ]  
+enterMove  Promote  from  [00]to  [  1,1
+enterMove  Promote  from  [00]to  [  1,1]
+enterMove  Promote  from  [00]to  [  1,1  ]  
+enterMove  Promote  from  [00]to  [  1  ,  1
+enterMove  Promote  from  [00]to  [  1  ,  1]
+enterMove  Promote  from  [00]to  [  1  ,  1  ]  
+enterMove  Promote  from  [00]  to  11
+enterMove  Promote  from  [00]  to  11]
+enterMove  Promote  from  [00]  to  11  ]  
+enterMove  Promote  from  [00]  to  1,1
+enterMove  Promote  from  [00]  to  1,1]
+enterMove  Promote  from  [00]  to  1,1  ]  
+enterMove  Promote  from  [00]  to  1  ,  1
+enterMove  Promote  from  [00]  to  1  ,  1]
+enterMove  Promote  from  [00]  to  1  ,  1  ]  
+enterMove  Promote  from  [00]  to  [11
+enterMove  Promote  from  [00]  to  [11]
+enterMove  Promote  from  [00]  to  [11  ]  
+enterMove  Promote  from  [00]  to  [1,1
+enterMove  Promote  from  [00]  to  [1,1]
+enterMove  Promote  from  [00]  to  [1,1  ]  
+enterMove  Promote  from  [00]  to  [1  ,  1
+enterMove  Promote  from  [00]  to  [1  ,  1]
+enterMove  Promote  from  [00]  to  [1  ,  1  ]  
+enterMove  Promote  from  [00]  to    [  11
+enterMove  Promote  from  [00]  to    [  11]
+enterMove  Promote  from  [00]  to    [  11  ]  
+enterMove  Promote  from  [00]  to    [  1,1
+enterMove  Promote  from  [00]  to    [  1,1]
+enterMove  Promote  from  [00]  to    [  1,1  ]  
+enterMove  Promote  from  [00]  to    [  1  ,  1
+enterMove  Promote  from  [00]  to    [  1  ,  1]
+enterMove  Promote  from  [00]  to    [  1  ,  1  ]  
+enterMove  Promote  from  [00  ]  11
+enterMove  Promote  from  [00  ]  11]
+enterMove  Promote  from  [00  ]  11  ]  
+enterMove  Promote  from  [00  ]  1,1
+enterMove  Promote  from  [00  ]  1,1]
+enterMove  Promote  from  [00  ]  1,1  ]  
+enterMove  Promote  from  [00  ]  1  ,  1
+enterMove  Promote  from  [00  ]  1  ,  1]
+enterMove  Promote  from  [00  ]  1  ,  1  ]  
+enterMove  Promote  from  [00  ]  [11
+enterMove  Promote  from  [00  ]  [11]
+enterMove  Promote  from  [00  ]  [11  ]  
+enterMove  Promote  from  [00  ]  [1,1
+enterMove  Promote  from  [00  ]  [1,1]
+enterMove  Promote  from  [00  ]  [1,1  ]  
+enterMove  Promote  from  [00  ]  [1  ,  1
+enterMove  Promote  from  [00  ]  [1  ,  1]
+enterMove  Promote  from  [00  ]  [1  ,  1  ]  
+enterMove  Promote  from  [00  ]    [  11
+enterMove  Promote  from  [00  ]    [  11]
+enterMove  Promote  from  [00  ]    [  11  ]  
+enterMove  Promote  from  [00  ]    [  1,1
+enterMove  Promote  from  [00  ]    [  1,1]
+enterMove  Promote  from  [00  ]    [  1,1  ]  
+enterMove  Promote  from  [00  ]    [  1  ,  1
+enterMove  Promote  from  [00  ]    [  1  ,  1]
+enterMove  Promote  from  [00  ]    [  1  ,  1  ]  
+enterMove  Promote  from  [00  ]  to11
+enterMove  Promote  from  [00  ]  to11]
+enterMove  Promote  from  [00  ]  to11  ]  
+enterMove  Promote  from  [00  ]  to1,1
+enterMove  Promote  from  [00  ]  to1,1]
+enterMove  Promote  from  [00  ]  to1,1  ]  
+enterMove  Promote  from  [00  ]  to1  ,  1
+enterMove  Promote  from  [00  ]  to1  ,  1]
+enterMove  Promote  from  [00  ]  to1  ,  1  ]  
+enterMove  Promote  from  [00  ]  to[11
+enterMove  Promote  from  [00  ]  to[11]
+enterMove  Promote  from  [00  ]  to[11  ]  
+enterMove  Promote  from  [00  ]  to[1,1
+enterMove  Promote  from  [00  ]  to[1,1]
+enterMove  Promote  from  [00  ]  to[1,1  ]  
+enterMove  Promote  from  [00  ]  to[1  ,  1
+enterMove  Promote  from  [00  ]  to[1  ,  1]
+enterMove  Promote  from  [00  ]  to[1  ,  1  ]  
+enterMove  Promote  from  [00  ]  to  [  11
+enterMove  Promote  from  [00  ]  to  [  11]
+enterMove  Promote  from  [00  ]  to  [  11  ]  
+enterMove  Promote  from  [00  ]  to  [  1,1
+enterMove  Promote  from  [00  ]  to  [  1,1]
+enterMove  Promote  from  [00  ]  to  [  1,1  ]  
+enterMove  Promote  from  [00  ]  to  [  1  ,  1
+enterMove  Promote  from  [00  ]  to  [  1  ,  1]
+enterMove  Promote  from  [00  ]  to  [  1  ,  1  ]  
+enterMove  Promote  from  [00  ]    to  11
+enterMove  Promote  from  [00  ]    to  11]
+enterMove  Promote  from  [00  ]    to  11  ]  
+enterMove  Promote  from  [00  ]    to  1,1
+enterMove  Promote  from  [00  ]    to  1,1]
+enterMove  Promote  from  [00  ]    to  1,1  ]  
+enterMove  Promote  from  [00  ]    to  1  ,  1
+enterMove  Promote  from  [00  ]    to  1  ,  1]
+enterMove  Promote  from  [00  ]    to  1  ,  1  ]  
+enterMove  Promote  from  [00  ]    to  [11
+enterMove  Promote  from  [00  ]    to  [11]
+enterMove  Promote  from  [00  ]    to  [11  ]  
+enterMove  Promote  from  [00  ]    to  [1,1
+enterMove  Promote  from  [00  ]    to  [1,1]
+enterMove  Promote  from  [00  ]    to  [1,1  ]  
+enterMove  Promote  from  [00  ]    to  [1  ,  1
+enterMove  Promote  from  [00  ]    to  [1  ,  1]
+enterMove  Promote  from  [00  ]    to  [1  ,  1  ]  
+enterMove  Promote  from  [00  ]    to    [  11
+enterMove  Promote  from  [00  ]    to    [  11]
+enterMove  Promote  from  [00  ]    to    [  11  ]  
+enterMove  Promote  from  [00  ]    to    [  1,1
+enterMove  Promote  from  [00  ]    to    [  1,1]
+enterMove  Promote  from  [00  ]    to    [  1,1  ]  
+enterMove  Promote  from  [00  ]    to    [  1  ,  1
+enterMove  Promote  from  [00  ]    to    [  1  ,  1]
+enterMove  Promote  from  [00  ]    to    [  1  ,  1  ]  
+enterMove  Promote  from  [0,011
+enterMove  Promote  from  [0,011]
+enterMove  Promote  from  [0,011  ]  
+enterMove  Promote  from  [0,01,1
+enterMove  Promote  from  [0,01,1]
+enterMove  Promote  from  [0,01,1  ]  
+enterMove  Promote  from  [0,01  ,  1
+enterMove  Promote  from  [0,01  ,  1]
+enterMove  Promote  from  [0,01  ,  1  ]  
+enterMove  Promote  from  [0,0[11
+enterMove  Promote  from  [0,0[11]
+enterMove  Promote  from  [0,0[11  ]  
+enterMove  Promote  from  [0,0[1,1
+enterMove  Promote  from  [0,0[1,1]
+enterMove  Promote  from  [0,0[1,1  ]  
+enterMove  Promote  from  [0,0[1  ,  1
+enterMove  Promote  from  [0,0[1  ,  1]
+enterMove  Promote  from  [0,0[1  ,  1  ]  
+enterMove  Promote  from  [0,0  [  11
+enterMove  Promote  from  [0,0  [  11]
+enterMove  Promote  from  [0,0  [  11  ]  
+enterMove  Promote  from  [0,0  [  1,1
+enterMove  Promote  from  [0,0  [  1,1]
+enterMove  Promote  from  [0,0  [  1,1  ]  
+enterMove  Promote  from  [0,0  [  1  ,  1
+enterMove  Promote  from  [0,0  [  1  ,  1]
+enterMove  Promote  from  [0,0  [  1  ,  1  ]  
+enterMove  Promote  from  [0,0to11
+enterMove  Promote  from  [0,0to11]
+enterMove  Promote  from  [0,0to11  ]  
+enterMove  Promote  from  [0,0to1,1
+enterMove  Promote  from  [0,0to1,1]
+enterMove  Promote  from  [0,0to1,1  ]  
+enterMove  Promote  from  [0,0to1  ,  1
+enterMove  Promote  from  [0,0to1  ,  1]
+enterMove  Promote  from  [0,0to1  ,  1  ]  
+enterMove  Promote  from  [0,0to[11
+enterMove  Promote  from  [0,0to[11]
+enterMove  Promote  from  [0,0to[11  ]  
+enterMove  Promote  from  [0,0to[1,1
+enterMove  Promote  from  [0,0to[1,1]
+enterMove  Promote  from  [0,0to[1,1  ]  
+enterMove  Promote  from  [0,0to[1  ,  1
+enterMove  Promote  from  [0,0to[1  ,  1]
+enterMove  Promote  from  [0,0to[1  ,  1  ]  
+enterMove  Promote  from  [0,0to  [  11
+enterMove  Promote  from  [0,0to  [  11]
+enterMove  Promote  from  [0,0to  [  11  ]  
+enterMove  Promote  from  [0,0to  [  1,1
+enterMove  Promote  from  [0,0to  [  1,1]
+enterMove  Promote  from  [0,0to  [  1,1  ]  
+enterMove  Promote  from  [0,0to  [  1  ,  1
+enterMove  Promote  from  [0,0to  [  1  ,  1]
+enterMove  Promote  from  [0,0to  [  1  ,  1  ]  
+enterMove  Promote  from  [0,0  to  11
+enterMove  Promote  from  [0,0  to  11]
+enterMove  Promote  from  [0,0  to  11  ]  
+enterMove  Promote  from  [0,0  to  1,1
+enterMove  Promote  from  [0,0  to  1,1]
+enterMove  Promote  from  [0,0  to  1,1  ]  
+enterMove  Promote  from  [0,0  to  1  ,  1
+enterMove  Promote  from  [0,0  to  1  ,  1]
+enterMove  Promote  from  [0,0  to  1  ,  1  ]  
+enterMove  Promote  from  [0,0  to  [11
+enterMove  Promote  from  [0,0  to  [11]
+enterMove  Promote  from  [0,0  to  [11  ]  
+enterMove  Promote  from  [0,0  to  [1,1
+enterMove  Promote  from  [0,0  to  [1,1]
+enterMove  Promote  from  [0,0  to  [1,1  ]  
+enterMove  Promote  from  [0,0  to  [1  ,  1
+enterMove  Promote  from  [0,0  to  [1  ,  1]
+enterMove  Promote  from  [0,0  to  [1  ,  1  ]  
+enterMove  Promote  from  [0,0  to    [  11
+enterMove  Promote  from  [0,0  to    [  11]
+enterMove  Promote  from  [0,0  to    [  11  ]  
+enterMove  Promote  from  [0,0  to    [  1,1
+enterMove  Promote  from  [0,0  to    [  1,1]
+enterMove  Promote  from  [0,0  to    [  1,1  ]  
+enterMove  Promote  from  [0,0  to    [  1  ,  1
+enterMove  Promote  from  [0,0  to    [  1  ,  1]
+enterMove  Promote  from  [0,0  to    [  1  ,  1  ]  
+enterMove  Promote  from  [0,0]11
+enterMove  Promote  from  [0,0]11]
+enterMove  Promote  from  [0,0]11  ]  
+enterMove  Promote  from  [0,0]1,1
+enterMove  Promote  from  [0,0]1,1]
+enterMove  Promote  from  [0,0]1,1  ]  
+enterMove  Promote  from  [0,0]1  ,  1
+enterMove  Promote  from  [0,0]1  ,  1]
+enterMove  Promote  from  [0,0]1  ,  1  ]  
+enterMove  Promote  from  [0,0][11
+enterMove  Promote  from  [0,0][11]
+enterMove  Promote  from  [0,0][11  ]  
+enterMove  Promote  from  [0,0][1,1
+enterMove  Promote  from  [0,0][1,1]
+enterMove  Promote  from  [0,0][1,1  ]  
+enterMove  Promote  from  [0,0][1  ,  1
+enterMove  Promote  from  [0,0][1  ,  1]
+enterMove  Promote  from  [0,0][1  ,  1  ]  
+enterMove  Promote  from  [0,0]  [  11
+enterMove  Promote  from  [0,0]  [  11]
+enterMove  Promote  from  [0,0]  [  11  ]  
+enterMove  Promote  from  [0,0]  [  1,1
+enterMove  Promote  from  [0,0]  [  1,1]
+enterMove  Promote  from  [0,0]  [  1,1  ]  
+enterMove  Promote  from  [0,0]  [  1  ,  1
+enterMove  Promote  from  [0,0]  [  1  ,  1]
+enterMove  Promote  from  [0,0]  [  1  ,  1  ]  
+enterMove  Promote  from  [0,0]to11
+enterMove  Promote  from  [0,0]to11]
+enterMove  Promote  from  [0,0]to11  ]  
+enterMove  Promote  from  [0,0]to1,1
+enterMove  Promote  from  [0,0]to1,1]
+enterMove  Promote  from  [0,0]to1,1  ]  
+enterMove  Promote  from  [0,0]to1  ,  1
+enterMove  Promote  from  [0,0]to1  ,  1]
+enterMove  Promote  from  [0,0]to1  ,  1  ]  
+enterMove  Promote  from  [0,0]to[11
+enterMove  Promote  from  [0,0]to[11]
+enterMove  Promote  from  [0,0]to[11  ]  
+enterMove  Promote  from  [0,0]to[1,1
+enterMove  Promote  from  [0,0]to[1,1]
+enterMove  Promote  from  [0,0]to[1,1  ]  
+enterMove  Promote  from  [0,0]to[1  ,  1
+enterMove  Promote  from  [0,0]to[1  ,  1]
+enterMove  Promote  from  [0,0]to[1  ,  1  ]  
+enterMove  Promote  from  [0,0]to  [  11
+enterMove  Promote  from  [0,0]to  [  11]
+enterMove  Promote  from  [0,0]to  [  11  ]  
+enterMove  Promote  from  [0,0]to  [  1,1
+enterMove  Promote  from  [0,0]to  [  1,1]
+enterMove  Promote  from  [0,0]to  [  1,1  ]  
+enterMove  Promote  from  [0,0]to  [  1  ,  1
+enterMove  Promote  from  [0,0]to  [  1  ,  1]
+enterMove  Promote  from  [0,0]to  [  1  ,  1  ]  
+enterMove  Promote  from  [0,0]  to  11
+enterMove  Promote  from  [0,0]  to  11]
+enterMove  Promote  from  [0,0]  to  11  ]  
+enterMove  Promote  from  [0,0]  to  1,1
+enterMove  Promote  from  [0,0]  to  1,1]
+enterMove  Promote  from  [0,0]  to  1,1  ]  
+enterMove  Promote  from  [0,0]  to  1  ,  1
+enterMove  Promote  from  [0,0]  to  1  ,  1]
+enterMove  Promote  from  [0,0]  to  1  ,  1  ]  
+enterMove  Promote  from  [0,0]  to  [11
+enterMove  Promote  from  [0,0]  to  [11]
+enterMove  Promote  from  [0,0]  to  [11  ]  
+enterMove  Promote  from  [0,0]  to  [1,1
+enterMove  Promote  from  [0,0]  to  [1,1]
+enterMove  Promote  from  [0,0]  to  [1,1  ]  
+enterMove  Promote  from  [0,0]  to  [1  ,  1
+enterMove  Promote  from  [0,0]  to  [1  ,  1]
+enterMove  Promote  from  [0,0]  to  [1  ,  1  ]  
+enterMove  Promote  from  [0,0]  to    [  11
+enterMove  Promote  from  [0,0]  to    [  11]
+enterMove  Promote  from  [0,0]  to    [  11  ]  
+enterMove  Promote  from  [0,0]  to    [  1,1
+enterMove  Promote  from  [0,0]  to    [  1,1]
+enterMove  Promote  from  [0,0]  to    [  1,1  ]  
+enterMove  Promote  from  [0,0]  to    [  1  ,  1
+enterMove  Promote  from  [0,0]  to    [  1  ,  1]
+enterMove  Promote  from  [0,0]  to    [  1  ,  1  ]  
+enterMove  Promote  from  [0,0  ]  11
+enterMove  Promote  from  [0,0  ]  11]
+enterMove  Promote  from  [0,0  ]  11  ]  
+enterMove  Promote  from  [0,0  ]  1,1
+enterMove  Promote  from  [0,0  ]  1,1]
+enterMove  Promote  from  [0,0  ]  1,1  ]  
+enterMove  Promote  from  [0,0  ]  1  ,  1
+enterMove  Promote  from  [0,0  ]  1  ,  1]
+enterMove  Promote  from  [0,0  ]  1  ,  1  ]  
+enterMove  Promote  from  [0,0  ]  [11
+enterMove  Promote  from  [0,0  ]  [11]
+enterMove  Promote  from  [0,0  ]  [11  ]  
+enterMove  Promote  from  [0,0  ]  [1,1
+enterMove  Promote  from  [0,0  ]  [1,1]
+enterMove  Promote  from  [0,0  ]  [1,1  ]  
+enterMove  Promote  from  [0,0  ]  [1  ,  1
+enterMove  Promote  from  [0,0  ]  [1  ,  1]
+enterMove  Promote  from  [0,0  ]  [1  ,  1  ]  
+enterMove  Promote  from  [0,0  ]    [  11
+enterMove  Promote  from  [0,0  ]    [  11]
+enterMove  Promote  from  [0,0  ]    [  11  ]  
+enterMove  Promote  from  [0,0  ]    [  1,1
+enterMove  Promote  from  [0,0  ]    [  1,1]
+enterMove  Promote  from  [0,0  ]    [  1,1  ]  
+enterMove  Promote  from  [0,0  ]    [  1  ,  1
+enterMove  Promote  from  [0,0  ]    [  1  ,  1]
+enterMove  Promote  from  [0,0  ]    [  1  ,  1  ]  
+enterMove  Promote  from  [0,0  ]  to11
+enterMove  Promote  from  [0,0  ]  to11]
+enterMove  Promote  from  [0,0  ]  to11  ]  
+enterMove  Promote  from  [0,0  ]  to1,1
+enterMove  Promote  from  [0,0  ]  to1,1]
+enterMove  Promote  from  [0,0  ]  to1,1  ]  
+enterMove  Promote  from  [0,0  ]  to1  ,  1
+enterMove  Promote  from  [0,0  ]  to1  ,  1]
+enterMove  Promote  from  [0,0  ]  to1  ,  1  ]  
+enterMove  Promote  from  [0,0  ]  to[11
+enterMove  Promote  from  [0,0  ]  to[11]
+enterMove  Promote  from  [0,0  ]  to[11  ]  
+enterMove  Promote  from  [0,0  ]  to[1,1
+enterMove  Promote  from  [0,0  ]  to[1,1]
+enterMove  Promote  from  [0,0  ]  to[1,1  ]  
+enterMove  Promote  from  [0,0  ]  to[1  ,  1
+enterMove  Promote  from  [0,0  ]  to[1  ,  1]
+enterMove  Promote  from  [0,0  ]  to[1  ,  1  ]  
+enterMove  Promote  from  [0,0  ]  to  [  11
+enterMove  Promote  from  [0,0  ]  to  [  11]
+enterMove  Promote  from  [0,0  ]  to  [  11  ]  
+enterMove  Promote  from  [0,0  ]  to  [  1,1
+enterMove  Promote  from  [0,0  ]  to  [  1,1]
+enterMove  Promote  from  [0,0  ]  to  [  1,1  ]  
+enterMove  Promote  from  [0,0  ]  to  [  1  ,  1
+enterMove  Promote  from  [0,0  ]  to  [  1  ,  1]
+enterMove  Promote  from  [0,0  ]  to  [  1  ,  1  ]  
+enterMove  Promote  from  [0,0  ]    to  11
+enterMove  Promote  from  [0,0  ]    to  11]
+enterMove  Promote  from  [0,0  ]    to  11  ]  
+enterMove  Promote  from  [0,0  ]    to  1,1
+enterMove  Promote  from  [0,0  ]    to  1,1]
+enterMove  Promote  from  [0,0  ]    to  1,1  ]  
+enterMove  Promote  from  [0,0  ]    to  1  ,  1
+enterMove  Promote  from  [0,0  ]    to  1  ,  1]
+enterMove  Promote  from  [0,0  ]    to  1  ,  1  ]  
+enterMove  Promote  from  [0,0  ]    to  [11
+enterMove  Promote  from  [0,0  ]    to  [11]
+enterMove  Promote  from  [0,0  ]    to  [11  ]  
+enterMove  Promote  from  [0,0  ]    to  [1,1
+enterMove  Promote  from  [0,0  ]    to  [1,1]
+enterMove  Promote  from  [0,0  ]    to  [1,1  ]  
+enterMove  Promote  from  [0,0  ]    to  [1  ,  1
+enterMove  Promote  from  [0,0  ]    to  [1  ,  1]
+enterMove  Promote  from  [0,0  ]    to  [1  ,  1  ]  
+enterMove  Promote  from  [0,0  ]    to    [  11
+enterMove  Promote  from  [0,0  ]    to    [  11]
+enterMove  Promote  from  [0,0  ]    to    [  11  ]  
+enterMove  Promote  from  [0,0  ]    to    [  1,1
+enterMove  Promote  from  [0,0  ]    to    [  1,1]
+enterMove  Promote  from  [0,0  ]    to    [  1,1  ]  
+enterMove  Promote  from  [0,0  ]    to    [  1  ,  1
+enterMove  Promote  from  [0,0  ]    to    [  1  ,  1]
+enterMove  Promote  from  [0,0  ]    to    [  1  ,  1  ]  
+enterMove  Promote  from  [0  ,  011
+enterMove  Promote  from  [0  ,  011]
+enterMove  Promote  from  [0  ,  011  ]  
+enterMove  Promote  from  [0  ,  01,1
+enterMove  Promote  from  [0  ,  01,1]
+enterMove  Promote  from  [0  ,  01,1  ]  
+enterMove  Promote  from  [0  ,  01  ,  1
+enterMove  Promote  from  [0  ,  01  ,  1]
+enterMove  Promote  from  [0  ,  01  ,  1  ]  
+enterMove  Promote  from  [0  ,  0[11
+enterMove  Promote  from  [0  ,  0[11]
+enterMove  Promote  from  [0  ,  0[11  ]  
+enterMove  Promote  from  [0  ,  0[1,1
+enterMove  Promote  from  [0  ,  0[1,1]
+enterMove  Promote  from  [0  ,  0[1,1  ]  
+enterMove  Promote  from  [0  ,  0[1  ,  1
+enterMove  Promote  from  [0  ,  0[1  ,  1]
+enterMove  Promote  from  [0  ,  0[1  ,  1  ]  
+enterMove  Promote  from  [0  ,  0  [  11
+enterMove  Promote  from  [0  ,  0  [  11]
+enterMove  Promote  from  [0  ,  0  [  11  ]  
+enterMove  Promote  from  [0  ,  0  [  1,1
+enterMove  Promote  from  [0  ,  0  [  1,1]
+enterMove  Promote  from  [0  ,  0  [  1,1  ]  
+enterMove  Promote  from  [0  ,  0  [  1  ,  1
+enterMove  Promote  from  [0  ,  0  [  1  ,  1]
+enterMove  Promote  from  [0  ,  0  [  1  ,  1  ]  
+enterMove  Promote  from  [0  ,  0to11
+enterMove  Promote  from  [0  ,  0to11]
+enterMove  Promote  from  [0  ,  0to11  ]  
+enterMove  Promote  from  [0  ,  0to1,1
+enterMove  Promote  from  [0  ,  0to1,1]
+enterMove  Promote  from  [0  ,  0to1,1  ]  
+enterMove  Promote  from  [0  ,  0to1  ,  1
+enterMove  Promote  from  [0  ,  0to1  ,  1]
+enterMove  Promote  from  [0  ,  0to1  ,  1  ]  
+enterMove  Promote  from  [0  ,  0to[11
+enterMove  Promote  from  [0  ,  0to[11]
+enterMove  Promote  from  [0  ,  0to[11  ]  
+enterMove  Promote  from  [0  ,  0to[1,1
+enterMove  Promote  from  [0  ,  0to[1,1]
+enterMove  Promote  from  [0  ,  0to[1,1  ]  
+enterMove  Promote  from  [0  ,  0to[1  ,  1
+enterMove  Promote  from  [0  ,  0to[1  ,  1]
+enterMove  Promote  from  [0  ,  0to[1  ,  1  ]  
+enterMove  Promote  from  [0  ,  0to  [  11
+enterMove  Promote  from  [0  ,  0to  [  11]
+enterMove  Promote  from  [0  ,  0to  [  11  ]  
+enterMove  Promote  from  [0  ,  0to  [  1,1
+enterMove  Promote  from  [0  ,  0to  [  1,1]
+enterMove  Promote  from  [0  ,  0to  [  1,1  ]  
+enterMove  Promote  from  [0  ,  0to  [  1  ,  1
+enterMove  Promote  from  [0  ,  0to  [  1  ,  1]
+enterMove  Promote  from  [0  ,  0to  [  1  ,  1  ]  
+enterMove  Promote  from  [0  ,  0  to  11
+enterMove  Promote  from  [0  ,  0  to  11]
+enterMove  Promote  from  [0  ,  0  to  11  ]  
+enterMove  Promote  from  [0  ,  0  to  1,1
+enterMove  Promote  from  [0  ,  0  to  1,1]
+enterMove  Promote  from  [0  ,  0  to  1,1  ]  
+enterMove  Promote  from  [0  ,  0  to  1  ,  1
+enterMove  Promote  from  [0  ,  0  to  1  ,  1]
+enterMove  Promote  from  [0  ,  0  to  1  ,  1  ]  
+enterMove  Promote  from  [0  ,  0  to  [11
+enterMove  Promote  from  [0  ,  0  to  [11]
+enterMove  Promote  from  [0  ,  0  to  [11  ]  
+enterMove  Promote  from  [0  ,  0  to  [1,1
+enterMove  Promote  from  [0  ,  0  to  [1,1]
+enterMove  Promote  from  [0  ,  0  to  [1,1  ]  
+enterMove  Promote  from  [0  ,  0  to  [1  ,  1
+enterMove  Promote  from  [0  ,  0  to  [1  ,  1]
+enterMove  Promote  from  [0  ,  0  to  [1  ,  1  ]  
+enterMove  Promote  from  [0  ,  0  to    [  11
+enterMove  Promote  from  [0  ,  0  to    [  11]
+enterMove  Promote  from  [0  ,  0  to    [  11  ]  
+enterMove  Promote  from  [0  ,  0  to    [  1,1
+enterMove  Promote  from  [0  ,  0  to    [  1,1]
+enterMove  Promote  from  [0  ,  0  to    [  1,1  ]  
+enterMove  Promote  from  [0  ,  0  to    [  1  ,  1
+enterMove  Promote  from  [0  ,  0  to    [  1  ,  1]
+enterMove  Promote  from  [0  ,  0  to    [  1  ,  1  ]  
+enterMove  Promote  from  [0  ,  0]11
+enterMove  Promote  from  [0  ,  0]11]
+enterMove  Promote  from  [0  ,  0]11  ]  
+enterMove  Promote  from  [0  ,  0]1,1
+enterMove  Promote  from  [0  ,  0]1,1]
+enterMove  Promote  from  [0  ,  0]1,1  ]  
+enterMove  Promote  from  [0  ,  0]1  ,  1
+enterMove  Promote  from  [0  ,  0]1  ,  1]
+enterMove  Promote  from  [0  ,  0]1  ,  1  ]  
+enterMove  Promote  from  [0  ,  0][11
+enterMove  Promote  from  [0  ,  0][11]
+enterMove  Promote  from  [0  ,  0][11  ]  
+enterMove  Promote  from  [0  ,  0][1,1
+enterMove  Promote  from  [0  ,  0][1,1]
+enterMove  Promote  from  [0  ,  0][1,1  ]  
+enterMove  Promote  from  [0  ,  0][1  ,  1
+enterMove  Promote  from  [0  ,  0][1  ,  1]
+enterMove  Promote  from  [0  ,  0][1  ,  1  ]  
+enterMove  Promote  from  [0  ,  0]  [  11
+enterMove  Promote  from  [0  ,  0]  [  11]
+enterMove  Promote  from  [0  ,  0]  [  11  ]  
+enterMove  Promote  from  [0  ,  0]  [  1,1
+enterMove  Promote  from  [0  ,  0]  [  1,1]
+enterMove  Promote  from  [0  ,  0]  [  1,1  ]  
+enterMove  Promote  from  [0  ,  0]  [  1  ,  1
+enterMove  Promote  from  [0  ,  0]  [  1  ,  1]
+enterMove  Promote  from  [0  ,  0]  [  1  ,  1  ]  
+enterMove  Promote  from  [0  ,  0]to11
+enterMove  Promote  from  [0  ,  0]to11]
+enterMove  Promote  from  [0  ,  0]to11  ]  
+enterMove  Promote  from  [0  ,  0]to1,1
+enterMove  Promote  from  [0  ,  0]to1,1]
+enterMove  Promote  from  [0  ,  0]to1,1  ]  
+enterMove  Promote  from  [0  ,  0]to1  ,  1
+enterMove  Promote  from  [0  ,  0]to1  ,  1]
+enterMove  Promote  from  [0  ,  0]to1  ,  1  ]  
+enterMove  Promote  from  [0  ,  0]to[11
+enterMove  Promote  from  [0  ,  0]to[11]
+enterMove  Promote  from  [0  ,  0]to[11  ]  
+enterMove  Promote  from  [0  ,  0]to[1,1
+enterMove  Promote  from  [0  ,  0]to[1,1]
+enterMove  Promote  from  [0  ,  0]to[1,1  ]  
+enterMove  Promote  from  [0  ,  0]to[1  ,  1
+enterMove  Promote  from  [0  ,  0]to[1  ,  1]
+enterMove  Promote  from  [0  ,  0]to[1  ,  1  ]  
+enterMove  Promote  from  [0  ,  0]to  [  11
+enterMove  Promote  from  [0  ,  0]to  [  11]
+enterMove  Promote  from  [0  ,  0]to  [  11  ]  
+enterMove  Promote  from  [0  ,  0]to  [  1,1
+enterMove  Promote  from  [0  ,  0]to  [  1,1]
+enterMove  Promote  from  [0  ,  0]to  [  1,1  ]  
+enterMove  Promote  from  [0  ,  0]to  [  1  ,  1
+enterMove  Promote  from  [0  ,  0]to  [  1  ,  1]
+enterMove  Promote  from  [0  ,  0]to  [  1  ,  1  ]  
+enterMove  Promote  from  [0  ,  0]  to  11
+enterMove  Promote  from  [0  ,  0]  to  11]
+enterMove  Promote  from  [0  ,  0]  to  11  ]  
+enterMove  Promote  from  [0  ,  0]  to  1,1
+enterMove  Promote  from  [0  ,  0]  to  1,1]
+enterMove  Promote  from  [0  ,  0]  to  1,1  ]  
+enterMove  Promote  from  [0  ,  0]  to  1  ,  1
+enterMove  Promote  from  [0  ,  0]  to  1  ,  1]
+enterMove  Promote  from  [0  ,  0]  to  1  ,  1  ]  
+enterMove  Promote  from  [0  ,  0]  to  [11
+enterMove  Promote  from  [0  ,  0]  to  [11]
+enterMove  Promote  from  [0  ,  0]  to  [11  ]  
+enterMove  Promote  from  [0  ,  0]  to  [1,1
+enterMove  Promote  from  [0  ,  0]  to  [1,1]
+enterMove  Promote  from  [0  ,  0]  to  [1,1  ]  
+enterMove  Promote  from  [0  ,  0]  to  [1  ,  1
+enterMove  Promote  from  [0  ,  0]  to  [1  ,  1]
+enterMove  Promote  from  [0  ,  0]  to  [1  ,  1  ]  
+enterMove  Promote  from  [0  ,  0]  to    [  11
+enterMove  Promote  from  [0  ,  0]  to    [  11]
+enterMove  Promote  from  [0  ,  0]  to    [  11  ]  
+enterMove  Promote  from  [0  ,  0]  to    [  1,1
+enterMove  Promote  from  [0  ,  0]  to    [  1,1]
+enterMove  Promote  from  [0  ,  0]  to    [  1,1  ]  
+enterMove  Promote  from  [0  ,  0]  to    [  1  ,  1
+enterMove  Promote  from  [0  ,  0]  to    [  1  ,  1]
+enterMove  Promote  from  [0  ,  0]  to    [  1  ,  1  ]  
+enterMove  Promote  from  [0  ,  0  ]  11
+enterMove  Promote  from  [0  ,  0  ]  11]
+enterMove  Promote  from  [0  ,  0  ]  11  ]  
+enterMove  Promote  from  [0  ,  0  ]  1,1
+enterMove  Promote  from  [0  ,  0  ]  1,1]
+enterMove  Promote  from  [0  ,  0  ]  1,1  ]  
+enterMove  Promote  from  [0  ,  0  ]  1  ,  1
+enterMove  Promote  from  [0  ,  0  ]  1  ,  1]
+enterMove  Promote  from  [0  ,  0  ]  1  ,  1  ]  
+enterMove  Promote  from  [0  ,  0  ]  [11
+enterMove  Promote  from  [0  ,  0  ]  [11]
+enterMove  Promote  from  [0  ,  0  ]  [11  ]  
+enterMove  Promote  from  [0  ,  0  ]  [1,1
+enterMove  Promote  from  [0  ,  0  ]  [1,1]
+enterMove  Promote  from  [0  ,  0  ]  [1,1  ]  
+enterMove  Promote  from  [0  ,  0  ]  [1  ,  1
+enterMove  Promote  from  [0  ,  0  ]  [1  ,  1]
+enterMove  Promote  from  [0  ,  0  ]  [1  ,  1  ]  
+enterMove  Promote  from  [0  ,  0  ]    [  11
+enterMove  Promote  from  [0  ,  0  ]    [  11]
+enterMove  Promote  from  [0  ,  0  ]    [  11  ]  
+enterMove  Promote  from  [0  ,  0  ]    [  1,1
+enterMove  Promote  from  [0  ,  0  ]    [  1,1]
+enterMove  Promote  from  [0  ,  0  ]    [  1,1  ]  
+enterMove  Promote  from  [0  ,  0  ]    [  1  ,  1
+enterMove  Promote  from  [0  ,  0  ]    [  1  ,  1]
+enterMove  Promote  from  [0  ,  0  ]    [  1  ,  1  ]  
+enterMove  Promote  from  [0  ,  0  ]  to11
+enterMove  Promote  from  [0  ,  0  ]  to11]
+enterMove  Promote  from  [0  ,  0  ]  to11  ]  
+enterMove  Promote  from  [0  ,  0  ]  to1,1
+enterMove  Promote  from  [0  ,  0  ]  to1,1]
+enterMove  Promote  from  [0  ,  0  ]  to1,1  ]  
+enterMove  Promote  from  [0  ,  0  ]  to1  ,  1
+enterMove  Promote  from  [0  ,  0  ]  to1  ,  1]
+enterMove  Promote  from  [0  ,  0  ]  to1  ,  1  ]  
+enterMove  Promote  from  [0  ,  0  ]  to[11
+enterMove  Promote  from  [0  ,  0  ]  to[11]
+enterMove  Promote  from  [0  ,  0  ]  to[11  ]  
+enterMove  Promote  from  [0  ,  0  ]  to[1,1
+enterMove  Promote  from  [0  ,  0  ]  to[1,1]
+enterMove  Promote  from  [0  ,  0  ]  to[1,1  ]  
+enterMove  Promote  from  [0  ,  0  ]  to[1  ,  1
+enterMove  Promote  from  [0  ,  0  ]  to[1  ,  1]
+enterMove  Promote  from  [0  ,  0  ]  to[1  ,  1  ]  
+enterMove  Promote  from  [0  ,  0  ]  to  [  11
+enterMove  Promote  from  [0  ,  0  ]  to  [  11]
+enterMove  Promote  from  [0  ,  0  ]  to  [  11  ]  
+enterMove  Promote  from  [0  ,  0  ]  to  [  1,1
+enterMove  Promote  from  [0  ,  0  ]  to  [  1,1]
+enterMove  Promote  from  [0  ,  0  ]  to  [  1,1  ]  
+enterMove  Promote  from  [0  ,  0  ]  to  [  1  ,  1
+enterMove  Promote  from  [0  ,  0  ]  to  [  1  ,  1]
+enterMove  Promote  from  [0  ,  0  ]  to  [  1  ,  1  ]  
+enterMove  Promote  from  [0  ,  0  ]    to  11
+enterMove  Promote  from  [0  ,  0  ]    to  11]
+enterMove  Promote  from  [0  ,  0  ]    to  11  ]  
+enterMove  Promote  from  [0  ,  0  ]    to  1,1
+enterMove  Promote  from  [0  ,  0  ]    to  1,1]
+enterMove  Promote  from  [0  ,  0  ]    to  1,1  ]  
+enterMove  Promote  from  [0  ,  0  ]    to  1  ,  1
+enterMove  Promote  from  [0  ,  0  ]    to  1  ,  1]
+enterMove  Promote  from  [0  ,  0  ]    to  1  ,  1  ]  
+enterMove  Promote  from  [0  ,  0  ]    to  [11
+enterMove  Promote  from  [0  ,  0  ]    to  [11]
+enterMove  Promote  from  [0  ,  0  ]    to  [11  ]  
+enterMove  Promote  from  [0  ,  0  ]    to  [1,1
+enterMove  Promote  from  [0  ,  0  ]    to  [1,1]
+enterMove  Promote  from  [0  ,  0  ]    to  [1,1  ]  
+enterMove  Promote  from  [0  ,  0  ]    to  [1  ,  1
+enterMove  Promote  from  [0  ,  0  ]    to  [1  ,  1]
+enterMove  Promote  from  [0  ,  0  ]    to  [1  ,  1  ]  
+enterMove  Promote  from  [0  ,  0  ]    to    [  11
+enterMove  Promote  from  [0  ,  0  ]    to    [  11]
+enterMove  Promote  from  [0  ,  0  ]    to    [  11  ]  
+enterMove  Promote  from  [0  ,  0  ]    to    [  1,1
+enterMove  Promote  from  [0  ,  0  ]    to    [  1,1]
+enterMove  Promote  from  [0  ,  0  ]    to    [  1,1  ]  
+enterMove  Promote  from  [0  ,  0  ]    to    [  1  ,  1
+enterMove  Promote  from  [0  ,  0  ]    to    [  1  ,  1]
+enterMove  Promote  from  [0  ,  0  ]    to    [  1  ,  1  ]  
+enterMove  Promote  from    [  0011
+enterMove  Promote  from    [  0011]
+enterMove  Promote  from    [  0011  ]  
+enterMove  Promote  from    [  001,1
+enterMove  Promote  from    [  001,1]
+enterMove  Promote  from    [  001,1  ]  
+enterMove  Promote  from    [  001  ,  1
+enterMove  Promote  from    [  001  ,  1]
+enterMove  Promote  from    [  001  ,  1  ]  
+enterMove  Promote  from    [  00[11
+enterMove  Promote  from    [  00[11]
+enterMove  Promote  from    [  00[11  ]  
+enterMove  Promote  from    [  00[1,1
+enterMove  Promote  from    [  00[1,1]
+enterMove  Promote  from    [  00[1,1  ]  
+enterMove  Promote  from    [  00[1  ,  1
+enterMove  Promote  from    [  00[1  ,  1]
+enterMove  Promote  from    [  00[1  ,  1  ]  
+enterMove  Promote  from    [  00  [  11
+enterMove  Promote  from    [  00  [  11]
+enterMove  Promote  from    [  00  [  11  ]  
+enterMove  Promote  from    [  00  [  1,1
+enterMove  Promote  from    [  00  [  1,1]
+enterMove  Promote  from    [  00  [  1,1  ]  
+enterMove  Promote  from    [  00  [  1  ,  1
+enterMove  Promote  from    [  00  [  1  ,  1]
+enterMove  Promote  from    [  00  [  1  ,  1  ]  
+enterMove  Promote  from    [  00to11
+enterMove  Promote  from    [  00to11]
+enterMove  Promote  from    [  00to11  ]  
+enterMove  Promote  from    [  00to1,1
+enterMove  Promote  from    [  00to1,1]
+enterMove  Promote  from    [  00to1,1  ]  
+enterMove  Promote  from    [  00to1  ,  1
+enterMove  Promote  from    [  00to1  ,  1]
+enterMove  Promote  from    [  00to1  ,  1  ]  
+enterMove  Promote  from    [  00to[11
+enterMove  Promote  from    [  00to[11]
+enterMove  Promote  from    [  00to[11  ]  
+enterMove  Promote  from    [  00to[1,1
+enterMove  Promote  from    [  00to[1,1]
+enterMove  Promote  from    [  00to[1,1  ]  
+enterMove  Promote  from    [  00to[1  ,  1
+enterMove  Promote  from    [  00to[1  ,  1]
+enterMove  Promote  from    [  00to[1  ,  1  ]  
+enterMove  Promote  from    [  00to  [  11
+enterMove  Promote  from    [  00to  [  11]
+enterMove  Promote  from    [  00to  [  11  ]  
+enterMove  Promote  from    [  00to  [  1,1
+enterMove  Promote  from    [  00to  [  1,1]
+enterMove  Promote  from    [  00to  [  1,1  ]  
+enterMove  Promote  from    [  00to  [  1  ,  1
+enterMove  Promote  from    [  00to  [  1  ,  1]
+enterMove  Promote  from    [  00to  [  1  ,  1  ]  
+enterMove  Promote  from    [  00  to  11
+enterMove  Promote  from    [  00  to  11]
+enterMove  Promote  from    [  00  to  11  ]  
+enterMove  Promote  from    [  00  to  1,1
+enterMove  Promote  from    [  00  to  1,1]
+enterMove  Promote  from    [  00  to  1,1  ]  
+enterMove  Promote  from    [  00  to  1  ,  1
+enterMove  Promote  from    [  00  to  1  ,  1]
+enterMove  Promote  from    [  00  to  1  ,  1  ]  
+enterMove  Promote  from    [  00  to  [11
+enterMove  Promote  from    [  00  to  [11]
+enterMove  Promote  from    [  00  to  [11  ]  
+enterMove  Promote  from    [  00  to  [1,1
+enterMove  Promote  from    [  00  to  [1,1]
+enterMove  Promote  from    [  00  to  [1,1  ]  
+enterMove  Promote  from    [  00  to  [1  ,  1
+enterMove  Promote  from    [  00  to  [1  ,  1]
+enterMove  Promote  from    [  00  to  [1  ,  1  ]  
+enterMove  Promote  from    [  00  to    [  11
+enterMove  Promote  from    [  00  to    [  11]
+enterMove  Promote  from    [  00  to    [  11  ]  
+enterMove  Promote  from    [  00  to    [  1,1
+enterMove  Promote  from    [  00  to    [  1,1]
+enterMove  Promote  from    [  00  to    [  1,1  ]  
+enterMove  Promote  from    [  00  to    [  1  ,  1
+enterMove  Promote  from    [  00  to    [  1  ,  1]
+enterMove  Promote  from    [  00  to    [  1  ,  1  ]  
+enterMove  Promote  from    [  00]11
+enterMove  Promote  from    [  00]11]
+enterMove  Promote  from    [  00]11  ]  
+enterMove  Promote  from    [  00]1,1
+enterMove  Promote  from    [  00]1,1]
+enterMove  Promote  from    [  00]1,1  ]  
+enterMove  Promote  from    [  00]1  ,  1
+enterMove  Promote  from    [  00]1  ,  1]
+enterMove  Promote  from    [  00]1  ,  1  ]  
+enterMove  Promote  from    [  00][11
+enterMove  Promote  from    [  00][11]
+enterMove  Promote  from    [  00][11  ]  
+enterMove  Promote  from    [  00][1,1
+enterMove  Promote  from    [  00][1,1]
+enterMove  Promote  from    [  00][1,1  ]  
+enterMove  Promote  from    [  00][1  ,  1
+enterMove  Promote  from    [  00][1  ,  1]
+enterMove  Promote  from    [  00][1  ,  1  ]  
+enterMove  Promote  from    [  00]  [  11
+enterMove  Promote  from    [  00]  [  11]
+enterMove  Promote  from    [  00]  [  11  ]  
+enterMove  Promote  from    [  00]  [  1,1
+enterMove  Promote  from    [  00]  [  1,1]
+enterMove  Promote  from    [  00]  [  1,1  ]  
+enterMove  Promote  from    [  00]  [  1  ,  1
+enterMove  Promote  from    [  00]  [  1  ,  1]
+enterMove  Promote  from    [  00]  [  1  ,  1  ]  
+enterMove  Promote  from    [  00]to11
+enterMove  Promote  from    [  00]to11]
+enterMove  Promote  from    [  00]to11  ]  
+enterMove  Promote  from    [  00]to1,1
+enterMove  Promote  from    [  00]to1,1]
+enterMove  Promote  from    [  00]to1,1  ]  
+enterMove  Promote  from    [  00]to1  ,  1
+enterMove  Promote  from    [  00]to1  ,  1]
+enterMove  Promote  from    [  00]to1  ,  1  ]  
+enterMove  Promote  from    [  00]to[11
+enterMove  Promote  from    [  00]to[11]
+enterMove  Promote  from    [  00]to[11  ]  
+enterMove  Promote  from    [  00]to[1,1
+enterMove  Promote  from    [  00]to[1,1]
+enterMove  Promote  from    [  00]to[1,1  ]  
+enterMove  Promote  from    [  00]to[1  ,  1
+enterMove  Promote  from    [  00]to[1  ,  1]
+enterMove  Promote  from    [  00]to[1  ,  1  ]  
+enterMove  Promote  from    [  00]to  [  11
+enterMove  Promote  from    [  00]to  [  11]
+enterMove  Promote  from    [  00]to  [  11  ]  
+enterMove  Promote  from    [  00]to  [  1,1
+enterMove  Promote  from    [  00]to  [  1,1]
+enterMove  Promote  from    [  00]to  [  1,1  ]  
+enterMove  Promote  from    [  00]to  [  1  ,  1
+enterMove  Promote  from    [  00]to  [  1  ,  1]
+enterMove  Promote  from    [  00]to  [  1  ,  1  ]  
+enterMove  Promote  from    [  00]  to  11
+enterMove  Promote  from    [  00]  to  11]
+enterMove  Promote  from    [  00]  to  11  ]  
+enterMove  Promote  from    [  00]  to  1,1
+enterMove  Promote  from    [  00]  to  1,1]
+enterMove  Promote  from    [  00]  to  1,1  ]  
+enterMove  Promote  from    [  00]  to  1  ,  1
+enterMove  Promote  from    [  00]  to  1  ,  1]
+enterMove  Promote  from    [  00]  to  1  ,  1  ]  
+enterMove  Promote  from    [  00]  to  [11
+enterMove  Promote  from    [  00]  to  [11]
+enterMove  Promote  from    [  00]  to  [11  ]  
+enterMove  Promote  from    [  00]  to  [1,1
+enterMove  Promote  from    [  00]  to  [1,1]
+enterMove  Promote  from    [  00]  to  [1,1  ]  
+enterMove  Promote  from    [  00]  to  [1  ,  1
+enterMove  Promote  from    [  00]  to  [1  ,  1]
+enterMove  Promote  from    [  00]  to  [1  ,  1  ]  
+enterMove  Promote  from    [  00]  to    [  11
+enterMove  Promote  from    [  00]  to    [  11]
+enterMove  Promote  from    [  00]  to    [  11  ]  
+enterMove  Promote  from    [  00]  to    [  1,1
+enterMove  Promote  from    [  00]  to    [  1,1]
+enterMove  Promote  from    [  00]  to    [  1,1  ]  
+enterMove  Promote  from    [  00]  to    [  1  ,  1
+enterMove  Promote  from    [  00]  to    [  1  ,  1]
+enterMove  Promote  from    [  00]  to    [  1  ,  1  ]  
+enterMove  Promote  from    [  00  ]  11
+enterMove  Promote  from    [  00  ]  11]
+enterMove  Promote  from    [  00  ]  11  ]  
+enterMove  Promote  from    [  00  ]  1,1
+enterMove  Promote  from    [  00  ]  1,1]
+enterMove  Promote  from    [  00  ]  1,1  ]  
+enterMove  Promote  from    [  00  ]  1  ,  1
+enterMove  Promote  from    [  00  ]  1  ,  1]
+enterMove  Promote  from    [  00  ]  1  ,  1  ]  
+enterMove  Promote  from    [  00  ]  [11
+enterMove  Promote  from    [  00  ]  [11]
+enterMove  Promote  from    [  00  ]  [11  ]  
+enterMove  Promote  from    [  00  ]  [1,1
+enterMove  Promote  from    [  00  ]  [1,1]
+enterMove  Promote  from    [  00  ]  [1,1  ]  
+enterMove  Promote  from    [  00  ]  [1  ,  1
+enterMove  Promote  from    [  00  ]  [1  ,  1]
+enterMove  Promote  from    [  00  ]  [1  ,  1  ]  
+enterMove  Promote  from    [  00  ]    [  11
+enterMove  Promote  from    [  00  ]    [  11]
+enterMove  Promote  from    [  00  ]    [  11  ]  
+enterMove  Promote  from    [  00  ]    [  1,1
+enterMove  Promote  from    [  00  ]    [  1,1]
+enterMove  Promote  from    [  00  ]    [  1,1  ]  
+enterMove  Promote  from    [  00  ]    [  1  ,  1
+enterMove  Promote  from    [  00  ]    [  1  ,  1]
+enterMove  Promote  from    [  00  ]    [  1  ,  1  ]  
+enterMove  Promote  from    [  00  ]  to11
+enterMove  Promote  from    [  00  ]  to11]
+enterMove  Promote  from    [  00  ]  to11  ]  
+enterMove  Promote  from    [  00  ]  to1,1
+enterMove  Promote  from    [  00  ]  to1,1]
+enterMove  Promote  from    [  00  ]  to1,1  ]  
+enterMove  Promote  from    [  00  ]  to1  ,  1
+enterMove  Promote  from    [  00  ]  to1  ,  1]
+enterMove  Promote  from    [  00  ]  to1  ,  1  ]  
+enterMove  Promote  from    [  00  ]  to[11
+enterMove  Promote  from    [  00  ]  to[11]
+enterMove  Promote  from    [  00  ]  to[11  ]  
+enterMove  Promote  from    [  00  ]  to[1,1
+enterMove  Promote  from    [  00  ]  to[1,1]
+enterMove  Promote  from    [  00  ]  to[1,1  ]  
+enterMove  Promote  from    [  00  ]  to[1  ,  1
+enterMove  Promote  from    [  00  ]  to[1  ,  1]
+enterMove  Promote  from    [  00  ]  to[1  ,  1  ]  
+enterMove  Promote  from    [  00  ]  to  [  11
+enterMove  Promote  from    [  00  ]  to  [  11]
+enterMove  Promote  from    [  00  ]  to  [  11  ]  
+enterMove  Promote  from    [  00  ]  to  [  1,1
+enterMove  Promote  from    [  00  ]  to  [  1,1]
+enterMove  Promote  from    [  00  ]  to  [  1,1  ]  
+enterMove  Promote  from    [  00  ]  to  [  1  ,  1
+enterMove  Promote  from    [  00  ]  to  [  1  ,  1]
+enterMove  Promote  from    [  00  ]  to  [  1  ,  1  ]  
+enterMove  Promote  from    [  00  ]    to  11
+enterMove  Promote  from    [  00  ]    to  11]
+enterMove  Promote  from    [  00  ]    to  11  ]  
+enterMove  Promote  from    [  00  ]    to  1,1
+enterMove  Promote  from    [  00  ]    to  1,1]
+enterMove  Promote  from    [  00  ]    to  1,1  ]  
+enterMove  Promote  from    [  00  ]    to  1  ,  1
+enterMove  Promote  from    [  00  ]    to  1  ,  1]
+enterMove  Promote  from    [  00  ]    to  1  ,  1  ]  
+enterMove  Promote  from    [  00  ]    to  [11
+enterMove  Promote  from    [  00  ]    to  [11]
+enterMove  Promote  from    [  00  ]    to  [11  ]  
+enterMove  Promote  from    [  00  ]    to  [1,1
+enterMove  Promote  from    [  00  ]    to  [1,1]
+enterMove  Promote  from    [  00  ]    to  [1,1  ]  
+enterMove  Promote  from    [  00  ]    to  [1  ,  1
+enterMove  Promote  from    [  00  ]    to  [1  ,  1]
+enterMove  Promote  from    [  00  ]    to  [1  ,  1  ]  
+enterMove  Promote  from    [  00  ]    to    [  11
+enterMove  Promote  from    [  00  ]    to    [  11]
+enterMove  Promote  from    [  00  ]    to    [  11  ]  
+enterMove  Promote  from    [  00  ]    to    [  1,1
+enterMove  Promote  from    [  00  ]    to    [  1,1]
+enterMove  Promote  from    [  00  ]    to    [  1,1  ]  
+enterMove  Promote  from    [  00  ]    to    [  1  ,  1
+enterMove  Promote  from    [  00  ]    to    [  1  ,  1]
+enterMove  Promote  from    [  00  ]    to    [  1  ,  1  ]  
+enterMove  Promote  from    [  0,011
+enterMove  Promote  from    [  0,011]
+enterMove  Promote  from    [  0,011  ]  
+enterMove  Promote  from    [  0,01,1
+enterMove  Promote  from    [  0,01,1]
+enterMove  Promote  from    [  0,01,1  ]  
+enterMove  Promote  from    [  0,01  ,  1
+enterMove  Promote  from    [  0,01  ,  1]
+enterMove  Promote  from    [  0,01  ,  1  ]  
+enterMove  Promote  from    [  0,0[11
+enterMove  Promote  from    [  0,0[11]
+enterMove  Promote  from    [  0,0[11  ]  
+enterMove  Promote  from    [  0,0[1,1
+enterMove  Promote  from    [  0,0[1,1]
+enterMove  Promote  from    [  0,0[1,1  ]  
+enterMove  Promote  from    [  0,0[1  ,  1
+enterMove  Promote  from    [  0,0[1  ,  1]
+enterMove  Promote  from    [  0,0[1  ,  1  ]  
+enterMove  Promote  from    [  0,0  [  11
+enterMove  Promote  from    [  0,0  [  11]
+enterMove  Promote  from    [  0,0  [  11  ]  
+enterMove  Promote  from    [  0,0  [  1,1
+enterMove  Promote  from    [  0,0  [  1,1]
+enterMove  Promote  from    [  0,0  [  1,1  ]  
+enterMove  Promote  from    [  0,0  [  1  ,  1
+enterMove  Promote  from    [  0,0  [  1  ,  1]
+enterMove  Promote  from    [  0,0  [  1  ,  1  ]  
+enterMove  Promote  from    [  0,0to11
+enterMove  Promote  from    [  0,0to11]
+enterMove  Promote  from    [  0,0to11  ]  
+enterMove  Promote  from    [  0,0to1,1
+enterMove  Promote  from    [  0,0to1,1]
+enterMove  Promote  from    [  0,0to1,1  ]  
+enterMove  Promote  from    [  0,0to1  ,  1
+enterMove  Promote  from    [  0,0to1  ,  1]
+enterMove  Promote  from    [  0,0to1  ,  1  ]  
+enterMove  Promote  from    [  0,0to[11
+enterMove  Promote  from    [  0,0to[11]
+enterMove  Promote  from    [  0,0to[11  ]  
+enterMove  Promote  from    [  0,0to[1,1
+enterMove  Promote  from    [  0,0to[1,1]
+enterMove  Promote  from    [  0,0to[1,1  ]  
+enterMove  Promote  from    [  0,0to[1  ,  1
+enterMove  Promote  from    [  0,0to[1  ,  1]
+enterMove  Promote  from    [  0,0to[1  ,  1  ]  
+enterMove  Promote  from    [  0,0to  [  11
+enterMove  Promote  from    [  0,0to  [  11]
+enterMove  Promote  from    [  0,0to  [  11  ]  
+enterMove  Promote  from    [  0,0to  [  1,1
+enterMove  Promote  from    [  0,0to  [  1,1]
+enterMove  Promote  from    [  0,0to  [  1,1  ]  
+enterMove  Promote  from    [  0,0to  [  1  ,  1
+enterMove  Promote  from    [  0,0to  [  1  ,  1]
+enterMove  Promote  from    [  0,0to  [  1  ,  1  ]  
+enterMove  Promote  from    [  0,0  to  11
+enterMove  Promote  from    [  0,0  to  11]
+enterMove  Promote  from    [  0,0  to  11  ]  
+enterMove  Promote  from    [  0,0  to  1,1
+enterMove  Promote  from    [  0,0  to  1,1]
+enterMove  Promote  from    [  0,0  to  1,1  ]  
+enterMove  Promote  from    [  0,0  to  1  ,  1
+enterMove  Promote  from    [  0,0  to  1  ,  1]
+enterMove  Promote  from    [  0,0  to  1  ,  1  ]  
+enterMove  Promote  from    [  0,0  to  [11
+enterMove  Promote  from    [  0,0  to  [11]
+enterMove  Promote  from    [  0,0  to  [11  ]  
+enterMove  Promote  from    [  0,0  to  [1,1
+enterMove  Promote  from    [  0,0  to  [1,1]
+enterMove  Promote  from    [  0,0  to  [1,1  ]  
+enterMove  Promote  from    [  0,0  to  [1  ,  1
+enterMove  Promote  from    [  0,0  to  [1  ,  1]
+enterMove  Promote  from    [  0,0  to  [1  ,  1  ]  
+enterMove  Promote  from    [  0,0  to    [  11
+enterMove  Promote  from    [  0,0  to    [  11]
+enterMove  Promote  from    [  0,0  to    [  11  ]  
+enterMove  Promote  from    [  0,0  to    [  1,1
+enterMove  Promote  from    [  0,0  to    [  1,1]
+enterMove  Promote  from    [  0,0  to    [  1,1  ]  
+enterMove  Promote  from    [  0,0  to    [  1  ,  1
+enterMove  Promote  from    [  0,0  to    [  1  ,  1]
+enterMove  Promote  from    [  0,0  to    [  1  ,  1  ]  
+enterMove  Promote  from    [  0,0]11
+enterMove  Promote  from    [  0,0]11]
+enterMove  Promote  from    [  0,0]11  ]  
+enterMove  Promote  from    [  0,0]1,1
+enterMove  Promote  from    [  0,0]1,1]
+enterMove  Promote  from    [  0,0]1,1  ]  
+enterMove  Promote  from    [  0,0]1  ,  1
+enterMove  Promote  from    [  0,0]1  ,  1]
+enterMove  Promote  from    [  0,0]1  ,  1  ]  
+enterMove  Promote  from    [  0,0][11
+enterMove  Promote  from    [  0,0][11]
+enterMove  Promote  from    [  0,0][11  ]  
+enterMove  Promote  from    [  0,0][1,1
+enterMove  Promote  from    [  0,0][1,1]
+enterMove  Promote  from    [  0,0][1,1  ]  
+enterMove  Promote  from    [  0,0][1  ,  1
+enterMove  Promote  from    [  0,0][1  ,  1]
+enterMove  Promote  from    [  0,0][1  ,  1  ]  
+enterMove  Promote  from    [  0,0]  [  11
+enterMove  Promote  from    [  0,0]  [  11]
+enterMove  Promote  from    [  0,0]  [  11  ]  
+enterMove  Promote  from    [  0,0]  [  1,1
+enterMove  Promote  from    [  0,0]  [  1,1]
+enterMove  Promote  from    [  0,0]  [  1,1  ]  
+enterMove  Promote  from    [  0,0]  [  1  ,  1
+enterMove  Promote  from    [  0,0]  [  1  ,  1]
+enterMove  Promote  from    [  0,0]  [  1  ,  1  ]  
+enterMove  Promote  from    [  0,0]to11
+enterMove  Promote  from    [  0,0]to11]
+enterMove  Promote  from    [  0,0]to11  ]  
+enterMove  Promote  from    [  0,0]to1,1
+enterMove  Promote  from    [  0,0]to1,1]
+enterMove  Promote  from    [  0,0]to1,1  ]  
+enterMove  Promote  from    [  0,0]to1  ,  1
+enterMove  Promote  from    [  0,0]to1  ,  1]
+enterMove  Promote  from    [  0,0]to1  ,  1  ]  
+enterMove  Promote  from    [  0,0]to[11
+enterMove  Promote  from    [  0,0]to[11]
+enterMove  Promote  from    [  0,0]to[11  ]  
+enterMove  Promote  from    [  0,0]to[1,1
+enterMove  Promote  from    [  0,0]to[1,1]
+enterMove  Promote  from    [  0,0]to[1,1  ]  
+enterMove  Promote  from    [  0,0]to[1  ,  1
+enterMove  Promote  from    [  0,0]to[1  ,  1]
+enterMove  Promote  from    [  0,0]to[1  ,  1  ]  
+enterMove  Promote  from    [  0,0]to  [  11
+enterMove  Promote  from    [  0,0]to  [  11]
+enterMove  Promote  from    [  0,0]to  [  11  ]  
+enterMove  Promote  from    [  0,0]to  [  1,1
+enterMove  Promote  from    [  0,0]to  [  1,1]
+enterMove  Promote  from    [  0,0]to  [  1,1  ]  
+enterMove  Promote  from    [  0,0]to  [  1  ,  1
+enterMove  Promote  from    [  0,0]to  [  1  ,  1]
+enterMove  Promote  from    [  0,0]to  [  1  ,  1  ]  
+enterMove  Promote  from    [  0,0]  to  11
+enterMove  Promote  from    [  0,0]  to  11]
+enterMove  Promote  from    [  0,0]  to  11  ]  
+enterMove  Promote  from    [  0,0]  to  1,1
+enterMove  Promote  from    [  0,0]  to  1,1]
+enterMove  Promote  from    [  0,0]  to  1,1  ]  
+enterMove  Promote  from    [  0,0]  to  1  ,  1
+enterMove  Promote  from    [  0,0]  to  1  ,  1]
+enterMove  Promote  from    [  0,0]  to  1  ,  1  ]  
+enterMove  Promote  from    [  0,0]  to  [11
+enterMove  Promote  from    [  0,0]  to  [11]
+enterMove  Promote  from    [  0,0]  to  [11  ]  
+enterMove  Promote  from    [  0,0]  to  [1,1
+enterMove  Promote  from    [  0,0]  to  [1,1]
+enterMove  Promote  from    [  0,0]  to  [1,1  ]  
+enterMove  Promote  from    [  0,0]  to  [1  ,  1
+enterMove  Promote  from    [  0,0]  to  [1  ,  1]
+enterMove  Promote  from    [  0,0]  to  [1  ,  1  ]  
+enterMove  Promote  from    [  0,0]  to    [  11
+enterMove  Promote  from    [  0,0]  to    [  11]
+enterMove  Promote  from    [  0,0]  to    [  11  ]  
+enterMove  Promote  from    [  0,0]  to    [  1,1
+enterMove  Promote  from    [  0,0]  to    [  1,1]
+enterMove  Promote  from    [  0,0]  to    [  1,1  ]  
+enterMove  Promote  from    [  0,0]  to    [  1  ,  1
+enterMove  Promote  from    [  0,0]  to    [  1  ,  1]
+enterMove  Promote  from    [  0,0]  to    [  1  ,  1  ]  
+enterMove  Promote  from    [  0,0  ]  11
+enterMove  Promote  from    [  0,0  ]  11]
+enterMove  Promote  from    [  0,0  ]  11  ]  
+enterMove  Promote  from    [  0,0  ]  1,1
+enterMove  Promote  from    [  0,0  ]  1,1]
+enterMove  Promote  from    [  0,0  ]  1,1  ]  
+enterMove  Promote  from    [  0,0  ]  1  ,  1
+enterMove  Promote  from    [  0,0  ]  1  ,  1]
+enterMove  Promote  from    [  0,0  ]  1  ,  1  ]  
+enterMove  Promote  from    [  0,0  ]  [11
+enterMove  Promote  from    [  0,0  ]  [11]
+enterMove  Promote  from    [  0,0  ]  [11  ]  
+enterMove  Promote  from    [  0,0  ]  [1,1
+enterMove  Promote  from    [  0,0  ]  [1,1]
+enterMove  Promote  from    [  0,0  ]  [1,1  ]  
+enterMove  Promote  from    [  0,0  ]  [1  ,  1
+enterMove  Promote  from    [  0,0  ]  [1  ,  1]
+enterMove  Promote  from    [  0,0  ]  [1  ,  1  ]  
+enterMove  Promote  from    [  0,0  ]    [  11
+enterMove  Promote  from    [  0,0  ]    [  11]
+enterMove  Promote  from    [  0,0  ]    [  11  ]  
+enterMove  Promote  from    [  0,0  ]    [  1,1
+enterMove  Promote  from    [  0,0  ]    [  1,1]
+enterMove  Promote  from    [  0,0  ]    [  1,1  ]  
+enterMove  Promote  from    [  0,0  ]    [  1  ,  1
+enterMove  Promote  from    [  0,0  ]    [  1  ,  1]
+enterMove  Promote  from    [  0,0  ]    [  1  ,  1  ]  
+enterMove  Promote  from    [  0,0  ]  to11
+enterMove  Promote  from    [  0,0  ]  to11]
+enterMove  Promote  from    [  0,0  ]  to11  ]  
+enterMove  Promote  from    [  0,0  ]  to1,1
+enterMove  Promote  from    [  0,0  ]  to1,1]
+enterMove  Promote  from    [  0,0  ]  to1,1  ]  
+enterMove  Promote  from    [  0,0  ]  to1  ,  1
+enterMove  Promote  from    [  0,0  ]  to1  ,  1]
+enterMove  Promote  from    [  0,0  ]  to1  ,  1  ]  
+enterMove  Promote  from    [  0,0  ]  to[11
+enterMove  Promote  from    [  0,0  ]  to[11]
+enterMove  Promote  from    [  0,0  ]  to[11  ]  
+enterMove  Promote  from    [  0,0  ]  to[1,1
+enterMove  Promote  from    [  0,0  ]  to[1,1]
+enterMove  Promote  from    [  0,0  ]  to[1,1  ]  
+enterMove  Promote  from    [  0,0  ]  to[1  ,  1
+enterMove  Promote  from    [  0,0  ]  to[1  ,  1]
+enterMove  Promote  from    [  0,0  ]  to[1  ,  1  ]  
+enterMove  Promote  from    [  0,0  ]  to  [  11
+enterMove  Promote  from    [  0,0  ]  to  [  11]
+enterMove  Promote  from    [  0,0  ]  to  [  11  ]  
+enterMove  Promote  from    [  0,0  ]  to  [  1,1
+enterMove  Promote  from    [  0,0  ]  to  [  1,1]
+enterMove  Promote  from    [  0,0  ]  to  [  1,1  ]  
+enterMove  Promote  from    [  0,0  ]  to  [  1  ,  1
+enterMove  Promote  from    [  0,0  ]  to  [  1  ,  1]
+enterMove  Promote  from    [  0,0  ]  to  [  1  ,  1  ]  
+enterMove  Promote  from    [  0,0  ]    to  11
+enterMove  Promote  from    [  0,0  ]    to  11]
+enterMove  Promote  from    [  0,0  ]    to  11  ]  
+enterMove  Promote  from    [  0,0  ]    to  1,1
+enterMove  Promote  from    [  0,0  ]    to  1,1]
+enterMove  Promote  from    [  0,0  ]    to  1,1  ]  
+enterMove  Promote  from    [  0,0  ]    to  1  ,  1
+enterMove  Promote  from    [  0,0  ]    to  1  ,  1]
+enterMove  Promote  from    [  0,0  ]    to  1  ,  1  ]  
+enterMove  Promote  from    [  0,0  ]    to  [11
+enterMove  Promote  from    [  0,0  ]    to  [11]
+enterMove  Promote  from    [  0,0  ]    to  [11  ]  
+enterMove  Promote  from    [  0,0  ]    to  [1,1
+enterMove  Promote  from    [  0,0  ]    to  [1,1]
+enterMove  Promote  from    [  0,0  ]    to  [1,1  ]  
+enterMove  Promote  from    [  0,0  ]    to  [1  ,  1
+enterMove  Promote  from    [  0,0  ]    to  [1  ,  1]
+enterMove  Promote  from    [  0,0  ]    to  [1  ,  1  ]  
+enterMove  Promote  from    [  0,0  ]    to    [  11
+enterMove  Promote  from    [  0,0  ]    to    [  11]
+enterMove  Promote  from    [  0,0  ]    to    [  11  ]  
+enterMove  Promote  from    [  0,0  ]    to    [  1,1
+enterMove  Promote  from    [  0,0  ]    to    [  1,1]
+enterMove  Promote  from    [  0,0  ]    to    [  1,1  ]  
+enterMove  Promote  from    [  0,0  ]    to    [  1  ,  1
+enterMove  Promote  from    [  0,0  ]    to    [  1  ,  1]
+enterMove  Promote  from    [  0,0  ]    to    [  1  ,  1  ]  
+enterMove  Promote  from    [  0  ,  011
+enterMove  Promote  from    [  0  ,  011]
+enterMove  Promote  from    [  0  ,  011  ]  
+enterMove  Promote  from    [  0  ,  01,1
+enterMove  Promote  from    [  0  ,  01,1]
+enterMove  Promote  from    [  0  ,  01,1  ]  
+enterMove  Promote  from    [  0  ,  01  ,  1
+enterMove  Promote  from    [  0  ,  01  ,  1]
+enterMove  Promote  from    [  0  ,  01  ,  1  ]  
+enterMove  Promote  from    [  0  ,  0[11
+enterMove  Promote  from    [  0  ,  0[11]
+enterMove  Promote  from    [  0  ,  0[11  ]  
+enterMove  Promote  from    [  0  ,  0[1,1
+enterMove  Promote  from    [  0  ,  0[1,1]
+enterMove  Promote  from    [  0  ,  0[1,1  ]  
+enterMove  Promote  from    [  0  ,  0[1  ,  1
+enterMove  Promote  from    [  0  ,  0[1  ,  1]
+enterMove  Promote  from    [  0  ,  0[1  ,  1  ]  
+enterMove  Promote  from    [  0  ,  0  [  11
+enterMove  Promote  from    [  0  ,  0  [  11]
+enterMove  Promote  from    [  0  ,  0  [  11  ]  
+enterMove  Promote  from    [  0  ,  0  [  1,1
+enterMove  Promote  from    [  0  ,  0  [  1,1]
+enterMove  Promote  from    [  0  ,  0  [  1,1  ]  
+enterMove  Promote  from    [  0  ,  0  [  1  ,  1
+enterMove  Promote  from    [  0  ,  0  [  1  ,  1]
+enterMove  Promote  from    [  0  ,  0  [  1  ,  1  ]  
+enterMove  Promote  from    [  0  ,  0to11
+enterMove  Promote  from    [  0  ,  0to11]
+enterMove  Promote  from    [  0  ,  0to11  ]  
+enterMove  Promote  from    [  0  ,  0to1,1
+enterMove  Promote  from    [  0  ,  0to1,1]
+enterMove  Promote  from    [  0  ,  0to1,1  ]  
+enterMove  Promote  from    [  0  ,  0to1  ,  1
+enterMove  Promote  from    [  0  ,  0to1  ,  1]
+enterMove  Promote  from    [  0  ,  0to1  ,  1  ]  
+enterMove  Promote  from    [  0  ,  0to[11
+enterMove  Promote  from    [  0  ,  0to[11]
+enterMove  Promote  from    [  0  ,  0to[11  ]  
+enterMove  Promote  from    [  0  ,  0to[1,1
+enterMove  Promote  from    [  0  ,  0to[1,1]
+enterMove  Promote  from    [  0  ,  0to[1,1  ]  
+enterMove  Promote  from    [  0  ,  0to[1  ,  1
+enterMove  Promote  from    [  0  ,  0to[1  ,  1]
+enterMove  Promote  from    [  0  ,  0to[1  ,  1  ]  
+enterMove  Promote  from    [  0  ,  0to  [  11
+enterMove  Promote  from    [  0  ,  0to  [  11]
+enterMove  Promote  from    [  0  ,  0to  [  11  ]  
+enterMove  Promote  from    [  0  ,  0to  [  1,1
+enterMove  Promote  from    [  0  ,  0to  [  1,1]
+enterMove  Promote  from    [  0  ,  0to  [  1,1  ]  
+enterMove  Promote  from    [  0  ,  0to  [  1  ,  1
+enterMove  Promote  from    [  0  ,  0to  [  1  ,  1]
+enterMove  Promote  from    [  0  ,  0to  [  1  ,  1  ]  
+enterMove  Promote  from    [  0  ,  0  to  11
+enterMove  Promote  from    [  0  ,  0  to  11]
+enterMove  Promote  from    [  0  ,  0  to  11  ]  
+enterMove  Promote  from    [  0  ,  0  to  1,1
+enterMove  Promote  from    [  0  ,  0  to  1,1]
+enterMove  Promote  from    [  0  ,  0  to  1,1  ]  
+enterMove  Promote  from    [  0  ,  0  to  1  ,  1
+enterMove  Promote  from    [  0  ,  0  to  1  ,  1]
+enterMove  Promote  from    [  0  ,  0  to  1  ,  1  ]  
+enterMove  Promote  from    [  0  ,  0  to  [11
+enterMove  Promote  from    [  0  ,  0  to  [11]
+enterMove  Promote  from    [  0  ,  0  to  [11  ]  
+enterMove  Promote  from    [  0  ,  0  to  [1,1
+enterMove  Promote  from    [  0  ,  0  to  [1,1]
+enterMove  Promote  from    [  0  ,  0  to  [1,1  ]  
+enterMove  Promote  from    [  0  ,  0  to  [1  ,  1
+enterMove  Promote  from    [  0  ,  0  to  [1  ,  1]
+enterMove  Promote  from    [  0  ,  0  to  [1  ,  1  ]  
+enterMove  Promote  from    [  0  ,  0  to    [  11
+enterMove  Promote  from    [  0  ,  0  to    [  11]
+enterMove  Promote  from    [  0  ,  0  to    [  11  ]  
+enterMove  Promote  from    [  0  ,  0  to    [  1,1
+enterMove  Promote  from    [  0  ,  0  to    [  1,1]
+enterMove  Promote  from    [  0  ,  0  to    [  1,1  ]  
+enterMove  Promote  from    [  0  ,  0  to    [  1  ,  1
+enterMove  Promote  from    [  0  ,  0  to    [  1  ,  1]
+enterMove  Promote  from    [  0  ,  0  to    [  1  ,  1  ]  
+enterMove  Promote  from    [  0  ,  0]11
+enterMove  Promote  from    [  0  ,  0]11]
+enterMove  Promote  from    [  0  ,  0]11  ]  
+enterMove  Promote  from    [  0  ,  0]1,1
+enterMove  Promote  from    [  0  ,  0]1,1]
+enterMove  Promote  from    [  0  ,  0]1,1  ]  
+enterMove  Promote  from    [  0  ,  0]1  ,  1
+enterMove  Promote  from    [  0  ,  0]1  ,  1]
+enterMove  Promote  from    [  0  ,  0]1  ,  1  ]  
+enterMove  Promote  from    [  0  ,  0][11
+enterMove  Promote  from    [  0  ,  0][11]
+enterMove  Promote  from    [  0  ,  0][11  ]  
+enterMove  Promote  from    [  0  ,  0][1,1
+enterMove  Promote  from    [  0  ,  0][1,1]
+enterMove  Promote  from    [  0  ,  0][1,1  ]  
+enterMove  Promote  from    [  0  ,  0][1  ,  1
+enterMove  Promote  from    [  0  ,  0][1  ,  1]
+enterMove  Promote  from    [  0  ,  0][1  ,  1  ]  
+enterMove  Promote  from    [  0  ,  0]  [  11
+enterMove  Promote  from    [  0  ,  0]  [  11]
+enterMove  Promote  from    [  0  ,  0]  [  11  ]  
+enterMove  Promote  from    [  0  ,  0]  [  1,1
+enterMove  Promote  from    [  0  ,  0]  [  1,1]
+enterMove  Promote  from    [  0  ,  0]  [  1,1  ]  
+enterMove  Promote  from    [  0  ,  0]  [  1  ,  1
+enterMove  Promote  from    [  0  ,  0]  [  1  ,  1]
+enterMove  Promote  from    [  0  ,  0]  [  1  ,  1  ]  
+enterMove  Promote  from    [  0  ,  0]to11
+enterMove  Promote  from    [  0  ,  0]to11]
+enterMove  Promote  from    [  0  ,  0]to11  ]  
+enterMove  Promote  from    [  0  ,  0]to1,1
+enterMove  Promote  from    [  0  ,  0]to1,1]
+enterMove  Promote  from    [  0  ,  0]to1,1  ]  
+enterMove  Promote  from    [  0  ,  0]to1  ,  1
+enterMove  Promote  from    [  0  ,  0]to1  ,  1]
+enterMove  Promote  from    [  0  ,  0]to1  ,  1  ]  
+enterMove  Promote  from    [  0  ,  0]to[11
+enterMove  Promote  from    [  0  ,  0]to[11]
+enterMove  Promote  from    [  0  ,  0]to[11  ]  
+enterMove  Promote  from    [  0  ,  0]to[1,1
+enterMove  Promote  from    [  0  ,  0]to[1,1]
+enterMove  Promote  from    [  0  ,  0]to[1,1  ]  
+enterMove  Promote  from    [  0  ,  0]to[1  ,  1
+enterMove  Promote  from    [  0  ,  0]to[1  ,  1]
+enterMove  Promote  from    [  0  ,  0]to[1  ,  1  ]  
+enterMove  Promote  from    [  0  ,  0]to  [  11
+enterMove  Promote  from    [  0  ,  0]to  [  11]
+enterMove  Promote  from    [  0  ,  0]to  [  11  ]  
+enterMove  Promote  from    [  0  ,  0]to  [  1,1
+enterMove  Promote  from    [  0  ,  0]to  [  1,1]
+enterMove  Promote  from    [  0  ,  0]to  [  1,1  ]  
+enterMove  Promote  from    [  0  ,  0]to  [  1  ,  1
+enterMove  Promote  from    [  0  ,  0]to  [  1  ,  1]
+enterMove  Promote  from    [  0  ,  0]to  [  1  ,  1  ]  
+enterMove  Promote  from    [  0  ,  0]  to  11
+enterMove  Promote  from    [  0  ,  0]  to  11]
+enterMove  Promote  from    [  0  ,  0]  to  11  ]  
+enterMove  Promote  from    [  0  ,  0]  to  1,1
+enterMove  Promote  from    [  0  ,  0]  to  1,1]
+enterMove  Promote  from    [  0  ,  0]  to  1,1  ]  
+enterMove  Promote  from    [  0  ,  0]  to  1  ,  1
+enterMove  Promote  from    [  0  ,  0]  to  1  ,  1]
+enterMove  Promote  from    [  0  ,  0]  to  1  ,  1  ]  
+enterMove  Promote  from    [  0  ,  0]  to  [11
+enterMove  Promote  from    [  0  ,  0]  to  [11]
+enterMove  Promote  from    [  0  ,  0]  to  [11  ]  
+enterMove  Promote  from    [  0  ,  0]  to  [1,1
+enterMove  Promote  from    [  0  ,  0]  to  [1,1]
+enterMove  Promote  from    [  0  ,  0]  to  [1,1  ]  
+enterMove  Promote  from    [  0  ,  0]  to  [1  ,  1
+enterMove  Promote  from    [  0  ,  0]  to  [1  ,  1]
+enterMove  Promote  from    [  0  ,  0]  to  [1  ,  1  ]  
+enterMove  Promote  from    [  0  ,  0]  to    [  11
+enterMove  Promote  from    [  0  ,  0]  to    [  11]
+enterMove  Promote  from    [  0  ,  0]  to    [  11  ]  
+enterMove  Promote  from    [  0  ,  0]  to    [  1,1
+enterMove  Promote  from    [  0  ,  0]  to    [  1,1]
+enterMove  Promote  from    [  0  ,  0]  to    [  1,1  ]  
+enterMove  Promote  from    [  0  ,  0]  to    [  1  ,  1
+enterMove  Promote  from    [  0  ,  0]  to    [  1  ,  1]
+enterMove  Promote  from    [  0  ,  0]  to    [  1  ,  1  ]  
+enterMove  Promote  from    [  0  ,  0  ]  11
+enterMove  Promote  from    [  0  ,  0  ]  11]
+enterMove  Promote  from    [  0  ,  0  ]  11  ]  
+enterMove  Promote  from    [  0  ,  0  ]  1,1
+enterMove  Promote  from    [  0  ,  0  ]  1,1]
+enterMove  Promote  from    [  0  ,  0  ]  1,1  ]  
+enterMove  Promote  from    [  0  ,  0  ]  1  ,  1
+enterMove  Promote  from    [  0  ,  0  ]  1  ,  1]
+enterMove  Promote  from    [  0  ,  0  ]  1  ,  1  ]  
+enterMove  Promote  from    [  0  ,  0  ]  [11
+enterMove  Promote  from    [  0  ,  0  ]  [11]
+enterMove  Promote  from    [  0  ,  0  ]  [11  ]  
+enterMove  Promote  from    [  0  ,  0  ]  [1,1
+enterMove  Promote  from    [  0  ,  0  ]  [1,1]
+enterMove  Promote  from    [  0  ,  0  ]  [1,1  ]  
+enterMove  Promote  from    [  0  ,  0  ]  [1  ,  1
+enterMove  Promote  from    [  0  ,  0  ]  [1  ,  1]
+enterMove  Promote  from    [  0  ,  0  ]  [1  ,  1  ]  
+enterMove  Promote  from    [  0  ,  0  ]    [  11
+enterMove  Promote  from    [  0  ,  0  ]    [  11]
+enterMove  Promote  from    [  0  ,  0  ]    [  11  ]  
+enterMove  Promote  from    [  0  ,  0  ]    [  1,1
+enterMove  Promote  from    [  0  ,  0  ]    [  1,1]
+enterMove  Promote  from    [  0  ,  0  ]    [  1,1  ]  
+enterMove  Promote  from    [  0  ,  0  ]    [  1  ,  1
+enterMove  Promote  from    [  0  ,  0  ]    [  1  ,  1]
+enterMove  Promote  from    [  0  ,  0  ]    [  1  ,  1  ]  
+enterMove  Promote  from    [  0  ,  0  ]  to11
+enterMove  Promote  from    [  0  ,  0  ]  to11]
+enterMove  Promote  from    [  0  ,  0  ]  to11  ]  
+enterMove  Promote  from    [  0  ,  0  ]  to1,1
+enterMove  Promote  from    [  0  ,  0  ]  to1,1]
+enterMove  Promote  from    [  0  ,  0  ]  to1,1  ]  
+enterMove  Promote  from    [  0  ,  0  ]  to1  ,  1
+enterMove  Promote  from    [  0  ,  0  ]  to1  ,  1]
+enterMove  Promote  from    [  0  ,  0  ]  to1  ,  1  ]  
+enterMove  Promote  from    [  0  ,  0  ]  to[11
+enterMove  Promote  from    [  0  ,  0  ]  to[11]
+enterMove  Promote  from    [  0  ,  0  ]  to[11  ]  
+enterMove  Promote  from    [  0  ,  0  ]  to[1,1
+enterMove  Promote  from    [  0  ,  0  ]  to[1,1]
+enterMove  Promote  from    [  0  ,  0  ]  to[1,1  ]  
+enterMove  Promote  from    [  0  ,  0  ]  to[1  ,  1
+enterMove  Promote  from    [  0  ,  0  ]  to[1  ,  1]
+enterMove  Promote  from    [  0  ,  0  ]  to[1  ,  1  ]  
+enterMove  Promote  from    [  0  ,  0  ]  to  [  11
+enterMove  Promote  from    [  0  ,  0  ]  to  [  11]
+enterMove  Promote  from    [  0  ,  0  ]  to  [  11  ]  
+enterMove  Promote  from    [  0  ,  0  ]  to  [  1,1
+enterMove  Promote  from    [  0  ,  0  ]  to  [  1,1]
+enterMove  Promote  from    [  0  ,  0  ]  to  [  1,1  ]  
+enterMove  Promote  from    [  0  ,  0  ]  to  [  1  ,  1
+enterMove  Promote  from    [  0  ,  0  ]  to  [  1  ,  1]
+enterMove  Promote  from    [  0  ,  0  ]  to  [  1  ,  1  ]  
+enterMove  Promote  from    [  0  ,  0  ]    to  11
+enterMove  Promote  from    [  0  ,  0  ]    to  11]
+enterMove  Promote  from    [  0  ,  0  ]    to  11  ]  
+enterMove  Promote  from    [  0  ,  0  ]    to  1,1
+enterMove  Promote  from    [  0  ,  0  ]    to  1,1]
+enterMove  Promote  from    [  0  ,  0  ]    to  1,1  ]  
+enterMove  Promote  from    [  0  ,  0  ]    to  1  ,  1
+enterMove  Promote  from    [  0  ,  0  ]    to  1  ,  1]
+enterMove  Promote  from    [  0  ,  0  ]    to  1  ,  1  ]  
+enterMove  Promote  from    [  0  ,  0  ]    to  [11
+enterMove  Promote  from    [  0  ,  0  ]    to  [11]
+enterMove  Promote  from    [  0  ,  0  ]    to  [11  ]  
+enterMove  Promote  from    [  0  ,  0  ]    to  [1,1
+enterMove  Promote  from    [  0  ,  0  ]    to  [1,1]
+enterMove  Promote  from    [  0  ,  0  ]    to  [1,1  ]  
+enterMove  Promote  from    [  0  ,  0  ]    to  [1  ,  1
+enterMove  Promote  from    [  0  ,  0  ]    to  [1  ,  1]
+enterMove  Promote  from    [  0  ,  0  ]    to  [1  ,  1  ]  
+enterMove  Promote  from    [  0  ,  0  ]    to    [  11
+enterMove  Promote  from    [  0  ,  0  ]    to    [  11]
+enterMove  Promote  from    [  0  ,  0  ]    to    [  11  ]  
+enterMove  Promote  from    [  0  ,  0  ]    to    [  1,1
+enterMove  Promote  from    [  0  ,  0  ]    to    [  1,1]
+enterMove  Promote  from    [  0  ,  0  ]    to    [  1,1  ]  
+enterMove  Promote  from    [  0  ,  0  ]    to    [  1  ,  1
+enterMove  Promote  from    [  0  ,  0  ]    to    [  1  ,  1]
+enterMove  Promote  from    [  0  ,  0  ]    to    [  1  ,  1  ]  
+enterMove  Promote from [0,0] to [1,1]22
+enterMove  Promote from [0,0] to [1,1]22]
+enterMove  Promote from [0,0] to [1,1]22  ]  
+enterMove  Promote from [0,0] to [1,1]2,2
+enterMove  Promote from [0,0] to [1,1]2,2]
+enterMove  Promote from [0,0] to [1,1]2,2  ]  
+enterMove  Promote from [0,0] to [1,1]2  ,  2
+enterMove  Promote from [0,0] to [1,1]2  ,  2]
+enterMove  Promote from [0,0] to [1,1]2  ,  2  ]  
+enterMove  Promote from [0,0] to [1,1][22
+enterMove  Promote from [0,0] to [1,1][22]
+enterMove  Promote from [0,0] to [1,1][22  ]  
+enterMove  Promote from [0,0] to [1,1][2,2
+enterMove  Promote from [0,0] to [1,1][2,2]
+enterMove  Promote from [0,0] to [1,1][2,2  ]  
+enterMove  Promote from [0,0] to [1,1][2  ,  2
+enterMove  Promote from [0,0] to [1,1][2  ,  2]
+enterMove  Promote from [0,0] to [1,1][2  ,  2  ]  
+enterMove  Promote from [0,0] to [1,1]  [  22
+enterMove  Promote from [0,0] to [1,1]  [  22]
+enterMove  Promote from [0,0] to [1,1]  [  22  ]  
+enterMove  Promote from [0,0] to [1,1]  [  2,2
+enterMove  Promote from [0,0] to [1,1]  [  2,2]
+enterMove  Promote from [0,0] to [1,1]  [  2,2  ]  
+enterMove  Promote from [0,0] to [1,1]  [  2  ,  2
+enterMove  Promote from [0,0] to [1,1]  [  2  ,  2]
+enterMove  Promote from [0,0] to [1,1]  [  2  ,  2  ]  
+enterMove  Promote from [0,0] to [1,1]taking22
+enterMove  Promote from [0,0] to [1,1]taking22]
+enterMove  Promote from [0,0] to [1,1]taking22  ]  
+enterMove  Promote from [0,0] to [1,1]taking2,2
+enterMove  Promote from [0,0] to [1,1]taking2,2]
+enterMove  Promote from [0,0] to [1,1]taking2,2  ]  
+enterMove  Promote from [0,0] to [1,1]taking2  ,  2
+enterMove  Promote from [0,0] to [1,1]taking2  ,  2]
+enterMove  Promote from [0,0] to [1,1]taking2  ,  2  ]  
+enterMove  Promote from [0,0] to [1,1]taking[22
+enterMove  Promote from [0,0] to [1,1]taking[22]
+enterMove  Promote from [0,0] to [1,1]taking[22  ]  
+enterMove  Promote from [0,0] to [1,1]taking[2,2
+enterMove  Promote from [0,0] to [1,1]taking[2,2]
+enterMove  Promote from [0,0] to [1,1]taking[2,2  ]  
+enterMove  Promote from [0,0] to [1,1]taking[2  ,  2
+enterMove  Promote from [0,0] to [1,1]taking[2  ,  2]
+enterMove  Promote from [0,0] to [1,1]taking[2  ,  2  ]  
+enterMove  Promote from [0,0] to [1,1]taking  [  22
+enterMove  Promote from [0,0] to [1,1]taking  [  22]
+enterMove  Promote from [0,0] to [1,1]taking  [  22  ]  
+enterMove  Promote from [0,0] to [1,1]taking  [  2,2
+enterMove  Promote from [0,0] to [1,1]taking  [  2,2]
+enterMove  Promote from [0,0] to [1,1]taking  [  2,2  ]  
+enterMove  Promote from [0,0] to [1,1]taking  [  2  ,  2
+enterMove  Promote from [0,0] to [1,1]taking  [  2  ,  2]
+enterMove  Promote from [0,0] to [1,1]taking  [  2  ,  2  ]  
+enterMove  Promote from [0,0] to [1,1]  taking  22
+enterMove  Promote from [0,0] to [1,1]  taking  22]
+enterMove  Promote from [0,0] to [1,1]  taking  22  ]  
+enterMove  Promote from [0,0] to [1,1]  taking  2,2
+enterMove  Promote from [0,0] to [1,1]  taking  2,2]
+enterMove  Promote from [0,0] to [1,1]  taking  2,2  ]  
+enterMove  Promote from [0,0] to [1,1]  taking  2  ,  2
+enterMove  Promote from [0,0] to [1,1]  taking  2  ,  2]
+enterMove  Promote from [0,0] to [1,1]  taking  2  ,  2  ]  
+enterMove  Promote from [0,0] to [1,1]  taking  [22
+enterMove  Promote from [0,0] to [1,1]  taking  [22]
+enterMove  Promote from [0,0] to [1,1]  taking  [22  ]  
+enterMove  Promote from [0,0] to [1,1]  taking  [2,2
+enterMove  Promote from [0,0] to [1,1]  taking  [2,2]
+enterMove  Promote from [0,0] to [1,1]  taking  [2,2  ]  
+enterMove  Promote from [0,0] to [1,1]  taking  [2  ,  2
+enterMove  Promote from [0,0] to [1,1]  taking  [2  ,  2]
+enterMove  Promote from [0,0] to [1,1]  taking  [2  ,  2  ]  
+enterMove  Promote from [0,0] to [1,1]  taking    [  22
+enterMove  Promote from [0,0] to [1,1]  taking    [  22]
+enterMove  Promote from [0,0] to [1,1]  taking    [  22  ]  
+enterMove  Promote from [0,0] to [1,1]  taking    [  2,2
+enterMove  Promote from [0,0] to [1,1]  taking    [  2,2]
+enterMove  Promote from [0,0] to [1,1]  taking    [  2,2  ]  
+enterMove  Promote from [0,0] to [1,1]  taking    [  2  ,  2
+enterMove  Promote from [0,0] to [1,1]  taking    [  2  ,  2]
+enterMove  Promote from [0,0] to [1,1]  taking    [  2  ,  2  ]  
+enterMove  Promote from [0,0] to [1,1] taking [2,2]33
+enterMove  Promote from [0,0] to [1,1] taking [2,2]33]
+enterMove  Promote from [0,0] to [1,1] taking [2,2]33  ]  
+enterMove  Promote from [0,0] to [1,1] taking [2,2]3,3
+enterMove  Promote from [0,0] to [1,1] taking [2,2]3,3]
+enterMove  Promote from [0,0] to [1,1] taking [2,2]3,3  ]  
+enterMove  Promote from [0,0] to [1,1] taking [2,2]3  ,  3
+enterMove  Promote from [0,0] to [1,1] taking [2,2]3  ,  3]
+enterMove  Promote from [0,0] to [1,1] taking [2,2]3  ,  3  ]  
+enterMove  Promote from [0,0] to [1,1] taking [2,2][33
+enterMove  Promote from [0,0] to [1,1] taking [2,2][33]
+enterMove  Promote from [0,0] to [1,1] taking [2,2][33  ]  
+enterMove  Promote from [0,0] to [1,1] taking [2,2][3,3
+enterMove  Promote from [0,0] to [1,1] taking [2,2][3,3]
+enterMove  Promote from [0,0] to [1,1] taking [2,2][3,3  ]  
+enterMove  Promote from [0,0] to [1,1] taking [2,2][3  ,  3
+enterMove  Promote from [0,0] to [1,1] taking [2,2][3  ,  3]
+enterMove  Promote from [0,0] to [1,1] taking [2,2][3  ,  3  ]  
+enterMove  Promote from [0,0] to [1,1] taking [2,2]  [  33
+enterMove  Promote from [0,0] to [1,1] taking [2,2]  [  33]
+enterMove  Promote from [0,0] to [1,1] taking [2,2]  [  33  ]  
+enterMove  Promote from [0,0] to [1,1] taking [2,2]  [  3,3
+enterMove  Promote from [0,0] to [1,1] taking [2,2]  [  3,3]
+enterMove  Promote from [0,0] to [1,1] taking [2,2]  [  3,3  ]  
+enterMove  Promote from [0,0] to [1,1] taking [2,2]  [  3  ,  3
+enterMove  Promote from [0,0] to [1,1] taking [2,2]  [  3  ,  3]
+enterMove  Promote from [0,0] to [1,1] taking [2,2]  [  3  ,  3  ]  
+enterMove  Promote from [0,0] to [1,1] taking [2,2]and33
+enterMove  Promote from [0,0] to [1,1] taking [2,2]and33]
+enterMove  Promote from [0,0] to [1,1] taking [2,2]and33  ]  
+enterMove  Promote from [0,0] to [1,1] taking [2,2]and3,3
+enterMove  Promote from [0,0] to [1,1] taking [2,2]and3,3]
+enterMove  Promote from [0,0] to [1,1] taking [2,2]and3,3  ]  
+enterMove  Promote from [0,0] to [1,1] taking [2,2]and3  ,  3
+enterMove  Promote from [0,0] to [1,1] taking [2,2]and3  ,  3]
+enterMove  Promote from [0,0] to [1,1] taking [2,2]and3  ,  3  ]  
+enterMove  Promote from [0,0] to [1,1] taking [2,2]and[33
+enterMove  Promote from [0,0] to [1,1] taking [2,2]and[33]
+enterMove  Promote from [0,0] to [1,1] taking [2,2]and[33  ]  
+enterMove  Promote from [0,0] to [1,1] taking [2,2]and[3,3
+enterMove  Promote from [0,0] to [1,1] taking [2,2]and[3,3]
+enterMove  Promote from [0,0] to [1,1] taking [2,2]and[3,3  ]  
+enterMove  Promote from [0,0] to [1,1] taking [2,2]and[3  ,  3
+enterMove  Promote from [0,0] to [1,1] taking [2,2]and[3  ,  3]
+enterMove  Promote from [0,0] to [1,1] taking [2,2]and[3  ,  3  ]  
+enterMove  Promote from [0,0] to [1,1] taking [2,2]and  [  33
+enterMove  Promote from [0,0] to [1,1] taking [2,2]and  [  33]
+enterMove  Promote from [0,0] to [1,1] taking [2,2]and  [  33  ]  
+enterMove  Promote from [0,0] to [1,1] taking [2,2]and  [  3,3
+enterMove  Promote from [0,0] to [1,1] taking [2,2]and  [  3,3]
+enterMove  Promote from [0,0] to [1,1] taking [2,2]and  [  3,3  ]  
+enterMove  Promote from [0,0] to [1,1] taking [2,2]and  [  3  ,  3
+enterMove  Promote from [0,0] to [1,1] taking [2,2]and  [  3  ,  3]
+enterMove  Promote from [0,0] to [1,1] taking [2,2]and  [  3  ,  3  ]  
+enterMove  Promote from [0,0] to [1,1] taking [2,2]  and  33
+enterMove  Promote from [0,0] to [1,1] taking [2,2]  and  33]
+enterMove  Promote from [0,0] to [1,1] taking [2,2]  and  33  ]  
+enterMove  Promote from [0,0] to [1,1] taking [2,2]  and  3,3
+enterMove  Promote from [0,0] to [1,1] taking [2,2]  and  3,3]
+enterMove  Promote from [0,0] to [1,1] taking [2,2]  and  3,3  ]  
+enterMove  Promote from [0,0] to [1,1] taking [2,2]  and  3  ,  3
+enterMove  Promote from [0,0] to [1,1] taking [2,2]  and  3  ,  3]
+enterMove  Promote from [0,0] to [1,1] taking [2,2]  and  3  ,  3  ]  
+enterMove  Promote from [0,0] to [1,1] taking [2,2]  and  [33
+enterMove  Promote from [0,0] to [1,1] taking [2,2]  and  [33]
+enterMove  Promote from [0,0] to [1,1] taking [2,2]  and  [33  ]  
+enterMove  Promote from [0,0] to [1,1] taking [2,2]  and  [3,3
+enterMove  Promote from [0,0] to [1,1] taking [2,2]  and  [3,3]
+enterMove  Promote from [0,0] to [1,1] taking [2,2]  and  [3,3  ]  
+enterMove  Promote from [0,0] to [1,1] taking [2,2]  and  [3  ,  3
+enterMove  Promote from [0,0] to [1,1] taking [2,2]  and  [3  ,  3]
+enterMove  Promote from [0,0] to [1,1] taking [2,2]  and  [3  ,  3  ]  
+enterMove  Promote from [0,0] to [1,1] taking [2,2]  and    [  33
+enterMove  Promote from [0,0] to [1,1] taking [2,2]  and    [  33]
+enterMove  Promote from [0,0] to [1,1] taking [2,2]  and    [  33  ]  
+enterMove  Promote from [0,0] to [1,1] taking [2,2]  and    [  3,3
+enterMove  Promote from [0,0] to [1,1] taking [2,2]  and    [  3,3]
+enterMove  Promote from [0,0] to [1,1] taking [2,2]  and    [  3,3  ]  
+enterMove  Promote from [0,0] to [1,1] taking [2,2]  and    [  3  ,  3
+enterMove  Promote from [0,0] to [1,1] taking [2,2]  and    [  3  ,  3]
+enterMove  Promote from [0,0] to [1,1] taking [2,2]  and    [  3  ,  3  ]  
+enterMove aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+saveBoard aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+loadBoard aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+saveMove aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+loadMove aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+compareKeys aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+compareMove aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+quit
