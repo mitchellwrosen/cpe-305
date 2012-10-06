@@ -1,0 +1,143 @@
+
+# Compare keys of all saved boards.
+testRun 0 30
+saveBoard b0
+saveMove m0
+testRun 3000 30
+saveBoard b1
+saveMove m1
+testRun 6000 30
+saveBoard b2
+saveMove m2
+testRun 9000 30
+saveBoard b3
+saveMove m3
+testRun 12000 30
+saveBoard b4
+saveMove m4
+testRun 15000 30
+saveBoard b5
+saveMove m5
+loadBoard b0
+showAll
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+undoLastMove 30
+showAll
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+loadBoard b1
+showAll
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+undoLastMove 30
+showAll
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+loadBoard b2
+showAll
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+undoLastMove 30
+showAll
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+loadBoard b3
+showAll
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+undoLastMove 30
+showAll
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+loadBoard b4
+showAll
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+undoLastMove 30
+showAll
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+loadBoard b5
+showAll
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+undoLastMove 30
+showAll
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+
+# Load saved moves and show them.
+loadMove m0
+showAll
+applyMove
+showAll
+loadMove m1
+showAll
+applyMove
+showAll
+loadMove m2
+showAll
+applyMove
+showAll
+loadMove m3
+showAll
+applyMove
+showAll
+loadMove m4
+showAll
+applyMove
+showAll
+loadMove m5
+showAll
+applyMove
+showAll
+quit
