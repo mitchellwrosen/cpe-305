@@ -3,199 +3,1014 @@ showMove
 showMoveHist
 showVal
 keyMoveCount
-enterMove
-enterMove Play at [
-enterMove Play at [0
-enterMove Play at [ 0
-enterMove Play at [0,
-enterMove Play at [ 0 ,
-enterMove Play at [ ]
-enterMove Play at [0]
-enterMove Play at [ 2, ]
-enterMove Play at [2,3] foo
-enterMove Play at [-1, 1]
-enterMove Play at [4, 1]
-enterMove Play at [1 1]
-enterMove Play at[0,0]
-enterMove Playat[0,0]
-enterMove Play   at   [     0,     0    ]
-enterMove      Play   at   [     0,     0    ]
-enterMove      play   at   [     0,     0    ]
-enterMove      play   At   [     0,     0    ]
-enterMove      Play   At   [     0,     0    ]
-enterMove Play at [0,0] taking
-enterMove Play at [0,0] taking []
-enterMove Play at [0,0] taking [-1,1]
-enterMove Play at [0,0] taking [1,1] and
-enterMove Play at [0,0] taking [1,1] and []
-enterMove Play at [0,0] taking [1,1] and [4,1]
-enterMove Play at [0,0] taking [1,1] and [2,2] foo
-enterMove Play at [0,0] taking [2,2] and [1,1]
-enterMove Play at [0,0] taking [2,2] and [1,1] foo
-enterMove Play at [0,0]      taking [1,1] and [2,2]
-enterMove Play at [0,0]      Taking [1,1] and [2,2]
-enterMove Promote [0,0] to [1,1]
-enterMove Promote from [0,0]
-enterMove Promotefrom [0,0] to [1,1]
-enterMove Promote from [0,0] to
-enterMove Promote from [0,0] to []
-enterMove Promote from [0,0] to [1,-1]
-enterMove Promote from [0,0] to [1,1] foo
-enterMove Play at aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
-showMove foo
-showBoard foo
-showMoveHist foo
-showVal foo
-saveBoard
-saveBoard !
-saveMove
-saveMove !
-undoLastMove      
-undoLastMove -1   
-undoLastMove 0    
-enterMove Play at [2,2]
-compareMove Play at [2,2] 
-compareMove Play at [1,2] 
-compareMove Play at [2,1] 
-compareMove Play at [2,2] taking [0,0] 
-compareMove Play at [3,1] 
-compareMove Play at [2,3] 
-compareMove Promote from [0,0] to [1,1] 
-compareMove Promote from [0,0] to [2,2] 
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
-doMove [2,3]
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
-enterMove [2,2]
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
-applyMove
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
-doMove [2,2]
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
-doMove [2,1]
-doMove [1,1]
-doMove [0,1]
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
-saveBoard othello1board
-saveMove othello1move
-undoLastMove 1
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
-loadMove othello1move
-applyMove
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
-undoLastMove 2
-loadMove othello1move
-applyMove
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
-undoLastMove 100
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
+enterMove  Play  at  00
+enterMove  Play  at  00]
+enterMove  Play  at  0,0
+enterMove  Play  at  0,0]
+enterMove  Play  at  [00
+enterMove  Play  at  [00]
+enterMove  Play  at  [0,0
+enterMove  Play  at  [0,0]
+enterMove  Play at [0,0]11
+enterMove  Play at [0,0]11]
+enterMove  Play at [0,0]1,1
+enterMove  Play at [0,0]1,1]
+enterMove  Play at [0,0][11
+enterMove  Play at [0,0][11]
+enterMove  Play at [0,0][1,1
+enterMove  Play at [0,0][1,1]
+enterMove  Play at [0,0] 11
+enterMove  Play at [0,0] 11]
+enterMove  Play at [0,0] 1,1
+enterMove  Play at [0,0] 1,1]
+enterMove  Play at [0,0] [11
+enterMove  Play at [0,0] [11]
+enterMove  Play at [0,0] [1,1
+enterMove  Play at [0,0] [1,1]
+enterMove  Play at [0,0]taking11
+enterMove  Play at [0,0]taking11]
+enterMove  Play at [0,0]taking1,1
+enterMove  Play at [0,0]taking1,1]
+enterMove  Play at [0,0]taking[11
+enterMove  Play at [0,0]taking[11]
+enterMove  Play at [0,0]taking[1,1
+enterMove  Play at [0,0]taking[1,1]
+enterMove  Play at [0,0] taking [1,1]22
+enterMove  Play at [0,0] taking [1,1]22]
+enterMove  Play at [0,0] taking [1,1]2,2
+enterMove  Play at [0,0] taking [1,1]2,2]
+enterMove  Play at [0,0] taking [1,1][22
+enterMove  Play at [0,0] taking [1,1][22]
+enterMove  Play at [0,0] taking [1,1][2,2
+enterMove  Play at [0,0] taking [1,1][2,2]
+enterMove  Play at [0,0] taking [1,1] 22
+enterMove  Play at [0,0] taking [1,1] 22]
+enterMove  Play at [0,0] taking [1,1] 2,2
+enterMove  Play at [0,0] taking [1,1] 2,2]
+enterMove  Play at [0,0] taking [1,1] [22
+enterMove  Play at [0,0] taking [1,1] [22]
+enterMove  Play at [0,0] taking [1,1] [2,2
+enterMove  Play at [0,0] taking [1,1] [2,2]
+enterMove  Play at [0,0] taking [1,1]and22
+enterMove  Play at [0,0] taking [1,1]and22]
+enterMove  Play at [0,0] taking [1,1]and2,2
+enterMove  Play at [0,0] taking [1,1]and2,2]
+enterMove  Play at [0,0] taking [1,1]and[22
+enterMove  Play at [0,0] taking [1,1]and[22]
+enterMove  Play at [0,0] taking [1,1]and[2,2
+enterMove  Play at [0,0] taking [1,1]and[2,2]
+enterMove  Promote  from  0011
+enterMove  Promote  from  0011]
+enterMove  Promote  from  001,1
+enterMove  Promote  from  001,1]
+enterMove  Promote  from  00[11
+enterMove  Promote  from  00[11]
+enterMove  Promote  from  00[1,1
+enterMove  Promote  from  00[1,1]
+enterMove  Promote  from  00 11
+enterMove  Promote  from  00 11]
+enterMove  Promote  from  00 1,1
+enterMove  Promote  from  00 1,1]
+enterMove  Promote  from  00 [11
+enterMove  Promote  from  00 [11]
+enterMove  Promote  from  00 [1,1
+enterMove  Promote  from  00 [1,1]
+enterMove  Promote  from  00to11
+enterMove  Promote  from  00to11]
+enterMove  Promote  from  00to1,1
+enterMove  Promote  from  00to1,1]
+enterMove  Promote  from  00to[11
+enterMove  Promote  from  00to[11]
+enterMove  Promote  from  00to[1,1
+enterMove  Promote  from  00to[1,1]
+enterMove  Promote  from  00]11
+enterMove  Promote  from  00]11]
+enterMove  Promote  from  00]1,1
+enterMove  Promote  from  00]1,1]
+enterMove  Promote  from  00][11
+enterMove  Promote  from  00][11]
+enterMove  Promote  from  00][1,1
+enterMove  Promote  from  00][1,1]
+enterMove  Promote  from  00] 11
+enterMove  Promote  from  00] 11]
+enterMove  Promote  from  00] 1,1
+enterMove  Promote  from  00] 1,1]
+enterMove  Promote  from  00] [11
+enterMove  Promote  from  00] [11]
+enterMove  Promote  from  00] [1,1
+enterMove  Promote  from  00] [1,1]
+enterMove  Promote  from  00]to11
+enterMove  Promote  from  00]to11]
+enterMove  Promote  from  00]to1,1
+enterMove  Promote  from  00]to1,1]
+enterMove  Promote  from  00]to[11
+enterMove  Promote  from  00]to[11]
+enterMove  Promote  from  00]to[1,1
+enterMove  Promote  from  00]to[1,1]
+enterMove  Promote  from  0,011
+enterMove  Promote  from  0,011]
+enterMove  Promote  from  0,01,1
+enterMove  Promote  from  0,01,1]
+enterMove  Promote  from  0,0[11
+enterMove  Promote  from  0,0[11]
+enterMove  Promote  from  0,0[1,1
+enterMove  Promote  from  0,0[1,1]
+enterMove  Promote  from  0,0 11
+enterMove  Promote  from  0,0 11]
+enterMove  Promote  from  0,0 1,1
+enterMove  Promote  from  0,0 1,1]
+enterMove  Promote  from  0,0 [11
+enterMove  Promote  from  0,0 [11]
+enterMove  Promote  from  0,0 [1,1
+enterMove  Promote  from  0,0 [1,1]
+enterMove  Promote  from  0,0to11
+enterMove  Promote  from  0,0to11]
+enterMove  Promote  from  0,0to1,1
+enterMove  Promote  from  0,0to1,1]
+enterMove  Promote  from  0,0to[11
+enterMove  Promote  from  0,0to[11]
+enterMove  Promote  from  0,0to[1,1
+enterMove  Promote  from  0,0to[1,1]
+enterMove  Promote  from  0,0]11
+enterMove  Promote  from  0,0]11]
+enterMove  Promote  from  0,0]1,1
+enterMove  Promote  from  0,0]1,1]
+enterMove  Promote  from  0,0][11
+enterMove  Promote  from  0,0][11]
+enterMove  Promote  from  0,0][1,1
+enterMove  Promote  from  0,0][1,1]
+enterMove  Promote  from  0,0] 11
+enterMove  Promote  from  0,0] 11]
+enterMove  Promote  from  0,0] 1,1
+enterMove  Promote  from  0,0] 1,1]
+enterMove  Promote  from  0,0] [11
+enterMove  Promote  from  0,0] [11]
+enterMove  Promote  from  0,0] [1,1
+enterMove  Promote  from  0,0] [1,1]
+enterMove  Promote  from  0,0]to11
+enterMove  Promote  from  0,0]to11]
+enterMove  Promote  from  0,0]to1,1
+enterMove  Promote  from  0,0]to1,1]
+enterMove  Promote  from  0,0]to[11
+enterMove  Promote  from  0,0]to[11]
+enterMove  Promote  from  0,0]to[1,1
+enterMove  Promote  from  0,0]to[1,1]
+enterMove  Promote  from  [0011
+enterMove  Promote  from  [0011]
+enterMove  Promote  from  [001,1
+enterMove  Promote  from  [001,1]
+enterMove  Promote  from  [00[11
+enterMove  Promote  from  [00[11]
+enterMove  Promote  from  [00[1,1
+enterMove  Promote  from  [00[1,1]
+enterMove  Promote  from  [00 11
+enterMove  Promote  from  [00 11]
+enterMove  Promote  from  [00 1,1
+enterMove  Promote  from  [00 1,1]
+enterMove  Promote  from  [00 [11
+enterMove  Promote  from  [00 [11]
+enterMove  Promote  from  [00 [1,1
+enterMove  Promote  from  [00 [1,1]
+enterMove  Promote  from  [00to11
+enterMove  Promote  from  [00to11]
+enterMove  Promote  from  [00to1,1
+enterMove  Promote  from  [00to1,1]
+enterMove  Promote  from  [00to[11
+enterMove  Promote  from  [00to[11]
+enterMove  Promote  from  [00to[1,1
+enterMove  Promote  from  [00to[1,1]
+enterMove  Promote  from  [00]11
+enterMove  Promote  from  [00]11]
+enterMove  Promote  from  [00]1,1
+enterMove  Promote  from  [00]1,1]
+enterMove  Promote  from  [00][11
+enterMove  Promote  from  [00][11]
+enterMove  Promote  from  [00][1,1
+enterMove  Promote  from  [00][1,1]
+enterMove  Promote  from  [00] 11
+enterMove  Promote  from  [00] 11]
+enterMove  Promote  from  [00] 1,1
+enterMove  Promote  from  [00] 1,1]
+enterMove  Promote  from  [00] [11
+enterMove  Promote  from  [00] [11]
+enterMove  Promote  from  [00] [1,1
+enterMove  Promote  from  [00] [1,1]
+enterMove  Promote  from  [00]to11
+enterMove  Promote  from  [00]to11]
+enterMove  Promote  from  [00]to1,1
+enterMove  Promote  from  [00]to1,1]
+enterMove  Promote  from  [00]to[11
+enterMove  Promote  from  [00]to[11]
+enterMove  Promote  from  [00]to[1,1
+enterMove  Promote  from  [00]to[1,1]
+enterMove  Promote  from  [0,011
+enterMove  Promote  from  [0,011]
+enterMove  Promote  from  [0,01,1
+enterMove  Promote  from  [0,01,1]
+enterMove  Promote  from  [0,0[11
+enterMove  Promote  from  [0,0[11]
+enterMove  Promote  from  [0,0[1,1
+enterMove  Promote  from  [0,0[1,1]
+enterMove  Promote  from  [0,0 11
+enterMove  Promote  from  [0,0 11]
+enterMove  Promote  from  [0,0 1,1
+enterMove  Promote  from  [0,0 1,1]
+enterMove  Promote  from  [0,0 [11
+enterMove  Promote  from  [0,0 [11]
+enterMove  Promote  from  [0,0 [1,1
+enterMove  Promote  from  [0,0 [1,1]
+enterMove  Promote  from  [0,0to11
+enterMove  Promote  from  [0,0to11]
+enterMove  Promote  from  [0,0to1,1
+enterMove  Promote  from  [0,0to1,1]
+enterMove  Promote  from  [0,0to[11
+enterMove  Promote  from  [0,0to[11]
+enterMove  Promote  from  [0,0to[1,1
+enterMove  Promote  from  [0,0to[1,1]
+enterMove  Promote  from  [0,0]11
+enterMove  Promote  from  [0,0]11]
+enterMove  Promote  from  [0,0]1,1
+enterMove  Promote  from  [0,0]1,1]
+enterMove  Promote  from  [0,0][11
+enterMove  Promote  from  [0,0][11]
+enterMove  Promote  from  [0,0][1,1
+enterMove  Promote  from  [0,0][1,1]
+enterMove  Promote  from  [0,0] 11
+enterMove  Promote  from  [0,0] 11]
+enterMove  Promote  from  [0,0] 1,1
+enterMove  Promote  from  [0,0] 1,1]
+enterMove  Promote  from  [0,0] [11
+enterMove  Promote  from  [0,0] [11]
+enterMove  Promote  from  [0,0] [1,1
+enterMove  Promote  from  [0,0] [1,1]
+enterMove  Promote  from  [0,0]to11
+enterMove  Promote  from  [0,0]to11]
+enterMove  Promote  from  [0,0]to1,1
+enterMove  Promote  from  [0,0]to1,1]
+enterMove  Promote  from  [0,0]to[11
+enterMove  Promote  from  [0,0]to[11]
+enterMove  Promote  from  [0,0]to[1,1
+enterMove  Promote  from  [0,0]to[1,1]
+enterMove  Promote from [0,0] to [1,1]22
+enterMove  Promote from [0,0] to [1,1]22]
+enterMove  Promote from [0,0] to [1,1]2,2
+enterMove  Promote from [0,0] to [1,1]2,2]
+enterMove  Promote from [0,0] to [1,1][22
+enterMove  Promote from [0,0] to [1,1][22]
+enterMove  Promote from [0,0] to [1,1][2,2
+enterMove  Promote from [0,0] to [1,1][2,2]
+enterMove  Promote from [0,0] to [1,1] 22
+enterMove  Promote from [0,0] to [1,1] 22]
+enterMove  Promote from [0,0] to [1,1] 2,2
+enterMove  Promote from [0,0] to [1,1] 2,2]
+enterMove  Promote from [0,0] to [1,1] [22
+enterMove  Promote from [0,0] to [1,1] [22]
+enterMove  Promote from [0,0] to [1,1] [2,2
+enterMove  Promote from [0,0] to [1,1] [2,2]
+enterMove  Promote from [0,0] to [1,1]taking22
+enterMove  Promote from [0,0] to [1,1]taking22]
+enterMove  Promote from [0,0] to [1,1]taking2,2
+enterMove  Promote from [0,0] to [1,1]taking2,2]
+enterMove  Promote from [0,0] to [1,1]taking[22
+enterMove  Promote from [0,0] to [1,1]taking[22]
+enterMove  Promote from [0,0] to [1,1]taking[2,2
+enterMove  Promote from [0,0] to [1,1]taking[2,2]
+enterMove  Promote from [0,0] to [1,1] taking [2,2]33
+enterMove  Promote from [0,0] to [1,1] taking [2,2]33]
+enterMove  Promote from [0,0] to [1,1] taking [2,2]3,3
+enterMove  Promote from [0,0] to [1,1] taking [2,2]3,3]
+enterMove  Promote from [0,0] to [1,1] taking [2,2][33
+enterMove  Promote from [0,0] to [1,1] taking [2,2][33]
+enterMove  Promote from [0,0] to [1,1] taking [2,2][3,3
+enterMove  Promote from [0,0] to [1,1] taking [2,2][3,3]
+enterMove  Promote from [0,0] to [1,1] taking [2,2] 33
+enterMove  Promote from [0,0] to [1,1] taking [2,2] 33]
+enterMove  Promote from [0,0] to [1,1] taking [2,2] 3,3
+enterMove  Promote from [0,0] to [1,1] taking [2,2] 3,3]
+enterMove  Promote from [0,0] to [1,1] taking [2,2] [33
+enterMove  Promote from [0,0] to [1,1] taking [2,2] [33]
+enterMove  Promote from [0,0] to [1,1] taking [2,2] [3,3
+enterMove  Promote from [0,0] to [1,1] taking [2,2] [3,3]
+enterMove  Promote from [0,0] to [1,1] taking [2,2]and33
+enterMove  Promote from [0,0] to [1,1] taking [2,2]and33]
+enterMove  Promote from [0,0] to [1,1] taking [2,2]and3,3
+enterMove  Promote from [0,0] to [1,1] taking [2,2]and3,3]
+enterMove  Promote from [0,0] to [1,1] taking [2,2]and[33
+enterMove  Promote from [0,0] to [1,1] taking [2,2]and[33]
+enterMove  Promote from [0,0] to [1,1] taking [2,2]and[3,3
+enterMove  Promote from [0,0] to [1,1] taking [2,2]and[3,3]
+enterMove aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+saveBoard aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+loadBoard aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+saveMove aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+loadMove aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+compareKeys aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+compareMove aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+enterMove Play at [1,1]
 compareMove Play at [0,0]
-enterMove Play at [1,1
-enterMove Play at [1,2] dammit
-enterMove  Play a t [1,3]
-enterMove Play   at   [  2  , 1  ]  taking [1,1] dammit
-enterMove Promote from [2,2]
-enterMove Play at [[2,3]
-enterMove Play at [3,1]]
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
-enterMove Play  at  [1,1]   taking  [1,2]   
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
-saveMove Move1.pls
-compareMove Play at [1,2] taking [0,0]
+compareMove Play at [0,0] taking [0,0]
+compareMove Promote from [0,0] to [0,0]
+compareMove Play at [0,0] taking [0,0] and [0,0]
+compareMove Promote from [0,0] to [0,0] taking [0,0]
+compareMove Play at [0,0] taking [1,1]
+compareMove Promote from [0,0] to [1,1]
+compareMove Play at [0,0] taking [1,1] and [1,1]
+compareMove Promote from [0,0] to [1,1] taking [1,1]
+compareMove Play at [0,0] taking [2,2]
+compareMove Promote from [0,0] to [2,2]
+compareMove Play at [0,0] taking [2,2] and [2,2]
+compareMove Promote from [0,0] to [2,2] taking [2,2]
+compareMove Play at [0,1]
+compareMove Play at [0,1] taking [0,0]
+compareMove Promote from [0,1] to [0,0]
+compareMove Play at [0,1] taking [0,0] and [0,0]
+compareMove Promote from [0,1] to [0,0] taking [0,0]
+compareMove Play at [0,1] taking [1,1]
+compareMove Promote from [0,1] to [1,1]
+compareMove Play at [0,1] taking [1,1] and [1,1]
+compareMove Promote from [0,1] to [1,1] taking [1,1]
+compareMove Play at [0,1] taking [2,2]
+compareMove Promote from [0,1] to [2,2]
+compareMove Play at [0,1] taking [2,2] and [2,2]
+compareMove Promote from [0,1] to [2,2] taking [2,2]
+compareMove Play at [0,2]
+compareMove Play at [0,2] taking [0,0]
+compareMove Promote from [0,2] to [0,0]
+compareMove Play at [0,2] taking [0,0] and [0,0]
+compareMove Promote from [0,2] to [0,0] taking [0,0]
+compareMove Play at [0,2] taking [1,1]
+compareMove Promote from [0,2] to [1,1]
+compareMove Play at [0,2] taking [1,1] and [1,1]
+compareMove Promote from [0,2] to [1,1] taking [1,1]
+compareMove Play at [0,2] taking [2,2]
+compareMove Promote from [0,2] to [2,2]
+compareMove Play at [0,2] taking [2,2] and [2,2]
+compareMove Promote from [0,2] to [2,2] taking [2,2]
+compareMove Play at [1,0]
+compareMove Play at [1,0] taking [0,0]
+compareMove Promote from [1,0] to [0,0]
+compareMove Play at [1,0] taking [0,0] and [0,0]
+compareMove Promote from [1,0] to [0,0] taking [0,0]
+compareMove Play at [1,0] taking [1,1]
 compareMove Promote from [1,0] to [1,1]
-compareMove Play at [1,1] taking [1,2] and [0,0]
-enterMove  Promote from  [1 ,1] to [1,3] taking [2,2]  and  [3,3
-enterMove  Promote from  [1 ,1] to [1,3] taking [2,1]  and  [3,3]  dammit
-enterMove  Promote from  [1 ,0] taking [1,1]  and  [3,3]
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
-enterMove Promote from [1,1] to [1,2]
-saveMove Move2.pls
-compareMove Play at [1,1] taking [2,3]
-compareMove Promote from [1,1] to [1,3]
-compareMove Promote from [1,1] to [1,2]
-compareMove Promote from [1,1] to [1,2] taking [0,0]
-compareMove Promote from [1,1] to [1,1] taking [3,3]
-enterMove Promote from [1,2] to [2,3] taking [0,3] and [1,2]
-saveMove Move3.pls
-loadMove Move1.pls
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
-loadMove Move2.pls
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
-loadMove Move3.pls
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
-enterMove Play at [-1,0]
-enterMove Play at [0,4]
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
-quit
+compareMove Play at [1,0] taking [1,1] and [1,1]
+compareMove Promote from [1,0] to [1,1] taking [1,1]
+compareMove Play at [1,0] taking [2,2]
+compareMove Promote from [1,0] to [2,2]
+compareMove Play at [1,0] taking [2,2] and [2,2]
+compareMove Promote from [1,0] to [2,2] taking [2,2]
+compareMove Play at [1,1]
+compareMove Play at [1,1] taking [0,0]
+compareMove Promote from [1,1] to [0,0]
+compareMove Play at [1,1] taking [0,0] and [0,0]
+compareMove Promote from [1,1] to [0,0] taking [0,0]
+compareMove Play at [1,1] taking [1,1]
+compareMove Promote from [1,1] to [1,1]
+compareMove Play at [1,1] taking [1,1] and [1,1]
+compareMove Promote from [1,1] to [1,1] taking [1,1]
+compareMove Play at [1,1] taking [2,2]
+compareMove Promote from [1,1] to [2,2]
+compareMove Play at [1,1] taking [2,2] and [2,2]
+compareMove Promote from [1,1] to [2,2] taking [2,2]
+compareMove Play at [1,2]
+compareMove Play at [1,2] taking [0,0]
+compareMove Promote from [1,2] to [0,0]
+compareMove Play at [1,2] taking [0,0] and [0,0]
+compareMove Promote from [1,2] to [0,0] taking [0,0]
+compareMove Play at [1,2] taking [1,1]
+compareMove Promote from [1,2] to [1,1]
+compareMove Play at [1,2] taking [1,1] and [1,1]
+compareMove Promote from [1,2] to [1,1] taking [1,1]
+compareMove Play at [1,2] taking [2,2]
+compareMove Promote from [1,2] to [2,2]
+compareMove Play at [1,2] taking [2,2] and [2,2]
+compareMove Promote from [1,2] to [2,2] taking [2,2]
+compareMove Play at [2,0]
+compareMove Play at [2,0] taking [0,0]
+compareMove Promote from [2,0] to [0,0]
+compareMove Play at [2,0] taking [0,0] and [0,0]
+compareMove Promote from [2,0] to [0,0] taking [0,0]
+compareMove Play at [2,0] taking [1,1]
+compareMove Promote from [2,0] to [1,1]
+compareMove Play at [2,0] taking [1,1] and [1,1]
+compareMove Promote from [2,0] to [1,1] taking [1,1]
+compareMove Play at [2,0] taking [2,2]
+compareMove Promote from [2,0] to [2,2]
+compareMove Play at [2,0] taking [2,2] and [2,2]
+compareMove Promote from [2,0] to [2,2] taking [2,2]
+compareMove Play at [2,1]
+compareMove Play at [2,1] taking [0,0]
+compareMove Promote from [2,1] to [0,0]
+compareMove Play at [2,1] taking [0,0] and [0,0]
+compareMove Promote from [2,1] to [0,0] taking [0,0]
+compareMove Play at [2,1] taking [1,1]
+compareMove Promote from [2,1] to [1,1]
+compareMove Play at [2,1] taking [1,1] and [1,1]
+compareMove Promote from [2,1] to [1,1] taking [1,1]
+compareMove Play at [2,1] taking [2,2]
+compareMove Promote from [2,1] to [2,2]
+compareMove Play at [2,1] taking [2,2] and [2,2]
+compareMove Promote from [2,1] to [2,2] taking [2,2]
+compareMove Play at [2,2]
+compareMove Play at [2,2] taking [0,0]
+compareMove Promote from [2,2] to [0,0]
+compareMove Play at [2,2] taking [0,0] and [0,0]
+compareMove Promote from [2,2] to [0,0] taking [0,0]
+compareMove Play at [2,2] taking [1,1]
+compareMove Promote from [2,2] to [1,1]
+compareMove Play at [2,2] taking [1,1] and [1,1]
+compareMove Promote from [2,2] to [1,1] taking [1,1]
+compareMove Play at [2,2] taking [2,2]
+compareMove Promote from [2,2] to [2,2]
+compareMove Play at [2,2] taking [2,2] and [2,2]
+compareMove Promote from [2,2] to [2,2] taking [2,2]
+enterMove Play at [1,1] taking [1,1]
+compareMove Play at [0,0]
+compareMove Play at [0,0] taking [0,0]
+compareMove Promote from [0,0] to [0,0]
+compareMove Play at [0,0] taking [0,0] and [0,0]
+compareMove Promote from [0,0] to [0,0] taking [0,0]
+compareMove Play at [0,0] taking [1,1]
+compareMove Promote from [0,0] to [1,1]
+compareMove Play at [0,0] taking [1,1] and [1,1]
+compareMove Promote from [0,0] to [1,1] taking [1,1]
+compareMove Play at [0,0] taking [2,2]
+compareMove Promote from [0,0] to [2,2]
+compareMove Play at [0,0] taking [2,2] and [2,2]
+compareMove Promote from [0,0] to [2,2] taking [2,2]
+compareMove Play at [0,1]
+compareMove Play at [0,1] taking [0,0]
+compareMove Promote from [0,1] to [0,0]
+compareMove Play at [0,1] taking [0,0] and [0,0]
+compareMove Promote from [0,1] to [0,0] taking [0,0]
+compareMove Play at [0,1] taking [1,1]
+compareMove Promote from [0,1] to [1,1]
+compareMove Play at [0,1] taking [1,1] and [1,1]
+compareMove Promote from [0,1] to [1,1] taking [1,1]
+compareMove Play at [0,1] taking [2,2]
+compareMove Promote from [0,1] to [2,2]
+compareMove Play at [0,1] taking [2,2] and [2,2]
+compareMove Promote from [0,1] to [2,2] taking [2,2]
+compareMove Play at [0,2]
+compareMove Play at [0,2] taking [0,0]
+compareMove Promote from [0,2] to [0,0]
+compareMove Play at [0,2] taking [0,0] and [0,0]
+compareMove Promote from [0,2] to [0,0] taking [0,0]
+compareMove Play at [0,2] taking [1,1]
+compareMove Promote from [0,2] to [1,1]
+compareMove Play at [0,2] taking [1,1] and [1,1]
+compareMove Promote from [0,2] to [1,1] taking [1,1]
+compareMove Play at [0,2] taking [2,2]
+compareMove Promote from [0,2] to [2,2]
+compareMove Play at [0,2] taking [2,2] and [2,2]
+compareMove Promote from [0,2] to [2,2] taking [2,2]
+compareMove Play at [1,0]
+compareMove Play at [1,0] taking [0,0]
+compareMove Promote from [1,0] to [0,0]
+compareMove Play at [1,0] taking [0,0] and [0,0]
+compareMove Promote from [1,0] to [0,0] taking [0,0]
+compareMove Play at [1,0] taking [1,1]
+compareMove Promote from [1,0] to [1,1]
+compareMove Play at [1,0] taking [1,1] and [1,1]
+compareMove Promote from [1,0] to [1,1] taking [1,1]
+compareMove Play at [1,0] taking [2,2]
+compareMove Promote from [1,0] to [2,2]
+compareMove Play at [1,0] taking [2,2] and [2,2]
+compareMove Promote from [1,0] to [2,2] taking [2,2]
+compareMove Play at [1,1]
+compareMove Play at [1,1] taking [0,0]
+compareMove Promote from [1,1] to [0,0]
+compareMove Play at [1,1] taking [0,0] and [0,0]
+compareMove Promote from [1,1] to [0,0] taking [0,0]
+compareMove Play at [1,1] taking [1,1]
+compareMove Promote from [1,1] to [1,1]
+compareMove Play at [1,1] taking [1,1] and [1,1]
+compareMove Promote from [1,1] to [1,1] taking [1,1]
+compareMove Play at [1,1] taking [2,2]
+compareMove Promote from [1,1] to [2,2]
+compareMove Play at [1,1] taking [2,2] and [2,2]
+compareMove Promote from [1,1] to [2,2] taking [2,2]
+compareMove Play at [1,2]
+compareMove Play at [1,2] taking [0,0]
+compareMove Promote from [1,2] to [0,0]
+compareMove Play at [1,2] taking [0,0] and [0,0]
+compareMove Promote from [1,2] to [0,0] taking [0,0]
+compareMove Play at [1,2] taking [1,1]
+compareMove Promote from [1,2] to [1,1]
+compareMove Play at [1,2] taking [1,1] and [1,1]
+compareMove Promote from [1,2] to [1,1] taking [1,1]
+compareMove Play at [1,2] taking [2,2]
+compareMove Promote from [1,2] to [2,2]
+compareMove Play at [1,2] taking [2,2] and [2,2]
+compareMove Promote from [1,2] to [2,2] taking [2,2]
+compareMove Play at [2,0]
+compareMove Play at [2,0] taking [0,0]
+compareMove Promote from [2,0] to [0,0]
+compareMove Play at [2,0] taking [0,0] and [0,0]
+compareMove Promote from [2,0] to [0,0] taking [0,0]
+compareMove Play at [2,0] taking [1,1]
+compareMove Promote from [2,0] to [1,1]
+compareMove Play at [2,0] taking [1,1] and [1,1]
+compareMove Promote from [2,0] to [1,1] taking [1,1]
+compareMove Play at [2,0] taking [2,2]
+compareMove Promote from [2,0] to [2,2]
+compareMove Play at [2,0] taking [2,2] and [2,2]
+compareMove Promote from [2,0] to [2,2] taking [2,2]
+compareMove Play at [2,1]
+compareMove Play at [2,1] taking [0,0]
+compareMove Promote from [2,1] to [0,0]
+compareMove Play at [2,1] taking [0,0] and [0,0]
+compareMove Promote from [2,1] to [0,0] taking [0,0]
+compareMove Play at [2,1] taking [1,1]
+compareMove Promote from [2,1] to [1,1]
+compareMove Play at [2,1] taking [1,1] and [1,1]
+compareMove Promote from [2,1] to [1,1] taking [1,1]
+compareMove Play at [2,1] taking [2,2]
+compareMove Promote from [2,1] to [2,2]
+compareMove Play at [2,1] taking [2,2] and [2,2]
+compareMove Promote from [2,1] to [2,2] taking [2,2]
+compareMove Play at [2,2]
+compareMove Play at [2,2] taking [0,0]
+compareMove Promote from [2,2] to [0,0]
+compareMove Play at [2,2] taking [0,0] and [0,0]
+compareMove Promote from [2,2] to [0,0] taking [0,0]
+compareMove Play at [2,2] taking [1,1]
+compareMove Promote from [2,2] to [1,1]
+compareMove Play at [2,2] taking [1,1] and [1,1]
+compareMove Promote from [2,2] to [1,1] taking [1,1]
+compareMove Play at [2,2] taking [2,2]
+compareMove Promote from [2,2] to [2,2]
+compareMove Play at [2,2] taking [2,2] and [2,2]
+compareMove Promote from [2,2] to [2,2] taking [2,2]
+enterMove Play at [1,1] taking [1,1] and [1,1]
+compareMove Play at [0,0]
+compareMove Play at [0,0] taking [0,0]
+compareMove Promote from [0,0] to [0,0]
+compareMove Play at [0,0] taking [0,0] and [0,0]
+compareMove Promote from [0,0] to [0,0] taking [0,0]
+compareMove Play at [0,0] taking [1,1]
+compareMove Promote from [0,0] to [1,1]
+compareMove Play at [0,0] taking [1,1] and [1,1]
+compareMove Promote from [0,0] to [1,1] taking [1,1]
+compareMove Play at [0,0] taking [2,2]
+compareMove Promote from [0,0] to [2,2]
+compareMove Play at [0,0] taking [2,2] and [2,2]
+compareMove Promote from [0,0] to [2,2] taking [2,2]
+compareMove Play at [0,1]
+compareMove Play at [0,1] taking [0,0]
+compareMove Promote from [0,1] to [0,0]
+compareMove Play at [0,1] taking [0,0] and [0,0]
+compareMove Promote from [0,1] to [0,0] taking [0,0]
+compareMove Play at [0,1] taking [1,1]
+compareMove Promote from [0,1] to [1,1]
+compareMove Play at [0,1] taking [1,1] and [1,1]
+compareMove Promote from [0,1] to [1,1] taking [1,1]
+compareMove Play at [0,1] taking [2,2]
+compareMove Promote from [0,1] to [2,2]
+compareMove Play at [0,1] taking [2,2] and [2,2]
+compareMove Promote from [0,1] to [2,2] taking [2,2]
+compareMove Play at [0,2]
+compareMove Play at [0,2] taking [0,0]
+compareMove Promote from [0,2] to [0,0]
+compareMove Play at [0,2] taking [0,0] and [0,0]
+compareMove Promote from [0,2] to [0,0] taking [0,0]
+compareMove Play at [0,2] taking [1,1]
+compareMove Promote from [0,2] to [1,1]
+compareMove Play at [0,2] taking [1,1] and [1,1]
+compareMove Promote from [0,2] to [1,1] taking [1,1]
+compareMove Play at [0,2] taking [2,2]
+compareMove Promote from [0,2] to [2,2]
+compareMove Play at [0,2] taking [2,2] and [2,2]
+compareMove Promote from [0,2] to [2,2] taking [2,2]
+compareMove Play at [1,0]
+compareMove Play at [1,0] taking [0,0]
+compareMove Promote from [1,0] to [0,0]
+compareMove Play at [1,0] taking [0,0] and [0,0]
+compareMove Promote from [1,0] to [0,0] taking [0,0]
+compareMove Play at [1,0] taking [1,1]
+compareMove Promote from [1,0] to [1,1]
+compareMove Play at [1,0] taking [1,1] and [1,1]
+compareMove Promote from [1,0] to [1,1] taking [1,1]
+compareMove Play at [1,0] taking [2,2]
+compareMove Promote from [1,0] to [2,2]
+compareMove Play at [1,0] taking [2,2] and [2,2]
+compareMove Promote from [1,0] to [2,2] taking [2,2]
+compareMove Play at [1,1]
+compareMove Play at [1,1] taking [0,0]
+compareMove Promote from [1,1] to [0,0]
+compareMove Play at [1,1] taking [0,0] and [0,0]
+compareMove Promote from [1,1] to [0,0] taking [0,0]
+compareMove Play at [1,1] taking [1,1]
+compareMove Promote from [1,1] to [1,1]
+compareMove Play at [1,1] taking [1,1] and [1,1]
+compareMove Promote from [1,1] to [1,1] taking [1,1]
+compareMove Play at [1,1] taking [2,2]
+compareMove Promote from [1,1] to [2,2]
+compareMove Play at [1,1] taking [2,2] and [2,2]
+compareMove Promote from [1,1] to [2,2] taking [2,2]
+compareMove Play at [1,2]
+compareMove Play at [1,2] taking [0,0]
+compareMove Promote from [1,2] to [0,0]
+compareMove Play at [1,2] taking [0,0] and [0,0]
+compareMove Promote from [1,2] to [0,0] taking [0,0]
+compareMove Play at [1,2] taking [1,1]
+compareMove Promote from [1,2] to [1,1]
+compareMove Play at [1,2] taking [1,1] and [1,1]
+compareMove Promote from [1,2] to [1,1] taking [1,1]
+compareMove Play at [1,2] taking [2,2]
+compareMove Promote from [1,2] to [2,2]
+compareMove Play at [1,2] taking [2,2] and [2,2]
+compareMove Promote from [1,2] to [2,2] taking [2,2]
+compareMove Play at [2,0]
+compareMove Play at [2,0] taking [0,0]
+compareMove Promote from [2,0] to [0,0]
+compareMove Play at [2,0] taking [0,0] and [0,0]
+compareMove Promote from [2,0] to [0,0] taking [0,0]
+compareMove Play at [2,0] taking [1,1]
+compareMove Promote from [2,0] to [1,1]
+compareMove Play at [2,0] taking [1,1] and [1,1]
+compareMove Promote from [2,0] to [1,1] taking [1,1]
+compareMove Play at [2,0] taking [2,2]
+compareMove Promote from [2,0] to [2,2]
+compareMove Play at [2,0] taking [2,2] and [2,2]
+compareMove Promote from [2,0] to [2,2] taking [2,2]
+compareMove Play at [2,1]
+compareMove Play at [2,1] taking [0,0]
+compareMove Promote from [2,1] to [0,0]
+compareMove Play at [2,1] taking [0,0] and [0,0]
+compareMove Promote from [2,1] to [0,0] taking [0,0]
+compareMove Play at [2,1] taking [1,1]
+compareMove Promote from [2,1] to [1,1]
+compareMove Play at [2,1] taking [1,1] and [1,1]
+compareMove Promote from [2,1] to [1,1] taking [1,1]
+compareMove Play at [2,1] taking [2,2]
+compareMove Promote from [2,1] to [2,2]
+compareMove Play at [2,1] taking [2,2] and [2,2]
+compareMove Promote from [2,1] to [2,2] taking [2,2]
+compareMove Play at [2,2]
+compareMove Play at [2,2] taking [0,0]
+compareMove Promote from [2,2] to [0,0]
+compareMove Play at [2,2] taking [0,0] and [0,0]
+compareMove Promote from [2,2] to [0,0] taking [0,0]
+compareMove Play at [2,2] taking [1,1]
+compareMove Promote from [2,2] to [1,1]
+compareMove Play at [2,2] taking [1,1] and [1,1]
+compareMove Promote from [2,2] to [1,1] taking [1,1]
+compareMove Play at [2,2] taking [2,2]
+compareMove Promote from [2,2] to [2,2]
+compareMove Play at [2,2] taking [2,2] and [2,2]
+compareMove Promote from [2,2] to [2,2] taking [2,2]
+enterMove Promote from [1,1] to [1,1]
+compareMove Play at [0,0]
+compareMove Play at [0,0] taking [0,0]
+compareMove Promote from [0,0] to [0,0]
+compareMove Play at [0,0] taking [0,0] and [0,0]
+compareMove Promote from [0,0] to [0,0] taking [0,0]
+compareMove Play at [0,0] taking [1,1]
+compareMove Promote from [0,0] to [1,1]
+compareMove Play at [0,0] taking [1,1] and [1,1]
+compareMove Promote from [0,0] to [1,1] taking [1,1]
+compareMove Play at [0,0] taking [2,2]
+compareMove Promote from [0,0] to [2,2]
+compareMove Play at [0,0] taking [2,2] and [2,2]
+compareMove Promote from [0,0] to [2,2] taking [2,2]
+compareMove Play at [0,1]
+compareMove Play at [0,1] taking [0,0]
+compareMove Promote from [0,1] to [0,0]
+compareMove Play at [0,1] taking [0,0] and [0,0]
+compareMove Promote from [0,1] to [0,0] taking [0,0]
+compareMove Play at [0,1] taking [1,1]
+compareMove Promote from [0,1] to [1,1]
+compareMove Play at [0,1] taking [1,1] and [1,1]
+compareMove Promote from [0,1] to [1,1] taking [1,1]
+compareMove Play at [0,1] taking [2,2]
+compareMove Promote from [0,1] to [2,2]
+compareMove Play at [0,1] taking [2,2] and [2,2]
+compareMove Promote from [0,1] to [2,2] taking [2,2]
+compareMove Play at [0,2]
+compareMove Play at [0,2] taking [0,0]
+compareMove Promote from [0,2] to [0,0]
+compareMove Play at [0,2] taking [0,0] and [0,0]
+compareMove Promote from [0,2] to [0,0] taking [0,0]
+compareMove Play at [0,2] taking [1,1]
+compareMove Promote from [0,2] to [1,1]
+compareMove Play at [0,2] taking [1,1] and [1,1]
+compareMove Promote from [0,2] to [1,1] taking [1,1]
+compareMove Play at [0,2] taking [2,2]
+compareMove Promote from [0,2] to [2,2]
+compareMove Play at [0,2] taking [2,2] and [2,2]
+compareMove Promote from [0,2] to [2,2] taking [2,2]
+compareMove Play at [1,0]
+compareMove Play at [1,0] taking [0,0]
+compareMove Promote from [1,0] to [0,0]
+compareMove Play at [1,0] taking [0,0] and [0,0]
+compareMove Promote from [1,0] to [0,0] taking [0,0]
+compareMove Play at [1,0] taking [1,1]
+compareMove Promote from [1,0] to [1,1]
+compareMove Play at [1,0] taking [1,1] and [1,1]
+compareMove Promote from [1,0] to [1,1] taking [1,1]
+compareMove Play at [1,0] taking [2,2]
+compareMove Promote from [1,0] to [2,2]
+compareMove Play at [1,0] taking [2,2] and [2,2]
+compareMove Promote from [1,0] to [2,2] taking [2,2]
+compareMove Play at [1,1]
+compareMove Play at [1,1] taking [0,0]
+compareMove Promote from [1,1] to [0,0]
+compareMove Play at [1,1] taking [0,0] and [0,0]
+compareMove Promote from [1,1] to [0,0] taking [0,0]
+compareMove Play at [1,1] taking [1,1]
+compareMove Promote from [1,1] to [1,1]
+compareMove Play at [1,1] taking [1,1] and [1,1]
+compareMove Promote from [1,1] to [1,1] taking [1,1]
+compareMove Play at [1,1] taking [2,2]
+compareMove Promote from [1,1] to [2,2]
+compareMove Play at [1,1] taking [2,2] and [2,2]
+compareMove Promote from [1,1] to [2,2] taking [2,2]
+compareMove Play at [1,2]
+compareMove Play at [1,2] taking [0,0]
+compareMove Promote from [1,2] to [0,0]
+compareMove Play at [1,2] taking [0,0] and [0,0]
+compareMove Promote from [1,2] to [0,0] taking [0,0]
+compareMove Play at [1,2] taking [1,1]
+compareMove Promote from [1,2] to [1,1]
+compareMove Play at [1,2] taking [1,1] and [1,1]
+compareMove Promote from [1,2] to [1,1] taking [1,1]
+compareMove Play at [1,2] taking [2,2]
+compareMove Promote from [1,2] to [2,2]
+compareMove Play at [1,2] taking [2,2] and [2,2]
+compareMove Promote from [1,2] to [2,2] taking [2,2]
+compareMove Play at [2,0]
+compareMove Play at [2,0] taking [0,0]
+compareMove Promote from [2,0] to [0,0]
+compareMove Play at [2,0] taking [0,0] and [0,0]
+compareMove Promote from [2,0] to [0,0] taking [0,0]
+compareMove Play at [2,0] taking [1,1]
+compareMove Promote from [2,0] to [1,1]
+compareMove Play at [2,0] taking [1,1] and [1,1]
+compareMove Promote from [2,0] to [1,1] taking [1,1]
+compareMove Play at [2,0] taking [2,2]
+compareMove Promote from [2,0] to [2,2]
+compareMove Play at [2,0] taking [2,2] and [2,2]
+compareMove Promote from [2,0] to [2,2] taking [2,2]
+compareMove Play at [2,1]
+compareMove Play at [2,1] taking [0,0]
+compareMove Promote from [2,1] to [0,0]
+compareMove Play at [2,1] taking [0,0] and [0,0]
+compareMove Promote from [2,1] to [0,0] taking [0,0]
+compareMove Play at [2,1] taking [1,1]
+compareMove Promote from [2,1] to [1,1]
+compareMove Play at [2,1] taking [1,1] and [1,1]
+compareMove Promote from [2,1] to [1,1] taking [1,1]
+compareMove Play at [2,1] taking [2,2]
+compareMove Promote from [2,1] to [2,2]
+compareMove Play at [2,1] taking [2,2] and [2,2]
+compareMove Promote from [2,1] to [2,2] taking [2,2]
+compareMove Play at [2,2]
+compareMove Play at [2,2] taking [0,0]
+compareMove Promote from [2,2] to [0,0]
+compareMove Play at [2,2] taking [0,0] and [0,0]
+compareMove Promote from [2,2] to [0,0] taking [0,0]
+compareMove Play at [2,2] taking [1,1]
+compareMove Promote from [2,2] to [1,1]
+compareMove Play at [2,2] taking [1,1] and [1,1]
+compareMove Promote from [2,2] to [1,1] taking [1,1]
+compareMove Play at [2,2] taking [2,2]
+compareMove Promote from [2,2] to [2,2]
+compareMove Play at [2,2] taking [2,2] and [2,2]
+compareMove Promote from [2,2] to [2,2] taking [2,2]
+enterMove Promote from [1,1] to [1,1] taking [1,1]
+compareMove Play at [0,0]
+compareMove Play at [0,0] taking [0,0]
+compareMove Promote from [0,0] to [0,0]
+compareMove Play at [0,0] taking [0,0] and [0,0]
+compareMove Promote from [0,0] to [0,0] taking [0,0]
+compareMove Play at [0,0] taking [1,1]
+compareMove Promote from [0,0] to [1,1]
+compareMove Play at [0,0] taking [1,1] and [1,1]
+compareMove Promote from [0,0] to [1,1] taking [1,1]
+compareMove Play at [0,0] taking [2,2]
+compareMove Promote from [0,0] to [2,2]
+compareMove Play at [0,0] taking [2,2] and [2,2]
+compareMove Promote from [0,0] to [2,2] taking [2,2]
+compareMove Play at [0,1]
+compareMove Play at [0,1] taking [0,0]
+compareMove Promote from [0,1] to [0,0]
+compareMove Play at [0,1] taking [0,0] and [0,0]
+compareMove Promote from [0,1] to [0,0] taking [0,0]
+compareMove Play at [0,1] taking [1,1]
+compareMove Promote from [0,1] to [1,1]
+compareMove Play at [0,1] taking [1,1] and [1,1]
+compareMove Promote from [0,1] to [1,1] taking [1,1]
+compareMove Play at [0,1] taking [2,2]
+compareMove Promote from [0,1] to [2,2]
+compareMove Play at [0,1] taking [2,2] and [2,2]
+compareMove Promote from [0,1] to [2,2] taking [2,2]
+compareMove Play at [0,2]
+compareMove Play at [0,2] taking [0,0]
+compareMove Promote from [0,2] to [0,0]
+compareMove Play at [0,2] taking [0,0] and [0,0]
+compareMove Promote from [0,2] to [0,0] taking [0,0]
+compareMove Play at [0,2] taking [1,1]
+compareMove Promote from [0,2] to [1,1]
+compareMove Play at [0,2] taking [1,1] and [1,1]
+compareMove Promote from [0,2] to [1,1] taking [1,1]
+compareMove Play at [0,2] taking [2,2]
+compareMove Promote from [0,2] to [2,2]
+compareMove Play at [0,2] taking [2,2] and [2,2]
+compareMove Promote from [0,2] to [2,2] taking [2,2]
+compareMove Play at [1,0]
+compareMove Play at [1,0] taking [0,0]
+compareMove Promote from [1,0] to [0,0]
+compareMove Play at [1,0] taking [0,0] and [0,0]
+compareMove Promote from [1,0] to [0,0] taking [0,0]
+compareMove Play at [1,0] taking [1,1]
+compareMove Promote from [1,0] to [1,1]
+compareMove Play at [1,0] taking [1,1] and [1,1]
+compareMove Promote from [1,0] to [1,1] taking [1,1]
+compareMove Play at [1,0] taking [2,2]
+compareMove Promote from [1,0] to [2,2]
+compareMove Play at [1,0] taking [2,2] and [2,2]
+compareMove Promote from [1,0] to [2,2] taking [2,2]
+compareMove Play at [1,1]
+compareMove Play at [1,1] taking [0,0]
+compareMove Promote from [1,1] to [0,0]
+compareMove Play at [1,1] taking [0,0] and [0,0]
+compareMove Promote from [1,1] to [0,0] taking [0,0]
+compareMove Play at [1,1] taking [1,1]
+compareMove Promote from [1,1] to [1,1]
+compareMove Play at [1,1] taking [1,1] and [1,1]
+compareMove Promote from [1,1] to [1,1] taking [1,1]
+compareMove Play at [1,1] taking [2,2]
+compareMove Promote from [1,1] to [2,2]
+compareMove Play at [1,1] taking [2,2] and [2,2]
+compareMove Promote from [1,1] to [2,2] taking [2,2]
+compareMove Play at [1,2]
+compareMove Play at [1,2] taking [0,0]
+compareMove Promote from [1,2] to [0,0]
+compareMove Play at [1,2] taking [0,0] and [0,0]
+compareMove Promote from [1,2] to [0,0] taking [0,0]
+compareMove Play at [1,2] taking [1,1]
+compareMove Promote from [1,2] to [1,1]
+compareMove Play at [1,2] taking [1,1] and [1,1]
+compareMove Promote from [1,2] to [1,1] taking [1,1]
+compareMove Play at [1,2] taking [2,2]
+compareMove Promote from [1,2] to [2,2]
+compareMove Play at [1,2] taking [2,2] and [2,2]
+compareMove Promote from [1,2] to [2,2] taking [2,2]
+compareMove Play at [2,0]
+compareMove Play at [2,0] taking [0,0]
+compareMove Promote from [2,0] to [0,0]
+compareMove Play at [2,0] taking [0,0] and [0,0]
+compareMove Promote from [2,0] to [0,0] taking [0,0]
+compareMove Play at [2,0] taking [1,1]
+compareMove Promote from [2,0] to [1,1]
+compareMove Play at [2,0] taking [1,1] and [1,1]
+compareMove Promote from [2,0] to [1,1] taking [1,1]
+compareMove Play at [2,0] taking [2,2]
+compareMove Promote from [2,0] to [2,2]
+compareMove Play at [2,0] taking [2,2] and [2,2]
+compareMove Promote from [2,0] to [2,2] taking [2,2]
+compareMove Play at [2,1]
+compareMove Play at [2,1] taking [0,0]
+compareMove Promote from [2,1] to [0,0]
+compareMove Play at [2,1] taking [0,0] and [0,0]
+compareMove Promote from [2,1] to [0,0] taking [0,0]
+compareMove Play at [2,1] taking [1,1]
+compareMove Promote from [2,1] to [1,1]
+compareMove Play at [2,1] taking [1,1] and [1,1]
+compareMove Promote from [2,1] to [1,1] taking [1,1]
+compareMove Play at [2,1] taking [2,2]
+compareMove Promote from [2,1] to [2,2]
+compareMove Play at [2,1] taking [2,2] and [2,2]
+compareMove Promote from [2,1] to [2,2] taking [2,2]
+compareMove Play at [2,2]
+compareMove Play at [2,2] taking [0,0]
+compareMove Promote from [2,2] to [0,0]
+compareMove Play at [2,2] taking [0,0] and [0,0]
+compareMove Promote from [2,2] to [0,0] taking [0,0]
+compareMove Play at [2,2] taking [1,1]
+compareMove Promote from [2,2] to [1,1]
+compareMove Play at [2,2] taking [1,1] and [1,1]
+compareMove Promote from [2,2] to [1,1] taking [1,1]
+compareMove Play at [2,2] taking [2,2]
+compareMove Promote from [2,2] to [2,2]
+compareMove Play at [2,2] taking [2,2] and [2,2]
+compareMove Promote from [2,2] to [2,2] taking [2,2]
+enterMove Promote from [1,1] to [1,1] taking [1,1] and [1,1]
+compareMove Play at [0,0]
+compareMove Play at [0,0] taking [0,0]
+compareMove Promote from [0,0] to [0,0]
+compareMove Play at [0,0] taking [0,0] and [0,0]
+compareMove Promote from [0,0] to [0,0] taking [0,0]
+compareMove Play at [0,0] taking [1,1]
+compareMove Promote from [0,0] to [1,1]
+compareMove Play at [0,0] taking [1,1] and [1,1]
+compareMove Promote from [0,0] to [1,1] taking [1,1]
+compareMove Play at [0,0] taking [2,2]
+compareMove Promote from [0,0] to [2,2]
+compareMove Play at [0,0] taking [2,2] and [2,2]
+compareMove Promote from [0,0] to [2,2] taking [2,2]
+compareMove Play at [0,1]
+compareMove Play at [0,1] taking [0,0]
+compareMove Promote from [0,1] to [0,0]
+compareMove Play at [0,1] taking [0,0] and [0,0]
+compareMove Promote from [0,1] to [0,0] taking [0,0]
+compareMove Play at [0,1] taking [1,1]
+compareMove Promote from [0,1] to [1,1]
+compareMove Play at [0,1] taking [1,1] and [1,1]
+compareMove Promote from [0,1] to [1,1] taking [1,1]
+compareMove Play at [0,1] taking [2,2]
+compareMove Promote from [0,1] to [2,2]
+compareMove Play at [0,1] taking [2,2] and [2,2]
+compareMove Promote from [0,1] to [2,2] taking [2,2]
+compareMove Play at [0,2]
+compareMove Play at [0,2] taking [0,0]
+compareMove Promote from [0,2] to [0,0]
+compareMove Play at [0,2] taking [0,0] and [0,0]
+compareMove Promote from [0,2] to [0,0] taking [0,0]
+compareMove Play at [0,2] taking [1,1]
+compareMove Promote from [0,2] to [1,1]
+compareMove Play at [0,2] taking [1,1] and [1,1]
+compareMove Promote from [0,2] to [1,1] taking [1,1]
+compareMove Play at [0,2] taking [2,2]
+compareMove Promote from [0,2] to [2,2]
+compareMove Play at [0,2] taking [2,2] and [2,2]
+compareMove Promote from [0,2] to [2,2] taking [2,2]
+compareMove Play at [1,0]
+compareMove Play at [1,0] taking [0,0]
+compareMove Promote from [1,0] to [0,0]
+compareMove Play at [1,0] taking [0,0] and [0,0]
+compareMove Promote from [1,0] to [0,0] taking [0,0]
+compareMove Play at [1,0] taking [1,1]
+compareMove Promote from [1,0] to [1,1]
+compareMove Play at [1,0] taking [1,1] and [1,1]
+compareMove Promote from [1,0] to [1,1] taking [1,1]
+compareMove Play at [1,0] taking [2,2]
+compareMove Promote from [1,0] to [2,2]
+compareMove Play at [1,0] taking [2,2] and [2,2]
+compareMove Promote from [1,0] to [2,2] taking [2,2]
+compareMove Play at [1,1]
+compareMove Play at [1,1] taking [0,0]
+compareMove Promote from [1,1] to [0,0]
+compareMove Play at [1,1] taking [0,0] and [0,0]
+compareMove Promote from [1,1] to [0,0] taking [0,0]
+compareMove Play at [1,1] taking [1,1]
+compareMove Promote from [1,1] to [1,1]
+compareMove Play at [1,1] taking [1,1] and [1,1]
+compareMove Promote from [1,1] to [1,1] taking [1,1]
+compareMove Play at [1,1] taking [2,2]
+compareMove Promote from [1,1] to [2,2]
+compareMove Play at [1,1] taking [2,2] and [2,2]
+compareMove Promote from [1,1] to [2,2] taking [2,2]
+compareMove Play at [1,2]
+compareMove Play at [1,2] taking [0,0]
+compareMove Promote from [1,2] to [0,0]
+compareMove Play at [1,2] taking [0,0] and [0,0]
+compareMove Promote from [1,2] to [0,0] taking [0,0]
+compareMove Play at [1,2] taking [1,1]
+compareMove Promote from [1,2] to [1,1]
+compareMove Play at [1,2] taking [1,1] and [1,1]
+compareMove Promote from [1,2] to [1,1] taking [1,1]
+compareMove Play at [1,2] taking [2,2]
+compareMove Promote from [1,2] to [2,2]
+compareMove Play at [1,2] taking [2,2] and [2,2]
+compareMove Promote from [1,2] to [2,2] taking [2,2]
+compareMove Play at [2,0]
+compareMove Play at [2,0] taking [0,0]
+compareMove Promote from [2,0] to [0,0]
+compareMove Play at [2,0] taking [0,0] and [0,0]
+compareMove Promote from [2,0] to [0,0] taking [0,0]
+compareMove Play at [2,0] taking [1,1]
+compareMove Promote from [2,0] to [1,1]
+compareMove Play at [2,0] taking [1,1] and [1,1]
+compareMove Promote from [2,0] to [1,1] taking [1,1]
+compareMove Play at [2,0] taking [2,2]
+compareMove Promote from [2,0] to [2,2]
+compareMove Play at [2,0] taking [2,2] and [2,2]
+compareMove Promote from [2,0] to [2,2] taking [2,2]
+compareMove Play at [2,1]
+compareMove Play at [2,1] taking [0,0]
+compareMove Promote from [2,1] to [0,0]
+compareMove Play at [2,1] taking [0,0] and [0,0]
+compareMove Promote from [2,1] to [0,0] taking [0,0]
+compareMove Play at [2,1] taking [1,1]
+compareMove Promote from [2,1] to [1,1]
+compareMove Play at [2,1] taking [1,1] and [1,1]
+compareMove Promote from [2,1] to [1,1] taking [1,1]
+compareMove Play at [2,1] taking [2,2]
+compareMove Promote from [2,1] to [2,2]
+compareMove Play at [2,1] taking [2,2] and [2,2]
+compareMove Promote from [2,1] to [2,2] taking [2,2]
+compareMove Play at [2,2]
+compareMove Play at [2,2] taking [0,0]
+compareMove Promote from [2,2] to [0,0]
+compareMove Play at [2,2] taking [0,0] and [0,0]
+compareMove Promote from [2,2] to [0,0] taking [0,0]
+compareMove Play at [2,2] taking [1,1]
+compareMove Promote from [2,2] to [1,1]
+compareMove Play at [2,2] taking [1,1] and [1,1]
+compareMove Promote from [2,2] to [1,1] taking [1,1]
+compareMove Play at [2,2] taking [2,2]
+compareMove Promote from [2,2] to [2,2]
+compareMove Play at [2,2] taking [2,2] and [2,2]
+compareMove Promote from [2,2] to [2,2] taking [2,2]
