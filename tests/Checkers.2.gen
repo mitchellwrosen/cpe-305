@@ -1,3 +1,5 @@
+
+# Compare keys of all saved boards.
 testRun 0 30
 saveBoard b0
 saveMove m0
@@ -26,11 +28,7 @@ testRun 24000 30
 saveBoard b8
 saveMove m8
 loadBoard b0
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
+showAll
 compareKeys b0
 compareKeys b1
 compareKeys b2
@@ -41,11 +39,7 @@ compareKeys b6
 compareKeys b7
 compareKeys b8
 undoLastMove 30
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
+showAll
 compareKeys b0
 compareKeys b1
 compareKeys b2
@@ -56,11 +50,7 @@ compareKeys b6
 compareKeys b7
 compareKeys b8
 loadBoard b1
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
+showAll
 compareKeys b0
 compareKeys b1
 compareKeys b2
@@ -71,11 +61,7 @@ compareKeys b6
 compareKeys b7
 compareKeys b8
 undoLastMove 30
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
+showAll
 compareKeys b0
 compareKeys b1
 compareKeys b2
@@ -86,11 +72,7 @@ compareKeys b6
 compareKeys b7
 compareKeys b8
 loadBoard b2
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
+showAll
 compareKeys b0
 compareKeys b1
 compareKeys b2
@@ -101,11 +83,7 @@ compareKeys b6
 compareKeys b7
 compareKeys b8
 undoLastMove 30
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
+showAll
 compareKeys b0
 compareKeys b1
 compareKeys b2
@@ -116,11 +94,7 @@ compareKeys b6
 compareKeys b7
 compareKeys b8
 loadBoard b3
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
+showAll
 compareKeys b0
 compareKeys b1
 compareKeys b2
@@ -131,11 +105,7 @@ compareKeys b6
 compareKeys b7
 compareKeys b8
 undoLastMove 30
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
+showAll
 compareKeys b0
 compareKeys b1
 compareKeys b2
@@ -146,11 +116,7 @@ compareKeys b6
 compareKeys b7
 compareKeys b8
 loadBoard b4
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
+showAll
 compareKeys b0
 compareKeys b1
 compareKeys b2
@@ -161,11 +127,7 @@ compareKeys b6
 compareKeys b7
 compareKeys b8
 undoLastMove 30
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
+showAll
 compareKeys b0
 compareKeys b1
 compareKeys b2
@@ -176,11 +138,7 @@ compareKeys b6
 compareKeys b7
 compareKeys b8
 loadBoard b5
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
+showAll
 compareKeys b0
 compareKeys b1
 compareKeys b2
@@ -191,11 +149,7 @@ compareKeys b6
 compareKeys b7
 compareKeys b8
 undoLastMove 30
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
+showAll
 compareKeys b0
 compareKeys b1
 compareKeys b2
@@ -206,11 +160,7 @@ compareKeys b6
 compareKeys b7
 compareKeys b8
 loadBoard b6
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
+showAll
 compareKeys b0
 compareKeys b1
 compareKeys b2
@@ -221,11 +171,7 @@ compareKeys b6
 compareKeys b7
 compareKeys b8
 undoLastMove 30
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
+showAll
 compareKeys b0
 compareKeys b1
 compareKeys b2
@@ -236,11 +182,7 @@ compareKeys b6
 compareKeys b7
 compareKeys b8
 loadBoard b7
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
+showAll
 compareKeys b0
 compareKeys b1
 compareKeys b2
@@ -251,11 +193,7 @@ compareKeys b6
 compareKeys b7
 compareKeys b8
 undoLastMove 30
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
+showAll
 compareKeys b0
 compareKeys b1
 compareKeys b2
@@ -266,11 +204,7 @@ compareKeys b6
 compareKeys b7
 compareKeys b8
 loadBoard b8
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
+showAll
 compareKeys b0
 compareKeys b1
 compareKeys b2
@@ -281,11 +215,7 @@ compareKeys b6
 compareKeys b7
 compareKeys b8
 undoLastMove 30
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
+showAll
 compareKeys b0
 compareKeys b1
 compareKeys b2
@@ -295,190 +225,70 @@ compareKeys b5
 compareKeys b6
 compareKeys b7
 compareKeys b8
+
+# Load saved moves and show them.
 loadMove m0
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
+showAll
 applyMove
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
+showAll
 loadMove m1
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
+showAll
 applyMove
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
+showAll
 loadMove m2
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
+showAll
 applyMove
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
+showAll
 loadMove m3
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
+showAll
 applyMove
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
+showAll
 loadMove m4
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
+showAll
 applyMove
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
+showAll
 loadMove m5
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
+showAll
 applyMove
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
+showAll
 loadMove m6
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
+showAll
 applyMove
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
+showAll
 loadMove m7
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
+showAll
 applyMove
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
+showAll
 loadMove m8
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
+showAll
 applyMove
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
+showAll
+
+# Finish off with some testRuns
 testRun 0 10
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
+showAll
 testRun 1234 10
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
+showAll
 testRun 2468 10
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
+showAll
 testRun 3702 10
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
+showAll
 testRun 4936 10
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
+showAll
 testRun 6170 10
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
+showAll
 testRun 7404 10
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
+showAll
 testRun 8638 10
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
+showAll
 testRun 9872 10
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
+showAll
 testRun 11106 10
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
+showAll
 testRun 12340 10
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
+showAll
 testRun 13574 10
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
+showAll
 testRun 14808 10
-showBoard
-showMove
-showMoveHist
-showVal
-keyMoveCount
+showAll
 quit

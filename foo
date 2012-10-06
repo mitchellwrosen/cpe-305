@@ -1,297 +1,135 @@
+Marble weight: 100
+Level weight: 20
+Free weight: 6
+Modify? [y/n] 
+Enter marble weight: Badly formatted input
+Enter marble weight: Error: Marble weight must be between 1 and 1000 inclusive
+Enter marble weight: Enter level weight: Badly formatted input
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Enter free weight: Badly formatted input
+Enter free weight: Error: Free weight must be even, nonnegative, and less than marble weight
+Enter free weight: Badly formatted input
+Enter free weight: Unexpected garbage after value.
+Enter free weight: Unexpected garbage after value.
+Enter free weight: 
+Unknown command: 71
 
+Unknown command: 70
 
+Unknown command: 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
 
+Unknown command: -1
 
+Unknown command: [2]
 
+Unknown command: 2.5
 
+Unknown command: 2
 
+Unknown command: 72
 
+Unknown command: 71
 
+Unknown command: 70
 
-
-
-
-
-
-
-
-
-
-   . 
-
-  . . 
-
-  . . 
-
- W B . 
-
- B . . 
-
- . . . 
-
-B B W . 
-
-B B W B 
-
-B W . . 
-
-. W . . 
-
-White's move
-
-All Moves: 
-Play at [0, 3] Play at [2, 2] Play at [2, 3] Play at [3, 0] Play at [3, 2]
-Play at [3, 3]
-
-Play at [0, 0]
-
-
-Move History: 
-Play at [1, 3]                          Play at [0, 1]                         
-Play at [2, 3]                          Play at [1, 1]                         
-Play at [2, 0]                          Play at [1, 2]                         
-Play at [3, 0]                          Play at [0, 2] taking [1, 2]           
-Play at [3, 1]                          Play at [0, 3]                         
-Play at [1, 2]                          Play at [0, 0] taking [0, 0] and [0, 2]
-Play at [2, 2] taking [1, 3] and [2, 0] Play at [1, 3]                         
-Play at [1, 2]                          Play at [0, 0]                         
-Play at [0, 2]                          Play at [0, 1]                         
-Play at [3, 2] taking [1, 2] and [3, 2] Play at [1, 0] taking [0, 1] and [0, 3]
-Promote from [2, 2] to [0, 0]           Play at [0, 1]                         
-Play at [2, 2]                          Play at [2, 1]                         
-Play at [3, 2] taking [2, 3] and [3, 0] Play at [2, 0] taking [2, 0] and [2, 1]
-Play at [2, 1] taking [0, 0] and [2, 2] Play at [2, 0]                         
-Promote from [3, 2] to [0, 0]           Play at [1, 0]                         
-
-Value: 274
-
-Moves/Keys: 31/0
-
-Board keys are equal
-
-Board keys are unequal
-Current board is less than b1
-
-Board keys are unequal
-Current board is greater than b2
-
-Board keys are unequal
-Current board is less than b3
-
-Board keys are unequal
-Current board is less than b4
-
-Board keys are unequal
-Current board is less than b5
-
-
-   . 
-
-  . . 
-
-  . . 
-
- . . . 
-
- . . . 
-
- . . . 
-
-. . . . 
-
-. . . . 
-
-. . . . 
-
-. . . . 
-
-White's move
-
-All Moves: 
-Play at [0, 0] Play at [0, 1] Play at [0, 2] Play at [0, 3] Play at [1, 0]
-Play at [1, 1] Play at [1, 2] Play at [1, 3] Play at [2, 0] Play at [2, 1]
-Play at [2, 2] Play at [2, 3] Play at [3, 0] Play at [3, 1] Play at [3, 2]
-Play at [3, 3]
-
-Play at [0, 0]
-
-
-Move History: 
-
-Value: 0
-
-Moves/Keys: 1/0
-
-Board keys are unequal
-Current board is less than b0
-
-Board keys are unequal
-Current board is less than b1
-
-Board keys are unequal
-Current board is less than b2
-
-Board keys are unequal
-Current board is less than b3
-
-Board keys are unequal
-Current board is less than b4
-
-Board keys are unequal
-Current board is less than b5
-
-
-   . 
-
-  . . 
-
-  . . 
-
- . W B 
-
- B B W 
-
- B W B 
-
-. B W B 
-
-B B W B 
-
-W W W B 
-
-W W W B 
-
-White's move
-
-All Moves: 
-Play at [0, 0]                Play at [0, 1]               
-Promote from [2, 1] to [0, 1] Play at [1, 0]               
-Promote from [0, 1] to [1, 0] Promote from [1, 2] to [1, 0]
-Play at [1, 1]                Promote from [0, 1] to [1, 1]
-
-Play at [0, 0]
-
-
-Move History: 
-Play at [1, 3]                          Play at [0, 1]                         
-Play at [2, 3]                          Play at [1, 1]                         
-Play at [2, 0]                          Play at [1, 2]                         
-Play at [3, 0]                          Play at [0, 2] taking [1, 2]           
-Play at [3, 1]                          Play at [0, 3]                         
-Play at [1, 2]                          Play at [0, 0] taking [0, 0] and [0, 2]
-Play at [2, 2] taking [1, 3] and [2, 0] Play at [1, 3]                         
-Play at [1, 2]                          Play at [0, 0]                         
-Play at [0, 2]                          Play at [0, 1]                         
-Play at [3, 2] taking [1, 2] and [3, 2] Play at [1, 0] taking [0, 1] and [0, 3]
-Promote from [2, 2] to [0, 0]           Play at [0, 1]                         
-Play at [2, 2]                          Play at [2, 1]                         
-Play at [3, 2] taking [2, 3] and [3, 0] Play at [2, 0] taking [2, 0] and [2, 1]
-Play at [2, 1] taking [0, 0] and [2, 2] Play at [2, 0]                         
-Promote from [3, 2] to [0, 0]           Play at [1, 0]                         
-Play at [3, 0]                          Play at [3, 3]                         
-Play at [2, 0]                          Play at [2, 3]                         
-Play at [2, 2]                          Play at [0, 3] taking [0, 3]           
-Play at [3, 2] taking [0, 0] and [2, 0] Play at [2, 2]                         
-Play at [2, 0]                          Play at [0, 3] taking [0, 3]           
-Play at [2, 1]                          Play at [0, 3] taking [0, 1] and [1, 0]
-Play at [0, 1]                          Promote from [1, 0] to [1, 1]          
-Play at [1, 2]                          Play at [1, 0] taking [0, 3]           
-Promote from [2, 0] to [1, 1]           Play at [0, 3] taking [2, 0]           
-Play at [2, 0] taking [2, 0]            Promote from [0, 0] to [0, 2]          
-Play at [0, 0]                          Play at [0, 0]                         
-Play at [2, 0] taking [1, 1] and [2, 1] Promote from [0, 0] to [0, 1]          
-Promote from [3, 1] to [0, 0]           Play at [1, 0]                         
-Play at [3, 1] taking [0, 0]            Play at [2, 0]                         
-Promote from [0, 0] to [2, 1]           Play at [0, 0] taking [0, 0] and [0, 1]
-
-Value: 48
-
-Moves/Keys: 61/0
-
-Board keys are unequal
-Current board is greater than b0
-
-Board keys are equal
-
-Board keys are unequal
-Current board is greater than b2
-
-Board keys are unequal
-Current board is less than b3
-
-Board keys are unequal
-Current board is greater than b4
-
-Board keys are unequal
-Current board is less than b5
-
-
-   . 
-
-  . . 
-
-  . . 
-
- W B . 
-
- B . . 
-
- . . . 
-
-B B W . 
-
-B B W B 
-
-B W . . 
-
-. W . . 
-
-White's move
-
-All Moves: 
-Play at [0, 3] Play at [2, 2] Play at [2, 3] Play at [3, 0] Play at [3, 2]
-Play at [3, 3]
-
-Play at [0, 0]
-
-
-Move History: 
-Play at [1, 3]                          Play at [0, 1]                         
-Play at [2, 3]                          Play at [1, 1]                         
-Play at [2, 0]                          Play at [1, 2]                         
-Play at [3, 0]                          Play at [0, 2] taking [1, 2]           
-Play at [3, 1]                          Play at [0, 3]                         
-Play at [1, 2]                          Play at [0, 0] taking [0, 0] and [0, 2]
-Play at [2, 2] taking [1, 3] and [2, 0] Play at [1, 3]                         
-Play at [1, 2]                          Play at [0, 0]                         
-Play at [0, 2]                          Play at [0, 1]                         
-Play at [3, 2] taking [1, 2] and [3, 2] Play at [1, 0] taking [0, 1] and [0, 3]
-Promote from [2, 2] to [0, 0]           Play at [0, 1]                         
-Play at [2, 2]                          Play at [2, 1]                         
-Play at [3, 2] taking [2, 3] and [3, 0] Play at [2, 0] taking [2, 0] and [2, 1]
-Play at [2, 1] taking [0, 0] and [2, 2] Play at [2, 0]                         
-Promote from [3, 2] to [0, 0]           Play at [1, 0]                         
-
-Value: 274
-
-Moves/Keys: 31/0
-
-Board keys are equal
-
-Board keys are unequal
-Current board is less than b1
-
-Board keys are unequal
-Current board is greater than b2
-
-Board keys are unequal
-Current board is less than b3
-
-Board keys are unequal
-Current board is less than b4
-
-Board keys are unequal
-Current board is less than b5
+Unknown command: 69
 
 
    . 
@@ -302,180 +140,636 @@ Current board is less than b5
 
  . . B 
 
- . . . 
+ . B . 
 
  . . . 
 
-. . W W 
+. B W W 
 
-. B W B 
+. W W W 
 
-. B B . 
+. W W B 
 
-. W . W 
+W . . . 
 
 White's move
 
 All Moves: 
-Play at [0, 0]                Play at [0, 1]               
-Play at [1, 0]                Play at [1, 1]               
-Promote from [3, 1] to [1, 1] Promote from [3, 3] to [1, 1]
-Play at [2, 0]                Play at [2, 3]               
-Play at [3, 0]                Play at [3, 2]               
+Play at [0, 0]                          Play at [0, 1]                         
+Promote from [3, 0] to [0, 1]           Play at [1, 0]                         
+Play at [1, 0] taking [1, 0]            Play at [1, 0] taking [1, 0] and [3, 0]
+Play at [1, 0] taking [3, 0]            Play at [1, 2]                         
+Promote from [3, 0] to [1, 2]           Play at [2, 0]                         
+Play at [3, 1]                          Play at [3, 2]                         
+Play at [3, 2] taking [3, 0]            Play at [3, 2] taking [3, 0] and [3, 2]
+Play at [3, 2] taking [3, 2]            Play at [3, 3]                         
 
 Play at [0, 0]
 
 
 Move History: 
-Play at [3, 3]                          Play at [2, 2]                         
-Play at [1, 2]                          Play at [2, 1]                         
-Play at [3, 2]                          Play at [1, 1]                         
-Play at [0, 3]                          Play at [3, 0]                         
-Promote from [3, 3] to [1, 1]           Play at [1, 3]                         
-Play at [3, 1]                          Promote from [3, 0] to [2, 1]          
-Play at [3, 0]                          Play at [1, 0]                         
-Play at [3, 3] taking [1, 1] and [3, 0] Play at [2, 0] taking [1, 0] and [2, 1]
-Play at [3, 0] taking [3, 0] and [3, 2] Play at [2, 3] taking [2, 0] and [2, 3]
-Play at [0, 2]                          Play at [0, 2]                         
+Play at [0, 1]                                        
+Play at [3, 0]                                        
+Play at [3, 2]                                        
+Play at [2, 0]                                        
+Play at [1, 0]                                        
+Play at [0, 0]                                        
+Play at [1, 1]                                        
+Play at [2, 2]                                        
+Play at [1, 2]                                        
+Play at [0, 0]                                        
+Play at [1, 3] taking [1, 2] and [3, 2]               
+Play at [0, 2]                                        
+Play at [1, 2]                                        
+Promote from [2, 2] to [0, 1]                         
+Play at [3, 3]                                        
+Play at [2, 2]                                        
+Play at [0, 3]                                        
+Promote from [2, 2] to [0, 2] taking [0, 1] and [2, 0]
+Play at [3, 2]                                        
+Play at [0, 1] taking [0, 1] and [3, 0]               
+Play at [2, 3] taking [3, 2]                          
+Play at [0, 1] taking [0, 1] and [0, 2]               
+Play at [3, 2]                                        
+Play at [3, 1]                                        
+Play at [2, 2] taking [2, 3] and [3, 2]               
+Play at [2, 0]                                        
+Play at [2, 1] taking [2, 2] and [3, 3]               
+Play at [3, 0]                                        
+Play at [3, 3]                                        
+Play at [3, 2]                                        
+Play at [2, 2] taking [0, 3] and [1, 3]               
+Promote from [0, 2] to [2, 0]                         
+Play at [1, 3] taking [2, 2] and [3, 3]               
+Play at [1, 0] taking [0, 0] and [3, 2]               
+Play at [0, 2]                                        
+Play at [0, 0] taking [1, 0]                          
+Play at [2, 3]                                        
+Play at [1, 0] taking [0, 0]                          
+Play at [2, 2] taking [0, 1] and [1, 3]               
+Play at [1, 1]                                        
+Play at [1, 3] taking [0, 2] and [1, 3]               
+Play at [3, 2]                                        
+Play at [3, 3]                                        
+Play at [2, 1] taking [0, 0] and [1, 1]               
+Play at [0, 0]                                        
+Play at [1, 1] taking [1, 1] and [2, 1]               
+Play at [0, 1] taking [0, 0] and [2, 3]               
+Play at [0, 0]                                        
+Promote from [3, 3] to [2, 1]                         
+Play at [0, 0]                                        
+Play at [1, 3] taking [2, 1]                          
+Play at [0, 2]                                        
+Promote from [2, 2] to [0, 1]                         
+Play at [3, 3] taking [3, 2]                          
+Play at [2, 2] taking [1, 3]                          
+Play at [3, 2] taking [0, 0]                          
+Play at [1, 1]                                        
+Promote from [3, 2] to [0, 0] taking [2, 0]           
+Play at [1, 3] taking [0, 1] and [1, 3]               
+Play at [3, 2] taking [0, 2] and [3, 2]               
+Play at [0, 2] taking [1, 1] and [2, 2]               
+Play at [3, 2] taking [0, 0] and [1, 0]               
+Play at [2, 2] taking [1, 0] and [1, 2]               
+Play at [1, 0] taking [0, 0] and [3, 1]               
+Play at [3, 1] taking [0, 1] and [1, 1]               
+Play at [2, 1]                                        
+Play at [1, 3]                                        
+Play at [0, 0] taking [3, 0]                          
+Play at [1, 1]                                        
+Play at [3, 0] taking [0, 0] and [2, 1]               
+Play at [1, 0]                                        
+Play at [0, 0] taking [3, 2]                          
+Play at [3, 2] taking [1, 0] and [1, 1]               
+Promote from [3, 3] to [2, 1]                         
+Play at [2, 0]                                        
+Play at [2, 3]                                        
+Play at [1, 2] taking [1, 2]                          
+Play at [3, 3]                                        
+Promote from [0, 2] to [2, 2]                         
+Play at [1, 1]                                        
+Play at [0, 2]                                        
+Play at [0, 1] taking [0, 1] and [1, 0]               
+Play at [0, 3]                                        
+Play at [1, 0] taking [1, 0] and [1, 1]               
+Play at [1, 2] taking [2, 0]                          
+Promote from [2, 0] to [0, 2]                         
+Play at [2, 0]                                        
+Promote from [3, 0] to [1, 2]                         
+Play at [1, 1] taking [1, 1]                          
+Play at [0, 1]                                        
+Play at [1, 1] taking [2, 0]                          
+Promote from [0, 0] to [0, 1]                         
+Play at [1, 0] taking [2, 2]                          
+Play at [1, 1] taking [0, 1] and [3, 3]               
+Play at [0, 0]                                        
+Play at [0, 1] taking [0, 1] and [2, 1]               
+Promote from [3, 2] to [0, 0]                         
+Play at [0, 1] taking [0, 1] and [1, 1]               
+Play at [2, 0] taking [2, 0] and [2, 1]               
+Play at [0, 1]                                        
+Play at [3, 2] taking [0, 0] and [3, 1]               
+Play at [0, 0] taking [0, 0] and [0, 1]               
+Play at [2, 1] taking [0, 0]                          
+Play at [3, 0]                                        
+Play at [2, 0] taking [1, 1] and [3, 2]               
+Play at [3, 3]                                        
+Play at [1, 1]                                        
+Promote from [3, 3] to [1, 1]                         
+Play at [3, 2] taking [1, 0] and [3, 2]               
+Play at [0, 1] taking [1, 2]                          
+Play at [3, 2] taking [2, 0] and [3, 2]               
+Play at [1, 2] taking [1, 2] and [3, 0]               
+Play at [3, 0]                                        
+Play at [1, 2] taking [0, 1] and [1, 2]               
 
-Value: -32
+Value: -762
 
-Moves/Keys: 21/0
+Moves/Keys: 115/0
 
-Board keys are unequal
-Current board is less than b0
+Marble weight: 101
+Level weight: 71
+Free weight: 72
+Modify? [y/n] 
+Enter marble weight: Badly formatted input
+Enter marble weight: Error: Marble weight must be between 1 and 1000 inclusive
+Enter marble weight: Enter level weight: Badly formatted input
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Unexpected garbage after value.
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Error: Level weight must be nonnegative and less than marble weight
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Badly formatted input
+Enter level weight: Enter free weight: 
+Unknown command: 42
 
-Board keys are unequal
-Current board is less than b1
+
+Marble weight: 101
+Level weight: 57
+Free weight: 2
+Modify? [y/n] 
+Enter marble weight: Enter level weight: Enter free weight: 
+
+Marble weight: 700
+Level weight: 646
+Free weight: 540
+Modify? [y/n] 
+Enter marble weight: Enter level weight: Enter free weight: 
+
+Marble weight: 745
+Level weight: 16
+Free weight: 448
+Modify? [y/n] 
+Enter marble weight: Enter level weight: Enter free weight: 
+
+Marble weight: 980
+Level weight: 168
+Free weight: 308
+Modify? [y/n] 
+Enter marble weight: Enter level weight: Enter free weight: 
+
+Marble weight: 314
+Level weight: 147
+Free weight: 6
+Modify? [y/n] 
+Enter marble weight: Enter level weight: Enter free weight: 
+
+Marble weight: 70
+Level weight: 24
+Free weight: 30
+Modify? [y/n] 
+Enter marble weight: Enter level weight: Enter free weight: 
+
+Marble weight: 761
+Level weight: 395
+Free weight: 148
+Modify? [y/n] 
+Enter marble weight: Enter level weight: Enter free weight: 
+
+Marble weight: 917
+Level weight: 680
+Free weight: 126
+Modify? [y/n] 
+Enter marble weight: Enter level weight: Enter free weight: 
+
+Marble weight: 789
+Level weight: 434
+Free weight: 770
+Modify? [y/n] 
+Enter marble weight: Enter level weight: Enter free weight: 
+
+Marble weight: 859
+Level weight: 464
+Free weight: 68
+Modify? [y/n] 
+Enter marble weight: Enter level weight: Enter free weight: 
+
+Marble weight: 521
+Level weight: 162
+Free weight: 472
+Modify? [y/n] 
+Enter marble weight: Enter level weight: Enter free weight: 
+
+Marble weight: 204
+Level weight: 123
+Free weight: 38
+Modify? [y/n] 
+Enter marble weight: Enter level weight: Enter free weight: 
+
+Marble weight: 547
+Level weight: 137
+Free weight: 458
+Modify? [y/n] 
+Enter marble weight: Enter level weight: Enter free weight: 
+
+Marble weight: 8
+Level weight: 2
+Free weight: 2
+Modify? [y/n] 
+Enter marble weight: Enter level weight: Enter free weight: 
+
+Marble weight: 435
+Level weight: 152
+Free weight: 158
+Modify? [y/n] 
+Enter marble weight: Enter level weight: Enter free weight: 
 
 Board keys are equal
-
-Board keys are unequal
-Current board is less than b3
-
-Board keys are unequal
-Current board is less than b4
-
-Board keys are unequal
-Current board is less than b5
-
-
-   . 
-
-  . . 
-
-  . . 
-
- . . . 
-
- . . . 
-
- . . . 
-
-. . . . 
-
-. . . . 
-
-. . . . 
-
-. . . . 
-
-White's move
-
-All Moves: 
-Play at [0, 0] Play at [0, 1] Play at [0, 2] Play at [0, 3] Play at [1, 0]
-Play at [1, 1] Play at [1, 2] Play at [1, 3] Play at [2, 0] Play at [2, 1]
-Play at [2, 2] Play at [2, 3] Play at [3, 0] Play at [3, 1] Play at [3, 2]
-Play at [3, 3]
-
-Play at [0, 0]
-
-
-Move History: 
-
-Value: 0
-
-Moves/Keys: 1/0
-
-Board keys are unequal
-Current board is less than b0
-
-Board keys are unequal
-Current board is less than b1
-
-Board keys are unequal
-Current board is less than b2
-
-Board keys are unequal
-Current board is less than b3
-
-Board keys are unequal
-Current board is less than b4
-
-Board keys are unequal
-Current board is less than b5
-
-
-   . 
-
-  B . 
-
-  W W 
-
- W B . 
-
- W W B 
-
- B B B 
-
-W B W B 
-
-B B W B 
-
-W B B W 
-
-B W W B 
-
-White's move
-
-All Moves: 
-
-Play at [0, 0]
-
-
-Move History: 
-Play at [3, 3]                          Play at [2, 2]                         
-Play at [1, 2]                          Play at [2, 1]                         
-Play at [3, 2]                          Play at [1, 1]                         
-Play at [0, 3]                          Play at [3, 0]                         
-Promote from [3, 3] to [1, 1]           Play at [1, 3]                         
-Play at [3, 1]                          Promote from [3, 0] to [2, 1]          
-Play at [3, 0]                          Play at [1, 0]                         
-Play at [3, 3] taking [1, 1] and [3, 0] Play at [2, 0] taking [1, 0] and [2, 1]
-Play at [3, 0] taking [3, 0] and [3, 2] Play at [2, 3] taking [2, 0] and [2, 3]
-Play at [0, 2]                          Play at [0, 2]                         
-Promote from [3, 3] to [1, 1]           Play at [3, 2]                         
-Play at [0, 1]                          Play at [3, 3]                         
-Play at [0, 0] taking [0, 0] and [0, 1] Play at [2, 3] taking [2, 3] and [3, 3]
-Play at [0, 0]                          Play at [3, 0]                         
-Play at [2, 0]                          Play at [1, 0]                         
-Promote from [0, 0] to [1, 0]           Promote from [3, 2] to [2, 0]          
-Play at [3, 2]                          Play at [2, 1]                         
-Play at [0, 0]                          Play at [0, 1]                         
-Play at [0, 0]                          Play at [3, 3]                         
-Play at [0, 1] taking [0, 1] and [1, 0] Play at [0, 1]                         
-Play at [1, 0]                          Play at [0, 0]                         
-Play at [2, 3]                          Play at [2, 2] taking [0, 2] and [1, 3]
-Promote from [0, 3] to [1, 0]           Play at [1, 3]                         
-Play at [1, 2] taking [1, 2]            Play at [1, 2]                         
-Play at [1, 1]                          Play at [0, 3]                         
-
-Value: 536870911
-
-Moves/Keys: 51/0
-
-Board keys are unequal
-Current board is greater than b0
 
 Board keys are unequal
 Current board is greater than b1
@@ -483,7 +777,8 @@ Current board is greater than b1
 Board keys are unequal
 Current board is greater than b2
 
-Board keys are equal
+Board keys are unequal
+Current board is greater than b3
 
 Board keys are unequal
 Current board is greater than b4
@@ -491,1050 +786,543 @@ Current board is greater than b4
 Board keys are unequal
 Current board is greater than b5
 
+Board keys are unequal
+Current board is greater than b6
 
-   . 
+Board keys are unequal
+Current board is greater than b7
 
-  . . 
+Board keys are unequal
+Current board is greater than b8
 
-  . . 
+Board keys are unequal
+Current board is greater than b9
 
- . . B 
+Board keys are unequal
+Current board is greater than b10
 
- . . . 
+Board keys are unequal
+Current board is greater than b11
 
- . . . 
+Board keys are unequal
+Current board is greater than b12
 
-. . W W 
+Board keys are unequal
+Current board is greater than b13
 
-. B W B 
+Board keys are unequal
+Current board is greater than b14
 
-. B B . 
+Board keys are unequal
+Current board is greater than b15
 
-. W . W 
-
-White's move
-
-All Moves: 
-Play at [0, 0]                Play at [0, 1]               
-Play at [1, 0]                Play at [1, 1]               
-Promote from [3, 1] to [1, 1] Promote from [3, 3] to [1, 1]
-Play at [2, 0]                Play at [2, 3]               
-Play at [3, 0]                Play at [3, 2]               
-
-Play at [0, 0]
-
-
-Move History: 
-Play at [3, 3]                          Play at [2, 2]                         
-Play at [1, 2]                          Play at [2, 1]                         
-Play at [3, 2]                          Play at [1, 1]                         
-Play at [0, 3]                          Play at [3, 0]                         
-Promote from [3, 3] to [1, 1]           Play at [1, 3]                         
-Play at [3, 1]                          Promote from [3, 0] to [2, 1]          
-Play at [3, 0]                          Play at [1, 0]                         
-Play at [3, 3] taking [1, 1] and [3, 0] Play at [2, 0] taking [1, 0] and [2, 1]
-Play at [3, 0] taking [3, 0] and [3, 2] Play at [2, 3] taking [2, 0] and [2, 3]
-Play at [0, 2]                          Play at [0, 2]                         
-
-Value: -32
-
-Moves/Keys: 21/0
 
 Board keys are unequal
 Current board is less than b0
 
-Board keys are unequal
-Current board is less than b1
+Board keys are equal
 
 Board keys are equal
 
-Board keys are unequal
-Current board is less than b3
-
-Board keys are unequal
-Current board is less than b4
-
-Board keys are unequal
-Current board is less than b5
-
-
-   . 
-
-  . . 
-
-  . . 
-
- . . B 
-
- W W . 
-
- B . . 
-
-. B W W 
-
-B B W B 
-
-W B B . 
-
-B W W . 
-
-White's move
-
-All Moves: 
-Play at [0, 0]                Play at [0, 1]               
-Promote from [3, 2] to [0, 1] Play at [2, 1]               
-Play at [2, 3]                Play at [3, 3]               
-
-Play at [0, 0]
-
-
-Move History: 
-Play at [3, 3]                          Play at [2, 2]                         
-Play at [1, 2]                          Play at [2, 1]                         
-Play at [3, 2]                          Play at [1, 1]                         
-Play at [0, 3]                          Play at [3, 0]                         
-Promote from [3, 3] to [1, 1]           Play at [1, 3]                         
-Play at [3, 1]                          Promote from [3, 0] to [2, 1]          
-Play at [3, 0]                          Play at [1, 0]                         
-Play at [3, 3] taking [1, 1] and [3, 0] Play at [2, 0] taking [1, 0] and [2, 1]
-Play at [3, 0] taking [3, 0] and [3, 2] Play at [2, 3] taking [2, 0] and [2, 3]
-Play at [0, 2]                          Play at [0, 2]                         
-Promote from [3, 3] to [1, 1]           Play at [3, 2]                         
-Play at [0, 1]                          Play at [3, 3]                         
-Play at [0, 0] taking [0, 0] and [0, 1] Play at [2, 3] taking [2, 3] and [3, 3]
-Play at [0, 0]                          Play at [3, 0]                         
-Play at [2, 0]                          Play at [1, 0]                         
-Promote from [0, 0] to [1, 0]           Promote from [3, 2] to [2, 0]          
-Play at [3, 2]                          Play at [0, 1]                         
-
-Value: 100
-
-Moves/Keys: 35/0
-
-Board keys are unequal
-Current board is greater than b0
-
-Board keys are unequal
-Current board is less than b1
-
-Board keys are unequal
-Current board is greater than b2
-
-Board keys are unequal
-Current board is less than b3
+Board keys are equal
 
 Board keys are equal
 
-Board keys are unequal
-Current board is less than b5
+Board keys are equal
 
+Board keys are equal
 
-   . 
+Board keys are equal
 
-  . . 
+Board keys are equal
 
-  . . 
+Board keys are equal
 
- . . . 
+Board keys are equal
 
- . . . 
+Board keys are equal
 
- . . . 
+Board keys are equal
 
-. . . . 
+Board keys are equal
 
-. . W . 
+Board keys are equal
 
-. B B . 
+Board keys are equal
 
-. . . W 
-
-White's move
-
-All Moves: 
-Play at [0, 0] Play at [0, 1] Play at [0, 2] Play at [0, 3] Play at [1, 0]
-Play at [1, 1] Play at [1, 3] Play at [2, 0] Play at [2, 3] Play at [3, 0]
-Play at [3, 1] Play at [3, 2]
-
-Play at [0, 0]
-
-
-Move History: 
-Play at [3, 3] Play at [2, 2] Play at [1, 2] Play at [2, 1]
-
-Value: 0
-
-Moves/Keys: 5/0
 
 Board keys are unequal
 Current board is less than b0
 
-Board keys are unequal
-Current board is less than b1
+Board keys are equal
 
-Board keys are unequal
-Current board is less than b2
+Board keys are equal
 
-Board keys are unequal
-Current board is less than b3
+Board keys are equal
 
-Board keys are unequal
-Current board is less than b4
+Board keys are equal
 
-Board keys are unequal
-Current board is less than b5
+Board keys are equal
 
+Board keys are equal
 
-   . 
+Board keys are equal
 
-  . . 
+Board keys are equal
 
-  . . 
+Board keys are equal
 
- . . W 
+Board keys are equal
 
- . W B 
+Board keys are equal
 
- . . W 
+Board keys are equal
 
-W B W B 
+Board keys are equal
 
-B B W B 
-
-W B B B 
-
-. . W B 
-
-White's move
-
-All Moves: 
-Play at [0, 0]                Promote from [2, 0] to [0, 0]
-Play at [0, 1]                Promote from [0, 0] to [0, 1]
-Promote from [2, 0] to [0, 1] Play at [1, 0]               
-Promote from [0, 0] to [1, 0] Play at [3, 0]               
-Play at [3, 1]               
-
-Play at [0, 0]
-
-
-Move History: 
-Play at [3, 3]                                        
-Play at [2, 2]                                        
-Play at [1, 2]                                        
-Play at [2, 1]                                        
-Play at [3, 2]                                        
-Play at [1, 1]                                        
-Play at [0, 3]                                        
-Play at [3, 0]                                        
-Promote from [3, 3] to [1, 1]                         
-Play at [1, 3]                                        
-Play at [3, 1]                                        
-Promote from [3, 0] to [2, 1]                         
-Play at [3, 0]                                        
-Play at [1, 0]                                        
-Play at [3, 3] taking [1, 1] and [3, 0]               
-Play at [2, 0] taking [1, 0] and [2, 1]               
-Play at [3, 0] taking [3, 0] and [3, 2]               
-Play at [2, 3] taking [2, 0] and [2, 3]               
-Play at [0, 2]                                        
-Play at [0, 2]                                        
-Promote from [3, 3] to [1, 1]                         
-Play at [3, 2]                                        
-Play at [0, 1]                                        
-Play at [3, 3]                                        
-Play at [0, 0] taking [0, 0] and [0, 1]               
-Play at [2, 3] taking [2, 3] and [3, 3]               
-Play at [0, 0]                                        
-Play at [3, 0]                                        
-Play at [2, 0]                                        
-Play at [1, 0]                                        
-Promote from [0, 0] to [1, 0]                         
-Promote from [3, 2] to [2, 0]                         
-Play at [3, 2]                                        
-Play at [0, 1]                                        
-Play at [0, 1]                                        
-Play at [3, 3]                                        
-Play at [2, 1] taking [1, 0]                          
-Play at [0, 0] taking [0, 0] and [2, 0]               
-Play at [0, 0]                                        
-Play at [0, 0]                                        
-Play at [2, 0]                                        
-Play at [2, 3]                                        
-Play at [1, 0] taking [0, 1]                          
-Play at [0, 1] taking [0, 1] and [0, 2]               
-Promote from [0, 3] to [1, 2] taking [2, 1]           
-Promote from [3, 3] to [0, 1]                         
-Play at [2, 1] taking [1, 0] and [1, 2]               
-Play at [0, 3]                                        
-Play at [1, 0] taking [2, 0]                          
-Play at [3, 3] taking [0, 0] and [3, 0]               
-Promote from [0, 0] to [1, 2] taking [1, 0] and [2, 0]
-Play at [0, 0] taking [0, 1]                          
-Play at [2, 2] taking [0, 2] and [1, 2]               
-Promote from [0, 0] to [1, 2]                         
-Play at [0, 2]                                        
-Play at [2, 0] taking [1, 0] and [1, 2]               
-Play at [0, 1] taking [0, 1] and [2, 1]               
-Play at [1, 2]                                        
-Play at [0, 0]                                        
-Play at [1, 0] taking [0, 1] and [2, 0]               
-Promote from [3, 1] to [0, 2]                         
-Play at [2, 0] taking [2, 0]                          
-Play at [2, 0]                                        
-Play at [0, 1]                                        
-
-Value: 252
-
-Moves/Keys: 65/0
-
-Board keys are unequal
-Current board is greater than b0
-
-Board keys are unequal
-Current board is greater than b1
-
-Board keys are unequal
-Current board is greater than b2
-
-Board keys are unequal
-Current board is less than b3
-
-Board keys are unequal
-Current board is greater than b4
+Board keys are equal
 
 Board keys are equal
 
 
-   . 
-
-  . . 
-
-  . . 
-
- . . B 
-
- W W . 
-
- B . . 
-
-. B W W 
-
-B B W B 
-
-W B B . 
-
-B W W . 
-
-White's move
-
-All Moves: 
-Play at [0, 0]                Play at [0, 1]               
-Promote from [3, 2] to [0, 1] Play at [2, 1]               
-Play at [2, 3]                Play at [3, 3]               
-
-Play at [0, 0]
-
-
-Move History: 
-Play at [3, 3]                          Play at [2, 2]                         
-Play at [1, 2]                          Play at [2, 1]                         
-Play at [3, 2]                          Play at [1, 1]                         
-Play at [0, 3]                          Play at [3, 0]                         
-Promote from [3, 3] to [1, 1]           Play at [1, 3]                         
-Play at [3, 1]                          Promote from [3, 0] to [2, 1]          
-Play at [3, 0]                          Play at [1, 0]                         
-Play at [3, 3] taking [1, 1] and [3, 0] Play at [2, 0] taking [1, 0] and [2, 1]
-Play at [3, 0] taking [3, 0] and [3, 2] Play at [2, 3] taking [2, 0] and [2, 3]
-Play at [0, 2]                          Play at [0, 2]                         
-Promote from [3, 3] to [1, 1]           Play at [3, 2]                         
-Play at [0, 1]                          Play at [3, 3]                         
-Play at [0, 0] taking [0, 0] and [0, 1] Play at [2, 3] taking [2, 3] and [3, 3]
-Play at [0, 0]                          Play at [3, 0]                         
-Play at [2, 0]                          Play at [1, 0]                         
-Promote from [0, 0] to [1, 0]           Promote from [3, 2] to [2, 0]          
-Play at [3, 2]                          Play at [0, 1]                         
-
-Value: 100
-
-Moves/Keys: 35/0
-
 Board keys are unequal
-Current board is greater than b0
-
-Board keys are unequal
-Current board is less than b1
-
-Board keys are unequal
-Current board is greater than b2
-
-Board keys are unequal
-Current board is less than b3
+Current board is less than b0
 
 Board keys are equal
 
+Board keys are equal
+
+Board keys are equal
+
+Board keys are equal
+
+Board keys are equal
+
+Board keys are equal
+
+Board keys are equal
+
+Board keys are equal
+
+Board keys are equal
+
+Board keys are equal
+
+Board keys are equal
+
+Board keys are equal
+
+Board keys are equal
+
+Board keys are equal
+
+Board keys are equal
+
+
 Board keys are unequal
-Current board is less than b5
+Current board is less than b0
 
+Board keys are equal
 
-   . 
+Board keys are equal
 
-  . . 
+Board keys are equal
 
-  . . 
+Board keys are equal
 
- . . B 
+Board keys are equal
 
- W W . 
+Board keys are equal
 
- B . . 
+Board keys are equal
 
-. B W W 
+Board keys are equal
 
-B B W B 
+Board keys are equal
 
-W B B . 
+Board keys are equal
 
-B W W . 
+Board keys are equal
 
-White's move
+Board keys are equal
 
-All Moves: 
-Play at [0, 0]                Play at [0, 1]               
-Promote from [3, 2] to [0, 1] Play at [2, 1]               
-Play at [2, 3]                Play at [3, 3]               
+Board keys are equal
 
-Play at [0, 0]
+Board keys are equal
 
+Board keys are equal
 
-Move History: 
-Play at [3, 3]                          Play at [2, 2]                         
-Play at [1, 2]                          Play at [2, 1]                         
-Play at [3, 2]                          Play at [1, 1]                         
-Play at [0, 3]                          Play at [3, 0]                         
-Promote from [3, 3] to [1, 1]           Play at [1, 3]                         
-Play at [3, 1]                          Promote from [3, 0] to [2, 1]          
-Play at [3, 0]                          Play at [1, 0]                         
-Play at [3, 3] taking [1, 1] and [3, 0] Play at [2, 0] taking [1, 0] and [2, 1]
-Play at [3, 0] taking [3, 0] and [3, 2] Play at [2, 3] taking [2, 0] and [2, 3]
-Play at [0, 2]                          Play at [0, 2]                         
-Promote from [3, 3] to [1, 1]           Play at [3, 2]                         
-Play at [0, 1]                          Play at [3, 3]                         
-Play at [0, 0] taking [0, 0] and [0, 1] Play at [2, 3] taking [2, 3] and [3, 3]
-Play at [0, 0]                          Play at [3, 0]                         
-Play at [2, 0]                          Play at [1, 0]                         
-Promote from [0, 0] to [1, 0]           Promote from [3, 2] to [2, 0]          
-Play at [3, 2]                          Play at [0, 1]                         
 
-Value: 100
+Board keys are unequal
+Current board is less than b0
 
-Moves/Keys: 35/0
+Board keys are equal
 
+Board keys are equal
 
-   . 
+Board keys are equal
 
-  . . 
+Board keys are equal
 
-  . . 
+Board keys are equal
 
- . . B 
+Board keys are equal
 
- W W . 
+Board keys are equal
 
- B . . 
+Board keys are equal
 
-W B W W 
+Board keys are equal
 
-B B W B 
+Board keys are equal
 
-W B B . 
+Board keys are equal
 
-B W W . 
+Board keys are equal
 
-Black's move
+Board keys are equal
 
-All Moves: 
-Play at [0, 0]                Play at [0, 1]               
-Play at [2, 1]                Promote from [0, 1] to [2, 1]
-Play at [2, 3]                Play at [3, 3]               
+Board keys are equal
 
-Play at [0, 0]
+Board keys are equal
 
 
-Move History: 
-Play at [3, 3]                          Play at [2, 2]                         
-Play at [1, 2]                          Play at [2, 1]                         
-Play at [3, 2]                          Play at [1, 1]                         
-Play at [0, 3]                          Play at [3, 0]                         
-Promote from [3, 3] to [1, 1]           Play at [1, 3]                         
-Play at [3, 1]                          Promote from [3, 0] to [2, 1]          
-Play at [3, 0]                          Play at [1, 0]                         
-Play at [3, 3] taking [1, 1] and [3, 0] Play at [2, 0] taking [1, 0] and [2, 1]
-Play at [3, 0] taking [3, 0] and [3, 2] Play at [2, 3] taking [2, 0] and [2, 3]
-Play at [0, 2]                          Play at [0, 2]                         
-Promote from [3, 3] to [1, 1]           Play at [3, 2]                         
-Play at [0, 1]                          Play at [3, 3]                         
-Play at [0, 0] taking [0, 0] and [0, 1] Play at [2, 3] taking [2, 3] and [3, 3]
-Play at [0, 0]                          Play at [3, 0]                         
-Play at [2, 0]                          Play at [1, 0]                         
-Promote from [0, 0] to [1, 0]           Promote from [3, 2] to [2, 0]          
-Play at [3, 2]                          Play at [0, 1]                         
-Play at [0, 0]                         
+Board keys are unequal
+Current board is less than b0
 
-Value: 6
+Board keys are equal
 
-Moves/Keys: 36/0
+Board keys are equal
 
+Board keys are equal
 
-   . 
+Board keys are equal
 
-  . . 
+Board keys are equal
 
-  . . 
+Board keys are equal
 
- . . B 
+Board keys are equal
 
- W W . 
+Board keys are equal
 
- B . . 
+Board keys are equal
 
-W B W W 
+Board keys are equal
 
-B B W B 
+Board keys are equal
 
-W B B . 
+Board keys are equal
 
-B W W . 
+Board keys are equal
 
-Black's move
+Board keys are equal
 
-All Moves: 
-Play at [0, 0]                Play at [0, 1]               
-Play at [2, 1]                Promote from [0, 1] to [2, 1]
-Play at [2, 3]                Play at [3, 3]               
+Board keys are equal
 
-Play at [0, 0]
 
+Board keys are unequal
+Current board is less than b0
 
-Move History: 
-Play at [3, 3]                          Play at [2, 2]                         
-Play at [1, 2]                          Play at [2, 1]                         
-Play at [3, 2]                          Play at [1, 1]                         
-Play at [0, 3]                          Play at [3, 0]                         
-Promote from [3, 3] to [1, 1]           Play at [1, 3]                         
-Play at [3, 1]                          Promote from [3, 0] to [2, 1]          
-Play at [3, 0]                          Play at [1, 0]                         
-Play at [3, 3] taking [1, 1] and [3, 0] Play at [2, 0] taking [1, 0] and [2, 1]
-Play at [3, 0] taking [3, 0] and [3, 2] Play at [2, 3] taking [2, 0] and [2, 3]
-Play at [0, 2]                          Play at [0, 2]                         
-Promote from [3, 3] to [1, 1]           Play at [3, 2]                         
-Play at [0, 1]                          Play at [3, 3]                         
-Play at [0, 0] taking [0, 0] and [0, 1] Play at [2, 3] taking [2, 3] and [3, 3]
-Play at [0, 0]                          Play at [3, 0]                         
-Play at [2, 0]                          Play at [1, 0]                         
-Promote from [0, 0] to [1, 0]           Promote from [3, 2] to [2, 0]          
-Play at [3, 2]                          Play at [0, 1]                         
-Play at [0, 0]                         
+Board keys are equal
 
-Value: 6
+Board keys are equal
 
-Moves/Keys: 36/0
+Board keys are equal
 
+Board keys are equal
 
-   . 
+Board keys are equal
 
-  . . 
+Board keys are equal
 
-  . . 
+Board keys are equal
 
- B . B 
+Board keys are equal
 
- W W . 
+Board keys are equal
 
- B . . 
+Board keys are equal
 
-W B W W 
+Board keys are equal
 
-B B W B 
+Board keys are equal
 
-W B B . 
+Board keys are equal
 
-B W W . 
+Board keys are equal
 
-White's move
+Board keys are equal
 
-All Moves: 
-Play at [0, 1]                Promote from [3, 2] to [0, 1]
-Play at [2, 1]                Play at [2, 3]               
-Play at [3, 3]               
 
-Play at [0, 0]
+Board keys are unequal
+Current board is less than b0
 
+Board keys are equal
 
-Move History: 
-Play at [3, 3]                          Play at [2, 2]                         
-Play at [1, 2]                          Play at [2, 1]                         
-Play at [3, 2]                          Play at [1, 1]                         
-Play at [0, 3]                          Play at [3, 0]                         
-Promote from [3, 3] to [1, 1]           Play at [1, 3]                         
-Play at [3, 1]                          Promote from [3, 0] to [2, 1]          
-Play at [3, 0]                          Play at [1, 0]                         
-Play at [3, 3] taking [1, 1] and [3, 0] Play at [2, 0] taking [1, 0] and [2, 1]
-Play at [3, 0] taking [3, 0] and [3, 2] Play at [2, 3] taking [2, 0] and [2, 3]
-Play at [0, 2]                          Play at [0, 2]                         
-Promote from [3, 3] to [1, 1]           Play at [3, 2]                         
-Play at [0, 1]                          Play at [3, 3]                         
-Play at [0, 0] taking [0, 0] and [0, 1] Play at [2, 3] taking [2, 3] and [3, 3]
-Play at [0, 0]                          Play at [3, 0]                         
-Play at [2, 0]                          Play at [1, 0]                         
-Promote from [0, 0] to [1, 0]           Promote from [3, 2] to [2, 0]          
-Play at [3, 2]                          Play at [0, 1]                         
-Play at [0, 0]                          Play at [0, 0]                         
+Board keys are equal
 
-Value: 80
+Board keys are equal
 
-Moves/Keys: 37/0
+Board keys are equal
 
+Board keys are equal
 
-   . 
+Board keys are equal
 
-  . . 
+Board keys are equal
 
-  . . 
+Board keys are equal
 
- B . B 
+Board keys are equal
 
- W W . 
+Board keys are equal
 
- B . . 
+Board keys are equal
 
-W B W W 
+Board keys are equal
 
-B B W B 
+Board keys are equal
 
-W B B . 
+Board keys are equal
 
-B W W . 
+Board keys are equal
 
-White's move
 
-All Moves: 
-Play at [0, 1]                Promote from [3, 2] to [0, 1]
-Play at [2, 1]                Play at [2, 3]               
-Play at [3, 3]               
+Board keys are unequal
+Current board is less than b0
 
-Play at [0, 0]
+Board keys are equal
 
+Board keys are equal
 
-Move History: 
-Play at [3, 3]                          Play at [2, 2]                         
-Play at [1, 2]                          Play at [2, 1]                         
-Play at [3, 2]                          Play at [1, 1]                         
-Play at [0, 3]                          Play at [3, 0]                         
-Promote from [3, 3] to [1, 1]           Play at [1, 3]                         
-Play at [3, 1]                          Promote from [3, 0] to [2, 1]          
-Play at [3, 0]                          Play at [1, 0]                         
-Play at [3, 3] taking [1, 1] and [3, 0] Play at [2, 0] taking [1, 0] and [2, 1]
-Play at [3, 0] taking [3, 0] and [3, 2] Play at [2, 3] taking [2, 0] and [2, 3]
-Play at [0, 2]                          Play at [0, 2]                         
-Promote from [3, 3] to [1, 1]           Play at [3, 2]                         
-Play at [0, 1]                          Play at [3, 3]                         
-Play at [0, 0] taking [0, 0] and [0, 1] Play at [2, 3] taking [2, 3] and [3, 3]
-Play at [0, 0]                          Play at [3, 0]                         
-Play at [2, 0]                          Play at [1, 0]                         
-Promote from [0, 0] to [1, 0]           Promote from [3, 2] to [2, 0]          
-Play at [3, 2]                          Play at [0, 1]                         
-Play at [0, 0]                          Play at [0, 0]                         
+Board keys are equal
 
-Value: 80
+Board keys are equal
 
-Moves/Keys: 37/0
+Board keys are equal
 
-Invalid move being applied
+Board keys are equal
 
-   . 
+Board keys are equal
 
-  . . 
+Board keys are equal
 
-  . . 
+Board keys are equal
 
- B . B 
+Board keys are equal
 
- W W . 
+Board keys are equal
 
- B . . 
+Board keys are equal
 
-W B W W 
+Board keys are equal
 
-B B W B 
+Board keys are equal
 
-W B B . 
+Board keys are equal
 
-B W W . 
 
-White's move
+Board keys are unequal
+Current board is less than b0
 
-All Moves: 
-Play at [0, 1]                Promote from [3, 2] to [0, 1]
-Play at [2, 1]                Play at [2, 3]               
-Play at [3, 3]               
+Board keys are equal
 
-Play at [0, 0]
+Board keys are equal
 
+Board keys are equal
 
-Move History: 
-Play at [3, 3]                          Play at [2, 2]                         
-Play at [1, 2]                          Play at [2, 1]                         
-Play at [3, 2]                          Play at [1, 1]                         
-Play at [0, 3]                          Play at [3, 0]                         
-Promote from [3, 3] to [1, 1]           Play at [1, 3]                         
-Play at [3, 1]                          Promote from [3, 0] to [2, 1]          
-Play at [3, 0]                          Play at [1, 0]                         
-Play at [3, 3] taking [1, 1] and [3, 0] Play at [2, 0] taking [1, 0] and [2, 1]
-Play at [3, 0] taking [3, 0] and [3, 2] Play at [2, 3] taking [2, 0] and [2, 3]
-Play at [0, 2]                          Play at [0, 2]                         
-Promote from [3, 3] to [1, 1]           Play at [3, 2]                         
-Play at [0, 1]                          Play at [3, 3]                         
-Play at [0, 0] taking [0, 0] and [0, 1] Play at [2, 3] taking [2, 3] and [3, 3]
-Play at [0, 0]                          Play at [3, 0]                         
-Play at [2, 0]                          Play at [1, 0]                         
-Promote from [0, 0] to [1, 0]           Promote from [3, 2] to [2, 0]          
-Play at [3, 2]                          Play at [0, 1]                         
-Play at [0, 0]                          Play at [0, 0]                         
+Board keys are equal
 
-Value: 80
+Board keys are equal
 
-Moves/Keys: 37/0
+Board keys are equal
 
+Board keys are equal
 
-   . 
+Board keys are equal
 
-  . . 
+Board keys are equal
 
-  . . 
+Board keys are equal
 
- B . B 
+Board keys are equal
 
- W W . 
+Board keys are equal
 
- B . . 
+Board keys are equal
 
-W B W W 
+Board keys are equal
 
-B B W B 
+Board keys are equal
 
-W B B . 
 
-B W W . 
+Board keys are unequal
+Current board is less than b0
 
-White's move
+Board keys are equal
 
-All Moves: 
-Play at [0, 1]                Promote from [3, 2] to [0, 1]
-Play at [2, 1]                Play at [2, 3]               
-Play at [3, 3]               
+Board keys are equal
 
-Play at [0, 0]
+Board keys are equal
 
+Board keys are equal
 
-Move History: 
-Play at [3, 3]                          Play at [2, 2]                         
-Play at [1, 2]                          Play at [2, 1]                         
-Play at [3, 2]                          Play at [1, 1]                         
-Play at [0, 3]                          Play at [3, 0]                         
-Promote from [3, 3] to [1, 1]           Play at [1, 3]                         
-Play at [3, 1]                          Promote from [3, 0] to [2, 1]          
-Play at [3, 0]                          Play at [1, 0]                         
-Play at [3, 3] taking [1, 1] and [3, 0] Play at [2, 0] taking [1, 0] and [2, 1]
-Play at [3, 0] taking [3, 0] and [3, 2] Play at [2, 3] taking [2, 0] and [2, 3]
-Play at [0, 2]                          Play at [0, 2]                         
-Promote from [3, 3] to [1, 1]           Play at [3, 2]                         
-Play at [0, 1]                          Play at [3, 3]                         
-Play at [0, 0] taking [0, 0] and [0, 1] Play at [2, 3] taking [2, 3] and [3, 3]
-Play at [0, 0]                          Play at [3, 0]                         
-Play at [2, 0]                          Play at [1, 0]                         
-Promote from [0, 0] to [1, 0]           Promote from [3, 2] to [2, 0]          
-Play at [3, 2]                          Play at [0, 1]                         
-Play at [0, 0]                          Play at [0, 0]                         
+Board keys are equal
 
-Value: 80
+Board keys are equal
 
-Moves/Keys: 37/0
+Board keys are equal
 
-Invalid move being applied
+Board keys are equal
 
-   . 
+Board keys are equal
 
-  . . 
+Board keys are equal
 
-  . . 
+Board keys are equal
 
- B . B 
+Board keys are equal
 
- W W . 
+Board keys are equal
 
- B . . 
+Board keys are equal
 
-W B W W 
+Board keys are equal
 
-B B W B 
 
-W B B . 
+Board keys are unequal
+Current board is less than b0
 
-B W W . 
+Board keys are equal
 
-White's move
+Board keys are equal
 
-All Moves: 
-Play at [0, 1]                Promote from [3, 2] to [0, 1]
-Play at [2, 1]                Play at [2, 3]               
-Play at [3, 3]               
+Board keys are equal
 
-Play at [0, 0]
+Board keys are equal
 
+Board keys are equal
 
-Move History: 
-Play at [3, 3]                          Play at [2, 2]                         
-Play at [1, 2]                          Play at [2, 1]                         
-Play at [3, 2]                          Play at [1, 1]                         
-Play at [0, 3]                          Play at [3, 0]                         
-Promote from [3, 3] to [1, 1]           Play at [1, 3]                         
-Play at [3, 1]                          Promote from [3, 0] to [2, 1]          
-Play at [3, 0]                          Play at [1, 0]                         
-Play at [3, 3] taking [1, 1] and [3, 0] Play at [2, 0] taking [1, 0] and [2, 1]
-Play at [3, 0] taking [3, 0] and [3, 2] Play at [2, 3] taking [2, 0] and [2, 3]
-Play at [0, 2]                          Play at [0, 2]                         
-Promote from [3, 3] to [1, 1]           Play at [3, 2]                         
-Play at [0, 1]                          Play at [3, 3]                         
-Play at [0, 0] taking [0, 0] and [0, 1] Play at [2, 3] taking [2, 3] and [3, 3]
-Play at [0, 0]                          Play at [3, 0]                         
-Play at [2, 0]                          Play at [1, 0]                         
-Promote from [0, 0] to [1, 0]           Promote from [3, 2] to [2, 0]          
-Play at [3, 2]                          Play at [0, 1]                         
-Play at [0, 0]                          Play at [0, 0]                         
+Board keys are equal
 
-Value: 80
+Board keys are equal
 
-Moves/Keys: 37/0
+Board keys are equal
 
+Board keys are equal
 
-   . 
+Board keys are equal
 
-  . . 
+Board keys are equal
 
-  . . 
+Board keys are equal
 
- B . B 
+Board keys are equal
 
- W W . 
+Board keys are equal
 
- B . . 
+Board keys are equal
 
-W B W W 
 
-B B W B 
+Board keys are unequal
+Current board is less than b0
 
-W B B . 
+Board keys are equal
 
-B W W . 
+Board keys are equal
 
-White's move
+Board keys are equal
 
-All Moves: 
-Play at [0, 1]                Promote from [3, 2] to [0, 1]
-Play at [2, 1]                Play at [2, 3]               
-Play at [3, 3]               
+Board keys are equal
 
-Play at [0, 0]
+Board keys are equal
 
+Board keys are equal
 
-Move History: 
-Play at [3, 3]                          Play at [2, 2]                         
-Play at [1, 2]                          Play at [2, 1]                         
-Play at [3, 2]                          Play at [1, 1]                         
-Play at [0, 3]                          Play at [3, 0]                         
-Promote from [3, 3] to [1, 1]           Play at [1, 3]                         
-Play at [3, 1]                          Promote from [3, 0] to [2, 1]          
-Play at [3, 0]                          Play at [1, 0]                         
-Play at [3, 3] taking [1, 1] and [3, 0] Play at [2, 0] taking [1, 0] and [2, 1]
-Play at [3, 0] taking [3, 0] and [3, 2] Play at [2, 3] taking [2, 0] and [2, 3]
-Play at [0, 2]                          Play at [0, 2]                         
-Promote from [3, 3] to [1, 1]           Play at [3, 2]                         
-Play at [0, 1]                          Play at [3, 3]                         
-Play at [0, 0] taking [0, 0] and [0, 1] Play at [2, 3] taking [2, 3] and [3, 3]
-Play at [0, 0]                          Play at [3, 0]                         
-Play at [2, 0]                          Play at [1, 0]                         
-Promote from [0, 0] to [1, 0]           Promote from [3, 2] to [2, 0]          
-Play at [3, 2]                          Play at [0, 1]                         
-Play at [0, 0]                          Play at [0, 0]                         
+Board keys are equal
 
-Value: 80
+Board keys are equal
 
-Moves/Keys: 37/0
+Board keys are equal
 
-Invalid move being applied
+Board keys are equal
 
-   . 
+Board keys are equal
 
-  . . 
+Board keys are equal
 
-  . . 
+Board keys are equal
 
- B . B 
+Board keys are equal
 
- W W . 
+Board keys are equal
 
- B . . 
 
-W B W W 
+Board keys are unequal
+Current board is less than b0
 
-B B W B 
+Board keys are equal
 
-W B B . 
+Board keys are equal
 
-B W W . 
+Board keys are equal
 
-White's move
+Board keys are equal
 
-All Moves: 
-Play at [0, 1]                Promote from [3, 2] to [0, 1]
-Play at [2, 1]                Play at [2, 3]               
-Play at [3, 3]               
+Board keys are equal
 
-Play at [0, 0]
+Board keys are equal
 
+Board keys are equal
 
-Move History: 
-Play at [3, 3]                          Play at [2, 2]                         
-Play at [1, 2]                          Play at [2, 1]                         
-Play at [3, 2]                          Play at [1, 1]                         
-Play at [0, 3]                          Play at [3, 0]                         
-Promote from [3, 3] to [1, 1]           Play at [1, 3]                         
-Play at [3, 1]                          Promote from [3, 0] to [2, 1]          
-Play at [3, 0]                          Play at [1, 0]                         
-Play at [3, 3] taking [1, 1] and [3, 0] Play at [2, 0] taking [1, 0] and [2, 1]
-Play at [3, 0] taking [3, 0] and [3, 2] Play at [2, 3] taking [2, 0] and [2, 3]
-Play at [0, 2]                          Play at [0, 2]                         
-Promote from [3, 3] to [1, 1]           Play at [3, 2]                         
-Play at [0, 1]                          Play at [3, 3]                         
-Play at [0, 0] taking [0, 0] and [0, 1] Play at [2, 3] taking [2, 3] and [3, 3]
-Play at [0, 0]                          Play at [3, 0]                         
-Play at [2, 0]                          Play at [1, 0]                         
-Promote from [0, 0] to [1, 0]           Promote from [3, 2] to [2, 0]          
-Play at [3, 2]                          Play at [0, 1]                         
-Play at [0, 0]                          Play at [0, 0]                         
+Board keys are equal
 
-Value: 80
+Board keys are equal
 
-Moves/Keys: 37/0
+Board keys are equal
 
+Board keys are equal
 
-   . 
+Board keys are equal
 
-  . . 
+Board keys are equal
 
-  . . 
+Board keys are equal
 
- B . B 
+Board keys are equal
 
- W W . 
 
- B . . 
+Board keys are unequal
+Current board is less than b0
 
-W B W W 
+Board keys are equal
 
-B B W B 
+Board keys are equal
 
-W B B . 
+Board keys are equal
 
-B W W . 
+Board keys are equal
 
-White's move
+Board keys are equal
 
-All Moves: 
-Play at [0, 1]                Promote from [3, 2] to [0, 1]
-Play at [2, 1]                Play at [2, 3]               
-Play at [3, 3]               
+Board keys are equal
 
-Play at [0, 0]
+Board keys are equal
 
+Board keys are equal
 
-Move History: 
-Play at [3, 3]                          Play at [2, 2]                         
-Play at [1, 2]                          Play at [2, 1]                         
-Play at [3, 2]                          Play at [1, 1]                         
-Play at [0, 3]                          Play at [3, 0]                         
-Promote from [3, 3] to [1, 1]           Play at [1, 3]                         
-Play at [3, 1]                          Promote from [3, 0] to [2, 1]          
-Play at [3, 0]                          Play at [1, 0]                         
-Play at [3, 3] taking [1, 1] and [3, 0] Play at [2, 0] taking [1, 0] and [2, 1]
-Play at [3, 0] taking [3, 0] and [3, 2] Play at [2, 3] taking [2, 0] and [2, 3]
-Play at [0, 2]                          Play at [0, 2]                         
-Promote from [3, 3] to [1, 1]           Play at [3, 2]                         
-Play at [0, 1]                          Play at [3, 3]                         
-Play at [0, 0] taking [0, 0] and [0, 1] Play at [2, 3] taking [2, 3] and [3, 3]
-Play at [0, 0]                          Play at [3, 0]                         
-Play at [2, 0]                          Play at [1, 0]                         
-Promote from [0, 0] to [1, 0]           Promote from [3, 2] to [2, 0]          
-Play at [3, 2]                          Play at [0, 1]                         
-Play at [0, 0]                          Play at [0, 0]                         
+Board keys are equal
 
-Value: 80
+Board keys are equal
 
-Moves/Keys: 37/0
+Board keys are equal
 
-Invalid move being applied
+Board keys are equal
 
-   . 
+Board keys are equal
 
-  . . 
+Board keys are equal
 
-  . . 
-
- B . B 
-
- W W . 
-
- B . . 
-
-W B W W 
-
-B B W B 
-
-W B B . 
-
-B W W . 
-
-White's move
-
-All Moves: 
-Play at [0, 1]                Promote from [3, 2] to [0, 1]
-Play at [2, 1]                Play at [2, 3]               
-Play at [3, 3]               
-
-Play at [0, 0]
-
-
-Move History: 
-Play at [3, 3]                          Play at [2, 2]                         
-Play at [1, 2]                          Play at [2, 1]                         
-Play at [3, 2]                          Play at [1, 1]                         
-Play at [0, 3]                          Play at [3, 0]                         
-Promote from [3, 3] to [1, 1]           Play at [1, 3]                         
-Play at [3, 1]                          Promote from [3, 0] to [2, 1]          
-Play at [3, 0]                          Play at [1, 0]                         
-Play at [3, 3] taking [1, 1] and [3, 0] Play at [2, 0] taking [1, 0] and [2, 1]
-Play at [3, 0] taking [3, 0] and [3, 2] Play at [2, 3] taking [2, 0] and [2, 3]
-Play at [0, 2]                          Play at [0, 2]                         
-Promote from [3, 3] to [1, 1]           Play at [3, 2]                         
-Play at [0, 1]                          Play at [3, 3]                         
-Play at [0, 0] taking [0, 0] and [0, 1] Play at [2, 3] taking [2, 3] and [3, 3]
-Play at [0, 0]                          Play at [3, 0]                         
-Play at [2, 0]                          Play at [1, 0]                         
-Promote from [0, 0] to [1, 0]           Promote from [3, 2] to [2, 0]          
-Play at [3, 2]                          Play at [0, 1]                         
-Play at [0, 0]                          Play at [0, 0]                         
-
-Value: 80
-
-Moves/Keys: 37/0
+Board keys are equal
 
