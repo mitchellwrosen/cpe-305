@@ -1,0 +1,294 @@
+
+# Compare keys of all saved boards.
+testRun 0 30
+saveBoard b0
+saveMove m0
+testRun 3000 30
+saveBoard b1
+saveMove m1
+testRun 6000 30
+saveBoard b2
+saveMove m2
+testRun 9000 30
+saveBoard b3
+saveMove m3
+testRun 12000 30
+saveBoard b4
+saveMove m4
+testRun 15000 30
+saveBoard b5
+saveMove m5
+testRun 18000 30
+saveBoard b6
+saveMove m6
+testRun 21000 30
+saveBoard b7
+saveMove m7
+testRun 24000 30
+saveBoard b8
+saveMove m8
+loadBoard b0
+showAll
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+undoLastMove 30
+showAll
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+loadBoard b1
+showAll
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+undoLastMove 30
+showAll
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+loadBoard b2
+showAll
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+undoLastMove 30
+showAll
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+loadBoard b3
+showAll
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+undoLastMove 30
+showAll
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+loadBoard b4
+showAll
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+undoLastMove 30
+showAll
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+loadBoard b5
+showAll
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+undoLastMove 30
+showAll
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+loadBoard b6
+showAll
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+undoLastMove 30
+showAll
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+loadBoard b7
+showAll
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+undoLastMove 30
+showAll
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+loadBoard b8
+showAll
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+undoLastMove 30
+showAll
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+
+# Load saved moves and show them.
+loadMove m0
+showAll
+applyMove
+showAll
+loadMove m1
+showAll
+applyMove
+showAll
+loadMove m2
+showAll
+applyMove
+showAll
+loadMove m3
+showAll
+applyMove
+showAll
+loadMove m4
+showAll
+applyMove
+showAll
+loadMove m5
+showAll
+applyMove
+showAll
+loadMove m6
+showAll
+applyMove
+showAll
+loadMove m7
+showAll
+applyMove
+showAll
+loadMove m8
+showAll
+applyMove
+showAll
+
+# Finish off with some testRuns
+testRun 0 10
+showAll
+testRun 1234 10
+showAll
+testRun 2468 10
+showAll
+testRun 3702 10
+showAll
+testRun 4936 10
+showAll
+testRun 6170 10
+showAll
+testRun 7404 10
+showAll
+testRun 8638 10
+showAll
+testRun 9872 10
+showAll
+testRun 11106 10
+showAll
+testRun 12340 10
+showAll
+testRun 13574 10
+showAll
+testRun 14808 10
+showAll
+quit

@@ -18,6 +18,15 @@ saveMove m4
 testRun 15000 30
 saveBoard b5
 saveMove m5
+testRun 18000 30
+saveBoard b6
+saveMove m6
+testRun 21000 30
+saveBoard b7
+saveMove m7
+testRun 24000 30
+saveBoard b8
+saveMove m8
 loadBoard b0
 showAll
 compareKeys b0
@@ -26,14 +35,19 @@ compareKeys b2
 compareKeys b3
 compareKeys b4
 compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
 undoLastMove 30
-showAll
 compareKeys b0
 compareKeys b1
 compareKeys b2
 compareKeys b3
 compareKeys b4
 compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
 loadBoard b1
 showAll
 compareKeys b0
@@ -42,14 +56,19 @@ compareKeys b2
 compareKeys b3
 compareKeys b4
 compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
 undoLastMove 30
-showAll
 compareKeys b0
 compareKeys b1
 compareKeys b2
 compareKeys b3
 compareKeys b4
 compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
 loadBoard b2
 showAll
 compareKeys b0
@@ -58,14 +77,19 @@ compareKeys b2
 compareKeys b3
 compareKeys b4
 compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
 undoLastMove 30
-showAll
 compareKeys b0
 compareKeys b1
 compareKeys b2
 compareKeys b3
 compareKeys b4
 compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
 loadBoard b3
 showAll
 compareKeys b0
@@ -74,14 +98,19 @@ compareKeys b2
 compareKeys b3
 compareKeys b4
 compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
 undoLastMove 30
-showAll
 compareKeys b0
 compareKeys b1
 compareKeys b2
 compareKeys b3
 compareKeys b4
 compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
 loadBoard b4
 showAll
 compareKeys b0
@@ -90,14 +119,19 @@ compareKeys b2
 compareKeys b3
 compareKeys b4
 compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
 undoLastMove 30
-showAll
 compareKeys b0
 compareKeys b1
 compareKeys b2
 compareKeys b3
 compareKeys b4
 compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
 loadBoard b5
 showAll
 compareKeys b0
@@ -106,7 +140,20 @@ compareKeys b2
 compareKeys b3
 compareKeys b4
 compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
 undoLastMove 30
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+loadBoard b6
 showAll
 compareKeys b0
 compareKeys b1
@@ -114,6 +161,61 @@ compareKeys b2
 compareKeys b3
 compareKeys b4
 compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+undoLastMove 30
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+loadBoard b7
+showAll
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+undoLastMove 30
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+loadBoard b8
+showAll
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
+undoLastMove 30
+compareKeys b0
+compareKeys b1
+compareKeys b2
+compareKeys b3
+compareKeys b4
+compareKeys b5
+compareKeys b6
+compareKeys b7
+compareKeys b8
 
 # Load saved moves and show them.
 loadMove m0
@@ -137,6 +239,18 @@ showAll
 applyMove
 showAll
 loadMove m5
+showAll
+applyMove
+showAll
+loadMove m6
+showAll
+applyMove
+showAll
+loadMove m7
+showAll
+applyMove
+showAll
+loadMove m8
 showAll
 applyMove
 showAll

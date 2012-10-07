@@ -1,0 +1,89 @@
+
+# Play quick games
+showAll
+testRun 0 20
+showAll
+testRun 2000 20
+showAll
+testRun 4000 20
+showAll
+testRun 6000 20
+showAll
+testRun 8000 20
+showAll
+testRun 10000 20
+showAll
+testRun 12000 20
+showAll
+testRun 14000 20
+showAll
+testRun 16000 20
+showAll
+testRun 18000 20
+showAll
+testRun 20000 20
+showAll
+testRun 22000 20
+showAll
+testRun 24000 20
+showAll
+testRun 26000 20
+showAll
+testRun 28000 20
+showAll
+testRun 30000 20
+showAll
+testRun 32000 20
+showAll
+testRun 34000 20
+showAll
+testRun 36000 20
+showAll
+testRun 38000 20
+showAll
+testRun 40000 20
+showAll
+testRun 42000 20
+showAll
+testRun 44000 20
+showAll
+testRun 46000 20
+showAll
+testRun 48000 20
+showAll
+testRun 50000 20
+showAll
+testRun 52000 20
+showAll
+testRun 54000 20
+showAll
+testRun 56000 20
+showAll
+testRun 58000 20
+showAll
+testRun 60000 20
+showAll
+testRun 62000 20
+showAll
+testRun 64000 20
+showAll
+testRun 66000 20
+showAll
+testRun 68000 20
+showAll
+testRun 70000 20
+showAll
+testRun 72000 20
+showAll
+testRun 74000 20
+showAll
+testRun 76000 20
+showAll
+testRun 78000 20
+showAll
+testRun 80000 20
+showAll
+testRun 82000 20
+showAll
+testRun 84000 20
+quit

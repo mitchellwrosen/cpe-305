@@ -3,719 +3,319 @@ testPlay 0 500
 showAll
 undoLastMove 500
 
-testPlay 1 500
+testPlay 1234 500
 showAll
 undoLastMove 500
 
-testPlay 2 500
+testPlay 2468 500
 showAll
 undoLastMove 500
 
-testPlay 3 500
+testPlay 3702 500
 showAll
 undoLastMove 500
 
-testPlay 4 500
+testPlay 4936 500
 showAll
 undoLastMove 500
 
-testPlay 5 500
+testPlay 6170 500
 showAll
 undoLastMove 500
 
-testPlay 6 500
+testPlay 7404 500
 showAll
 undoLastMove 500
 
-testPlay 7 500
+testPlay 8638 500
 showAll
 undoLastMove 500
 
-testPlay 8 500
+testPlay 9872 500
 showAll
 undoLastMove 500
 
-testPlay 9 500
+testPlay 11106 500
 showAll
 undoLastMove 500
 
-testPlay 10 500
+testPlay 12340 500
 showAll
 undoLastMove 500
 
-testPlay 11 500
+testPlay 13574 500
 showAll
 undoLastMove 500
 
-testPlay 12 500
+testPlay 14808 500
 showAll
 undoLastMove 500
 
-testPlay 13 500
+testPlay 16042 500
 showAll
 undoLastMove 500
 
-testPlay 14 500
+testPlay 17276 500
 showAll
 undoLastMove 500
 
-testPlay 15 500
+testPlay 18510 500
 showAll
 undoLastMove 500
 
-testPlay 16 500
+testPlay 19744 500
 showAll
 undoLastMove 500
 
-testPlay 17 500
+testPlay 20978 500
 showAll
 undoLastMove 500
 
-testPlay 18 500
+testPlay 22212 500
 showAll
 undoLastMove 500
 
-testPlay 19 500
+testPlay 23446 500
 showAll
 undoLastMove 500
 
-testPlay 20 500
+testPlay 24680 500
 showAll
 undoLastMove 500
 
-testPlay 21 500
+testPlay 25914 500
 showAll
 undoLastMove 500
 
-testPlay 22 500
+testPlay 27148 500
 showAll
 undoLastMove 500
 
-testPlay 23 500
+testPlay 28382 500
 showAll
 undoLastMove 500
 
-testPlay 24 500
+testPlay 29616 500
 showAll
 undoLastMove 500
 
-testPlay 25 500
+testPlay 30850 500
 showAll
 undoLastMove 500
 
-testPlay 26 500
+testPlay 32084 500
 showAll
 undoLastMove 500
 
-testPlay 27 500
+testPlay 33318 500
 showAll
 undoLastMove 500
 
-testPlay 28 500
+testPlay 34552 500
 showAll
 undoLastMove 500
 
-testPlay 29 500
+testPlay 35786 500
 showAll
 undoLastMove 500
 
-testPlay 30 500
+testPlay 37020 500
 showAll
 undoLastMove 500
 
-testPlay 31 500
+testPlay 38254 500
 showAll
 undoLastMove 500
 
-testPlay 32 500
+testPlay 39488 500
 showAll
 undoLastMove 500
 
-testPlay 33 500
+testPlay 40722 500
 showAll
 undoLastMove 500
 
-testPlay 34 500
+testPlay 41956 500
 showAll
 undoLastMove 500
 
-testPlay 35 500
+testPlay 43190 500
 showAll
 undoLastMove 500
 
-testPlay 36 500
+testPlay 44424 500
 showAll
 undoLastMove 500
 
-testPlay 37 500
+testPlay 45658 500
 showAll
 undoLastMove 500
 
-testPlay 38 500
+testPlay 46892 500
 showAll
 undoLastMove 500
 
-testPlay 39 500
+testPlay 48126 500
 showAll
 undoLastMove 500
 
-testPlay 40 500
+testPlay 49360 500
 showAll
 undoLastMove 500
 
-testPlay 41 500
+testPlay 50594 500
 showAll
 undoLastMove 500
 
-testPlay 42 500
+testPlay 51828 500
 showAll
 undoLastMove 500
 
-testPlay 43 500
+testPlay 53062 500
 showAll
 undoLastMove 500
 
-testPlay 44 500
+testPlay 54296 500
 showAll
 undoLastMove 500
 
-testPlay 45 500
+testPlay 55530 500
 showAll
 undoLastMove 500
 
-testPlay 46 500
+testPlay 56764 500
 showAll
 undoLastMove 500
 
-testPlay 47 500
+testPlay 57998 500
 showAll
 undoLastMove 500
 
-testPlay 48 500
+testPlay 59232 500
 showAll
 undoLastMove 500
 
-testPlay 49 500
+testPlay 60466 500
 showAll
 undoLastMove 500
 
-testPlay 50 500
+testPlay 61700 500
 showAll
 undoLastMove 500
 
-testPlay 51 500
+testPlay 62934 500
 showAll
 undoLastMove 500
 
-testPlay 52 500
+testPlay 64168 500
 showAll
 undoLastMove 500
 
-testPlay 53 500
+testPlay 65402 500
 showAll
 undoLastMove 500
 
-testPlay 54 500
+testPlay 66636 500
 showAll
 undoLastMove 500
 
-testPlay 55 500
+testPlay 67870 500
 showAll
 undoLastMove 500
 
-testPlay 56 500
+testPlay 69104 500
 showAll
 undoLastMove 500
 
-testPlay 57 500
+testPlay 70338 500
 showAll
 undoLastMove 500
 
-testPlay 58 500
+testPlay 71572 500
 showAll
 undoLastMove 500
 
-testPlay 59 500
+testPlay 72806 500
 showAll
 undoLastMove 500
 
-testPlay 60 500
+testPlay 74040 500
 showAll
 undoLastMove 500
 
-testPlay 61 500
+testPlay 75274 500
 showAll
 undoLastMove 500
 
-testPlay 62 500
+testPlay 76508 500
 showAll
 undoLastMove 500
 
-testPlay 63 500
+testPlay 77742 500
 showAll
 undoLastMove 500
 
-testPlay 64 500
+testPlay 78976 500
 showAll
 undoLastMove 500
 
-testPlay 65 500
+testPlay 80210 500
 showAll
 undoLastMove 500
 
-testPlay 66 500
+testPlay 81444 500
 showAll
 undoLastMove 500
 
-testPlay 67 500
+testPlay 82678 500
 showAll
 undoLastMove 500
 
-testPlay 68 500
+testPlay 83912 500
 showAll
 undoLastMove 500
 
-testPlay 69 500
+testPlay 85146 500
 showAll
 undoLastMove 500
 
-testPlay 70 500
+testPlay 86380 500
 showAll
 undoLastMove 500
 
-testPlay 71 500
+testPlay 87614 500
 showAll
 undoLastMove 500
 
-testPlay 72 500
+testPlay 88848 500
 showAll
 undoLastMove 500
 
-testPlay 73 500
+testPlay 90082 500
 showAll
 undoLastMove 500
 
-testPlay 74 500
+testPlay 91316 500
 showAll
 undoLastMove 500
 
-testPlay 75 500
+testPlay 92550 500
 showAll
 undoLastMove 500
 
-testPlay 76 500
+testPlay 93784 500
 showAll
 undoLastMove 500
 
-testPlay 77 500
+testPlay 95018 500
 showAll
 undoLastMove 500
 
-testPlay 78 500
+testPlay 96252 500
 showAll
 undoLastMove 500
 
-testPlay 79 500
-showAll
-undoLastMove 500
-
-testPlay 80 500
-showAll
-undoLastMove 500
-
-testPlay 81 500
-showAll
-undoLastMove 500
-
-testPlay 82 500
-showAll
-undoLastMove 500
-
-testPlay 83 500
-showAll
-undoLastMove 500
-
-testPlay 84 500
-showAll
-undoLastMove 500
-
-testPlay 85 500
-showAll
-undoLastMove 500
-
-testPlay 86 500
-showAll
-undoLastMove 500
-
-testPlay 87 500
-showAll
-undoLastMove 500
-
-testPlay 88 500
-showAll
-undoLastMove 500
-
-testPlay 89 500
-showAll
-undoLastMove 500
-
-testPlay 90 500
-showAll
-undoLastMove 500
-
-testPlay 91 500
-showAll
-undoLastMove 500
-
-testPlay 92 500
-showAll
-undoLastMove 500
-
-testPlay 93 500
-showAll
-undoLastMove 500
-
-testPlay 94 500
-showAll
-undoLastMove 500
-
-testPlay 95 500
-showAll
-undoLastMove 500
-
-testPlay 96 500
-showAll
-undoLastMove 500
-
-testPlay 97 500
-showAll
-undoLastMove 500
-
-testPlay 98 500
-showAll
-undoLastMove 500
-
-testPlay 99 500
-showAll
-undoLastMove 500
-
-testPlay 100 500
-showAll
-undoLastMove 500
-
-testPlay 101 500
-showAll
-undoLastMove 500
-
-testPlay 102 500
-showAll
-undoLastMove 500
-
-testPlay 103 500
-showAll
-undoLastMove 500
-
-testPlay 104 500
-showAll
-undoLastMove 500
-
-testPlay 105 500
-showAll
-undoLastMove 500
-
-testPlay 106 500
-showAll
-undoLastMove 500
-
-testPlay 107 500
-showAll
-undoLastMove 500
-
-testPlay 108 500
-showAll
-undoLastMove 500
-
-testPlay 109 500
-showAll
-undoLastMove 500
-
-testPlay 110 500
-showAll
-undoLastMove 500
-
-testPlay 111 500
-showAll
-undoLastMove 500
-
-testPlay 112 500
-showAll
-undoLastMove 500
-
-testPlay 113 500
-showAll
-undoLastMove 500
-
-testPlay 114 500
-showAll
-undoLastMove 500
-
-testPlay 115 500
-showAll
-undoLastMove 500
-
-testPlay 116 500
-showAll
-undoLastMove 500
-
-testPlay 117 500
-showAll
-undoLastMove 500
-
-testPlay 118 500
-showAll
-undoLastMove 500
-
-testPlay 119 500
-showAll
-undoLastMove 500
-
-testPlay 120 500
-showAll
-undoLastMove 500
-
-testPlay 121 500
-showAll
-undoLastMove 500
-
-testPlay 122 500
-showAll
-undoLastMove 500
-
-testPlay 123 500
-showAll
-undoLastMove 500
-
-testPlay 124 500
-showAll
-undoLastMove 500
-
-testPlay 125 500
-showAll
-undoLastMove 500
-
-testPlay 126 500
-showAll
-undoLastMove 500
-
-testPlay 127 500
-showAll
-undoLastMove 500
-
-testPlay 128 500
-showAll
-undoLastMove 500
-
-testPlay 129 500
-showAll
-undoLastMove 500
-
-testPlay 130 500
-showAll
-undoLastMove 500
-
-testPlay 131 500
-showAll
-undoLastMove 500
-
-testPlay 132 500
-showAll
-undoLastMove 500
-
-testPlay 133 500
-showAll
-undoLastMove 500
-
-testPlay 134 500
-showAll
-undoLastMove 500
-
-testPlay 135 500
-showAll
-undoLastMove 500
-
-testPlay 136 500
-showAll
-undoLastMove 500
-
-testPlay 137 500
-showAll
-undoLastMove 500
-
-testPlay 138 500
-showAll
-undoLastMove 500
-
-testPlay 139 500
-showAll
-undoLastMove 500
-
-testPlay 140 500
-showAll
-undoLastMove 500
-
-testPlay 141 500
-showAll
-undoLastMove 500
-
-testPlay 142 500
-showAll
-undoLastMove 500
-
-testPlay 143 500
-showAll
-undoLastMove 500
-
-testPlay 144 500
-showAll
-undoLastMove 500
-
-testPlay 145 500
-showAll
-undoLastMove 500
-
-testPlay 146 500
-showAll
-undoLastMove 500
-
-testPlay 147 500
-showAll
-undoLastMove 500
-
-testPlay 148 500
-showAll
-undoLastMove 500
-
-testPlay 149 500
-showAll
-undoLastMove 500
-
-testPlay 150 500
-showAll
-undoLastMove 500
-
-testPlay 151 500
-showAll
-undoLastMove 500
-
-testPlay 152 500
-showAll
-undoLastMove 500
-
-testPlay 153 500
-showAll
-undoLastMove 500
-
-testPlay 154 500
-showAll
-undoLastMove 500
-
-testPlay 155 500
-showAll
-undoLastMove 500
-
-testPlay 156 500
-showAll
-undoLastMove 500
-
-testPlay 157 500
-showAll
-undoLastMove 500
-
-testPlay 158 500
-showAll
-undoLastMove 500
-
-testPlay 159 500
-showAll
-undoLastMove 500
-
-testPlay 160 500
-showAll
-undoLastMove 500
-
-testPlay 161 500
-showAll
-undoLastMove 500
-
-testPlay 162 500
-showAll
-undoLastMove 500
-
-testPlay 163 500
-showAll
-undoLastMove 500
-
-testPlay 164 500
-showAll
-undoLastMove 500
-
-testPlay 165 500
-showAll
-undoLastMove 500
-
-testPlay 166 500
-showAll
-undoLastMove 500
-
-testPlay 167 500
-showAll
-undoLastMove 500
-
-testPlay 168 500
-showAll
-undoLastMove 500
-
-testPlay 169 500
-showAll
-undoLastMove 500
-
-testPlay 170 500
-showAll
-undoLastMove 500
-
-testPlay 171 500
-showAll
-undoLastMove 500
-
-testPlay 172 500
-showAll
-undoLastMove 500
-
-testPlay 173 500
-showAll
-undoLastMove 500
-
-testPlay 174 500
-showAll
-undoLastMove 500
-
-testPlay 175 500
-showAll
-undoLastMove 500
-
-testPlay 176 500
-showAll
-undoLastMove 500
-
-testPlay 177 500
-showAll
-undoLastMove 500
-
-testPlay 178 500
-showAll
-undoLastMove 500
-
-testPlay 179 500
+testPlay 97486 500
 showAll
 undoLastMove 500
 

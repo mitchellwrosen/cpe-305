@@ -1,1906 +1,2162 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   . 
-
-  . . 
-
-  . . 
-
- W B . 
-
- B . . 
-
- . . . 
-
-B B W . 
-
-B B W B 
-
-B W . . 
-
-. W . . 
-
-White's move
-
-All Moves: 
-Play at [0, 3] Play at [2, 2] Play at [2, 3] Play at [3, 0] Play at [3, 2]
-Play at [3, 3]
-
-Play at [0, 0]
-
-
-Move History: 
-Play at [1, 3]                          Play at [0, 1]                         
-Play at [2, 3]                          Play at [1, 1]                         
-Play at [2, 0]                          Play at [1, 2]                         
-Play at [3, 0]                          Play at [0, 2] taking [1, 2]           
-Play at [3, 1]                          Play at [0, 3]                         
-Play at [1, 2]                          Play at [0, 0] taking [0, 0] and [0, 2]
-Play at [2, 2] taking [1, 3] and [2, 0] Play at [1, 3]                         
-Play at [1, 2]                          Play at [0, 0]                         
-Play at [0, 2]                          Play at [0, 1]                         
-Play at [3, 2] taking [1, 2] and [3, 2] Play at [1, 0] taking [0, 1] and [0, 3]
-Promote from [2, 2] to [0, 0]           Play at [0, 1]                         
-Play at [2, 2]                          Play at [2, 1]                         
-Play at [3, 2] taking [2, 3] and [3, 0] Play at [2, 0] taking [2, 0] and [2, 1]
-Play at [2, 1] taking [0, 0] and [2, 2] Play at [2, 0]                         
-Promote from [3, 2] to [0, 0]           Play at [1, 0]                         
-
-Value: 274
-
-Moves/Keys: 31/0
-
-Board keys are equal
-
-Board keys are unequal
-Current board is less than b1
-
-Board keys are unequal
-Current board is greater than b2
-
-Board keys are unequal
-Current board is less than b3
-
-Board keys are unequal
-Current board is less than b4
-
-Board keys are unequal
-Current board is less than b5
-
-Board keys are unequal
-Current board is less than b6
-
-Board keys are unequal
-Current board is greater than b7
-
-Board keys are unequal
-Current board is greater than b8
-
-
-Board keys are unequal
-Current board is less than b0
-
-Board keys are unequal
-Current board is less than b1
-
-Board keys are unequal
-Current board is less than b2
-
-Board keys are unequal
-Current board is less than b3
-
-Board keys are unequal
-Current board is less than b4
-
-Board keys are unequal
-Current board is less than b5
-
-Board keys are unequal
-Current board is less than b6
-
-Board keys are unequal
-Current board is greater than b7
-
-Board keys are unequal
-Current board is greater than b8
-
-
-   . 
-
-  . . 
-
-  . . 
-
- . W B 
-
- B B W 
-
- B W B 
-
-. B W B 
-
-B B W B 
-
-W W W B 
-
-W W W B 
-
-White's move
-
-All Moves: 
-Play at [0, 0]                Play at [0, 1]               
-Promote from [2, 1] to [0, 1] Play at [1, 0]               
-Promote from [0, 1] to [1, 0] Promote from [1, 2] to [1, 0]
-Play at [1, 1]                Promote from [0, 1] to [1, 1]
-
-Play at [0, 0]
-
-
-Move History: 
-Play at [1, 3]                          Play at [0, 1]                         
-Play at [2, 3]                          Play at [1, 1]                         
-Play at [2, 0]                          Play at [1, 2]                         
-Play at [3, 0]                          Play at [0, 2] taking [1, 2]           
-Play at [3, 1]                          Play at [0, 3]                         
-Play at [1, 2]                          Play at [0, 0] taking [0, 0] and [0, 2]
-Play at [2, 2] taking [1, 3] and [2, 0] Play at [1, 3]                         
-Play at [1, 2]                          Play at [0, 0]                         
-Play at [0, 2]                          Play at [0, 1]                         
-Play at [3, 2] taking [1, 2] and [3, 2] Play at [1, 0] taking [0, 1] and [0, 3]
-Promote from [2, 2] to [0, 0]           Play at [0, 1]                         
-Play at [2, 2]                          Play at [2, 1]                         
-Play at [3, 2] taking [2, 3] and [3, 0] Play at [2, 0] taking [2, 0] and [2, 1]
-Play at [2, 1] taking [0, 0] and [2, 2] Play at [2, 0]                         
-Promote from [3, 2] to [0, 0]           Play at [1, 0]                         
-Play at [3, 0]                          Play at [3, 3]                         
-Play at [2, 0]                          Play at [2, 3]                         
-Play at [2, 2]                          Play at [0, 3] taking [0, 3]           
-Play at [3, 2] taking [0, 0] and [2, 0] Play at [2, 2]                         
-Play at [2, 0]                          Play at [0, 3] taking [0, 3]           
-Play at [2, 1]                          Play at [0, 3] taking [0, 1] and [1, 0]
-Play at [0, 1]                          Promote from [1, 0] to [1, 1]          
-Play at [1, 2]                          Play at [1, 0] taking [0, 3]           
-Promote from [2, 0] to [1, 1]           Play at [0, 3] taking [2, 0]           
-Play at [2, 0] taking [2, 0]            Promote from [0, 0] to [0, 2]          
-Play at [0, 0]                          Play at [0, 0]                         
-Play at [2, 0] taking [1, 1] and [2, 1] Promote from [0, 0] to [0, 1]          
-Promote from [3, 1] to [0, 0]           Play at [1, 0]                         
-Play at [3, 1] taking [0, 0]            Play at [2, 0]                         
-Promote from [0, 0] to [2, 1]           Play at [0, 0] taking [0, 0] and [0, 1]
-
-Value: 48
-
-Moves/Keys: 61/0
-
-Board keys are unequal
-Current board is greater than b0
-
-Board keys are equal
-
-Board keys are unequal
-Current board is greater than b2
-
-Board keys are unequal
-Current board is less than b3
-
-Board keys are unequal
-Current board is greater than b4
-
-Board keys are unequal
-Current board is less than b5
-
-Board keys are unequal
-Current board is less than b6
-
-Board keys are unequal
-Current board is greater than b7
-
-Board keys are unequal
-Current board is greater than b8
-
-
-Board keys are equal
-
-Board keys are unequal
-Current board is less than b1
-
-Board keys are unequal
-Current board is greater than b2
-
-Board keys are unequal
-Current board is less than b3
-
-Board keys are unequal
-Current board is less than b4
-
-Board keys are unequal
-Current board is less than b5
-
-Board keys are unequal
-Current board is less than b6
-
-Board keys are unequal
-Current board is greater than b7
-
-Board keys are unequal
-Current board is greater than b8
-
-
-   . 
-
-  . . 
-
-  . . 
-
- . . B 
-
- . . . 
-
- . . . 
-
-. . W W 
-
-. B W B 
-
-. B B . 
-
-. W . W 
-
-White's move
-
-All Moves: 
-Play at [0, 0]                Play at [0, 1]               
-Play at [1, 0]                Play at [1, 1]               
-Promote from [3, 1] to [1, 1] Promote from [3, 3] to [1, 1]
-Play at [2, 0]                Play at [2, 3]               
-Play at [3, 0]                Play at [3, 2]               
-
-Play at [0, 0]
-
-
-Move History: 
-Play at [3, 3]                          Play at [2, 2]                         
-Play at [1, 2]                          Play at [2, 1]                         
-Play at [3, 2]                          Play at [1, 1]                         
-Play at [0, 3]                          Play at [3, 0]                         
-Promote from [3, 3] to [1, 1]           Play at [1, 3]                         
-Play at [3, 1]                          Promote from [3, 0] to [2, 1]          
-Play at [3, 0]                          Play at [1, 0]                         
-Play at [3, 3] taking [1, 1] and [3, 0] Play at [2, 0] taking [1, 0] and [2, 1]
-Play at [3, 0] taking [3, 0] and [3, 2] Play at [2, 3] taking [2, 0] and [2, 3]
-Play at [0, 2]                          Play at [0, 2]                         
-
-Value: -32
-
-Moves/Keys: 21/0
-
-Board keys are unequal
-Current board is less than b0
-
-Board keys are unequal
-Current board is less than b1
-
-Board keys are equal
-
-Board keys are unequal
-Current board is less than b3
-
-Board keys are unequal
-Current board is less than b4
-
-Board keys are unequal
-Current board is less than b5
-
-Board keys are unequal
-Current board is less than b6
-
-Board keys are unequal
-Current board is greater than b7
-
-Board keys are unequal
-Current board is greater than b8
-
-
-Board keys are unequal
-Current board is less than b0
-
-Board keys are unequal
-Current board is less than b1
-
-Board keys are unequal
-Current board is less than b2
-
-Board keys are unequal
-Current board is less than b3
-
-Board keys are unequal
-Current board is less than b4
-
-Board keys are unequal
-Current board is less than b5
-
-Board keys are unequal
-Current board is less than b6
-
-Board keys are unequal
-Current board is greater than b7
-
-Board keys are unequal
-Current board is greater than b8
-
-
-   . 
-
-  B . 
-
-  W W 
-
- W B . 
-
- W W B 
-
- B B B 
-
-W B W B 
-
-B B W B 
-
-W B B W 
-
-B W W B 
-
-White's move
-
-All Moves: 
-
-Play at [0, 0]
-
-
-Move History: 
-Play at [3, 3]                          Play at [2, 2]                         
-Play at [1, 2]                          Play at [2, 1]                         
-Play at [3, 2]                          Play at [1, 1]                         
-Play at [0, 3]                          Play at [3, 0]                         
-Promote from [3, 3] to [1, 1]           Play at [1, 3]                         
-Play at [3, 1]                          Promote from [3, 0] to [2, 1]          
-Play at [3, 0]                          Play at [1, 0]                         
-Play at [3, 3] taking [1, 1] and [3, 0] Play at [2, 0] taking [1, 0] and [2, 1]
-Play at [3, 0] taking [3, 0] and [3, 2] Play at [2, 3] taking [2, 0] and [2, 3]
-Play at [0, 2]                          Play at [0, 2]                         
-Promote from [3, 3] to [1, 1]           Play at [3, 2]                         
-Play at [0, 1]                          Play at [3, 3]                         
-Play at [0, 0] taking [0, 0] and [0, 1] Play at [2, 3] taking [2, 3] and [3, 3]
-Play at [0, 0]                          Play at [3, 0]                         
-Play at [2, 0]                          Play at [1, 0]                         
-Promote from [0, 0] to [1, 0]           Promote from [3, 2] to [2, 0]          
-Play at [3, 2]                          Play at [2, 1]                         
-Play at [0, 0]                          Play at [0, 1]                         
-Play at [0, 0]                          Play at [3, 3]                         
-Play at [0, 1] taking [0, 1] and [1, 0] Play at [0, 1]                         
-Play at [1, 0]                          Play at [0, 0]                         
-Play at [2, 3]                          Play at [2, 2] taking [0, 2] and [1, 3]
-Promote from [0, 3] to [1, 0]           Play at [1, 3]                         
-Play at [1, 2] taking [1, 2]            Play at [1, 2]                         
-Play at [1, 1]                          Play at [0, 3]                         
-
-Value: 536870911
-
-Moves/Keys: 51/0
-
-Board keys are unequal
-Current board is greater than b0
-
-Board keys are unequal
-Current board is greater than b1
-
-Board keys are unequal
-Current board is greater than b2
-
-Board keys are equal
-
-Board keys are unequal
-Current board is greater than b4
-
-Board keys are unequal
-Current board is greater than b5
-
-Board keys are unequal
-Current board is greater than b6
-
-Board keys are unequal
-Current board is greater than b7
-
-Board keys are unequal
-Current board is greater than b8
-
-
-Board keys are unequal
-Current board is less than b0
-
-Board keys are unequal
-Current board is less than b1
-
-Board keys are equal
-
-Board keys are unequal
-Current board is less than b3
-
-Board keys are unequal
-Current board is less than b4
-
-Board keys are unequal
-Current board is less than b5
-
-Board keys are unequal
-Current board is less than b6
-
-Board keys are unequal
-Current board is greater than b7
-
-Board keys are unequal
-Current board is greater than b8
-
-
-   . 
-
-  . . 
-
-  . . 
-
- . . B 
-
- W W . 
-
- B . . 
-
-. B W W 
-
-B B W B 
-
-W B B . 
-
-B W W . 
-
-White's move
-
-All Moves: 
-Play at [0, 0]                Play at [0, 1]               
-Promote from [3, 2] to [0, 1] Play at [2, 1]               
-Play at [2, 3]                Play at [3, 3]               
-
-Play at [0, 0]
-
-
-Move History: 
-Play at [3, 3]                          Play at [2, 2]                         
-Play at [1, 2]                          Play at [2, 1]                         
-Play at [3, 2]                          Play at [1, 1]                         
-Play at [0, 3]                          Play at [3, 0]                         
-Promote from [3, 3] to [1, 1]           Play at [1, 3]                         
-Play at [3, 1]                          Promote from [3, 0] to [2, 1]          
-Play at [3, 0]                          Play at [1, 0]                         
-Play at [3, 3] taking [1, 1] and [3, 0] Play at [2, 0] taking [1, 0] and [2, 1]
-Play at [3, 0] taking [3, 0] and [3, 2] Play at [2, 3] taking [2, 0] and [2, 3]
-Play at [0, 2]                          Play at [0, 2]                         
-Promote from [3, 3] to [1, 1]           Play at [3, 2]                         
-Play at [0, 1]                          Play at [3, 3]                         
-Play at [0, 0] taking [0, 0] and [0, 1] Play at [2, 3] taking [2, 3] and [3, 3]
-Play at [0, 0]                          Play at [3, 0]                         
-Play at [2, 0]                          Play at [1, 0]                         
-Promote from [0, 0] to [1, 0]           Promote from [3, 2] to [2, 0]          
-Play at [3, 2]                          Play at [0, 1]                         
-
-Value: 100
-
-Moves/Keys: 35/0
-
-Board keys are unequal
-Current board is greater than b0
-
-Board keys are unequal
-Current board is less than b1
-
-Board keys are unequal
-Current board is greater than b2
-
-Board keys are unequal
-Current board is less than b3
-
-Board keys are equal
-
-Board keys are unequal
-Current board is less than b5
-
-Board keys are unequal
-Current board is less than b6
-
-Board keys are unequal
-Current board is greater than b7
-
-Board keys are unequal
-Current board is greater than b8
-
-
-Board keys are unequal
-Current board is less than b0
-
-Board keys are unequal
-Current board is less than b1
-
-Board keys are unequal
-Current board is less than b2
-
-Board keys are unequal
-Current board is less than b3
-
-Board keys are unequal
-Current board is less than b4
-
-Board keys are unequal
-Current board is less than b5
-
-Board keys are unequal
-Current board is less than b6
-
-Board keys are unequal
-Current board is greater than b7
-
-Board keys are unequal
-Current board is greater than b8
-
-
-   . 
-
-  . . 
-
-  . . 
-
- . . W 
-
- . W B 
-
- . . W 
-
-W B W B 
-
-B B W B 
-
-W B B B 
-
-. . W B 
-
-White's move
-
-All Moves: 
-Play at [0, 0]                Promote from [2, 0] to [0, 0]
-Play at [0, 1]                Promote from [0, 0] to [0, 1]
-Promote from [2, 0] to [0, 1] Play at [1, 0]               
-Promote from [0, 0] to [1, 0] Play at [3, 0]               
-Play at [3, 1]               
-
-Play at [0, 0]
-
-
-Move History: 
-Play at [3, 3]                                        
-Play at [2, 2]                                        
-Play at [1, 2]                                        
-Play at [2, 1]                                        
-Play at [3, 2]                                        
-Play at [1, 1]                                        
-Play at [0, 3]                                        
-Play at [3, 0]                                        
-Promote from [3, 3] to [1, 1]                         
-Play at [1, 3]                                        
-Play at [3, 1]                                        
-Promote from [3, 0] to [2, 1]                         
-Play at [3, 0]                                        
-Play at [1, 0]                                        
-Play at [3, 3] taking [1, 1] and [3, 0]               
-Play at [2, 0] taking [1, 0] and [2, 1]               
-Play at [3, 0] taking [3, 0] and [3, 2]               
-Play at [2, 3] taking [2, 0] and [2, 3]               
-Play at [0, 2]                                        
-Play at [0, 2]                                        
-Promote from [3, 3] to [1, 1]                         
-Play at [3, 2]                                        
-Play at [0, 1]                                        
-Play at [3, 3]                                        
-Play at [0, 0] taking [0, 0] and [0, 1]               
-Play at [2, 3] taking [2, 3] and [3, 3]               
-Play at [0, 0]                                        
-Play at [3, 0]                                        
-Play at [2, 0]                                        
-Play at [1, 0]                                        
-Promote from [0, 0] to [1, 0]                         
-Promote from [3, 2] to [2, 0]                         
-Play at [3, 2]                                        
-Play at [0, 1]                                        
-Play at [0, 1]                                        
-Play at [3, 3]                                        
-Play at [2, 1] taking [1, 0]                          
-Play at [0, 0] taking [0, 0] and [2, 0]               
-Play at [0, 0]                                        
-Play at [0, 0]                                        
-Play at [2, 0]                                        
-Play at [2, 3]                                        
-Play at [1, 0] taking [0, 1]                          
-Play at [0, 1] taking [0, 1] and [0, 2]               
-Promote from [0, 3] to [1, 2] taking [2, 1]           
-Promote from [3, 3] to [0, 1]                         
-Play at [2, 1] taking [1, 0] and [1, 2]               
-Play at [0, 3]                                        
-Play at [1, 0] taking [2, 0]                          
-Play at [3, 3] taking [0, 0] and [3, 0]               
-Promote from [0, 0] to [1, 2] taking [1, 0] and [2, 0]
-Play at [0, 0] taking [0, 1]                          
-Play at [2, 2] taking [0, 2] and [1, 2]               
-Promote from [0, 0] to [1, 2]                         
-Play at [0, 2]                                        
-Play at [2, 0] taking [1, 0] and [1, 2]               
-Play at [0, 1] taking [0, 1] and [2, 1]               
-Play at [1, 2]                                        
-Play at [0, 0]                                        
-Play at [1, 0] taking [0, 1] and [2, 0]               
-Promote from [3, 1] to [0, 2]                         
-Play at [2, 0] taking [2, 0]                          
-Play at [2, 0]                                        
-Play at [0, 1]                                        
-
-Value: 252
-
-Moves/Keys: 65/0
-
-Board keys are unequal
-Current board is greater than b0
-
-Board keys are unequal
-Current board is greater than b1
-
-Board keys are unequal
-Current board is greater than b2
-
-Board keys are unequal
-Current board is less than b3
-
-Board keys are unequal
-Current board is greater than b4
-
-Board keys are equal
-
-Board keys are unequal
-Current board is greater than b6
-
-Board keys are unequal
-Current board is greater than b7
-
-Board keys are unequal
-Current board is greater than b8
-
-
-Board keys are unequal
-Current board is greater than b0
-
-Board keys are unequal
-Current board is less than b1
-
-Board keys are unequal
-Current board is greater than b2
-
-Board keys are unequal
-Current board is less than b3
-
-Board keys are equal
-
-Board keys are unequal
-Current board is less than b5
-
-Board keys are unequal
-Current board is less than b6
-
-Board keys are unequal
-Current board is greater than b7
-
-Board keys are unequal
-Current board is greater than b8
-
-
-   . 
-
-  . B 
-
-  . . 
-
- . W B 
-
- . W W 
-
- . W . 
-
-. B W W 
-
-. B W B 
-
-W B B B 
-
-. B W W 
-
-White's move
-
-All Moves: 
-Play at [0, 0]                                        
-Play at [1, 0]                                        
-Play at [2, 2]                                        
-Play at [2, 2] taking [2, 0]                          
-Play at [2, 2] taking [2, 0] and [2, 1]               
-Play at [2, 2] taking [2, 0] and [2, 2]               
-Play at [2, 2] taking [2, 1]                          
-Play at [2, 2] taking [2, 1] and [2, 2]               
-Play at [2, 2] taking [2, 2]                          
-Play at [2, 2] taking [2, 2] and [3, 3]               
-Promote from [2, 0] to [2, 2]                         
-Promote from [2, 0] to [2, 2] taking [2, 1]           
-Promote from [2, 0] to [2, 2] taking [2, 1] and [2, 2]
-Promote from [2, 0] to [2, 2] taking [2, 2]           
-Promote from [2, 0] to [2, 2] taking [2, 2] and [3, 3]
-Play at [3, 0]                                        
-
-Play at [0, 0]
-
-
-Move History: 
-Play at [3, 3]                                        
-Play at [2, 2]                                        
-Play at [1, 2]                                        
-Play at [2, 1]                                        
-Play at [3, 2]                                        
-Play at [1, 1]                                        
-Play at [0, 3]                                        
-Play at [3, 0]                                        
-Promote from [3, 3] to [1, 1]                         
-Play at [1, 3]                                        
-Play at [3, 1]                                        
-Promote from [3, 0] to [2, 1]                         
-Play at [3, 0]                                        
-Play at [1, 0]                                        
-Play at [3, 3] taking [1, 1] and [3, 0]               
-Play at [2, 0] taking [1, 0] and [2, 1]               
-Play at [3, 0] taking [3, 0] and [3, 2]               
-Play at [2, 3] taking [2, 0] and [2, 3]               
-Play at [0, 2]                                        
-Play at [0, 2]                                        
-Promote from [3, 3] to [1, 1]                         
-Play at [3, 2]                                        
-Play at [0, 1]                                        
-Play at [3, 3]                                        
-Play at [0, 0] taking [0, 0] and [0, 1]               
-Play at [2, 3] taking [2, 3] and [3, 3]               
-Play at [0, 0]                                        
-Play at [3, 0]                                        
-Play at [2, 0]                                        
-Play at [1, 0]                                        
-Promote from [0, 0] to [1, 0]                         
-Promote from [3, 2] to [2, 0]                         
-Play at [3, 2]                                        
-Play at [0, 1]                                        
-Play at [0, 1]                                        
-Play at [3, 3]                                        
-Play at [2, 1] taking [1, 0]                          
-Play at [0, 0] taking [0, 0] and [2, 0]               
-Play at [0, 0]                                        
-Play at [0, 0]                                        
-Play at [2, 0]                                        
-Play at [2, 3]                                        
-Play at [1, 0] taking [0, 1]                          
-Play at [0, 1] taking [0, 1] and [0, 2]               
-Promote from [0, 3] to [1, 2] taking [2, 1]           
-Promote from [3, 3] to [0, 1]                         
-Play at [2, 1] taking [1, 0] and [1, 2]               
-Play at [0, 3]                                        
-Play at [1, 0] taking [2, 0]                          
-Play at [3, 3] taking [0, 0] and [3, 0]               
-Promote from [0, 0] to [1, 2] taking [1, 0] and [2, 0]
-Play at [0, 0] taking [0, 1]                          
-Play at [2, 2] taking [0, 2] and [1, 2]               
-Promote from [0, 0] to [1, 2]                         
-Play at [0, 2]                                        
-Play at [2, 0] taking [1, 0] and [1, 2]               
-Play at [0, 1] taking [0, 1] and [2, 1]               
-Play at [1, 2]                                        
-Play at [0, 0]                                        
-Play at [1, 0] taking [0, 1] and [2, 0]               
-Promote from [3, 1] to [0, 2]                         
-Play at [2, 0] taking [2, 0]                          
-Play at [2, 0]                                        
-Play at [0, 1]                                        
-Play at [3, 0]                                        
-Play at [3, 1] taking [0, 1]                          
-Play at [2, 0]                                        
-Promote from [1, 0] to [2, 1]                         
-Play at [1, 0] taking [0, 0] and [1, 0]               
-Play at [0, 1] taking [1, 2] and [2, 1]               
-Play at [2, 1] taking [0, 2] and [2, 2]               
-Play at [2, 2]                                        
-Play at [0, 1] taking [2, 1]                          
-Play at [1, 2]                                        
-Play at [2, 1] taking [0, 1] and [2, 1]               
-Play at [0, 0]                                        
-Play at [0, 1]                                        
-Play at [1, 0] taking [0, 3] and [1, 0]               
-Play at [1, 0]                                        
-Play at [0, 3] taking [0, 3]                          
-Play at [0, 3]                                        
-Promote from [0, 0] to [0, 2]                         
-Play at [1, 0]                                        
-Promote from [2, 2] to [0, 1]                         
-Play at [2, 1] taking [1, 0] and [2, 1]               
-Play at [2, 2] taking [0, 1] and [2, 2]               
-Play at [2, 1] taking [0, 1] and [2, 0]               
-Play at [2, 2] taking [1, 2]                          
-Promote from [3, 0] to [0, 1]                         
-Play at [1, 2] taking [2, 2] and [3, 3]               
-Play at [3, 3]                                        
-Play at [2, 2] taking [1, 2]                          
-Promote from [1, 0] to [1, 2]                         
-Promote from [2, 2] to [0, 1]                         
-
-Value: -68
-
-Moves/Keys: 95/0
-
-Board keys are unequal
-Current board is greater than b0
-
-Board keys are unequal
-Current board is greater than b1
-
-Board keys are unequal
-Current board is greater than b2
-
-Board keys are unequal
-Current board is less than b3
-
-Board keys are unequal
-Current board is greater than b4
-
-Board keys are unequal
-Current board is less than b5
-
-Board keys are equal
-
-Board keys are unequal
-Current board is greater than b7
-
-Board keys are unequal
-Current board is greater than b8
-
-
-Board keys are unequal
-Current board is greater than b0
-
-Board keys are unequal
-Current board is greater than b1
-
-Board keys are unequal
-Current board is greater than b2
-
-Board keys are unequal
-Current board is less than b3
-
-Board keys are unequal
-Current board is greater than b4
-
-Board keys are equal
-
-Board keys are unequal
-Current board is greater than b6
-
-Board keys are unequal
-Current board is greater than b7
-
-Board keys are unequal
-Current board is greater than b8
-
-
-   . 
-
-  W . 
-
-  . . 
-
- B W B 
-
- B W . 
-
- W . . 
-
-W B W W 
-
-B B W B 
-
-W B B . 
-
-B W W B 
+           White
+
+H  .  w  .  w  .  w  .  w  
+G  w  .  w  .  w  .  w  .  
+F  .  w  .  w  .  w  .  w  
+E  .  .  .  .  .  .  .  .  
+D  .  .  .  .  .  .  .  .  
+C  b  .  b  .  b  .  b  .  
+B  .  b  .  b  .  b  .  b  
+A  b  .  b  .  b  .  b  .  
+   1  2  3  4  5  6  7  8
+
+           Black
 
 Black's move
 
 All Moves: 
-Play at [2, 1]                Promote from [3, 3] to [2, 1]
-Play at [2, 3]               
-
-Play at [0, 0]
+C1 -> D2 C3 -> D2 C3 -> D4 C5 -> D4 C5 -> D6 C7 -> D6 C7 -> D8
 
 
-Move History: 
-Play at [3, 3]                          Play at [2, 2]                         
-Play at [1, 2]                          Play at [2, 1]                         
-Play at [3, 2]                          Play at [1, 1]                         
-Play at [0, 3]                          Play at [3, 0]                         
-Promote from [3, 3] to [1, 1]           Play at [1, 3]                         
-Play at [3, 1]                          Promote from [3, 0] to [2, 1]          
-Play at [3, 0]                          Play at [1, 0]                         
-Play at [3, 3] taking [1, 1] and [3, 0] Play at [2, 0] taking [1, 0] and [2, 1]
-Play at [3, 0] taking [3, 0] and [3, 2] Play at [2, 3] taking [2, 0] and [2, 3]
-Play at [0, 2]                          Play at [0, 2]                         
-Promote from [3, 3] to [1, 1]           Play at [3, 2]                         
-Play at [0, 1]                          Play at [3, 3]                         
-Play at [0, 0] taking [0, 0] and [0, 1] Play at [2, 3] taking [2, 3] and [3, 3]
-Play at [0, 0]                          Play at [3, 0]                         
-Play at [2, 0]                          Play at [1, 0]                         
-Promote from [0, 0] to [1, 0]           Promote from [3, 2] to [2, 0]          
-Play at [3, 2]                          Play at [0, 1]                         
-Play at [0, 1]                          Play at [3, 3]                         
-Play at [2, 1] taking [1, 0]            Play at [0, 0] taking [0, 0] and [2, 0]
-Play at [0, 0]                          Play at [0, 0]                         
-Play at [2, 0]                          Play at [1, 0]                         
-Promote from [2, 1] to [0, 0]          
-
-Value: 46
-
-Moves/Keys: 44/0
-
-Board keys are unequal
-Current board is less than b0
-
-Board keys are unequal
-Current board is less than b1
-
-Board keys are unequal
-Current board is less than b2
-
-Board keys are unequal
-Current board is less than b3
-
-Board keys are unequal
-Current board is less than b4
-
-Board keys are unequal
-Current board is less than b5
-
-Board keys are unequal
-Current board is less than b6
-
-Board keys are equal
-
-Board keys are unequal
-Current board is greater than b8
-
-
-Board keys are unequal
-Current board is less than b0
-
-Board keys are unequal
-Current board is less than b1
-
-Board keys are unequal
-Current board is less than b2
-
-Board keys are unequal
-Current board is less than b3
-
-Board keys are unequal
-Current board is less than b4
-
-Board keys are unequal
-Current board is less than b5
-
-Board keys are unequal
-Current board is less than b6
-
-Board keys are unequal
-Current board is less than b7
-
-Board keys are unequal
-Current board is less than b8
-
-
-   . 
-
-  . . 
-
-  . . 
-
- . . . 
-
- W . . 
-
- B B W 
-
-W . B . 
-
-B B B W 
-
-B W W B 
-
-B W B W 
-
-Black's move
-
-All Moves: 
-Play at [0, 1]                          Play at [0, 1] taking [0, 1]           
-Play at [0, 1] taking [0, 1] and [0, 2] Play at [0, 1] taking [0, 1] and [1, 2]
-Play at [0, 1] taking [0, 1] and [2, 0] Play at [0, 1] taking [0, 1] and [2, 1]
-Play at [0, 1] taking [0, 2]            Play at [0, 1] taking [0, 2] and [1, 2]
-Play at [0, 1] taking [0, 2] and [2, 0] Play at [0, 1] taking [0, 2] and [2, 1]
-Play at [0, 1] taking [1, 2]            Play at [0, 1] taking [1, 2] and [2, 0]
-Play at [0, 1] taking [1, 2] and [2, 1] Play at [0, 1] taking [2, 0]           
-Play at [0, 1] taking [2, 0] and [2, 1] Play at [0, 1] taking [2, 0] and [3, 0]
-Play at [0, 1] taking [2, 1]            Play at [0, 3]                         
-Play at [1, 1]                          Promote from [0, 2] to [1, 1]          
-Play at [1, 2]                          Promote from [0, 2] to [1, 2]          
-
-Play at [0, 0]
 
 
 Move History: 
-Play at [3, 3]                          Play at [2, 2]                         
-Play at [1, 2]                          Play at [2, 1]                         
-Play at [3, 2]                          Play at [1, 1]                         
-Play at [0, 3]                          Play at [3, 0]                         
-Promote from [3, 3] to [1, 1]           Play at [1, 3]                         
-Play at [3, 1]                          Promote from [3, 0] to [2, 1]          
-Play at [3, 0]                          Play at [1, 0]                         
-Play at [3, 3] taking [1, 1] and [3, 0] Play at [2, 0] taking [1, 0] and [2, 1]
-Play at [3, 0] taking [3, 0] and [3, 2] Play at [2, 3] taking [1, 3]           
-Play at [3, 2]                          Play at [1, 0] taking [1, 1] and [2, 1]
-Play at [3, 0] taking [1, 2] and [3, 3] Play at [2, 1] taking [2, 1] and [2, 2]
-Play at [0, 0]                          Play at [1, 2]                         
-Play at [3, 3] taking [3, 0] and [3, 2] Play at [3, 0]                         
-Play at [2, 1]                          Promote from [1, 0] to [2, 0]          
-Play at [3, 2]                          Play at [0, 2]                         
-Play at [2, 2] taking [0, 0] and [3, 2] Play at [3, 2]                         
-Play at [0, 0]                          Play at [2, 1]                         
-Play at [2, 2]                          Play at [1, 0]                         
-Play at [1, 3]                          Play at [1, 1]                         
-Promote from [0, 3] to [1, 0]          
 
-Value: 200
+Value: 20
 
-Moves/Keys: 40/0
+Moves/Keys: 1/0
 
-Board keys are unequal
-Current board is less than b0
+Error: Bad Checkers move:   a a 
 
-Board keys are unequal
-Current board is less than b1
+Error: Bad Checkers move:   a a0
 
-Board keys are unequal
-Current board is less than b2
+Error: Bad Checkers move:   a a8
 
-Board keys are unequal
-Current board is less than b3
+Error: Bad Checkers move:   a a9
 
-Board keys are unequal
-Current board is less than b4
+Error: Bad Checkers move:   a H 
 
-Board keys are unequal
-Current board is less than b5
+Error: Bad Checkers move:   a H0
 
-Board keys are unequal
-Current board is less than b6
+Error: Bad Checkers move:   a H8
 
-Board keys are unequal
-Current board is less than b7
+Error: Bad Checkers move:   a H9
 
-Board keys are equal
+Error: Bad Checkers move:   a i 
 
+Error: Bad Checkers move:   a i0
 
-Board keys are unequal
-Current board is less than b0
+Error: Bad Checkers move:   a i8
 
-Board keys are unequal
-Current board is less than b1
+Error: Bad Checkers move:   a i9
 
-Board keys are unequal
-Current board is less than b2
+Error: Bad Checkers move:   a ->a 
 
-Board keys are unequal
-Current board is less than b3
+Error: Bad Checkers move:   a ->a0
 
-Board keys are unequal
-Current board is less than b4
+Error: Bad Checkers move:   a ->a8
 
-Board keys are unequal
-Current board is less than b5
+Error: Bad Checkers move:   a ->a9
 
-Board keys are unequal
-Current board is less than b6
+Error: Bad Checkers move:   a ->H 
 
-Board keys are unequal
-Current board is less than b7
+Error: Bad Checkers move:   a ->H0
 
-Board keys are unequal
-Current board is less than b8
+Error: Bad Checkers move:   a ->H8
 
+Error: Bad Checkers move:   a ->H9
 
-   . 
+Error: Bad Checkers move:   a ->i 
 
-  . . 
+Error: Bad Checkers move:   a ->i0
 
-  . . 
+Error: Bad Checkers move:   a ->i8
 
- . . . 
+Error: Bad Checkers move:   a ->i9
 
- . W . 
+Error: Bad Checkers move:   a0a 
 
- . . . 
+Error: Bad Checkers move:   a0a0
 
-. . . W 
+Error: Bad Checkers move:   a0a8
 
-. B W . 
+Error: Bad Checkers move:   a0a9
 
-. B B . 
+Error: Bad Checkers move:   a0H 
 
-B . W . 
+Error: Bad Checkers move:   a0H0
 
-Black's move
+Error: Bad Checkers move:   a0H8
 
-All Moves: 
-Play at [0, 0] Play at [0, 1] Play at [0, 2] Play at [1, 0] Play at [1, 3]
-Play at [2, 0] Play at [2, 3] Play at [3, 1] Play at [3, 3]
+Error: Bad Checkers move:   a0H9
 
-Play at [0, 0]
+Error: Bad Checkers move:   a0i 
 
+Error: Bad Checkers move:   a0i0
 
-Move History: 
-Play at [3, 3]                Play at [2, 2]               
-Play at [1, 2]                Play at [2, 1]               
-Play at [3, 2]                Play at [1, 1]               
-Play at [0, 3]                Play at [3, 0]               
-Promote from [3, 3] to [1, 1]
+Error: Bad Checkers move:   a0i8
 
-Value: 32
+Error: Bad Checkers move:   a0i9
 
-Moves/Keys: 10/0
+Error: Bad Checkers move:   a0->a 
 
+Error: Bad Checkers move:   a0->a0
 
-   . 
+Error: Bad Checkers move:   a0->a8
 
-  . . 
+Error: Bad Checkers move:   a0->a9
 
-  . . 
+Error: Bad Checkers move:   a0->H 
 
- . . . 
+Error: Bad Checkers move:   a0->H0
 
- . W . 
+Error: Bad Checkers move:   a0->H8
 
- . . . 
+Error: Bad Checkers move:   a0->H9
 
-B . . W 
+Error: Bad Checkers move:   a0->i 
 
-. B W . 
+Error: Bad Checkers move:   a0->i0
 
-. B B . 
+Error: Bad Checkers move:   a0->i8
 
-B . W . 
+Error: Bad Checkers move:   a0->i9
 
-White's move
+Error: Bad Checkers move:   a8a 
 
-All Moves: 
-Play at [0, 1] Play at [0, 2] Play at [1, 0] Play at [1, 3] Play at [2, 0]
-Play at [2, 3] Play at [3, 1] Play at [3, 3]
+Error: Bad Checkers move:   a8a0
 
-Play at [0, 0]
+Error: Bad Checkers move:   a8a8
 
+Error: Bad Checkers move:   a8a9
 
-Move History: 
-Play at [3, 3]                Play at [2, 2]               
-Play at [1, 2]                Play at [2, 1]               
-Play at [3, 2]                Play at [1, 1]               
-Play at [0, 3]                Play at [3, 0]               
-Promote from [3, 3] to [1, 1] Play at [0, 0]               
+Error: Bad Checkers move:   a8H 
 
-Value: 126
+Error: Bad Checkers move:   a8H0
 
-Moves/Keys: 11/0
+Error: Bad Checkers move:   a8H8
 
+Error: Bad Checkers move:   a8H9
 
-   . 
+Error: Bad Checkers move:   a8i 
 
-  . . 
+Error: Bad Checkers move:   a8i0
 
-  . . 
+Error: Bad Checkers move:   a8i8
 
- . . . 
+Error: Bad Checkers move:   a8i9
 
- . W . 
+Error: Bad Checkers move:   a8->a 
 
- . . . 
+Error: Bad Checkers move:   a8->a0
 
-B . . W 
 
-. B W . 
+Error: Bad Checkers move:   a8->a9
 
-. B B . 
+Error: Bad Checkers move:   a8->H 
 
-B . W . 
+Error: Bad Checkers move:   a8->H0
 
-White's move
 
-All Moves: 
-Play at [0, 1] Play at [0, 2] Play at [1, 0] Play at [1, 3] Play at [2, 0]
-Play at [2, 3] Play at [3, 1] Play at [3, 3]
+Error: Bad Checkers move:   a8->H9
 
-Play at [0, 0]
+Error: Bad Checkers move:   a8->i 
 
+Error: Bad Checkers move:   a8->i0
 
-Move History: 
-Play at [3, 3]                Play at [2, 2]               
-Play at [1, 2]                Play at [2, 1]               
-Play at [3, 2]                Play at [1, 1]               
-Play at [0, 3]                Play at [3, 0]               
-Promote from [3, 3] to [1, 1] Play at [0, 0]               
+Error: Bad Checkers move:   a8->i8
 
-Value: 126
+Error: Bad Checkers move:   a8->i9
 
-Moves/Keys: 11/0
+Error: Bad Checkers move:   a9a 
 
-Invalid move being applied
+Error: Bad Checkers move:   a9a0
 
-   . 
+Error: Bad Checkers move:   a9a8
 
-  . . 
+Error: Bad Checkers move:   a9a9
 
-  . . 
+Error: Bad Checkers move:   a9H 
 
- . . . 
+Error: Bad Checkers move:   a9H0
 
- . W . 
+Error: Bad Checkers move:   a9H8
 
- . . . 
+Error: Bad Checkers move:   a9H9
 
-B . . W 
+Error: Bad Checkers move:   a9i 
 
-. B W . 
+Error: Bad Checkers move:   a9i0
 
-. B B . 
+Error: Bad Checkers move:   a9i8
 
-B . W . 
+Error: Bad Checkers move:   a9i9
 
-White's move
+Error: Bad Checkers move:   a9->a 
 
-All Moves: 
-Play at [0, 1] Play at [0, 2] Play at [1, 0] Play at [1, 3] Play at [2, 0]
-Play at [2, 3] Play at [3, 1] Play at [3, 3]
+Error: Bad Checkers move:   a9->a0
 
-Play at [0, 0]
+Error: Bad Checkers move:   a9->a8
 
+Error: Bad Checkers move:   a9->a9
 
-Move History: 
-Play at [3, 3]                Play at [2, 2]               
-Play at [1, 2]                Play at [2, 1]               
-Play at [3, 2]                Play at [1, 1]               
-Play at [0, 3]                Play at [3, 0]               
-Promote from [3, 3] to [1, 1] Play at [0, 0]               
+Error: Bad Checkers move:   a9->H 
 
-Value: 126
+Error: Bad Checkers move:   a9->H0
 
-Moves/Keys: 11/0
+Error: Bad Checkers move:   a9->H8
 
+Error: Bad Checkers move:   a9->H9
 
-   . 
+Error: Bad Checkers move:   a9->i 
 
-  . . 
+Error: Bad Checkers move:   a9->i0
 
-  . . 
+Error: Bad Checkers move:   a9->i8
 
- . . . 
+Error: Bad Checkers move:   a9->i9
 
- . W . 
+Error: Bad Checkers move:   H a 
 
- . . . 
+Error: Bad Checkers move:   H a0
 
-B . . W 
+Error: Bad Checkers move:   H a8
 
-. B W . 
+Error: Bad Checkers move:   H a9
 
-. B B . 
+Error: Bad Checkers move:   H H 
 
-B . W . 
+Error: Bad Checkers move:   H H0
 
-White's move
+Error: Bad Checkers move:   H H8
 
-All Moves: 
-Play at [0, 1] Play at [0, 2] Play at [1, 0] Play at [1, 3] Play at [2, 0]
-Play at [2, 3] Play at [3, 1] Play at [3, 3]
+Error: Bad Checkers move:   H H9
 
-Play at [0, 0]
+Error: Bad Checkers move:   H i 
 
+Error: Bad Checkers move:   H i0
 
-Move History: 
-Play at [3, 3]                Play at [2, 2]               
-Play at [1, 2]                Play at [2, 1]               
-Play at [3, 2]                Play at [1, 1]               
-Play at [0, 3]                Play at [3, 0]               
-Promote from [3, 3] to [1, 1] Play at [0, 0]               
+Error: Bad Checkers move:   H i8
 
-Value: 126
+Error: Bad Checkers move:   H i9
 
-Moves/Keys: 11/0
+Error: Bad Checkers move:   H ->a 
 
-Invalid move being applied
+Error: Bad Checkers move:   H ->a0
 
-   . 
+Error: Bad Checkers move:   H ->a8
 
-  . . 
+Error: Bad Checkers move:   H ->a9
 
-  . . 
+Error: Bad Checkers move:   H ->H 
 
- . . . 
+Error: Bad Checkers move:   H ->H0
 
- . W . 
+Error: Bad Checkers move:   H ->H8
 
- . . . 
+Error: Bad Checkers move:   H ->H9
 
-B . . W 
+Error: Bad Checkers move:   H ->i 
 
-. B W . 
+Error: Bad Checkers move:   H ->i0
 
-. B B . 
+Error: Bad Checkers move:   H ->i8
 
-B . W . 
+Error: Bad Checkers move:   H ->i9
 
-White's move
+Error: Bad Checkers move:   H0a 
 
-All Moves: 
-Play at [0, 1] Play at [0, 2] Play at [1, 0] Play at [1, 3] Play at [2, 0]
-Play at [2, 3] Play at [3, 1] Play at [3, 3]
+Error: Bad Checkers move:   H0a0
 
-Play at [0, 0]
+Error: Bad Checkers move:   H0a8
 
+Error: Bad Checkers move:   H0a9
 
-Move History: 
-Play at [3, 3]                Play at [2, 2]               
-Play at [1, 2]                Play at [2, 1]               
-Play at [3, 2]                Play at [1, 1]               
-Play at [0, 3]                Play at [3, 0]               
-Promote from [3, 3] to [1, 1] Play at [0, 0]               
+Error: Bad Checkers move:   H0H 
 
-Value: 126
+Error: Bad Checkers move:   H0H0
 
-Moves/Keys: 11/0
+Error: Bad Checkers move:   H0H8
 
+Error: Bad Checkers move:   H0H9
 
-   . 
+Error: Bad Checkers move:   H0i 
 
-  . . 
+Error: Bad Checkers move:   H0i0
 
-  . . 
+Error: Bad Checkers move:   H0i8
 
- . . . 
+Error: Bad Checkers move:   H0i9
 
- . W . 
+Error: Bad Checkers move:   H0->a 
 
- . . . 
+Error: Bad Checkers move:   H0->a0
 
-B . . W 
+Error: Bad Checkers move:   H0->a8
 
-. B W . 
+Error: Bad Checkers move:   H0->a9
 
-. B B . 
+Error: Bad Checkers move:   H0->H 
 
-B . W . 
+Error: Bad Checkers move:   H0->H0
 
-White's move
+Error: Bad Checkers move:   H0->H8
 
-All Moves: 
-Play at [0, 1] Play at [0, 2] Play at [1, 0] Play at [1, 3] Play at [2, 0]
-Play at [2, 3] Play at [3, 1] Play at [3, 3]
+Error: Bad Checkers move:   H0->H9
 
-Play at [0, 0]
+Error: Bad Checkers move:   H0->i 
 
+Error: Bad Checkers move:   H0->i0
 
-Move History: 
-Play at [3, 3]                Play at [2, 2]               
-Play at [1, 2]                Play at [2, 1]               
-Play at [3, 2]                Play at [1, 1]               
-Play at [0, 3]                Play at [3, 0]               
-Promote from [3, 3] to [1, 1] Play at [0, 0]               
+Error: Bad Checkers move:   H0->i8
 
-Value: 126
+Error: Bad Checkers move:   H0->i9
 
-Moves/Keys: 11/0
+Error: Bad Checkers move:   H8a 
 
-Invalid move being applied
+Error: Bad Checkers move:   H8a0
 
-   . 
+Error: Bad Checkers move:   H8a8
 
-  . . 
+Error: Bad Checkers move:   H8a9
 
-  . . 
+Error: Bad Checkers move:   H8H 
 
- . . . 
+Error: Bad Checkers move:   H8H0
 
- . W . 
+Error: Bad Checkers move:   H8H8
 
- . . . 
+Error: Bad Checkers move:   H8H9
 
-B . . W 
+Error: Bad Checkers move:   H8i 
 
-. B W . 
+Error: Bad Checkers move:   H8i0
 
-. B B . 
+Error: Bad Checkers move:   H8i8
 
-B . W . 
+Error: Bad Checkers move:   H8i9
 
-White's move
+Error: Bad Checkers move:   H8->a 
 
-All Moves: 
-Play at [0, 1] Play at [0, 2] Play at [1, 0] Play at [1, 3] Play at [2, 0]
-Play at [2, 3] Play at [3, 1] Play at [3, 3]
+Error: Bad Checkers move:   H8->a0
 
-Play at [0, 0]
 
+Error: Bad Checkers move:   H8->a9
 
-Move History: 
-Play at [3, 3]                Play at [2, 2]               
-Play at [1, 2]                Play at [2, 1]               
-Play at [3, 2]                Play at [1, 1]               
-Play at [0, 3]                Play at [3, 0]               
-Promote from [3, 3] to [1, 1] Play at [0, 0]               
+Error: Bad Checkers move:   H8->H 
 
-Value: 126
+Error: Bad Checkers move:   H8->H0
 
-Moves/Keys: 11/0
 
+Error: Bad Checkers move:   H8->H9
 
-   . 
+Error: Bad Checkers move:   H8->i 
 
-  . . 
+Error: Bad Checkers move:   H8->i0
 
-  . . 
+Error: Bad Checkers move:   H8->i8
 
- . . . 
+Error: Bad Checkers move:   H8->i9
 
- . W . 
+Error: Bad Checkers move:   H9a 
 
- . . . 
+Error: Bad Checkers move:   H9a0
 
-B . . W 
+Error: Bad Checkers move:   H9a8
 
-. B W . 
+Error: Bad Checkers move:   H9a9
 
-. B B . 
+Error: Bad Checkers move:   H9H 
 
-B . W . 
+Error: Bad Checkers move:   H9H0
 
-White's move
+Error: Bad Checkers move:   H9H8
 
-All Moves: 
-Play at [0, 1] Play at [0, 2] Play at [1, 0] Play at [1, 3] Play at [2, 0]
-Play at [2, 3] Play at [3, 1] Play at [3, 3]
+Error: Bad Checkers move:   H9H9
 
-Play at [0, 0]
+Error: Bad Checkers move:   H9i 
 
+Error: Bad Checkers move:   H9i0
 
-Move History: 
-Play at [3, 3]                Play at [2, 2]               
-Play at [1, 2]                Play at [2, 1]               
-Play at [3, 2]                Play at [1, 1]               
-Play at [0, 3]                Play at [3, 0]               
-Promote from [3, 3] to [1, 1] Play at [0, 0]               
+Error: Bad Checkers move:   H9i8
 
-Value: 126
+Error: Bad Checkers move:   H9i9
 
-Moves/Keys: 11/0
+Error: Bad Checkers move:   H9->a 
 
-Invalid move being applied
+Error: Bad Checkers move:   H9->a0
 
-   . 
+Error: Bad Checkers move:   H9->a8
 
-  . . 
+Error: Bad Checkers move:   H9->a9
 
-  . . 
+Error: Bad Checkers move:   H9->H 
 
- . . . 
+Error: Bad Checkers move:   H9->H0
 
- . W . 
+Error: Bad Checkers move:   H9->H8
 
- . . . 
+Error: Bad Checkers move:   H9->H9
 
-B . . W 
+Error: Bad Checkers move:   H9->i 
 
-. B W . 
+Error: Bad Checkers move:   H9->i0
 
-. B B . 
+Error: Bad Checkers move:   H9->i8
 
-B . W . 
+Error: Bad Checkers move:   H9->i9
 
-White's move
+Error: Bad Checkers move:   i a 
 
-All Moves: 
-Play at [0, 1] Play at [0, 2] Play at [1, 0] Play at [1, 3] Play at [2, 0]
-Play at [2, 3] Play at [3, 1] Play at [3, 3]
+Error: Bad Checkers move:   i a0
 
-Play at [0, 0]
+Error: Bad Checkers move:   i a8
 
+Error: Bad Checkers move:   i a9
 
-Move History: 
-Play at [3, 3]                Play at [2, 2]               
-Play at [1, 2]                Play at [2, 1]               
-Play at [3, 2]                Play at [1, 1]               
-Play at [0, 3]                Play at [3, 0]               
-Promote from [3, 3] to [1, 1] Play at [0, 0]               
+Error: Bad Checkers move:   i H 
 
-Value: 126
+Error: Bad Checkers move:   i H0
 
-Moves/Keys: 11/0
+Error: Bad Checkers move:   i H8
 
+Error: Bad Checkers move:   i H9
 
-   . 
+Error: Bad Checkers move:   i i 
 
-  . . 
+Error: Bad Checkers move:   i i0
 
-  . . 
+Error: Bad Checkers move:   i i8
 
- . . . 
+Error: Bad Checkers move:   i i9
 
- . W . 
+Error: Bad Checkers move:   i ->a 
 
- . . . 
+Error: Bad Checkers move:   i ->a0
 
-B . . W 
+Error: Bad Checkers move:   i ->a8
 
-. B W . 
+Error: Bad Checkers move:   i ->a9
 
-. B B . 
+Error: Bad Checkers move:   i ->H 
 
-B . W . 
+Error: Bad Checkers move:   i ->H0
 
-White's move
+Error: Bad Checkers move:   i ->H8
 
-All Moves: 
-Play at [0, 1] Play at [0, 2] Play at [1, 0] Play at [1, 3] Play at [2, 0]
-Play at [2, 3] Play at [3, 1] Play at [3, 3]
+Error: Bad Checkers move:   i ->H9
 
-Play at [0, 0]
+Error: Bad Checkers move:   i ->i 
 
+Error: Bad Checkers move:   i ->i0
 
-Move History: 
-Play at [3, 3]                Play at [2, 2]               
-Play at [1, 2]                Play at [2, 1]               
-Play at [3, 2]                Play at [1, 1]               
-Play at [0, 3]                Play at [3, 0]               
-Promote from [3, 3] to [1, 1] Play at [0, 0]               
+Error: Bad Checkers move:   i ->i8
 
-Value: 126
+Error: Bad Checkers move:   i ->i9
 
-Moves/Keys: 11/0
+Error: Bad Checkers move:   i0a 
 
-Invalid move being applied
+Error: Bad Checkers move:   i0a0
 
-   . 
+Error: Bad Checkers move:   i0a8
 
-  . . 
+Error: Bad Checkers move:   i0a9
 
-  . . 
+Error: Bad Checkers move:   i0H 
 
- . . . 
+Error: Bad Checkers move:   i0H0
 
- . W . 
+Error: Bad Checkers move:   i0H8
 
- . . . 
+Error: Bad Checkers move:   i0H9
 
-B . . W 
+Error: Bad Checkers move:   i0i 
 
-. B W . 
+Error: Bad Checkers move:   i0i0
 
-. B B . 
+Error: Bad Checkers move:   i0i8
 
-B . W . 
+Error: Bad Checkers move:   i0i9
 
-White's move
+Error: Bad Checkers move:   i0->a 
 
-All Moves: 
-Play at [0, 1] Play at [0, 2] Play at [1, 0] Play at [1, 3] Play at [2, 0]
-Play at [2, 3] Play at [3, 1] Play at [3, 3]
+Error: Bad Checkers move:   i0->a0
 
-Play at [0, 0]
+Error: Bad Checkers move:   i0->a8
 
+Error: Bad Checkers move:   i0->a9
 
-Move History: 
-Play at [3, 3]                Play at [2, 2]               
-Play at [1, 2]                Play at [2, 1]               
-Play at [3, 2]                Play at [1, 1]               
-Play at [0, 3]                Play at [3, 0]               
-Promote from [3, 3] to [1, 1] Play at [0, 0]               
+Error: Bad Checkers move:   i0->H 
 
-Value: 126
+Error: Bad Checkers move:   i0->H0
 
-Moves/Keys: 11/0
+Error: Bad Checkers move:   i0->H8
 
+Error: Bad Checkers move:   i0->H9
 
-   . 
+Error: Bad Checkers move:   i0->i 
 
-  . . 
+Error: Bad Checkers move:   i0->i0
 
-  . . 
+Error: Bad Checkers move:   i0->i8
 
- . . . 
+Error: Bad Checkers move:   i0->i9
 
- . W . 
+Error: Bad Checkers move:   i8a 
 
- . . . 
+Error: Bad Checkers move:   i8a0
 
-B . . W 
+Error: Bad Checkers move:   i8a8
 
-. B W . 
+Error: Bad Checkers move:   i8a9
 
-. B B . 
+Error: Bad Checkers move:   i8H 
 
-B . W . 
+Error: Bad Checkers move:   i8H0
 
-White's move
+Error: Bad Checkers move:   i8H8
 
-All Moves: 
-Play at [0, 1] Play at [0, 2] Play at [1, 0] Play at [1, 3] Play at [2, 0]
-Play at [2, 3] Play at [3, 1] Play at [3, 3]
+Error: Bad Checkers move:   i8H9
 
-Play at [0, 0]
+Error: Bad Checkers move:   i8i 
 
+Error: Bad Checkers move:   i8i0
 
-Move History: 
-Play at [3, 3]                Play at [2, 2]               
-Play at [1, 2]                Play at [2, 1]               
-Play at [3, 2]                Play at [1, 1]               
-Play at [0, 3]                Play at [3, 0]               
-Promote from [3, 3] to [1, 1] Play at [0, 0]               
+Error: Bad Checkers move:   i8i8
 
-Value: 126
+Error: Bad Checkers move:   i8i9
 
-Moves/Keys: 11/0
+Error: Bad Checkers move:   i8->a 
 
-Invalid move being applied
+Error: Bad Checkers move:   i8->a0
 
-   . 
+Error: Bad Checkers move:   i8->a8
 
-  . . 
+Error: Bad Checkers move:   i8->a9
 
-  . . 
+Error: Bad Checkers move:   i8->H 
 
- . . . 
+Error: Bad Checkers move:   i8->H0
 
- . W . 
+Error: Bad Checkers move:   i8->H8
 
- . . . 
+Error: Bad Checkers move:   i8->H9
 
-B . . W 
+Error: Bad Checkers move:   i8->i 
 
-. B W . 
+Error: Bad Checkers move:   i8->i0
 
-. B B . 
+Error: Bad Checkers move:   i8->i8
 
-B . W . 
+Error: Bad Checkers move:   i8->i9
 
-White's move
+Error: Bad Checkers move:   i9a 
 
-All Moves: 
-Play at [0, 1] Play at [0, 2] Play at [1, 0] Play at [1, 3] Play at [2, 0]
-Play at [2, 3] Play at [3, 1] Play at [3, 3]
+Error: Bad Checkers move:   i9a0
 
-Play at [0, 0]
+Error: Bad Checkers move:   i9a8
 
+Error: Bad Checkers move:   i9a9
 
-Move History: 
-Play at [3, 3]                Play at [2, 2]               
-Play at [1, 2]                Play at [2, 1]               
-Play at [3, 2]                Play at [1, 1]               
-Play at [0, 3]                Play at [3, 0]               
-Promote from [3, 3] to [1, 1] Play at [0, 0]               
+Error: Bad Checkers move:   i9H 
 
-Value: 126
+Error: Bad Checkers move:   i9H0
 
-Moves/Keys: 11/0
+Error: Bad Checkers move:   i9H8
 
+Error: Bad Checkers move:   i9H9
 
-   . 
+Error: Bad Checkers move:   i9i 
 
-  . . 
+Error: Bad Checkers move:   i9i0
 
-  . . 
+Error: Bad Checkers move:   i9i8
 
- . . . 
+Error: Bad Checkers move:   i9i9
 
- . W . 
+Error: Bad Checkers move:   i9->a 
 
- . . . 
+Error: Bad Checkers move:   i9->a0
 
-B . . W 
+Error: Bad Checkers move:   i9->a8
 
-. B W . 
+Error: Bad Checkers move:   i9->a9
 
-. B B . 
+Error: Bad Checkers move:   i9->H 
 
-B . W . 
+Error: Bad Checkers move:   i9->H0
 
-White's move
+Error: Bad Checkers move:   i9->H8
 
-All Moves: 
-Play at [0, 1] Play at [0, 2] Play at [1, 0] Play at [1, 3] Play at [2, 0]
-Play at [2, 3] Play at [3, 1] Play at [3, 3]
+Error: Bad Checkers move:   i9->H9
 
-Play at [0, 0]
+Error: Bad Checkers move:   i9->i 
 
+Error: Bad Checkers move:   i9->i0
 
-Move History: 
-Play at [3, 3]                Play at [2, 2]               
-Play at [1, 2]                Play at [2, 1]               
-Play at [3, 2]                Play at [1, 1]               
-Play at [0, 3]                Play at [3, 0]               
-Promote from [3, 3] to [1, 1] Play at [0, 0]               
+Error: Bad Checkers move:   i9->i8
 
-Value: 126
+Error: Bad Checkers move:   i9->i9
 
-Moves/Keys: 11/0
+Error: Bad Checkers move:   a1->a1a 
 
-Invalid move being applied
+Error: Bad Checkers move:   a1->a1a0
 
-   . 
+Error: Bad Checkers move:   a1->a1a8
 
-  . . 
+Error: Bad Checkers move:   a1->a1a9
 
-  . . 
+Error: Bad Checkers move:   a1->a1H 
 
- . . . 
+Error: Bad Checkers move:   a1->a1H0
 
- . W . 
+Error: Bad Checkers move:   a1->a1H8
 
- . . . 
+Error: Bad Checkers move:   a1->a1H9
 
-B . . W 
+Error: Bad Checkers move:   a1->a1i 
 
-. B W . 
+Error: Bad Checkers move:   a1->a1i0
 
-. B B . 
+Error: Bad Checkers move:   a1->a1i8
 
-B . W . 
+Error: Bad Checkers move:   a1->a1i9
 
-White's move
+Error: Bad Checkers move:   a1->a1->a 
 
-All Moves: 
-Play at [0, 1] Play at [0, 2] Play at [1, 0] Play at [1, 3] Play at [2, 0]
-Play at [2, 3] Play at [3, 1] Play at [3, 3]
+Error: Bad Checkers move:   a1->a1->a0
 
-Play at [0, 0]
 
+Error: Bad Checkers move:   a1->a1->a9
 
-Move History: 
-Play at [3, 3]                Play at [2, 2]               
-Play at [1, 2]                Play at [2, 1]               
-Play at [3, 2]                Play at [1, 1]               
-Play at [0, 3]                Play at [3, 0]               
-Promote from [3, 3] to [1, 1] Play at [0, 0]               
+Error: Bad Checkers move:   a1->a1->H 
 
-Value: 126
+Error: Bad Checkers move:   a1->a1->H0
 
-Moves/Keys: 11/0
 
+Error: Bad Checkers move:   a1->a1->H9
 
-   . 
+Error: Bad Checkers move:   a1->a1->i 
 
-  . . 
+Error: Bad Checkers move:   a1->a1->i0
 
-  . . 
+Error: Bad Checkers move:   a1->a1->i8
 
- . . . 
+Error: Bad Checkers move:   a1->a1->i9
 
- . W . 
+Error: Bad Checkers move:   a1->a1  ->  a 
 
- . . . 
+Error: Bad Checkers move:   a1->a1  ->  a0
 
-B . . W 
 
-. B W . 
+Error: Bad Checkers move:   a1->a1  ->  a9
 
-. B B . 
+Error: Bad Checkers move:   a1->a1  ->  H 
 
-B . W . 
+Error: Bad Checkers move:   a1->a1  ->  H0
 
-White's move
 
-All Moves: 
-Play at [0, 1] Play at [0, 2] Play at [1, 0] Play at [1, 3] Play at [2, 0]
-Play at [2, 3] Play at [3, 1] Play at [3, 3]
+Error: Bad Checkers move:   a1->a1  ->  H9
 
-Play at [0, 0]
+Error: Bad Checkers move:   a1->a1  ->  i 
 
+Error: Bad Checkers move:   a1->a1  ->  i0
 
-Move History: 
-Play at [3, 3]                Play at [2, 2]               
-Play at [1, 2]                Play at [2, 1]               
-Play at [3, 2]                Play at [1, 1]               
-Play at [0, 3]                Play at [3, 0]               
-Promote from [3, 3] to [1, 1] Play at [0, 0]               
+Error: Bad Checkers move:   a1->a1  ->  i8
 
-Value: 126
+Error: Bad Checkers move:   a1->a1  ->  i9
 
-Moves/Keys: 11/0
+Error: Bad Checkers move:  a1->a2 foo
 
-Invalid move being applied
+Error: Bad Checkers move:  aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
-   . 
+Error: Bad file in saveBoard
 
-  . . 
+Error: Bad file in loadBoard
 
-  . . 
+Error: Bad file in saveMove
 
- . . . 
+Error: Bad file in loadMove
 
- . W . 
+Error: Bad file in compareKeys
 
- . . . 
+Error: Bad Checkers move:  aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
-B . . W 
+Error: Must have a nonnegative count for undoLastMove
 
-. B W . 
+(Piece weight is always 100)
+King weight: 300
+Back row weight: 100
+Move weight: 20
 
-. B B . 
+Modify? [y/n] 
 
-B . W . 
+Error: Must have a nonnegative count for undoLastMove
 
-White's move
 
-All Moves: 
-Play at [0, 1] Play at [0, 2] Play at [1, 0] Play at [1, 3] Play at [2, 0]
-Play at [2, 3] Play at [3, 1] Play at [3, 3]
+Current move is less than entered move
 
-Play at [0, 0]
+Current move is less than entered move
 
+Current move is less than entered move
 
-Move History: 
-Play at [3, 3]                Play at [2, 2]               
-Play at [1, 2]                Play at [2, 1]               
-Play at [3, 2]                Play at [1, 1]               
-Play at [0, 3]                Play at [3, 0]               
-Promote from [3, 3] to [1, 1] Play at [0, 0]               
+Current move is less than entered move
 
-Value: 126
+Current move is less than entered move
 
-Moves/Keys: 11/0
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Moves are equal
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Moves are equal
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Moves are equal
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Current move is greater than entered move
+
+Moves are equal
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
+
+Current move is less than entered move
 
