@@ -11,7 +11,7 @@ with open('Othello.0.gen', 'w') as genfile:
   genfile.write('showAll\n')
 
   genfile.write('# Bunch of bad enterMoves\n')
-  for s1 in ['', '[', '  [  ']:
+  for s1 in ['', '[']:
     for s2 in ['', '2', '  2  ']:
       for s3 in ['', ',', '  ,  ']:
         for s4 in ['', '2', '  2  ']:
@@ -22,9 +22,9 @@ with open('Othello.0.gen', 'w') as genfile:
   genfile.write('\n# Bunch of attempted buffer overflows\n')
   for command in ['enterMove', 'saveBoard', 'loadBoard', 'saveMove',
                   'loadMove', 'compareKeys', 'compareMove']:
-    genfile.write('%s %s\n' % (command, 'a' * 1000))
+    genfile.write('%s %s\n' % (command, 'a' * 5000))
   genfile.write('showOptions\n')
-  genfile.write('%s\n' % ('a' * 1000))
+  genfile.write('%s\n' % ('a' * 5000))
 
   genfile.write('\n# Bunch of compareMoves\n')
   for row1 in [-1, 2, 5, 8]:
@@ -78,7 +78,7 @@ with open('Othello.2.gen', 'w') as genfile:
   for i in xrange(games):
     genfile.write('setOptions\nyfoo\n')
     for j in xrange(4):
-      genfile.write('%s\n' % ('1' * 1000))
+      genfile.write('%s\n' % ('1' * 5000))
       genfile.write('-1\n101\n[1]\n1.5\n1 foo\n%d\n' % random.randint(0, 100))
     genfile.write('testRun %d 300\n' % (i * 2345))
     genfile.write('showAll\n')
@@ -96,9 +96,9 @@ with open('Othello.2.gen', 'w') as genfile:
 
   genfile.write('quit\n')
 
-###########################################################
+################################################################################
 # Pylos.0.gen
-###########################################################
+################################################################################
 with open('Pylos.0.gen', 'w') as genfile:
   genfile.write('showAll\n')
 
@@ -139,9 +139,9 @@ with open('Pylos.0.gen', 'w') as genfile:
   genfile.write('\n# Bunch of attempted buffer overflows\n')
   for command in ['enterMove', 'saveBoard', 'loadBoard', 'saveMove',
                   'loadMove', 'compareKeys', 'compareMove']:
-    genfile.write('%s %s\n' % (command, 'a' * 1000))
+    genfile.write('%s %s\n' % (command, 'a' * 5000))
   genfile.write('showOptions\n')
-  genfile.write('%s\n' % ('a' * 1000))
+  genfile.write('%s\n' % ('a' * 5000))
 
   genfile.write('\n# Bunch of bad enterMoves\n')
   genfile.write('enterMove Pl ay  at [0,0]\n')
@@ -168,9 +168,9 @@ with open('Pylos.0.gen', 'w') as genfile:
           genfile.write('compareMove Promote from [%s,%s] to [%s,%s] taking [%s,%s]\n' % (
               row1, col1, i, i, i, i))
 
-###########################################################
+################################################################################
 # Pylos.1.gen
-###########################################################
+################################################################################
 with open('Pylos.1.gen', 'w') as genfile:
   genfile.write('\n# Play quick games\n')
   for i in xrange(13):
@@ -178,12 +178,12 @@ with open('Pylos.1.gen', 'w') as genfile:
     genfile.write('testRun %d 20\n' % (i*2000))
   genfile.write('quit\n')
 
-###########################################################
+################################################################################
 # Pylos.2.gen
-###########################################################
+################################################################################
 with open('Pylos.2.gen', 'w') as genfile:
   genfile.write('\n# Compare keys of all saved boards.\n')
-  games = 6
+  games = 9
 
   for i in xrange(games):
     genfile.write('testRun %d 30\n' % (i*3000))
@@ -196,7 +196,6 @@ with open('Pylos.2.gen', 'w') as genfile:
     for j in xrange(games):
       genfile.write('compareKeys b%s\n' % j)
     genfile.write('undoLastMove 30\n')
-    genfile.write('showAll\n')
     for j in xrange(games):
       genfile.write('compareKeys b%s\n' % j)
 
@@ -218,17 +217,17 @@ with open('Pylos.3.gen', 'w') as genfile:
     marbleWeight = random.randint(0, 1000)
 
     # 1-1000
-    genfile.write('%s\n' % ('1' * 1000))
+    genfile.write('%s\n' % ('1' * 5000))
     genfile.write('-1\n101\n[1]\n1.5\n1 foo\n%d\n' % marbleWeight)
 
     # >= 0, < marbleWeight
-    genfile.write('%s\n' % ('1' * 1000))
+    genfile.write('%s\n' % ('1' * 5000))
 
     genfile.write('-1\n[1]\n1.5\n1 foo\n%d\n%d\n%d\n' % (marbleWeight+1,
         marbleWeight, marbleWeight-1))
 
     # >= 0, < marbleWeight, even
-    genfile.write('%s\n' % ('1' * 1000))
+    genfile.write('%s\n' % ('1' * 5000))
     genfile.write('-1\n[2]\n2.5\n2 foo\n%d\n%d\n%d\n%d\n' % (
         marbleWeight+1, marbleWeight, marbleWeight-1, marbleWeight-2))
 
@@ -253,9 +252,9 @@ with open('Pylos.3.gen', 'w') as genfile:
 
   genfile.write('quit\n')
 
-###########################################################
+################################################################################
 # Checkers.0.gen
-###########################################################
+################################################################################
 with open('Checkers.0.gen', 'w') as genfile:
   genfile.write('showAll\n')
 
@@ -275,7 +274,7 @@ with open('Checkers.0.gen', 'w') as genfile:
   genfile.write('\n# Bunch of attempted buffer overflows\n')
   for command in ['enterMove', 'saveBoard', 'loadBoard', 'saveMove',
                   'loadMove', 'compareKeys', 'compareMove']:
-    genfile.write('%s %s\n' % (command, 'a' * 1000))
+    genfile.write('%s %s\n' % (command, 'a' * 5000))
 
   genfile.write('\n# Bunch of compareMoves\n')
   for s1 in ['a1', 'd2', 'h1']:
@@ -332,6 +331,43 @@ with open('Checkers.2.gen', 'w') as genfile:
   for i in xrange(13):
     genfile.write('testRun %d 10\n' % (i*1234))
     genfile.write('showAll\n')
+
+  genfile.write('quit\n')
+
+################################################################################
+# Checkers.3.gen
+################################################################################
+with open('Checkers.3.gen', 'w') as genfile:
+  games = 16
+  for i in xrange(games):
+    genfile.write('setOptions\nyfoo\n')
+
+    # 1-5000
+    genfile.write('%s\n' % ('1' * 5000))
+    genfile.write('-1\n101\n[1]\n1.5\n1 foo\n%d\n' % random.randint(0, 1000))
+
+    # >= 0, < marbleWeight
+    genfile.write('%s\n' % ('1' * 5000))
+    genfile.write('-1\n101\n[1]\n1.5\n1 foo\n%d\n' % random.randint(0, 1000))
+
+    # >= 0, < marbleWeight, even
+    genfile.write('%s\n' % ('1' * 5000))
+    genfile.write('-1\n101\n[1]\n1.5\n1 foo\n%d\n' % random.randint(0, 100))
+
+    genfile.write('testRun %d 300\n' % (i * 4567))
+    genfile.write('showAll\n')
+
+  for i in xrange(games):
+    genfile.write('saveBoard b%d\n' % i)
+    genfile.write('setOptions\ny\n')
+    genfile.write('%d\n' % random.randint(0, 1000))
+    genfile.write('%d\n' % random.randint(0, 1000))
+    genfile.write('%d\n' % random.randint(0, 100))
+
+  for i in xrange(games):
+    genfile.write('loadBoard b%d\n' % i)
+    for j in xrange(games):
+      genfile.write('compareKeys b%d\n' % j)
 
   genfile.write('quit\n')
 
