@@ -14,7 +14,8 @@ PylosBoard::Set PylosBoard::mSets[kNumSets];
 PylosBoard::Cell PylosBoard::mCells[kNumCells];
 
 // static
-int PylosBoard::mOffs[kDim];
+int PylosBoard::mOffs[] = {0, kDim * kDim, kDim*kDim + (kDim-1)*(kDim-1),
+ kDim*kDim + (kDim-1)*(kDim-1) + (kDim-2)*(kDim-2)};
 
 // static
 void PylosBoard::StaticInit() 
@@ -43,29 +44,62 @@ void PylosBoard::StaticInit()
                   cell->subs |= cell->below[ndx]->mask;
                }
             }
-            
-            // Add cell mask to horizontal/vertical alignments if relevant   
-            // TODO
          }
       }
    }
    
+   // Add cell mask to horizontal/vertical alignments if relevant   
+   for (level = 0; level < 2; level++) {
+      // Horizontal alignments.
+      for (row = 0; row < kDim - level; row++) {
+         Set set = 0;
+         for (col = 0; col < kDim - level; col++)
+            set |= GetCell(row, col, level)->mask;
+         for (col = 0; col < kDim - level; col++) 
+            GetCell(row, col, level)->addSet(set);
+      }
+
+      // Vertical alignments.
+      for (col = 0; col < kDim - level; col++) {
+         Set set = 0;
+         for (row = 0; row < kDim - level; row++)
+            set |= GetCell(row, col, level)->mask;
+         for (col = 0; col < kDim - level; col++) 
+            GetCell(row, col, level)->addSet(set);
+      }
+   }
+   
    // Add cell masks to square alignments
-   // TODO
+   for (level = 0; level < kDim - 1; level++) {
+      for (row = 0; row < kDim - level - 1; row++) {
+         for (col = 0; col < kDim - level - 1; col++) {
+            Set set = 0;
+            set |= GetCell(row, col, level)->mask;
+            set |= GetCell(row, col+1, level)->mask;
+            set |= GetCell(row+1, col, level)->mask;
+            set |= GetCell(row+1, col+1, level)->mask;
+            GetCell(row, col, level)->addSet(set);
+            GetCell(row, col+1, level)->addSet(set);
+            GetCell(row+1, col, level)->addSet(set);
+            GetCell(row+1, col+1, level)->addSet(set);
+         }
+      }
+   }
    
    // Copy set data back into cell set collections.
-   // TODO
+   // TODO: What, exactly?
 }
 
-void PylosBoard::Rules::SetMarble(int val) {
-
+void PylosBoard::Rules::SetMarble(int val) 
+{
    if (val < 1 || val > 1000)
       throw BaseException("Marble weight must be between 1 and 1000 inclusive");
 
    marbleWgt = val;
 }
 
-void PylosBoard::Rules::SetLevel(int val) {
+void PylosBoard::Rules::SetLevel(int val) 
+{
    if (val >= marbleWgt || val < 0)
       throw BaseException("Level weight must be nonnegative and less than"
        " marble weight");
@@ -73,7 +107,8 @@ void PylosBoard::Rules::SetLevel(int val) {
    levelWgt = val;
 }
 
-void PylosBoard::Rules::SetFree(int val) {
+void PylosBoard::Rules::SetFree(int val) 
+{
    if (val % 2 != 0 || val < 0 || val >= marbleWgt)
       throw BaseException("Free weight must be even, nonnegative, and less"
        " than marble weight");
@@ -81,7 +116,8 @@ void PylosBoard::Rules::SetFree(int val) {
    freeWgt = val;
 }
 
-void PylosBoard::Rules::EndSwap() {
+void PylosBoard::Rules::EndSwap() 
+{
    levelWgt = EndianXfer(levelWgt);
    freeWgt = EndianXfer(freeWgt);
    marbleWgt = EndianXfer(marbleWgt);
@@ -106,14 +142,16 @@ long PylosBoard::GetValue() const
        + mRules.levelWgt * mLevelLead + mRules.freeWgt * mFreeLead;
 }
 
-void PylosBoard::PutMarble(Spot *trg) {
+void PylosBoard::PutMarble(Spot *trg) 
+{
    // Other stuff needed here, related to board valuation
    // This is a great place for a few asserts, too.
 
    HalfPut(trg);
 }
 
-void PylosBoard::TakeMarble(Spot *trg) {
+void PylosBoard::TakeMarble(Spot *trg) 
+{
    // Other stuff needed here, related to board valuation
    // This is a great place for a few asserts, too.
 
@@ -143,7 +181,8 @@ void PylosBoard::ApplyMove(Move *move)
    mWhoseMove = -mWhoseMove;
 }
 
-void PylosBoard::UndoLastMove() {
+void PylosBoard::UndoLastMove() 
+{
    // Fill in
 }
 
@@ -161,7 +200,7 @@ void PylosBoard::GetAllMoves(std::list<Move *> *moves) const
    if (mWhiteReserve == 0 || mBlackReserve == 0)
       return;
    
-   for (tRow = 0; tRow < kDim; tRow++) 
+   for (tRow = 0; tRow < kDim; tRow++) {
       for (tCol = 0; tCol < kDim; tCol++) {
          trg = mSpots[tRow][tCol].empty;
          if (trg && (trg->subs & (mWhite|mBlack)) == trg->subs) { // found a target spot
@@ -169,7 +208,7 @@ void PylosBoard::GetAllMoves(std::list<Move *> *moves) const
             locs.push_back(std::pair<int, int>(tRow, tCol));
             moves->push_back(new PylosMove(locs, PylosMove::kReserve));   
 
-            for (sRow = 0; sRow < kDim; sRow++) // search for promote moves
+            for (sRow = 0; sRow < kDim; sRow++) { // search for promote moves
                for (sCol = 0; sCol < kDim; sCol++) {
                   src = mSpots[sRow][sCol].top;
                   if (src && (src->sups & (mWhite|mBlack)) == 0
@@ -181,15 +220,18 @@ void PylosBoard::GetAllMoves(std::list<Move *> *moves) const
                      locs.pop_back();
                   }
                }
+            }
          }
       }
+   }
       
    AddTakeBacks(mvs);
 }
 
 // For each move in *mvs that completes one or more sets, add all
 // combination of spots to take back.
-void PylosBoard::AddTakeBacks(std::list<PylosMove *> *mvs) const {
+void PylosBoard::AddTakeBacks(std::list<PylosMove *> *mvs) const 
+{
    // You'll find HalfPut and HalfTake useful here.  You need to be able
    // to temporarily put/take marbles in order to make this logic manageable,
    // and you want it fast, so you don't want all the overhead of board
@@ -254,4 +296,3 @@ void PylosBoard::Delete()
 {
    // As with Clone, think carefully and don't do needless work.
 }
-
