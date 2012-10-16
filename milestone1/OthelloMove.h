@@ -10,7 +10,7 @@ class OthelloMove : public Board::Move {
 public:
    // Flipset represents a "run" of flips in a given direction.
    struct FlipSet {
-      char count;                         // Number of flipped cells 
+      char count;                         // Number of flipped cells
       const OthelloBoard::Direction *dir; // Direction of run.
 
       FlipSet(char c = 0, const OthelloBoard::Direction *d = 0)
@@ -19,17 +19,17 @@ public:
 
    friend class OthelloBoard;
    typedef std::list<FlipSet> FlipList;
-   
+
    OthelloMove(char row = 0, char col = 0) : mRow(row), mCol(col) {}
    virtual ~OthelloMove() {}
 
-   void AddFlipSet(const FlipSet &fs) 
+   void AddFlipSet(const FlipSet &fs)
     {mFlipSets.push_back(fs);}
 
    void ClearFlipSets()                {mFlipSets.clear();}
    const FlipList &GetFlipSets() const {return mFlipSets;}
 
-   bool operator==(const Board::Move &rhs) const; 
+   bool operator==(const Board::Move &rhs) const;
    bool operator<(const Board::Move &rhs) const;
    operator std::string() const;
    void operator=(const std::string &src);

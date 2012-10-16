@@ -24,7 +24,6 @@ void *OthelloMove::operator new(size_t sz)
 void OthelloMove::operator delete(void *p)
 {
    mFreeList.push_back((OthelloMove *)p);
-
    mOutstanding--;
 }
 
@@ -68,7 +67,7 @@ void OthelloMove::operator=(const string &src)
    mCol = (char)tCol;
 }
 
-Board::Move *OthelloMove::Clone() const 
+Board::Move *OthelloMove::Clone() const
 {
    return new OthelloMove(*this);
 }
@@ -76,7 +75,7 @@ Board::Move *OthelloMove::Clone() const
 istream &OthelloMove::Read(istream &is)
 {
    char size, count, dirNum;
-   
+
    mFlipSets.clear();
    is.read(&mRow, sizeof(mRow));
    is.read(&mCol, sizeof(mCol));
@@ -86,7 +85,7 @@ istream &OthelloMove::Read(istream &is)
       mFlipSets.push_back(
        FlipSet(count, OthelloBoard::mDirs + dirNum));
    }
-      
+
    return is;
 }
 

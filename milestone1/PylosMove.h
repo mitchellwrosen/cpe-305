@@ -16,7 +16,7 @@
 // source or target location.  Level can always be inferred
 // from the board configuration and the game rules.)
 // For either move type, an additional one or two locations may
-// be added if a recovery pattern is completed as a result of 
+// be added if a recovery pattern is completed as a result of
 // the move.
 
 class PylosMove : public Board::Move {
@@ -24,11 +24,11 @@ public:
    enum {kReserve, kPromote};  // Enum to mark what type of move we are.
    typedef std::vector<std::pair<short, short> > LocVector;
    friend class PylosBoard;
-   
+
    PylosMove(const LocVector &locs, int type) : mLocs(locs), mType(type) {}
    virtual ~PylosMove() {}
 
-   bool operator==(const Board::Move &rhs) const; 
+   bool operator==(const Board::Move &rhs) const;
    bool operator<(const Board::Move &rhs) const;
    operator std::string() const;
    void operator=(const std::string &src);
@@ -41,10 +41,10 @@ protected:
    char mType;
    LocVector mLocs;
 
-    void operator delete(void *p);
-    void *operator new(size_t sz);
+   void operator delete(void *p);
+   void *operator new(size_t sz);
 
-   // Static member datum to record freelist.  Use STL!
+   static std::vector<PylosMove *> mFreeList;
 };
 
 #endif

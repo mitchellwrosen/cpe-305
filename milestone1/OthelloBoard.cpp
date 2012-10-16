@@ -40,7 +40,7 @@ OthelloBoard::OthelloBoard() : mNextMove(mBPiece), mWeight(0), mPassCount(0)
    mRoster.insert(this);
 }
 
-OthelloBoard::~OthelloBoard() 
+OthelloBoard::~OthelloBoard()
 {
    ClearHistory();
    mRoster.erase(this);
@@ -49,7 +49,7 @@ OthelloBoard::~OthelloBoard()
 long OthelloBoard::GetValue() const
 {
    int row, col, total = 0;
-    
+
    if (mPassCount < 2)  // Game not over
       return mWeight;
    else {               // Game over
@@ -86,7 +86,7 @@ void OthelloBoard::ApplyMove(Move *move)
             row += dir->rDelta;
             col += dir->cDelta;
          } while (InBounds(row, col) && mBoard[row][col] == -mNextMove);
-         
+
          if (InBounds(row, col) && mBoard[row][col] == mNextMove) {
             for (switched = 0, row -= dir->rDelta, col -= dir->cDelta;
              row != om->mRow || col != om->mCol;
@@ -161,7 +161,7 @@ void OthelloBoard::GetAllMoves(std::list<Move *> *moves) const
                steps++;
             } while (InBounds(testRow, testCol)
              && mBoard[testRow][testCol] == -mNextMove);
-      
+
             if (InBounds(testRow, testCol)
              && mBoard[testRow][testCol] == mNextMove && steps >= 2)
                break;
@@ -244,14 +244,14 @@ std::istream &OthelloBoard::Read(std::istream &is)
       is >> *move;
       mMoveHist.push_back(move);
    }
-   
+
    return is;
 }
 
 // They write
 std::ostream &OthelloBoard::Write(std::ostream &os) const
 {
-   int row, col; 
+   int row, col;
    unsigned char sz = mMoveHist.size();
    unsigned short rowBits;
    std::list<Move *>::const_iterator itr;

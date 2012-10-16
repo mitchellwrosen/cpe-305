@@ -2,51 +2,86 @@
 #include "PylosMove.h"
 #include "PylosBoard.h"
 
-using namespace std;
+std::vector<PylosMove *> PylosMove::mFreeList;
 
 void *PylosMove::operator new(size_t sz)
 {
-   // Return next node from freelist, or allocate one
+   void *temp;
+
+   if (mFreeList.size()) {
+      temp = mFreeList.back();
+      mFreeList.pop_back();
+   } else {
+      temp = ::new char[sz];
+   }
+
+   mOutstanding++;
+   return temp;
 }
 
 void PylosMove::operator delete(void *p)
 {
    // release node pointed to by p to the freelist
+   mFreeList.push_back((PylosMove *)p);
+   mOutstanding--;
 }
 
 bool PylosMove::operator==(const Board::Move &rhs) const
 {
    const PylosMove &oRhs = dynamic_cast<const PylosMove &>(rhs);
 
-   return mType == oRhs.mType && mLocs.size() == oRhs.mLocs.size();
-//   Finish on this one line.  Use STL "equal" function template.
+   return mType == oRhs.mType && mLocs.size() == oRhs.mLocs.size()
+    && std::equal(mLocs.begin(), mLocs.end(), oRhs.mLocs.begin());
 }
 
 // Sort by target loc, then by move type, then source locs
 // by lexicographic sort
 bool PylosMove::operator<(const Board::Move &rhs) const
 {
+   int ndx = 0;
+   const PylosMove &oRhs = dynamic_cast<const PylosMove &>(rhs);
+
+   if (mLocs[0] != oRhs.mLocs[0])
+      return mLocs[0] < oRhs.mLocs[0];
+
+   if (mType != oRhs.mType)
+      return mType < oRhs.mType;
+
+   for (ndx = 1; ndx < 4; ndx++) {
+      if (mLocs.size() > ndx && oRhs.mLocs.size() > ndx) {
+         if (mLocs[ndx] != oRhs.mLocs[ndx])
+            return mLocs[ndx] < oRhs.mLocs[ndx];
+      } else {
+         break;
+      }
+   }
+
+   return mLocs.size() < oRhs.mLocs.size();
 }
 
-PylosMove::operator string() const
+PylosMove::operator std::string() const
 {
-   string str;
-   LocVector::const_iterator itr;
-   
+   std::string str;
+   LocVector::const_iterator itr = mLocs.begin();
+
    if (mType == kReserve) {
-      str = FString("Play at [%d, %d]", mLocs[0].first, mLocs[0].second);
-      itr = mLocs.begin() + 1;
+      str = FString("Play at [%d, %d]", itr->first, itr->second);
+      itr++;
    }
    else {
-      // Fill in
+      str = FString("Promote from [%d, %d] to [%d, %d]", mLocs[0].first,
+       mLocs[0].second, mLocs[1].first, mLocs[1].second);
+      itr += 2;
    }
-   
+
    if (itr != mLocs.end()) {
-      str += FString(" taking [%d, %d]", (*itr).first, (*itr).second);
+      str += FString(" taking [%d, %d]", itr->first, itr->second);
       itr++;
-      // Another couple lines here
    }
-   
+
+   if (itr != mLocs.end())
+      str += FString(" and [%d, %d]", itr->first, itr->second);
+
    return str;
 }
 
@@ -64,7 +99,7 @@ void PylosMove::operator=(const string &src)
       res = sscanf(src.c_str(), " Play at [ %hd , %hd %c %6s [ %hd , %hd %c %3s "
        "[ %hd , %hd %c %1s", &p1.first, &p1.second, &brack1, wd1, &p2.first);
        // Fill in rest of sscanf.  Just one more line here is all that's needed.
-      
+
       // Test result of scanf for good format.  Had a total of 7 terms in this test.
       //if () {
       //    Fill in temp
@@ -93,7 +128,7 @@ ostream &PylosMove::Write(ostream &os) const
    char size = mLocs.size();
    short temp;
    int ndx;
-   
+
    os.write((char *)&mType, sizeof(mType));
    os.write((char *)&size, sizeof(size));
    for (ndx = 0; ndx < size; ndx++) {
@@ -101,7 +136,7 @@ ostream &PylosMove::Write(ostream &os) const
       os.write((char *)&temp, sizeof(short));
       temp = EndianXfer(mLocs[ndx].second);
       os.write((char *)&temp, sizeof(short));
-   }      
+   }
    return os;
 }
 
