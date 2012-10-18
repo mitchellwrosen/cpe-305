@@ -25,29 +25,29 @@ void PylosView::Draw(std::ostream &out) {
           mask & mModel->GetBlack() ? kBlackPiece :
           kNoPiece;
       if (ndx < 1) {
-         out << "   " << c << "\n" << std::endl;
+         out << "   " << c << std::endl << std::endl;
       } else if (ndx < 5) {
          if (((ndx - 1) % 2) == 0)
             out << "  " << c;
          else
-            out << " " << c << "\n" << std::endl;
+            out << " " << c << std::endl << std::endl;
       } else if (ndx < 14) {
          out << " " << c;
          if (((ndx - 5) % 3) == 2)
-            out << "\n" << std::endl;
+            out << std::endl << std::endl;
       } else {
          if (((ndx - 14) % 4) != 0)
             out << " ";
          out << c;
          if (((ndx - 14) % 4) == 3)
-            out << "\n" << std::endl;
+            out << std::endl << std::endl;
       }
    }
 
    if (mModel->GetWhoseMove() == kWhite)
-      out << "White's move\n" << std::endl;
+      out << "White's move" << std::endl << std::endl;
    else
-      out << "Black's move\n" << std::endl;
+      out << "Black's move" << std::endl << std::endl;
 
    out << "All Moves:" << std::endl;
 
@@ -62,12 +62,8 @@ void PylosView::Draw(std::ostream &out) {
 }
 
 const Class* PylosView::GetClass() const {
-   const Class* cls = Class::ForName("PylosView");
-
-   if (cls)
-      return cls;
-
-   return new Class("PylosView", &PylosView::Create);
+   // TODO
+   return NULL;
 }
 
 // static

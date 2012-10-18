@@ -65,8 +65,7 @@ int main(int argc, char **argv)
       } else if (command.compare("showVal") == 0) {
          std::cout << "Value: " << board->GetValue() << std::endl;
       } else if (command.compare("showBoard") == 0) {
-         std::cout << pv->Draw() << std::endl;
-         // TODO
+         pv->Draw(std::cout);
       } else if (command.compare("quit") == 0) {
          break;
       } else {

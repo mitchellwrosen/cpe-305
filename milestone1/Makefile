@@ -4,13 +4,13 @@
 
 # General definitions
 CPP = g++
-CPPFLAGS = -w
+CPPFLAGS = -w -g
 
 OTHELLOOBJS = OthelloBoard.o OthelloMove.o OthelloView.o OthelloDlg.o
 PYLOSOBJS = PylosBoard.o PylosMove.o PylosView.o PylosDlg.o
 CHECKERSOBJS = CheckersBoard.o CheckersMove.o CheckersView.o CheckersDlg.o
 GAMEOBJS = Board.o Dialog.o Class.o $(CHESSOBJS) $(OTHELLOOBJS) $(PYLOSOBJS) $(CHECKERSOBJS)
-           
+
 BOARDTESTOBJS = BoardTest.o $(GAMEOBJS)
 MYBOARDTESTOBJS = MyBoardTest.o $(GAMEOBJS)
 MAKEBOOKOBJS = MakeBook.o GameModel.o Book.o $(GAMEOBJS)
@@ -80,7 +80,7 @@ OthelloView.o: OthelloView.h OthelloBoard.h View.h MyLib.h Class.h
 OthelloDlg.o: OthelloDlg.cpp OthelloDlg.h OthelloBoard.h Dialog.h MyLib.h Class.h
 	$(CPP) $(CPPFLAGS) -c OthelloDlg.cpp
 
-MakeBook.o: MakeBook.cpp MyLib.h GameModel.h 
+MakeBook.o: MakeBook.cpp MyLib.h GameModel.h
 	$(CPP) $(CPPFLAGS) -c $<
 
 GameModel.o: GameModel.cpp GameModel.h Board.h Class.h
@@ -92,6 +92,6 @@ GameView.o: GameView.cpp GameView.h Board.h Class.h
 Book.o: Book.cpp Book.h
 	$(CPP) $(CPPFLAGS) -c Book.cpp
 
-.cpp.o: 
+.cpp.o:
 	$(CPP) $(CPPFLAGS) -c $<
 

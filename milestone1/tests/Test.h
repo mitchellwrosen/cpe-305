@@ -10,6 +10,11 @@
       TestObj temp(STR_VALUE(x), &x);  \
       mTests.push_back(temp);          \
    } while (0)
+#define RUN_TEST(x); \
+   int main() {      \
+      x test;        \
+      test.Run();    \
+   }
 
 class Test {
 public:

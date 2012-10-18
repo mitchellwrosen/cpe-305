@@ -2,6 +2,7 @@
 #include "PylosMove.h"
 #include "PylosBoard.h"
 
+// static
 std::vector<PylosMove *> PylosMove::mFreeList;
 
 void *PylosMove::operator new(size_t sz)
@@ -58,7 +59,6 @@ bool PylosMove::operator<(const Board::Move &rhs) const
    return mLocs.size() < oRhs.mLocs.size();
 }
 
-// TODO test
 PylosMove::operator std::string() const
 {
    std::string str;
@@ -67,8 +67,7 @@ PylosMove::operator std::string() const
    if (mType == kReserve) {
       str = FString("Play at [%d, %d]", itr->first, itr->second);
       itr++;
-   }
-   else {
+   } else {
       str = FString("Promote from [%d, %d] to [%d, %d]", mLocs[0].first,
        mLocs[0].second, mLocs[1].first, mLocs[1].second);
       itr += 2;
@@ -88,7 +87,7 @@ PylosMove::operator std::string() const
 // TODO test
 void PylosMove::operator=(const std::string &src)
 {
-   char wd1[11], wd2[11], wd3[11], extra;
+   char wd1[11], wd2[11], wd3[11], bk1, bk2, bk3, bk4, extra;
    std::pair<short, short> p1, p2, p3, p4;
    int res;
    short type;
@@ -97,51 +96,50 @@ void PylosMove::operator=(const std::string &src)
    sscanf(src.c_str(), "%10s", wd1);
    if (!strcmp(wd1, "Play")) {
       type = kReserve;
-      res = sscanf(src.c_str(), " Play at [ %hd , %hd ] %6s [ %hd , %hd ] %3s "
-       "[ %hd , %hd ] %c", &p1.first, &p1.second, wd1, &p2.first, &p2.second,
-       wd2, &p3.first, &p3.second, &extra);
+      res = sscanf(src.c_str(), " Play at [ %hd , %hd %c %6s [ %hd , %hd %c %3s"
+       " [ %hd , %hd %c %c", &p1.first, &p1.second, &bk1, wd1, &p2.first,
+       &p2.second, &bk2, wd2, &p3.first, &p3.second, &bk3, &extra);
 
-      if (res == 2 ||
-          res == 5 && !strcmp(wd1, "taking") ||
-          res == 8 && !strcmp(wd1, "taking") && !strcmp(wd2, "and")) {
+      if (res == 3 && bk1 == ']' ||
+          res == 7 && bk1 == bk2 == ']' && !strcmp(wd1, "taking") ||
+          res == 11 && bk1 == bk2 == bk3 == ']' && !strcmp(wd1, "taking") &&
+           !strcmp(wd2, "and")) {
          temp.push_back(p1);
-         if (res == 5)
+         if (res == 7)
             temp.push_back(p2);
-         if (res == 8) {
+         if (res == 11) {
             if (p2 > p3)
                throw BaseException(FString("Bad Pylos move: %s", src.c_str()));
             temp.push_back(p3);
          }
-      }
-      else {
+      } else {
          throw BaseException(FString("Bad Pylos move: %s", src.c_str()));
       }
-   }
-   else if (!strcmp(wd1, "Promote")) {
+   } else if (!strcmp(wd1, "Promote")) {
       type = kPromote;
-      res = sscanf(src.c_str(), " Promote from [ %hd , %hd ] %2s [ %hd , %hd ] "
-       "%6s [ %hd , %hd ] %3s [ %hd , %hd ] %c", &p1.first, &p1.second, wd1,
-       &p2.first, &p2.second, wd2, &p3.first, &p3.second, wd3, extra);
+      res = sscanf(src.c_str(), " Promote from [ %hd , %hd %c %2s [ %hd , %hd "
+       "%c %6s [ %hd , %hd %c %3s [ %hd , %hd %c %c", &p1.first, &p1.second,
+       &bk1, wd1, &p2.first, &p2.second, &bk2, wd2, &p3.first, &p3.second,
+       &bk3, wd3, &p4.first, &p4.second, &bk4, &extra);
 
-      if (res == 5 && !strcmp(wd1, "to") ||
-          res == 8 && !strcmp(wd1, "to") && !strcmp(wd2, "taking") ||
-          res == 11 && !strcmp(wd1, "to") && !strcmp(wd2, "taking") &&
-           !strcmp(wd3, "and")) {
+      if (res == 7 && bk1 == bk2 == ']' && strcmp(wd1, "to") ||
+          res == 11 && bk1 == bk2 == bk3 == ']' && !strcmp(wd1, "to") &&
+           !strcmp(wd2, "taking") ||
+          res == 15 && bk1 == bk2 == bk3 == bk4 == ']' && !strcmp(wd1, "to") &&
+           !strcmp(wd2, "taking") && !strcmp(wd3, "and")) {
          temp.push_back(p1);
          temp.push_back(p2);
-         if (res == 8)
+         if (res == 11)
             temp.push_back(p3);
-         if (res == 11) {
+         if (res == 15) {
             if (p3 > p4)
                throw BaseException(FString("Bad Pylos move: %s", src.c_str()));
             temp.push_back(p4);
          }
-      }
-      else {
+      } else {
          throw BaseException(FString("Bad Pylos move: %s", src.c_str()));
       }
-   }
-   else {
+   } else {
       throw BaseException(FString("Bad Pylos move: %s", src.c_str()));
    }
 
@@ -183,16 +181,17 @@ std::ostream &PylosMove::Write(std::ostream &os) const
 std::istream &PylosMove::Read(std::istream &is)
 {
    char size = 0;
-   short temp;
+   short temp1, temp2;
    int ndx;
 
-   is.read((char *)&mType, sizeof(mType));
-   is.read((char *)&size, sizeof(size));
+   is.read((char *)&mType, sizeof(char));
+   is.read((char *)&size, sizeof(char));
+
+   mLocs.clear();
    for (ndx = 0; ndx < size; ndx++) {
-      is.read((char *)&temp, sizeof(temp));
-      mLocs[ndx].first = EndianXfer(temp);
-      is.read((char *)&temp, sizeof(temp));
-      mLocs[ndx].second = EndianXfer(temp);
+      is.read((char *)&temp1, sizeof(short));
+      is.read((char *)&temp2, sizeof(short));
+      mLocs.push_back(std::make_pair(EndianXfer(temp1), EndianXfer(temp2)));
    }
    return is;
 }

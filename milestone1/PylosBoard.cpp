@@ -14,18 +14,13 @@ PylosBoard::Set PylosBoard::mSets[kNumSets];
 PylosBoard::Cell PylosBoard::mCells[kNumCells];
 
 // static
-int PylosBoard::mOffs[kDim];
+int PylosBoard::mOffs[kDim] = {0, 16, 25, 29};
 
 // static
 void PylosBoard::StaticInit()
 {
    Cell *cell;
    int level, row, col, ndx, nextSet = 0, nextCell = 0;
-
-   // Initialize mOffs.
-   mOffs[0] = 0;
-   for (ndx = 1; ndx < kDim; ndx++)
-      mOffs[ndx] = mOffs[ndx - 1] + Sqr<int>(kDim - ndx + 1);
 
    for (level = 0; level < kDim; level++) {
       for (row = 0; row < kDim - level; row++) {

@@ -23,16 +23,20 @@ class PylosMove : public Board::Move {
 public:
    enum {kReserve, kPromote};  // Enum to mark what type of move we are.
    typedef std::vector<std::pair<short, short> > LocVector;
+
    friend class PylosBoard;
+   friend class PylosMoveTest;
+
 
    PylosMove(const LocVector &locs, int type) : mLocs(locs), mType(type) {}
    virtual ~PylosMove() {}
 
-   bool operator==(const Board::Move &rhs) const;
-   bool operator<(const Board::Move &rhs) const;
-   operator std::string() const;
-   void operator=(const std::string &src);
-   Board::Move *Clone() const;
+   // Board::Move implementation.
+   virtual bool operator==(const Board::Move &rhs) const;
+   virtual bool operator<(const Board::Move &rhs) const;
+   virtual operator std::string() const;
+   virtual void operator=(const std::string &src);
+   virtual Board::Move *Clone() const;
 
 protected:
    std::istream &Read(std::istream &is);
