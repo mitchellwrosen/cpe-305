@@ -16,6 +16,7 @@ public:
    const static int kDim = 4;
 
    friend class PylosMove;
+   friend class PylosBoardTest;
 
    struct Rules {
       int levelWgt;  // Additional weight for each level higher per stone
