@@ -25,7 +25,7 @@ public:
 // would return a pointer to the one-and-only Class object for the OthelloBoard
 // class. Implementing ForName requires a means of getting to all Class objects.
 // You will need to arrange a linked list of Class objects, with mClsHead as the
-// head pointer.  Don't dynamically allocate Class objects just because you have 
+// head pointer.  Don't dynamically allocate Class objects just because you have
 // a linked list of them and pointers to them.  The phrase "new Class..." should
 // never appear in your code.
 
@@ -49,13 +49,13 @@ protected:
 
 // BoardClass provides more class-specific information relevant to a
 // Board-derived class, in particular:
-// 
+//
 // 1. A "friendly name" used to describe the game the Board plays e.g. "Chess".
 //
 // 2. Access to the view and dialog classes that go with the Board
 //
-// 3. Two methods that return and modify the static Rules for the board class.  
-// Caller gets ownership of the object returned from GetOptions, 
+// 3. Two methods that return and modify the static Rules for the board class.
+// Caller gets ownership of the object returned from GetOptions,
 // and retains ownership of the object passed to SetOptions
 //
 // 4. An indication of whether or not to use a transposition table when
@@ -67,23 +67,21 @@ protected:
 
 class BoardClass : public Class {
 public:
-   
    // NOTE: Keep your added parameters and member data in the order shown!
-   // NOTE: Do note place any methods inline except those already provided 
+   // NOTE: Do note place any methods inline except those already provided
    // as inline.
-   
+
    BoardClass(const std::string &n, Object *(*c)(), const std::string &fn,
-    // Parameter to initialize the mViewClass member
-    // Parameter to initialize the mDlgClass member
-    // Function pointer parameter to the mutator for the options
-    // Function pointer parameter to the accessor for the options
+    // Parameter to initialize the mViewClass member // TODO ??
+    // Parameter to initialize the mDlgClass member  // TODO ??
+    void *(*getOptions)(), void (*setOptions)(const void *),
     bool useXPos = false, int minPlayers = 2);
 
    virtual std::string GetFriendlyName() const {return mFriendlyName;}
    virtual const Class *GetViewClass() const {return mViewClass;}
    virtual const Class *GetDlgClass() const {return mDlgClass;}
-   virtual void *GetOptions() const;
-   virtual void SetOptions(void *) const;
+   virtual void *GetOptions() const {return (*mGetOptions)();}
+   virtual void SetOptions(const void *opts) const {(*mSetOptions)(opts);}
    virtual bool UseTransposition() const {return mUseXPos;}
    virtual int  GetMinPlayers() const {return mMinPlayers;}
    static std::vector<const BoardClass *> GetAllClasses();
@@ -92,26 +90,13 @@ protected:
    std::string mFriendlyName;
    const Class *mViewClass;
    const Class *mDlgClass;
-   // Function pointer for SetOptions
-   // Function pointer for GetOptions
-   bool mUseXPos;      
-   int mMinPlayers;             // Min number of players for game.      
-   BoardClass *mNext;         
-   
+   void *(*mGetOptions)();
+   void (*mSetOptions)(const void *);
+   bool mUseXPos;
+   int mMinPlayers;             // Min number of players for game.
+   BoardClass *mNext;
+
    static BoardClass *mBrdClsHead;
 };
-
-/*
-class OthelloBoardClass : public BoardClass {
-public:
-   OthelloBoardClass(const std::string &n, Object *(*c)(),
-    const std::string &fn, bool useXPos = false, int minPlayers = 2);
-
-   // BoardClass implementation.
-   virtual void *GetOptions() const;
-   virtual void SetOptions(void *) const;
-};
-*/
-
 
 #endif

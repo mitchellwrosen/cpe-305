@@ -1,4 +1,4 @@
-
+#include <assert.h>
 #include <iostream>
 #include <string>
 #include <vector>
@@ -25,8 +25,9 @@ public:
    void Run() {
       for (std::vector<TestObj>::const_iterator iter = mTests.begin();
            iter != mTests.end(); iter++) {
-         std::cout << "Running " << iter->name << "..." << std::endl;
+         std::cout << "Running " << iter->name << "... ";
          (*(iter->func))();
+         std::cout << "PASSED" << std::endl;
       }
    }
 

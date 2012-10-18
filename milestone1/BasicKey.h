@@ -1,3 +1,6 @@
+#ifndef BASICKEY_H_
+#define BASICKEY_H_
+
 #include "Board.h"
 #include "Class.h"
 
@@ -26,5 +29,7 @@ public:
       // TODO
    }
 
-   ulong* vals; 
+   ulong* vals;
 };
+
+#endif   // BASICKEY_H_

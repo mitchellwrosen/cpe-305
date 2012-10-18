@@ -8,7 +8,7 @@
 
 #pragma warning(disable:4786)
 
-class Board  : public Object { 
+class Board  : public Object {
 public:
    static const long kWinVal;
 
@@ -34,9 +34,9 @@ public:
    };
 
    // Base class for keys returned by getKey and used in the transposition
-   // table.  A class may return null from getKey, indicating that it 
+   // table.  A class may return null from getKey, indicating that it
    // should not be used with a transposition table.  Key-derived classes
-   // must not have any dynamically allocated data, since they are 
+   // must not have any dynamically allocated data, since they are
    // written and read to and from binary files as a single block of bytes.
    class Key : public Object {
    public:
@@ -59,7 +59,7 @@ public:
 
       static long mOutstanding;
    };
-      
+
    virtual ~Board() {}
 
    // Return current estimated value of board.
@@ -92,7 +92,7 @@ public:
    // Return a Key object for use with transposition table.  Caller owns the
    // key.
    virtual const Key *GetKey() const = 0;
-   
+
    // Binary writing/reading overloads
    friend std::ostream &operator<<(std::ostream &os, const Board &b)
     {return b.Write(os);}

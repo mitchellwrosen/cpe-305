@@ -67,10 +67,10 @@ struct TCmpPtr : public TPtr<T> {
    TCmpPtr(T *p) : TPtr<T>(p) {}
    ~TCmpPtr(void) {}
 
-   bool operator<(const TCmpPtr<T> &rhs) const 
+   bool operator<(const TCmpPtr<T> &rhs) const
     {return *TPtr<T>::ptr < *rhs.ptr;}
 
-   bool operator==(const TCmpPtr<T> &rhs) const 
+   bool operator==(const TCmpPtr<T> &rhs) const
     {return *TPtr<T>::ptr == *rhs.ptr;}
 };
 
@@ -84,8 +84,8 @@ typedef char *CStr;
 
 inline ushort EndianXfer(ushort val) {return val >> 8 | val << 8;}
 inline short  EndianXfer(short val)  {return (val >> 8)&0xFF | val << 8;}
-inline int    EndianXfer(int val)    {}
-inline uint   EndianXfer(uint val)   {}
+inline uint   EndianXfer(uint val)   {return val >> 24 | (val >> 8)&0xFF00 | (val << 8)&0xFF0000 | val << 24;}
+inline int    EndianXfer(int val)    {return (val >> 24)&0xFF | (val >> 8)&0xFF00 | (val << 8)&0xFF0000 | val << 24;}
 
 #else
 

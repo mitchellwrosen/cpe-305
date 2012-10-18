@@ -39,7 +39,7 @@ public:
    void GetAllMoves(std::list<Move *> *) const;
    Move *CreateMove() const;
    int GetWhoseMove() const {return mNextMove == mWPiece;}
-   const std::list<const Move *> &GetMoveHist() const 
+   const std::list<const Move *> &GetMoveHist() const
     {return *(std::list<const Move *> *)&mMoveHist;}
    char GetSquare(int row, int col) const {return mBoard[row][col];}
 
@@ -50,10 +50,10 @@ public:
    // object representing options. SetOptions takes similar object.  Caller
    // owns object in both cases.
    static void *GetOptions();
-   static void SetOptions(const void *opts);      
+   static void SetOptions(const void *opts);
 
    // Object override.
-   const Class* GetClass() const { // TODO 
+   const Class* GetClass() const { // TODO
    }
 
 protected:
@@ -68,7 +68,7 @@ protected:
    static std::set<OthelloBoard *> mRoster;
    static Direction mDirs[mNumDirs];
    static short mWeights[dim][dim];
-   
+
    static bool InBounds(int row, int col)
     {return InRange<short>(0, row, dim) && InRange<short>(0, col, dim);}
 

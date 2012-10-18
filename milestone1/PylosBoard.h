@@ -43,7 +43,7 @@ public:
    void UndoLastMove();
    void GetAllMoves(std::list<Move *> *) const;
    Move *CreateMove() const;
-   int GetWhoseMove() const   {return mWhoseMove != kWhite;}
+   int GetWhoseMove() const {return mWhoseMove != kWhite;}
 
    const std::list<const Move *> &GetMoveHist() const
     {return *(std::list<const Move *> *)&mMoveHist;}
@@ -55,6 +55,14 @@ public:
    // May add a public method for use by PylosView
    // Add a static method to support the Class system, plus a static
    // private member datum below
+   // Object implementation.
+   const Class *GetClass() const;
+   static Object *Create();
+   static Class cls;
+
+   const ulong GetWhite() const {return mWhite;}
+   const ulong GetBlack() const {return mBlack;}
+
 
    // Option accessor/mutator.  GetOptions returns dynamically allocated
    // object representing options. SetOptions takes similar object.  Caller
@@ -161,12 +169,16 @@ protected:
          spt->top = NULL;
 
       if (mWhoseMove == kWhite)
-         mWhite &= ~spt->empty;
+         mWhite &= ~spt->empty->mask;
       else
-         mBlack &= ~spt->empty;
+         mBlack &= ~spt->empty->mask;
    }
 
-   // Add possible nested class and member datum to force StaticInit call.
+   class StaticInitializer {
+   public:
+      StaticInitializer() { PylosBoard::StaticInit(); }
+   };
+   static StaticInitializer staticInitializer;
 
    // Rules object for PylosBoard
    static Rules mRules;

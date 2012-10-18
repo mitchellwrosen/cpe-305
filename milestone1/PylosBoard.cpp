@@ -14,8 +14,7 @@ PylosBoard::Set PylosBoard::mSets[kNumSets];
 PylosBoard::Cell PylosBoard::mCells[kNumCells];
 
 // static
-int PylosBoard::mOffs[] = {0, kDim * kDim, kDim*kDim + (kDim-1)*(kDim-1),
- kDim*kDim + (kDim-1)*(kDim-1) + (kDim-2)*(kDim-2)};
+int PylosBoard::mOffs[kDim];
 
 // static
 void PylosBoard::StaticInit()
@@ -23,10 +22,14 @@ void PylosBoard::StaticInit()
    Cell *cell;
    int level, row, col, ndx, nextSet = 0, nextCell = 0;
 
+   // Initialize mOffs.
+   mOffs[0] = 0;
+   for (ndx = 1; ndx < kDim; ndx++)
+      mOffs[ndx] = mOffs[ndx - 1] + Sqr<int>(kDim - ndx + 1);
+
    for (level = 0; level < kDim; level++) {
       for (row = 0; row < kDim - level; row++) {
          for (col = 0; col < kDim - level; col++, nextCell++) {
-
             cell = mCells + nextCell;
             cell->level = level;
             cell->mask = 1 << nextCell;
@@ -288,11 +291,30 @@ std::ostream &PylosBoard::Write(std::ostream &os) const
    return os;
 }
 
+const Class *PylosBoard::GetClass() const {
+   std::vector<const BoardClass *> brdClasses = BoardClass::GetAllClasses();
+   std::vector<const BoardClass *>::const_iterator iter = brdClasses.begin();
+   for (; iter != brdClasses.end(); iter++) {
+      if ((*iter)->GetName() == "PylosBoard")
+         return *iter;
+   }
+
+   return new BoardClass("PylosBoard", &PylosBoard::Create, "Pylos",
+    &PylosBoard::GetOptions, &PylosBoard::SetOptions);
+}
+
+// static
+Object *PylosBoard::Create() {
+   return new PylosBoard();
+}
+
+// static
 void *PylosBoard::GetOptions()
 {
    return new Rules(mRules);
 }
 
+// static
 void PylosBoard::SetOptions(const void *opts)
 {
    mRules = *reinterpret_cast<const Rules *>(opts);
@@ -302,3 +324,6 @@ void PylosBoard::Delete()
 {
    // As with Clone, think carefully and don't do needless work.
 }
+
+// static
+PylosBoard::StaticInitializer PylosBoard::staticInitializer;
