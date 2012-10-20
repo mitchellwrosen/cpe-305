@@ -1,6 +1,8 @@
 #ifndef PYLOSDLG_H
 #define PYLOSDLG_H
 
+#include <iostream>
+
 #include "Class.h"
 #include "Dialog.h"
 #include "PylosBoard.h"

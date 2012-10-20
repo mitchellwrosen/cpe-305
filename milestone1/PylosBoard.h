@@ -6,6 +6,7 @@
 #include <set>
 #include <vector>
 #include <string.h>
+#include "Class.h"
 #include "MyLib.h"
 #include "Board.h"
 
@@ -39,6 +40,8 @@ public:
    PylosBoard();
    ~PylosBoard() {Delete();}
 
+   void Init();
+
    long GetValue() const;
    void ApplyMove(Move *);
    void UndoLastMove();
@@ -59,11 +62,10 @@ public:
    // Object implementation.
    const Class *GetClass() const;
    static Object *Create();
-   static Class cls;
+   //static Class cls;
 
    const ulong GetWhite() const {return mWhite;}
    const ulong GetBlack() const {return mBlack;}
-
 
    // Option accessor/mutator.  GetOptions returns dynamically allocated
    // object representing options. SetOptions takes similar object.  Caller
@@ -149,7 +151,6 @@ protected:
    // and mBlack masks, but do not update state relative to board valuation.
    // Used to "test out" a marble placement at low cost.
    inline void HalfPut(Spot *spt) const {
-      assert(spt->empty);
       spt->top = spt->empty;
       spt->empty = spt->top->above;
 
@@ -161,8 +162,6 @@ protected:
 
    // Like HalfPut, but in reverse
    inline void HalfTake(Spot *spt) const {
-      // Fill in
-      assert(spt->top);
       spt->empty = spt->top;
       if (spt->empty->level != 0)
          spt->top = spt->empty->below[kNW];
@@ -174,6 +173,20 @@ protected:
       else
          mBlack &= ~spt->empty->mask;
    }
+
+   // HalfPut the first loc and HalfTake the rest.
+   void HalfApplyMove(PylosMove *pm) const;
+
+   // HalfPut the second and onward locs, HalfTake the first.
+   void UnHalfApplyMove(PylosMove *pm) const;
+
+   // Returns true if the Spot at |pr.first|,|pr.second| is part of an
+   // alignment.
+   bool PartOfAlignment(std::pair<short, short> &pr) const;
+
+   // Given |spot|, return true if 1) the top marble exists, 2) the top marble
+   // is the current player's, and 3) the top marble isn't supporting anything.
+   bool CanTakeback(Spot *spot) const;
 
    class StaticInitializer {
    public:
@@ -189,7 +202,7 @@ protected:
    // Next 8 are the horizontal followed by the vertical level-0 rows,
    // and the last 6 are the horizontal followed by the vertical level
    // 1 rows.
-   static Set  mSets[kNumSets];
+   static Set mSets[kNumSets];
 
    // One Cell object for each cell, in
    static Cell mCells[kNumCells];
@@ -218,4 +231,3 @@ protected:
 };
 
 #endif
-

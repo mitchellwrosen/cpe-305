@@ -1,10 +1,10 @@
 #include <assert.h>
 #include <memory.h>
 #include <limits.h>
+#include "Class.h"
 #include "PylosDlg.h"
 #include "PylosBoard.h"
 #include "PylosMove.h"
-#include "MyLib.h"
 #include "BasicKey.h"
 
 // static
@@ -15,6 +15,9 @@ PylosBoard::Cell PylosBoard::mCells[kNumCells];
 
 // static
 int PylosBoard::mOffs[kDim] = {0, 16, 25, 29};
+
+// static
+PylosBoard::StaticInitializer PylosBoard::staticInitializer;
 
 // static
 void PylosBoard::StaticInit()
@@ -30,6 +33,7 @@ void PylosBoard::StaticInit()
             cell->mask = 1 << nextCell;
 
             // Set up below and above pointers.
+            cell->above = NULL;
             if (level > 0) {
                cell->below[kNW] = GetCell(row, col, level-1);
                cell->below[kNE] = GetCell(row, col+1, level-1);
@@ -37,16 +41,16 @@ void PylosBoard::StaticInit()
                cell->below[kSW] = GetCell(row+1, col, level-1);
 
                for (ndx = 0; ndx < kSqr; ndx++) {
-                  cell->below[ndx]->above = cell;
                   cell->below[ndx]->sups |= cell->mask;
                   cell->subs |= cell->below[ndx]->mask;
                }
-            }
 
+               cell->below[kNW]->above = cell;
+            }
 
             if (level < 2) {
                // The last row -- create vertical set.
-               if (row == kDim - level) {
+               if (row == kDim - level - 1) {
                   int setNdx = 18 + col + 3*level;
                   for (ndx = 0; ndx < kDim - level; ndx++) {
                      mSets[setNdx] |=
@@ -59,7 +63,7 @@ void PylosBoard::StaticInit()
                }
 
                // The last column in a row -- create horizontal set.
-               if (col == kDim - level) {
+               if (col == kDim - level - 1) {
                   int setNdx = 14 + row + 4*level;
                   for (ndx = 0; ndx < kDim - level; ndx++)
                      mSets[setNdx] |= (mCells + nextCell - ndx)->mask;
@@ -87,9 +91,6 @@ void PylosBoard::StaticInit()
          }
       }
    }
-
-   // Copy set data back into cell set collections.
-   // TODO: What, exactly?
 }
 
 void PylosBoard::Rules::SetMarble(int val)
@@ -125,10 +126,17 @@ void PylosBoard::Rules::EndSwap()
    marbleWgt = EndianXfer(marbleWgt);
 }
 
-PylosBoard::PylosBoard() : mWhite(0), mBlack(0), mWhoseMove(kWhite),
- mWhiteReserve(kStones), mBlackReserve(kStones), mLevelLead(0), mFreeLead(0)
+PylosBoard::PylosBoard()
 {
+   Init();
    // More work needed here.
+}
+
+void PylosBoard::Init()
+{
+   mWhite = mBlack = mLevelLead = mFreeLead = 0;
+   mWhoseMove = kWhite;
+   mWhiteReserve = mBlackReserve = kStones;
 }
 
 PylosBoard::Rules PylosBoard::mRules;
@@ -146,18 +154,32 @@ long PylosBoard::GetValue() const
 
 void PylosBoard::PutMarble(Spot *trg)
 {
-   // Other stuff needed here, related to board valuation
-   // This is a great place for a few asserts, too.
+   assert(trg->empty);
 
    HalfPut(trg);
+
+   mLevelLead += mWhoseMove * trg->top->level;
+   mFreeLead += mWhoseMove; // Newly placed marble is free.
+   // Belows are no longer free.
+   if (trg->top->level != 0) {
+      for (int i = 0; i < kSqr; i++)
+         mFreeLead -= trg->top->below[i]->mask & mWhite ? kWhite : kBlack;
+   }
 }
 
 void PylosBoard::TakeMarble(Spot *trg)
 {
-   // Other stuff needed here, related to board valuation
-   // This is a great place for a few asserts, too.
+   assert(trg->top);
 
    HalfTake(trg);
+
+   mLevelLead -= mWhoseMove * trg->empty->level;
+   mFreeLead -= mWhoseMove; // Removed marble is no longer free.
+   // Belows are now free.
+   if (trg->empty->level != 0) {
+      for (int i = 0; i < kSqr; i++)
+         mFreeLead += trg->empty->below[i]->mask & mWhite ? kWhite : kBlack;
+   }
 }
 
 void PylosBoard::ApplyMove(Move *move)
@@ -166,11 +188,11 @@ void PylosBoard::ApplyMove(Move *move)
    int rChange = -1;  // Start by assuming we'll lose one from reserve
    PylosMove::LocVector::iterator itr = tm->mLocs.begin();
 
-   PutMarble(&mSpots[(*itr).first][(*itr).second]);
+   PutMarble(&mSpots[itr->first][itr->second]);
 
    itr++;
    for (; itr != tm->mLocs.end(); itr++) {
-      TakeMarble(&mSpots[(*itr).first][(*itr).second]);
+      TakeMarble(&mSpots[itr->first][itr->second]);
       rChange++;
    }
 
@@ -178,6 +200,8 @@ void PylosBoard::ApplyMove(Move *move)
       mWhiteReserve += rChange;
    else
       mBlackReserve += rChange;
+   assert(mWhiteReserve >= 0);
+   assert(mBlackReserve >= 0);
 
    mMoveHist.push_back(move);
    mWhoseMove = -mWhoseMove;
@@ -185,9 +209,24 @@ void PylosBoard::ApplyMove(Move *move)
 
 void PylosBoard::UndoLastMove()
 {
-   // Fill in
-   Move* lastMove = mMoveHist.back();
+   int rChange = 1; // Start by assuming we'll gain one to reserve.
+   PylosMove* lastMove = dynamic_cast<PylosMove *>(mMoveHist.back());
    mMoveHist.pop_back();
+
+   PylosMove::LocVector::iterator itr = lastMove->mLocs.end()-1;
+   for (; itr != lastMove->mLocs.begin(); itr--) {
+      PutMarble(&mSpots[itr->first][itr->second]);
+      rChange--;
+   }
+   TakeMarble(&mSpots[itr->first][itr->second]);
+
+   if (mWhoseMove == kWhite)
+      mBlackReserve += rChange;
+   else
+      mWhiteReserve += rChange;
+
+   delete lastMove;
+   mWhoseMove = -mWhoseMove;
 }
 
 void PylosBoard::GetAllMoves(std::list<Move *> *moves) const
@@ -232,15 +271,80 @@ void PylosBoard::GetAllMoves(std::list<Move *> *moves) const
    AddTakeBacks(mvs);
 }
 
+void PylosBoard::HalfApplyMove(PylosMove *pm) const {
+   PylosMove::LocVector::iterator iter = pm->mLocs.begin();
+   HalfPut(&mSpots[iter->first][iter->second]);
+   for (++iter; iter != pm->mLocs.end(); iter++)
+      HalfTake(&mSpots[iter->first][iter->second]);
+}
+
+void PylosBoard::UnHalfApplyMove(PylosMove *pm) const {
+   PylosMove::LocVector::iterator iter = pm->mLocs.end()-1;
+   for (; iter != pm->mLocs.begin(); iter--)
+      HalfPut(&mSpots[iter->first][iter->second]);
+   HalfTake(&mSpots[iter->first][iter->second]);
+}
+
+bool PylosBoard::PartOfAlignment(std::pair<short, short> &pr) const {
+   Cell *cell = mSpots[pr.first][pr.second].top;
+   ulong sideMask = mWhoseMove == kWhite ? mWhite : mBlack;
+
+   for (int i = 0; i < cell->setCount; i++)
+      if ((sideMask & cell->sets[i]) == cell->sets[i])
+         return true;
+   return false;
+}
+
+bool PylosBoard::CanTakeback(Spot *spot) const {
+   ulong sideMask = mWhoseMove == kWhite ? mWhite : mBlack;
+   if (spot->top && (spot->top->mask & sideMask) &&
+        (spot->top->sups & (mWhite | mBlack)) == 0) {
+      return true;
+   }
+   return false;
+}
+
 // For each move in *mvs that completes one or more sets, add all
 // combination of spots to take back.
 void PylosBoard::AddTakeBacks(std::list<PylosMove *> *mvs) const
 {
-   // You'll find HalfPut and HalfTake useful here.  You need to be able
-   // to temporarily put/take marbles in order to make this logic manageable,
-   // and you want it fast, so you don't want all the overhead of board
-   // value management, since you'll ultimately leave the board unchanged
-   // once the function is done.
+   ulong sideMask = mWhoseMove == kWhite ? mWhite : mBlack;
+   int numMoves = mvs->size();
+   PylosMove::LocVector locs;
+   PylosMove *move;
+   Spot *spot1, *spot2;
+   for (std::list<PylosMove *>::iterator iter = mvs->begin(); numMoves > 0;
+    numMoves--, iter++) {
+      move = *iter;
+      HalfApplyMove(move);
+      if (PartOfAlignment(move->mLocs[0])) {
+         for (short row1 = 0; row1 < kDim; row1++) {
+            for (short col1 = 0; col1 < kDim; col1++) {
+               spot1 = &mSpots[row1][col1];
+               if (CanTakeback(spot1)) {
+                  HalfTake(spot1);
+                  locs = move->mLocs;
+                  locs.push_back(std::make_pair(row1, col1));
+                  mvs->push_back(new PylosMove(locs, move->mType));
+
+                  for (short row2 = row1; row2 < kDim; row2++) {
+                     for (short col2 = col1; col2 < kDim; col2++) {
+                        spot2 = &mSpots[row2][col2];
+                        if (CanTakeback(spot2)) {
+                           //HalfTake(spot2);
+                           locs.push_back(std::make_pair(row2, col2));
+                           mvs->push_back(new PylosMove(locs, move->mType));
+                           //HalfPut(spot2);
+                        }
+                     }
+                  }
+                  HalfPut(spot1);
+               }
+            }
+         }
+      }
+      UnHalfApplyMove(move);
+   }
 }
 
 Board::Move *PylosBoard::CreateMove() const
@@ -252,6 +356,18 @@ Board *PylosBoard::Clone() const
 {
    // Think carefully about this one.  You should be able to do it in just
    // 5-10 lines.  Don't do needless work
+   PylosBoard *pb = new PylosBoard();
+   pb->mWhite = mWhite;
+   pb->mBlack = mBlack;
+   pb->mWhoseMove = mWhoseMove;
+   pb->mWhiteReserve = mWhiteReserve;
+   pb->mBlackReserve = mBlackReserve;
+   pb->mFreeLead = mFreeLead;
+   for (std::list<Move *>::const_iterator iter = mMoveHist.begin();
+         iter != mMoveHist.end(); iter++) {
+      pb->mMoveHist.push_back((*iter)->Clone());
+   }
+   return pb;
 }
 
 Board::Key *PylosBoard::GetKey() const
@@ -267,6 +383,23 @@ Board::Key *PylosBoard::GetKey() const
 
 std::istream &PylosBoard::Read(std::istream &is)
 {
+   Move *tempMove;
+   int mvCount = 0;
+
+   Delete();
+   Init();
+
+   is.read((char *)&mRules, sizeof(Rules));
+   mRules.EndSwap();
+
+   is.read((char *)*&mvCount, sizeof(int));
+   for (int i = 0; i < mvCount; i++) {
+      tempMove = (CreateMove());
+      is >> *dynamic_cast<PylosMove *>(tempMove);
+      ApplyMove(tempMove);
+   }
+
+   return is;
 }
 
 // Don't change this.  Make Read conform to it.
@@ -287,21 +420,17 @@ std::ostream &PylosBoard::Write(std::ostream &os) const
 }
 
 const Class *PylosBoard::GetClass() const {
-   std::vector<const BoardClass *> brdClasses = BoardClass::GetAllClasses();
-   std::vector<const BoardClass *>::const_iterator iter = brdClasses.begin();
-   for (; iter != brdClasses.end(); iter++) {
-      if ((*iter)->GetName() == "PylosBoard")
-         return *iter;
-   }
-
-   return new BoardClass("PylosBoard", &PylosBoard::Create, "Pylos",
-    &PylosBoard::GetOptions, &PylosBoard::SetOptions);
+   // TODO
+   return NULL;
 }
 
 // static
 Object *PylosBoard::Create() {
    return new PylosBoard();
 }
+
+// static
+//Class PylosBoard::cls = Class("PylosBoard", PylosBoard::Create);
 
 // static
 void *PylosBoard::GetOptions()
@@ -317,8 +446,8 @@ void PylosBoard::SetOptions(const void *opts)
 
 void PylosBoard::Delete()
 {
-   // As with Clone, think carefully and don't do needless work.
+   for (std::list<Move *>::iterator iter = mMoveHist.begin();
+         iter != mMoveHist.end(); iter++) {
+      delete *iter;
+   }
 }
-
-// static
-PylosBoard::StaticInitializer PylosBoard::staticInitializer;

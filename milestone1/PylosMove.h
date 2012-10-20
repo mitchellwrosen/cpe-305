@@ -27,7 +27,6 @@ public:
    friend class PylosBoard;
    friend class PylosMoveTest;
 
-
    PylosMove(const LocVector &locs, int type) : mLocs(locs), mType(type) {}
    virtual ~PylosMove() {}
 

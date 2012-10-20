@@ -1,6 +1,6 @@
-HFILES=../Test.h ../../PylosMove.cpp ../../Board.cpp
+HFILES=../../PylosMove.cpp ../../PylosBoard.cpp ../../Board.cpp
 
-all: clean PylosTests
+all: PylosTests
 
 clean:
 	rm *Test *.out
@@ -11,4 +11,4 @@ PylosMoveTest:
 	g++ PylosMoveTest.cpp $(HFILES) -o PylosMoveTest
 
 PylosBoardTest:
-	g++ PylosBoardTest.cpp $(HFILES) -o PylosBoardTest
+	g++ -g PylosBoardTest.cpp $(HFILES) -o PylosBoardTest
