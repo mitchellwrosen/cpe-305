@@ -62,7 +62,6 @@ public:
    // Object implementation.
    const Class *GetClass() const;
    static Object *Create();
-   //static Class cls;
 
    const ulong GetWhite() const {return mWhite;}
    const ulong GetBlack() const {return mBlack;}
@@ -193,6 +192,8 @@ protected:
       StaticInitializer() { PylosBoard::StaticInit(); }
    };
    static StaticInitializer staticInitializer;
+
+   static BoardClass mClass;
 
    // Rules object for PylosBoard
    static Rules mRules;

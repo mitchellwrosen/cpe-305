@@ -32,7 +32,7 @@ MinimaxApp : $(MINIMAXAPPOBJS)
 	$(CPP) $(MINIMAXAPPOBJS) -o MinimaxApp
 
 clean:
-	rm BoardTest MakeBook MinimaxApp *.o
+	rm BoardTest *.o
 
 
 # Header file interdependencies
@@ -80,18 +80,17 @@ OthelloView.o: OthelloView.h OthelloBoard.h View.h MyLib.h Class.h
 OthelloDlg.o: OthelloDlg.cpp OthelloDlg.h OthelloBoard.h Dialog.h MyLib.h Class.h
 	$(CPP) $(CPPFLAGS) -c OthelloDlg.cpp
 
-MakeBook.o: MakeBook.cpp MyLib.h GameModel.h
-	$(CPP) $(CPPFLAGS) -c $<
+PylosBoard.o: PylosBoard.cpp PylosMove.h PylosBoard.h MyLib.h Class.h
+	$(CPP) $(CPPFLAGS) -c PylosBoard.cpp
 
-GameModel.o: GameModel.cpp GameModel.h Board.h Class.h
-	$(CPP) $(CPPFLAGS) -c GameModel.cpp
+PylosMove.o: PylosMove.cpp PylosMove.h PylosBoard.h MyLib.h Class.h
+	$(CPP) $(CPPFLAGS) -c PylosMove.cpp
 
-GameView.o: GameView.cpp GameView.h Board.h Class.h
-	$(CPP) $(CPPFLAGS) -c GameView.cpp
+PylosView.o: PylosView.h PylosBoard.h View.h MyLib.h Class.h
+	$(CPP) $(CPPFLAGS) -c PylosView.cpp
 
-Book.o: Book.cpp Book.h
-	$(CPP) $(CPPFLAGS) -c Book.cpp
+PylosDlg.o: PylosDlg.cpp PylosDlg.h PylosBoard.h Dialog.h MyLib.h Class.h
+	$(CPP) $(CPPFLAGS) -c PylosDlg.cpp
 
 .cpp.o:
 	$(CPP) $(CPPFLAGS) -c $<
-

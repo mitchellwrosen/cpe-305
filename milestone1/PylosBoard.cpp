@@ -20,6 +20,11 @@ int PylosBoard::mOffs[kDim] = {0, 16, 25, 29};
 PylosBoard::StaticInitializer PylosBoard::staticInitializer;
 
 // static
+BoardClass PylosBoard::mClass = BoardClass("PylosBoard", &PylosBoard::Create, 
+ "Pylos", "PylosView", "PylosDlg", &PylosBoard::GetOptions, 
+ &PylosBoard::SetOptions);
+
+// static
 void PylosBoard::StaticInit()
 {
    Cell *cell;
@@ -129,7 +134,6 @@ void PylosBoard::Rules::EndSwap()
 PylosBoard::PylosBoard()
 {
    Init();
-   // More work needed here.
 }
 
 void PylosBoard::Init()
@@ -137,6 +141,12 @@ void PylosBoard::Init()
    mWhite = mBlack = mLevelLead = mFreeLead = 0;
    mWhoseMove = kWhite;
    mWhiteReserve = mBlackReserve = kStones;
+   for (int row = 0; row < kDim; row++) {
+      for (int col = 0; col < kDim; col++) {
+         mSpots[row][col].top = NULL;
+         mSpots[row][col].empty = mCells + row*kDim + col;
+      }
+   }
 }
 
 PylosBoard::Rules PylosBoard::mRules;
@@ -213,6 +223,8 @@ void PylosBoard::UndoLastMove()
    PylosMove* lastMove = dynamic_cast<PylosMove *>(mMoveHist.back());
    mMoveHist.pop_back();
 
+   mWhoseMove = -mWhoseMove;
+
    PylosMove::LocVector::iterator itr = lastMove->mLocs.end()-1;
    for (; itr != lastMove->mLocs.begin(); itr--) {
       PutMarble(&mSpots[itr->first][itr->second]);
@@ -226,7 +238,6 @@ void PylosBoard::UndoLastMove()
       mWhiteReserve += rChange;
 
    delete lastMove;
-   mWhoseMove = -mWhoseMove;
 }
 
 void PylosBoard::GetAllMoves(std::list<Move *> *moves) const
@@ -334,6 +345,7 @@ void PylosBoard::AddTakeBacks(std::list<PylosMove *> *mvs) const
                            //HalfTake(spot2);
                            locs.push_back(std::make_pair(row2, col2));
                            mvs->push_back(new PylosMove(locs, move->mType));
+                           locs.pop_back();
                            //HalfPut(spot2);
                         }
                      }

@@ -8,65 +8,65 @@ namespace {
    const char kWhitePiece = 'W';
    const char kBlackPiece = 'B';
    const char kNoPiece = '.';
+}
 
-   // Mirrors enum in PylosBoard
-   int kWhite = 1;
-   int kBlack = -1;
+// static
+Class PylosView::mClass = Class("PylosView", &PylosView::Create);
+
+const char PylosView::GetPiece(ulong mask) const
+{
+   return mask & mModel->GetWhite() ? kWhitePiece :
+          mask & mModel->GetBlack() ? kBlackPiece :
+          kNoPiece;
 }
 
 void PylosView::Draw(std::ostream &out) {
    int ndx;
    char c;
-   ulong mask;
+   ulong mask = 0x20000000;
    std::list<Board::Move *> allMoves;
 
-   for (ndx = 0, mask = 0x20000000; mask; ndx++, mask >> 1) {
-      c = mask & mModel->GetWhite() ? kWhitePiece :
-          mask & mModel->GetBlack() ? kBlackPiece :
-          kNoPiece;
-      if (ndx < 1) {
-         out << "   " << c << std::endl << std::endl;
-      } else if (ndx < 5) {
-         if (((ndx - 1) % 2) == 0)
-            out << "  " << c;
-         else
-            out << " " << c << std::endl << std::endl;
-      } else if (ndx < 14) {
-         out << " " << c;
-         if (((ndx - 5) % 3) == 2)
-            out << std::endl << std::endl;
-      } else {
-         if (((ndx - 14) % 4) != 0)
-            out << " ";
-         out << c;
-         if (((ndx - 14) % 4) == 3)
-            out << std::endl << std::endl;
-      }
+   c = GetPiece(mask);
+   out << "   " << c << std::endl << std::endl;
+
+   mask = 0x2000000;
+   for (int i = 0; i < 4; i++, mask = mask << 1) {
+      c = GetPiece(mask);
+      if (i % 2 == 0)
+         out << "  " << c;
+      else
+         out << " " << c << std::endl << std::endl;
    }
 
-   if (mModel->GetWhoseMove() == kWhite)
-      out << "White's move" << std::endl << std::endl;
-   else
+   mask = 0x10000;
+   for (int i = 0; i < 9; i++, mask = mask << 1) {
+      c = GetPiece(mask);
+      out << " " << c;
+      if (i % 3 == 2)
+         out << std::endl << std::endl;
+   }
+
+   mask = 0x1;
+   for (int i = 0; i < 16; i++, mask = mask << 1) {
+      c = GetPiece(mask);
+      if (i % 4 != 0)
+         out << " ";
+      out << c;
+      if (i % 4 == 3)
+         out << std::endl << std::endl;
+   }
+
+   if (mModel->GetWhoseMove())
       out << "Black's move" << std::endl << std::endl;
-
-   out << "All Moves:" << std::endl;
-
-   mModel->GetAllMoves(&allMoves);
-   for (std::list<Board::Move *>::const_iterator iter = allMoves.begin();
-        iter != allMoves.end(); iter++) {
-      // TODO: Newlines every once in a while. Meh.
-      PylosMove *pm = dynamic_cast<PylosMove *>(*iter);
-      out << (std::string)(*pm) << " ";
-   }
-   out << std::endl;
+   else
+      out << "White's move" << std::endl << std::endl;
 }
 
 const Class* PylosView::GetClass() const {
-   // TODO
-   return NULL;
+   return Class::ForName("PylosView");
 }
 
 // static
-Object *Create() {
+Object *PylosView::Create() {
    return new PylosView();
 }

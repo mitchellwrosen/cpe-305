@@ -12,6 +12,14 @@ public:
    bool Run(std::istream &in, std::ostream &out, void *data);
    // Two methods and a member datum to support the Class system
 
+   static Object* Create();
+
+   // Object implementation.
+   const Class *GetClass() const;
+
+protected:
+   static Class mClass;
+
 private:
    // Prompt for an int (using the string parameter).  Call the method
    // of PylosRules indicated by the method pointer to set the rules

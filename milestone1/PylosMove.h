@@ -37,6 +37,8 @@ public:
    virtual void operator=(const std::string &src);
    virtual Board::Move *Clone() const;
 
+   void operator delete(void *p); // TODO remove
+   void *operator new(size_t sz); // TODO remove
 protected:
    std::istream &Read(std::istream &is);
    std::ostream &Write(std::ostream &) const;
@@ -44,8 +46,8 @@ protected:
    char mType;
    LocVector mLocs;
 
-   void operator delete(void *p);
-   void *operator new(size_t sz);
+   //void operator delete(void *p);
+   //void *operator new(size_t sz);
 
    static std::vector<PylosMove *> mFreeList;
 };

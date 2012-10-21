@@ -68,8 +68,8 @@ PylosMove::operator std::string() const
       str = FString("Play at [%d, %d]", itr->first, itr->second);
       itr++;
    } else {
-      str = FString("Promote from [%d, %d] to [%d, %d]", mLocs[0].first,
-       mLocs[0].second, mLocs[1].first, mLocs[1].second);
+      str = FString("Promote from [%d, %d] to [%d, %d]", mLocs[1].first,
+       mLocs[1].second, mLocs[0].first, mLocs[0].second);
       itr += 2;
    }
 
@@ -95,7 +95,7 @@ void PylosMove::operator=(const std::string &src)
 
    sscanf(src.c_str(), "%10s", wd1);
    if (!strcmp(wd1, "Play")) {
-      type = kReserve;
+      type = kReserve; // TODO remove
       res = sscanf(src.c_str(), " Play at [ %hd , %hd %c %6s [ %hd , %hd %c %3s"
        " [ %hd , %hd %c %c", &p1.first, &p1.second, &bk1, wd1, &p2.first,
        &p2.second, &bk2, wd2, &p3.first, &p3.second, &bk3, &extra);

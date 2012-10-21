@@ -13,12 +13,22 @@ public:
    }
 
    // Board:Key implementation.
-   bool operator==(const Board::Key&) const {
-      // TODO
+   bool operator==(const Board::Key& rhs) const {
+      const BasicKey<n>& other = dynamic_cast<const BasicKey<n>& >(rhs);
+      for (int i = 0; i < n; i++) {
+         if (vals[i] != other.vals[i])
+            return false;
+      }
+      return true;
    }
 
-   bool operator<(const Board::Key&) const {
-      // TODO
+   bool operator<(const Board::Key& rhs) const {
+      const BasicKey<n>& other = dynamic_cast<const BasicKey<n>& >(rhs);
+      for (int i = 0; i < n; i++) {
+         if (vals[i] < other.vals[i])
+            return true;
+      }
+      return false;
    }
 
    std::istream& Read(std::istream&) {
@@ -29,7 +39,9 @@ public:
       // TODO
    }
 
-   ulong* vals;
+   // TODO: static class objects?
+
+   ulong vals[n];
 };
 
 #endif   // BASICKEY_H_

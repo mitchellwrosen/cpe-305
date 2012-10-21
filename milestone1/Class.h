@@ -72,8 +72,7 @@ public:
    // as inline.
 
    BoardClass(const std::string &n, Object *(*c)(), const std::string &fn,
-    // Parameter to initialize the mViewClass member // TODO ??
-    // Parameter to initialize the mDlgClass member  // TODO ??
+    const std::string &vn, const std::string &dn,
     void *(*getOptions)(), void (*setOptions)(const void *),
     bool useXPos = false, int minPlayers = 2);
 

@@ -1,15 +1,12 @@
 #include <assert.h>
 #include "Class.h"
-#include "OthelloBoard.h"
-
-#include <string>
 
 // Class //////////////////////////////////////////////////////////////////////
 
 Class::Class(const std::string &n, Object *(*c)()) : mName(n), mCreate(c)
 {
    Class *clsPtr = mClsHead;
-   if (mClsHead) {
+   if (mClsHead == NULL) {
       mClsHead = this;
    } else {
       while (clsPtr->mNext) {
@@ -36,21 +33,22 @@ const Class *Class::ForName(const std::string &name)
 }
 
 // static
-Class *Class::mClsHead = NULL;  // Pointer to general list of Classes
+Class *Class::mClsHead;  // Pointer to general list of Classes
 
 // BoardClass /////////////////////////////////////////////////////////////////
 
 BoardClass::BoardClass(const std::string& n, Object *(*c)(),
- const std::string &fn, void *(*getOptions)(), void (*setOptions)(const void *),
- bool useXPos, int minPlayers)
+ const std::string &fn, const std::string &vn, const std::string &dn,
+ void *(*getOptions)(), void (*setOptions)(const void *), bool useXPos,
+ int minPlayers)
  : Class(n, c), mFriendlyName(fn), mGetOptions(getOptions),
    mSetOptions(setOptions), mUseXPos(useXPos), mMinPlayers(minPlayers)
 {
-   mViewClass = Class::ForName(mFriendlyName.append("View"));
-   mDlgClass = Class::ForName(mFriendlyName.append("Dlg"));
+   mViewClass = Class::ForName(vn);
+   mDlgClass = Class::ForName(dn);
 
    BoardClass *brdClsPtr = mBrdClsHead;
-   if (mBrdClsHead) {
+   if (mBrdClsHead == NULL) {
       mBrdClsHead = this;
    } else {
       while (brdClsPtr->mNext)
@@ -75,5 +73,4 @@ std::vector<const BoardClass *> BoardClass::GetAllClasses()
 }
 
 // static
-BoardClass *BoardClass::mBrdClsHead = NULL;
-
+BoardClass *BoardClass::mBrdClsHead;
