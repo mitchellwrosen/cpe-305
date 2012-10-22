@@ -67,10 +67,6 @@ protected:
 
 class BoardClass : public Class {
 public:
-   // NOTE: Keep your added parameters and member data in the order shown!
-   // NOTE: Do note place any methods inline except those already provided
-   // as inline.
-
    BoardClass(const std::string &n, Object *(*c)(), const std::string &fn,
     const std::string &vn, const std::string &dn,
     void *(*getOptions)(), void (*setOptions)(const void *),
@@ -79,8 +75,8 @@ public:
    virtual std::string GetFriendlyName() const {return mFriendlyName;}
    virtual const Class *GetViewClass() const {return mViewClass;}
    virtual const Class *GetDlgClass() const {return mDlgClass;}
-   virtual void *GetOptions() const {return (*mGetOptions)();}
-   virtual void SetOptions(const void *opts) const {(*mSetOptions)(opts);}
+   virtual void *GetOptions() const;
+   virtual void SetOptions(const void *opts) const;
    virtual bool UseTransposition() const {return mUseXPos;}
    virtual int  GetMinPlayers() const {return mMinPlayers;}
    static std::vector<const BoardClass *> GetAllClasses();

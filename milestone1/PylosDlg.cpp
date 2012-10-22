@@ -18,16 +18,21 @@ bool PylosDlg::Run(std::istream &in, std::ostream &out, void *data)
    out << "Level weight: " << rules->GetLevel() << std::endl;
    out << "Free weight: " << rules->GetFree() << std::endl;
    out << "Modify? [y/n] ";
-   getline(in, yn);
+   in >> yn;
 
    if (yn[0] == 'y') {
+      out << std::endl;
       ReadMethodInt(in, out, "Enter marble weight: ", rules,
        &PylosBoard::Rules::SetMarble);
       ReadMethodInt(in, out, "Enter level weight: ", rules,
        &PylosBoard::Rules::SetLevel);
       ReadMethodInt(in, out, "Enter free weight: ", rules,
        &PylosBoard::Rules::SetFree);
+
+      return true;
    }
+
+   return false;
 }
 
 const Class *PylosDlg::GetClass() const
@@ -41,7 +46,7 @@ void PylosDlg::ReadMethodInt(std::istream &in, std::ostream &out,
    int val;
    while (1) {
       Dialog::ReadLimitInt(in, out, &val, 0, 0, prompt);
-      if (val != -1) {
+      if (val != -1335) {
          try {
             (rls->*x)(val);
             return;

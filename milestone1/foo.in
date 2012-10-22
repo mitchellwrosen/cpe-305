@@ -1,0 +1,8 @@
+testRun 0 1
+testRun 0 30
+testRun 0 1
+testRun 0 10
+testRun 0 10
+testRun 0 8
+showBoard
+quit

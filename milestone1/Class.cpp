@@ -58,6 +58,14 @@ BoardClass::BoardClass(const std::string& n, Object *(*c)(),
    }
 }
 
+void *BoardClass::GetOptions() const {
+   return (*mGetOptions)();
+}
+
+void BoardClass::SetOptions(const void *opts) const {
+   (*mSetOptions)(opts);
+}
+
 // static
 std::vector<const BoardClass *> BoardClass::GetAllClasses()
 {

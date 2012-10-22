@@ -9,12 +9,12 @@ void Dialog::ReadLimitInt(std::istream &is, std::ostream &os,
    const char *nptr;
    char *endptr;
    os << prompt;
-   getline(is, line);
+   is >> line;
    nptr = line.c_str();
 
    *val = strtol(nptr, &endptr, 10);
    if (*endptr) {
       os << "Unexpected garbage after value.";
-      *val = -1;
+      *val = -1335;
    }
 }

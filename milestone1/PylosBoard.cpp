@@ -5,6 +5,7 @@
 #include "PylosDlg.h"
 #include "PylosBoard.h"
 #include "PylosMove.h"
+#include "PylosView.h"
 #include "BasicKey.h"
 
 // static
@@ -20,8 +21,8 @@ int PylosBoard::mOffs[kDim] = {0, 16, 25, 29};
 PylosBoard::StaticInitializer PylosBoard::staticInitializer;
 
 // static
-BoardClass PylosBoard::mClass = BoardClass("PylosBoard", &PylosBoard::Create, 
- "Pylos", "PylosView", "PylosDlg", &PylosBoard::GetOptions, 
+BoardClass PylosBoard::mClass = BoardClass("PylosBoard", &PylosBoard::Create,
+ "Pylos", "PylosView", "PylosDlg", &PylosBoard::GetOptions,
  &PylosBoard::SetOptions);
 
 // static
@@ -29,6 +30,11 @@ void PylosBoard::StaticInit()
 {
    Cell *cell;
    int level, row, col, ndx, nextSet = 0, nextCell = 0;
+
+   for (int i = 0; i < kNumCells; i++)
+      mCells[i] = Cell();
+   for (int i = 0; i < kNumSets; i++)
+      mSets[i] = 0;
 
    for (level = 0; level < kDim; level++) {
       for (row = 0; row < kDim - level; row++) {
@@ -56,7 +62,7 @@ void PylosBoard::StaticInit()
             if (level < 2) {
                // The last row -- create vertical set.
                if (row == kDim - level - 1) {
-                  int setNdx = 18 + col + 3*level;
+                  int setNdx = 18 + col + 7*level;
                   for (ndx = 0; ndx < kDim - level; ndx++) {
                      mSets[setNdx] |=
                       (mCells + nextCell - ndx*(4-level))->mask;
@@ -69,7 +75,7 @@ void PylosBoard::StaticInit()
 
                // The last column in a row -- create horizontal set.
                if (col == kDim - level - 1) {
-                  int setNdx = 14 + row + 4*level;
+                  int setNdx = 14 + row + 8*level;
                   for (ndx = 0; ndx < kDim - level; ndx++)
                      mSets[setNdx] |= (mCells + nextCell - ndx)->mask;
                   for (ndx = 0; ndx < kDim - level; ndx++)
@@ -81,18 +87,17 @@ void PylosBoard::StaticInit()
    }
 
    // Add cell masks to square alignments
-   for (level = 0; level < kDim - 1; level++) {
+   for (level = 0, nextCell = 0; level < kDim - 1; level++) {
       for (row = 0; row < kDim - level - 1; row++) {
-         for (col = 0; col < kDim - level - 1; col++) {
-            int setNdx = 9*(level >= 1) + 4*(level == 2) + row*(4-level) + col;
-            mSets[setNdx] |= GetCell(row, col, level)->mask;
-            mSets[setNdx] |= GetCell(row, col+1, level)->mask;
-            mSets[setNdx] |= GetCell(row+1, col, level)->mask;
-            mSets[setNdx] |= GetCell(row+1, col+1, level)->mask;
-            GetCell(row, col, level)->addSet(mSets[setNdx]);
-            GetCell(row, col+1, level)->addSet(mSets[setNdx]);
-            GetCell(row+1, col, level)->addSet(mSets[setNdx]);
-            GetCell(row+1, col+1, level)->addSet(mSets[setNdx]);
+         for (col = 0; col < kDim - level - 1; col++, nextCell++) {
+            mSets[nextCell] |= GetCell(row, col, level)->mask;
+            mSets[nextCell] |= GetCell(row, col+1, level)->mask;
+            mSets[nextCell] |= GetCell(row+1, col, level)->mask;
+            mSets[nextCell] |= GetCell(row+1, col+1, level)->mask;
+            GetCell(row, col, level)->addSet(mSets[nextCell]);
+            GetCell(row, col+1, level)->addSet(mSets[nextCell]);
+            GetCell(row+1, col, level)->addSet(mSets[nextCell]);
+            GetCell(row+1, col+1, level)->addSet(mSets[nextCell]);
          }
       }
    }
@@ -166,15 +171,17 @@ void PylosBoard::PutMarble(Spot *trg)
 {
    assert(trg->empty);
 
-   HalfPut(trg);
-
-   mLevelLead += mWhoseMove * trg->top->level;
+   mLevelLead += mWhoseMove * trg->empty->level;
    mFreeLead += mWhoseMove; // Newly placed marble is free.
-   // Belows are no longer free.
-   if (trg->top->level != 0) {
-      for (int i = 0; i < kSqr; i++)
-         mFreeLead -= trg->top->below[i]->mask & mWhite ? kWhite : kBlack;
+   // Belows are no longer free, if they were before.
+   if (trg->empty->level != 0) {
+      for (int i = 0; i < kSqr; i++) {
+         if (!(trg->empty->below[i]->sups & (mWhite|mBlack)))
+            mFreeLead -= trg->empty->below[i]->mask & mWhite ? kWhite : kBlack;
+      }
    }
+
+   HalfPut(trg);
 }
 
 void PylosBoard::TakeMarble(Spot *trg)
@@ -185,10 +192,12 @@ void PylosBoard::TakeMarble(Spot *trg)
 
    mLevelLead -= mWhoseMove * trg->empty->level;
    mFreeLead -= mWhoseMove; // Removed marble is no longer free.
-   // Belows are now free.
+   // Belows now may be free.
    if (trg->empty->level != 0) {
-      for (int i = 0; i < kSqr; i++)
-         mFreeLead += trg->empty->below[i]->mask & mWhite ? kWhite : kBlack;
+      for (int i = 0; i < kSqr; i++) {
+         if (!(trg->empty->below[i]->sups & (mWhite|mBlack)))
+            mFreeLead += trg->empty->below[i]->mask & mWhite ? kWhite : kBlack;
+      }
    }
 }
 
@@ -233,9 +242,9 @@ void PylosBoard::UndoLastMove()
    TakeMarble(&mSpots[itr->first][itr->second]);
 
    if (mWhoseMove == kWhite)
-      mBlackReserve += rChange;
-   else
       mWhiteReserve += rChange;
+   else
+      mBlackReserve += rChange;
 
    delete lastMove;
 }
@@ -339,7 +348,9 @@ void PylosBoard::AddTakeBacks(std::list<PylosMove *> *mvs) const
                   mvs->push_back(new PylosMove(locs, move->mType));
 
                   for (short row2 = row1; row2 < kDim; row2++) {
-                     for (short col2 = col1; col2 < kDim; col2++) {
+                     for (short col2 = 0; col2 < kDim; col2++) {
+                        if (row2 == row1 && col2 < col1)
+                           continue;
                         spot2 = &mSpots[row2][col2];
                         if (CanTakeback(spot2)) {
                            //HalfTake(spot2);
@@ -384,7 +395,7 @@ Board *PylosBoard::Clone() const
 
 Board::Key *PylosBoard::GetKey() const
 {
-   BasicKey<2> *rtn = new BasicKey<2>();
+   BasicKey<2> *rtn = dynamic_cast<BasicKey<2> *>(BasicKey<2>::Create());
 
    rtn->vals[0] = (mWhoseMove == kWhite) << kNumCells | mWhite;
    rtn->vals[1] = mBlack;
@@ -392,21 +403,22 @@ Board::Key *PylosBoard::GetKey() const
    return rtn;
 }
 
-
 std::istream &PylosBoard::Read(std::istream &is)
 {
    Move *tempMove;
    int mvCount = 0;
 
    Delete();
+   mMoveHist.clear();
    Init();
 
    is.read((char *)&mRules, sizeof(Rules));
    mRules.EndSwap();
 
-   is.read((char *)*&mvCount, sizeof(int));
+   is.read((char *)&mvCount, sizeof(int));
+   mvCount = EndianXfer(mvCount);
    for (int i = 0; i < mvCount; i++) {
-      tempMove = (CreateMove());
+      tempMove = CreateMove();
       is >> *dynamic_cast<PylosMove *>(tempMove);
       ApplyMove(tempMove);
    }
@@ -431,18 +443,16 @@ std::ostream &PylosBoard::Write(std::ostream &os) const
    return os;
 }
 
-const Class *PylosBoard::GetClass() const {
-   // TODO
-   return NULL;
+const Class *PylosBoard::GetClass() const
+{
+   return &mClass;
 }
 
 // static
-Object *PylosBoard::Create() {
+Object *PylosBoard::Create()
+{
    return new PylosBoard();
 }
-
-// static
-//Class PylosBoard::cls = Class("PylosBoard", PylosBoard::Create);
 
 // static
 void *PylosBoard::GetOptions()

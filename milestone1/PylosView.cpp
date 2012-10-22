@@ -27,21 +27,24 @@ void PylosView::Draw(std::ostream &out) {
    std::list<Board::Move *> allMoves;
 
    c = GetPiece(mask);
-   out << "   " << c << std::endl << std::endl;
+   out << "   " << c << " " << std::endl << std::endl;
 
    mask = 0x2000000;
    for (int i = 0; i < 4; i++, mask = mask << 1) {
       c = GetPiece(mask);
       if (i % 2 == 0)
-         out << "  " << c;
-      else
-         out << " " << c << std::endl << std::endl;
+         out << "  ";
+      out << c << " ";
+      if (i % 2 == 1)
+         out << std::endl << std::endl;
    }
 
    mask = 0x10000;
    for (int i = 0; i < 9; i++, mask = mask << 1) {
       c = GetPiece(mask);
-      out << " " << c;
+      if (i % 3 == 0)
+         out << " ";
+      out << c << " ";
       if (i % 3 == 2)
          out << std::endl << std::endl;
    }
@@ -49,9 +52,7 @@ void PylosView::Draw(std::ostream &out) {
    mask = 0x1;
    for (int i = 0; i < 16; i++, mask = mask << 1) {
       c = GetPiece(mask);
-      if (i % 4 != 0)
-         out << " ";
-      out << c;
+      out << c << " ";
       if (i % 4 == 3)
          out << std::endl << std::endl;
    }

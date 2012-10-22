@@ -111,8 +111,6 @@ protected:
    struct Spot {
       Cell *empty;    // Next empty cell, or null
       Cell *top;      // Top filled cell, or null
-
-      Spot(): empty(0), top(0) {}
    };
 
    std::istream &Read(std::istream &);

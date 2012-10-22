@@ -10,6 +10,7 @@
 #include "View.h"
 #include "Dialog.h"
 // Add more includes, possibly, but not board-specific ones
+#include "PylosDlg.h"
 #include "PylosBoard.h" // TODO remove
 #include "PylosView.h" // TODO remove
 #include "PylosMove.h"
@@ -25,10 +26,23 @@ bool CompareMoves(Board::Move *m1, Board::Move *m2)
    return *m1 < *m2;
 }
 
+void ClearMovesList(std::list<Board::Move *>* moves)
+{
+   for (std::list<Board::Move *>::iterator iter = moves->begin();
+        iter != moves->end(); iter++) {
+      delete *iter;
+   }
+
+   moves->clear();
+}
+
 void PrintMoves(const std::list<const Board::Move *> &moves)
 {
    int longestMoveLen = 0;
    int curLineLen = 0;
+
+   if (moves.empty())
+      return;
 
    for (std::list<const Board::Move *>::const_iterator iter = moves.begin();
          iter != moves.end(); iter++) {
@@ -36,6 +50,7 @@ void PrintMoves(const std::list<const Board::Move *> &moves)
       if (moveLen > longestMoveLen)
          longestMoveLen = moveLen;
    }
+
    for (std::list<const Board::Move *>::const_iterator iter = moves.begin();
          iter != moves.end(); iter++) {
       std::string moveString = (std::string) **iter;
@@ -43,22 +58,30 @@ void PrintMoves(const std::list<const Board::Move *> &moves)
          std::cout << std::endl;
          curLineLen = 0;
       }
-      std::cout << std::setw(longestMoveLen+1) << std::left <<
-         moveString + " ";
+
+      if (curLineLen != 0)
+         std::cout << " ";
+      std::cout << std::setw(longestMoveLen) << std::left <<
+       moveString;
       curLineLen += longestMoveLen + 1;
    }
+
+   std::cout << std::endl;
 }
 
 int main(int argc, char **argv)
 {
    Board *board = 0, *cmpBoard;
    View *view;
+   Dialog *dlg;
    Board::Move *move, *cmpMove;
-   int argLen, count;
-   std::string command, cArg;
-   // Many more locals needed
+   void *options;
    std::list<Board::Move *> moves;
    std::list<const Board::Move *> constMoves;
+
+   int argLen, count;
+   std::string command, cArg;
+   long seed;
 
    // Sample of some Class code
    const Class *viewCls, *dlgCls;
@@ -67,36 +90,33 @@ int main(int argc, char **argv)
    if (argc > 2)
       PrintUsageAndExit();
 
-   brdCls = dynamic_cast<const BoardClass *>(Class::ForName(argv[1]));
-   viewCls = brdCls->GetViewClass();
-   dlgCls = brdCls->GetDlgClass();
+   //brdCls = dynamic_cast<const BoardClass *>(Class::ForName(argv[1]));
+   //viewCls = brdCls->GetViewClass();
+   //dlgCls = brdCls->GetDlgClass();
 
-   // Set up Class objects based on commandline args, with appropriate
-   // error handling, so that this works...
-   // board = dynamic_cast<Board *>(brdCls->NewInstance());
-
-   // Just a sampling of the main scaffold-loop.  You'll make yours a lot longer,
-   // will need to use a try/catch block, and are welcome to violate the function
-   // line limit rule for this one method.
+   //board = dynamic_cast<Board *>(brdCls->NewInstance());
+   //cmpBoard = dynamic_cast<Board *>(brdCls->NewInstance());
+   //view = dynamic_cast<View *>(viewCls->NewInstance());
+   //dlg = dynamic_cast<Dialog *>(dlgCls->NewInstance());
+   //view->SetModel(board);
    board = new PylosBoard();
    cmpBoard = new PylosBoard();
-   //View *pv = dynamic_cast<View *>(dynamic_cast<BoardClass *>(
-   // const_cast<Class *>(pb->GetClass()))->GetViewClass()->NewInstance());
    view = new PylosView();
+   dlg = new PylosDlg();
    view->SetModel(board);
 
-   std::vector<std::pair<short, short> > locs(1);
-   move = new PylosMove(locs, PylosMove::kReserve);
+   move = board->CreateMove();
+   //cmpMove = board->CreateMove();
 
    while (std::cin >> command) {
       try {
          if (command.compare("showBoard") == 0) {
             view->Draw(std::cout);
-
             board->GetAllMoves(&moves);
             moves.sort(CompareMoves);
-            std::cout << "All Moves:" << std::endl;
+            std::cout << std::setw(11) << std::left << "All Moves:" << std::endl;
             PrintMoves(*reinterpret_cast<std::list<const Board::Move *> *>(&moves));
+            ClearMovesList(&moves);
          } else if (command.compare("enterMove") == 0) {
             getline(std::cin, cArg);
             *move = cArg.c_str();
@@ -110,17 +130,15 @@ int main(int argc, char **argv)
             board->ApplyMove(move);
          } else if (command.compare("undoLastMove") == 0) {
             std::cin >> count;
-
             if (count > board->GetMoveHist().size())
                count = board->GetMoveHist().size();
-
             while (count-- > 0)
                board->UndoLastMove();
          } else if (command.compare("showVal") == 0) {
             std::cout << "Value: " << board->GetValue() << std::endl;
          } else if (command.compare("showMoveHist") == 0) {
             constMoves = board->GetMoveHist();
-            std::cout << "Move History:" << std::endl;
+            std::cout << std::endl << "Move History:" << std::endl;
             PrintMoves(constMoves);
          } else if (command.compare("saveBoard") == 0) {
             std::cin >> cArg;
@@ -132,7 +150,7 @@ int main(int argc, char **argv)
             out << *move;
          } else if (command.compare("loadBoard") == 0) {
             std::cin >> cArg;
-            std::ifstream in(cArg.c_str());
+            std::ifstream in(cArg.c_str(), std::ifstream::in | std::ifstream::out | std::ifstream::binary);
             in >> *board;
          } else if (command.compare("loadMove") == 0) {
             std::cin >> cArg;
@@ -153,17 +171,75 @@ int main(int argc, char **argv)
                   std::cout << "greater ";
                std::cout << "than " << cArg.c_str() << std::endl;
             }
+         } else if (command.compare("compareMove") == 0) {
+            getline(std::cin, cArg);
+            cmpMove = board->CreateMove();
+            *cmpMove = cArg.c_str();
+            if (*move == *cmpMove)
+               std::cout << "Moves are equal" << std::endl;
+            else if (*move < *cmpMove)
+               std::cout << "Current move is less than entered move" <<
+                std::endl;
+            else
+               std::cout << "Current move is greater than entered move" <<
+                std::endl;
+            delete cmpMove;
          } else if (command.compare("setOptions") == 0) {
-            // TODO
+            //options = brdCls->GetOptions();
+            //if (dlg->Run(std::cin, std::cout, options))
+               //brdCls->SetOptions(options);
+            //free(options);
+            options = PylosBoard::GetOptions();
+            if (dlg->Run(std::cin, std::cout, options))
+               PylosBoard::SetOptions(options);
+            free(options);
+         } else if (command.compare("testPlay") == 0) {
+            std::cin >> seed;
+            std::cin >> count;
+            srand(seed);
+            for (int i = 0; i < count; i++) {
+               board->GetAllMoves(&moves);
+               if (!moves.empty()) {
+                  moves.sort(CompareMoves);
+                  std::list<Board::Move *>::iterator iter = moves.begin();
+                  for (int j = 0, n = rand() % moves.size(); j < n; j++, iter++)
+                     ;
+                  board->ApplyMove(*iter);
+                  moves.erase(iter);
+                  ClearMovesList(&moves);
+               }
+            }
+         } else if (command.compare("testRun") == 0) {
+            std::cin >> seed;
+            std::cin >> count;
+            srand(seed);
+            for (int i = 0; i < count; i++) {
+               board->GetAllMoves(&moves);
+               if (!moves.empty()) {
+                  moves.sort(CompareMoves);
+                  std::list<Board::Move *>::iterator iter = moves.begin();
+                  for (int j = 0, n = rand() % moves.size(); j < n; j++, iter++)
+                     ;
+                  board->ApplyMove(*iter);
+                  moves.erase(iter);
+                  ClearMovesList(&moves);
+               } else {
+                  for (int i = 0, n = rand() % board->GetMoveHist().size(); i <= n; i++)
+                     board->UndoLastMove();
+               }
+            }
+         } else if (command.compare("keyMoveCount") == 0) {
+            std::cout << "Moves/Keys: " << Board::Move::GetOutstanding() << "/"
+             << Board::Key::GetOutstanding() << std::endl;
          } else if (command.compare("quit") == 0) {
             break;
          } else {
             std::cout << "Unknown command: " << command << std::endl;
          }
-         std::cout << std::endl;
       } catch (BaseException e) {
          std::cout << "Error: " << e.what() << std::endl;
       }
+      std::cout << std::endl;
    }
 
    delete board;

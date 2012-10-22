@@ -9,7 +9,7 @@ class BasicKey : public Board::Key {
 public:
    // Object implementation.
    const Class* GetClass() const {
-      // TODO
+      return &mClass;
    }
 
    // Board:Key implementation.
@@ -39,9 +39,21 @@ public:
       // TODO
    }
 
-   // TODO: static class objects?
+   static Object *Create();
+   static Class mClass;
 
    ulong vals[n];
 };
+
+// static
+template<int n>
+Object *BasicKey<n>::Create()
+{
+   return new BasicKey<n>();
+}
+// static
+template<int n>
+Class BasicKey<n>::mClass = Class(FString("BasicKey<%d>", n),
+ &BasicKey<n>::Create);
 
 #endif   // BASICKEY_H_

@@ -84,7 +84,6 @@ PylosMove::operator std::string() const
    return str;
 }
 
-// TODO test
 void PylosMove::operator=(const std::string &src)
 {
    char wd1[11], wd2[11], wd3[11], bk1, bk2, bk3, bk4, extra;
@@ -93,19 +92,18 @@ void PylosMove::operator=(const std::string &src)
    short type;
    LocVector temp;
 
-   sscanf(src.c_str(), "%10s", wd1);
-   if (!strcmp(wd1, "Play")) {
-      type = kReserve; // TODO remove
+   sscanf(src.c_str(), "%10s", wd1); if (!strcmp(wd1, "Play")) {
+      type = kReserve;
       res = sscanf(src.c_str(), " Play at [ %hd , %hd %c %6s [ %hd , %hd %c %3s"
        " [ %hd , %hd %c %c", &p1.first, &p1.second, &bk1, wd1, &p2.first,
        &p2.second, &bk2, wd2, &p3.first, &p3.second, &bk3, &extra);
 
       if (res == 3 && bk1 == ']' ||
-          res == 7 && bk1 == bk2 == ']' && !strcmp(wd1, "taking") ||
-          res == 11 && bk1 == bk2 == bk3 == ']' && !strcmp(wd1, "taking") &&
-           !strcmp(wd2, "and")) {
+          res == 7 && bk1 == ']' && bk2 == ']' && !strcmp(wd1, "taking") ||
+          res == 11 && bk1 == ']' && bk2 == ']' && bk3 == ']' &&
+           !strcmp(wd1, "taking") && !strcmp(wd2, "and")) {
          temp.push_back(p1);
-         if (res == 7)
+         if (res >= 7)
             temp.push_back(p2);
          if (res == 11) {
             if (p2 > p3)
@@ -122,14 +120,15 @@ void PylosMove::operator=(const std::string &src)
        &bk1, wd1, &p2.first, &p2.second, &bk2, wd2, &p3.first, &p3.second,
        &bk3, wd3, &p4.first, &p4.second, &bk4, &extra);
 
-      if (res == 7 && bk1 == bk2 == ']' && strcmp(wd1, "to") ||
-          res == 11 && bk1 == bk2 == bk3 == ']' && !strcmp(wd1, "to") &&
-           !strcmp(wd2, "taking") ||
-          res == 15 && bk1 == bk2 == bk3 == bk4 == ']' && !strcmp(wd1, "to") &&
-           !strcmp(wd2, "taking") && !strcmp(wd3, "and")) {
-         temp.push_back(p1);
+      if (res == 7 && bk1 == ']' && bk2 == ']' && !strcmp(wd1, "to") ||
+          res == 11 && bk1 == ']' && bk2 == ']' && bk3 == ']' &&
+           !strcmp(wd1, "to") && !strcmp(wd2, "taking") ||
+          res == 15 && bk1 == ']' && bk2 == ']' && bk3 == ']' && bk4 == ']' &&
+           !strcmp(wd1, "to") && !strcmp(wd2, "taking") &&
+           !strcmp(wd3, "and")) {
          temp.push_back(p2);
-         if (res == 11)
+         temp.push_back(p1);
+         if (res >= 11)
             temp.push_back(p3);
          if (res == 15) {
             if (p3 > p4)
