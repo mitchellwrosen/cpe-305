@@ -53,7 +53,7 @@ public:
     {return *(std::list<const Move *> *)&mMoveHist;}
 
    Board *Clone() const;
-   Key *GetKey() const;
+   const Key *GetKey() const;
 
    // Add a method to prevent PylosBoard from being an abstract class.
    // May add a public method for use by PylosView
