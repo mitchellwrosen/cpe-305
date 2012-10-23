@@ -22,8 +22,8 @@ PylosBoard::StaticInitializer PylosBoard::staticInitializer;
 
 // static
 BoardClass PylosBoard::mClass = BoardClass("PylosBoard", &PylosBoard::Create,
- "Pylos", "PylosView", "PylosDlg", &PylosBoard::GetOptions,
- &PylosBoard::SetOptions);
+ "Pylos", PylosView::GetClassPtr(), PylosDlg::GetClassPtr(),
+ &PylosBoard::GetOptions, &PylosBoard::SetOptions);
 
 // static
 void PylosBoard::StaticInit()

@@ -38,15 +38,12 @@ Class *Class::mClsHead;  // Pointer to general list of Classes
 // BoardClass /////////////////////////////////////////////////////////////////
 
 BoardClass::BoardClass(const std::string& n, Object *(*c)(),
- const std::string &fn, const std::string &vn, const std::string &dn,
- void *(*getOptions)(), void (*setOptions)(const void *), bool useXPos,
- int minPlayers)
- : Class(n, c), mFriendlyName(fn), mGetOptions(getOptions),
-   mSetOptions(setOptions), mUseXPos(useXPos), mMinPlayers(minPlayers)
+ const std::string &fn, Class *viewClass, Class *dlgClass, 
+ void *(*getOptions)(), void (*setOptions)(const void *), bool useXPos, 
+ int minPlayers) : Class(n, c), mFriendlyName(fn), mViewClass(viewClass),
+  mDlgClass(dlgClass), mGetOptions(getOptions), mSetOptions(setOptions), 
+  mUseXPos(useXPos), mMinPlayers(minPlayers)
 {
-   mViewClass = Class::ForName(vn);
-   mDlgClass = Class::ForName(dn);
-
    BoardClass *brdClsPtr = mBrdClsHead;
    if (mBrdClsHead == NULL) {
       mBrdClsHead = this;

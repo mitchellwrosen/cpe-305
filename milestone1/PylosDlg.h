@@ -15,7 +15,9 @@ public:
    static Object* Create();
 
    // Object implementation.
-   const Class *GetClass() const;
+   const Class *GetClass() const { return Class::ForName("PylosDlg"); }
+
+   static Class *GetClassPtr();
 
 protected:
    static Class mClass;

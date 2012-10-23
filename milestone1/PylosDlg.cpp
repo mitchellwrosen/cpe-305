@@ -5,6 +5,12 @@
 Class PylosDlg::mClass = Class("PylosDialog", &PylosDlg::Create);
 
 // static
+Class *PylosDlg::GetClassPtr()
+{
+   return &mClass;
+}
+
+// static
 Object *PylosDlg::Create()
 {
    return new PylosDlg();
@@ -33,11 +39,6 @@ bool PylosDlg::Run(std::istream &in, std::ostream &out, void *data)
    }
 
    return false;
-}
-
-const Class *PylosDlg::GetClass() const
-{
-   return Class::ForName("PylosDialog");
 }
 
 void PylosDlg::ReadMethodInt(std::istream &in, std::ostream &out,

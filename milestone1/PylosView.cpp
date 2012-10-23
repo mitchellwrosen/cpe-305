@@ -1,6 +1,5 @@
 #include "Board.h"
 #include "MyLib.h"
-#include "PylosBoard.h"
 #include "PylosMove.h"
 #include "PylosView.h"
 
@@ -12,6 +11,18 @@ namespace {
 
 // static
 Class PylosView::mClass = Class("PylosView", &PylosView::Create);
+
+// static
+Class *PylosView::GetClassPtr()
+{
+   return &mClass;
+}
+
+// static
+Object *Create()
+{
+   return new PylosView();
+}
 
 const char PylosView::GetPiece(ulong mask) const
 {
@@ -61,13 +72,4 @@ void PylosView::Draw(std::ostream &out) {
       out << "Black's move" << std::endl << std::endl;
    else
       out << "White's move" << std::endl << std::endl;
-}
-
-const Class* PylosView::GetClass() const {
-   return Class::ForName("PylosView");
-}
-
-// static
-Object *PylosView::Create() {
-   return new PylosView();
 }

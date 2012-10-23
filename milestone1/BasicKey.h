@@ -3,6 +3,7 @@
 
 #include "Board.h"
 #include "Class.h"
+#include "MyLib.h"
 
 template<int n>
 class BasicKey : public Board::Key {
@@ -31,12 +32,14 @@ public:
       return false;
    }
 
-   std::istream& Read(std::istream&) {
+   std::istream& Read(std::istream &is) {
       // TODO
+      return is;
    }
 
-   std::ostream& Write(std::ostream&) const {
+   std::ostream& Write(std::ostream &os) const {
       // TODO
+      return os;
    }
 
    static Object *Create();

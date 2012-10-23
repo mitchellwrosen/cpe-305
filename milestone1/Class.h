@@ -68,9 +68,8 @@ protected:
 class BoardClass : public Class {
 public:
    BoardClass(const std::string &n, Object *(*c)(), const std::string &fn,
-    const std::string &vn, const std::string &dn,
-    void *(*getOptions)(), void (*setOptions)(const void *),
-    bool useXPos = false, int minPlayers = 2);
+    Class *viewClass, Class *dlgClass, void *(*getOptions)(),
+    void (*setOptions)(const void *), bool useXPos = false, int minPlayers = 2);
 
    virtual std::string GetFriendlyName() const {return mFriendlyName;}
    virtual const Class *GetViewClass() const {return mViewClass;}

@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include "Class.h"
+#include "PylosBoard.h"
 #include "View.h"
 
 class PylosView : public View {
@@ -16,7 +17,9 @@ public:
    const char GetPiece(ulong mask) const;
 
    // Object implementation.
-   virtual const Class* GetClass() const;
+   virtual const Class *GetClass() const { return Class::ForName("PylosView"); } 
+
+   static Class *GetClassPtr();
 
    static Object *Create();
 

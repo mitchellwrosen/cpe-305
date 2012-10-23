@@ -9,11 +9,6 @@
 #include "Board.h"
 #include "View.h"
 #include "Dialog.h"
-// Add more includes, possibly, but not board-specific ones
-#include "PylosDlg.h"
-#include "PylosBoard.h" // TODO remove
-#include "PylosView.h" // TODO remove
-#include "PylosMove.h"
 
 void PrintUsageAndExit()
 {
@@ -90,23 +85,17 @@ int main(int argc, char **argv)
    if (argc > 2)
       PrintUsageAndExit();
 
-   //brdCls = dynamic_cast<const BoardClass *>(Class::ForName(argv[1]));
-   //viewCls = brdCls->GetViewClass();
-   //dlgCls = brdCls->GetDlgClass();
+   brdCls = dynamic_cast<const BoardClass *>(Class::ForName(argv[1]));
+   viewCls = brdCls->GetViewClass();
+   dlgCls = brdCls->GetDlgClass();
 
-   //board = dynamic_cast<Board *>(brdCls->NewInstance());
-   //cmpBoard = dynamic_cast<Board *>(brdCls->NewInstance());
-   //view = dynamic_cast<View *>(viewCls->NewInstance());
-   //dlg = dynamic_cast<Dialog *>(dlgCls->NewInstance());
-   //view->SetModel(board);
-   board = new PylosBoard();
-   cmpBoard = new PylosBoard();
-   view = new PylosView();
-   dlg = new PylosDlg();
+   board = dynamic_cast<Board *>(brdCls->NewInstance());
+   cmpBoard = dynamic_cast<Board *>(brdCls->NewInstance());
+   view = dynamic_cast<View *>(viewCls->NewInstance());
+   dlg = dynamic_cast<Dialog *>(dlgCls->NewInstance());
    view->SetModel(board);
 
    move = board->CreateMove();
-   //cmpMove = board->CreateMove();
 
    while (std::cin >> command) {
       try {
@@ -114,8 +103,9 @@ int main(int argc, char **argv)
             view->Draw(std::cout);
             board->GetAllMoves(&moves);
             moves.sort(CompareMoves);
-            std::cout << std::setw(11) << std::left << "All Moves:" << std::endl;
-            PrintMoves(*reinterpret_cast<std::list<const Board::Move *> *>(&moves));
+            std::cout << "All Moves: " << std::endl;
+            PrintMoves(*reinterpret_cast<std::list<
+             const Board::Move *> *>(&moves));
             ClearMovesList(&moves);
          } else if (command.compare("enterMove") == 0) {
             getline(std::cin, cArg);
@@ -185,13 +175,9 @@ int main(int argc, char **argv)
                 std::endl;
             delete cmpMove;
          } else if (command.compare("setOptions") == 0) {
-            //options = brdCls->GetOptions();
-            //if (dlg->Run(std::cin, std::cout, options))
-               //brdCls->SetOptions(options);
-            //free(options);
-            options = PylosBoard::GetOptions();
+            options = brdCls->GetOptions();
             if (dlg->Run(std::cin, std::cout, options))
-               PylosBoard::SetOptions(options);
+               brdCls->SetOptions(options);
             free(options);
          } else if (command.compare("testPlay") == 0) {
             std::cin >> seed;
