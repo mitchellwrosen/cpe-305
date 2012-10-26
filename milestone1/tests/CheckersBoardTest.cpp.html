@@ -1,0 +1,294 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>~/cpe-305/milestone1/tests/CheckersBoardTest.cpp.html</title>
+<meta name="Generator" content="Vim/7.3">
+<meta name="plugin-version" content="vim7.3_v10">
+<meta name="syntax" content="cpp">
+<meta name="settings" content="number_lines,use_css,expand_tabs">
+<style type="text/css">
+<!--
+pre { font-family: monospace; color: #dadada; background-color: #262626; }
+body { font-family: monospace; color: #dadada; background-color: #262626; }
+.lnr { color: #9e9e9e; background-color: #262626; font-weight: bold; }
+.Comment { color: #808080; }
+.Statement { color: #5fafff; }
+.Type { color: #5fafff; font-weight: bold; }
+.Constant { color: #ff8700; }
+.PreProc { color: #949494; font-weight: bold; }
+-->
+</style>
+</head>
+<body>
+<pre>
+<span class="lnr">  1 </span><span class="PreProc">#include </span><span class="Constant">&quot;gtest/include/gtest/gtest.h&quot;</span>
+<span class="lnr">  2 </span><span class="PreProc">#include </span><span class="Constant">&quot;../CheckersBoard.h&quot;</span>
+<span class="lnr">  3 </span><span class="PreProc">#include </span><span class="Constant">&quot;../CheckersMove.h&quot;</span>
+<span class="lnr">  4 </span>
+<span class="lnr">  5 </span>TEST(CheckersBoardTest, Init) {
+<span class="lnr">  6 </span>   CheckersBoard board;
+<span class="lnr">  7 </span>
+<span class="lnr">  8 </span>   <span class="Type">uint64_t</span> mask = <span class="Constant">1</span>;
+<span class="lnr">  9 </span>   <span class="Statement">for</span> (<span class="Type">int</span> row = <span class="Constant">0</span>; row &lt; CheckersBoard::kDim; row++) {
+<span class="lnr"> 10 </span>      <span class="Statement">for</span> (<span class="Type">int</span> col = <span class="Constant">0</span>; col &lt; CheckersBoard::kDim; col++, mask &lt;&lt;= <span class="Constant">1</span>) {
+<span class="lnr"> 11 </span>         <span class="Type">const</span> CheckersBoard::Cell *cell = board.GetCell(row, col);
+<span class="lnr"> 12 </span>         EXPECT_EQ(cell-&gt;row, row);
+<span class="lnr"> 13 </span>         EXPECT_EQ(cell-&gt;col, col);
+<span class="lnr"> 14 </span>         EXPECT_EQ(cell-&gt;mask, mask);
+<span class="lnr"> 15 </span>         <span class="Statement">if</span> (cell-&gt;piece) {
+<span class="lnr"> 16 </span>            EXPECT_EQ(cell-&gt;piece-&gt;row, cell-&gt;row);
+<span class="lnr"> 17 </span>            EXPECT_EQ(cell-&gt;piece-&gt;col, cell-&gt;col);
+<span class="lnr"> 18 </span>            EXPECT_EQ(cell-&gt;piece-&gt;rank, CheckersBoard::kRegular);
+<span class="lnr"> 19 </span>
+<span class="lnr"> 20 </span>            <span class="Statement">if</span> (cell-&gt;piece-&gt;whose == CheckersBoard::kBlack) {
+<span class="lnr"> 21 </span>               EXPECT_TRUE(cell-&gt;mask &amp; board.mBlack);
+<span class="lnr"> 22 </span>               EXPECT_EQ(cell-&gt;piece-&gt;kingRow, <span class="Constant">7</span>);
+<span class="lnr"> 23 </span>               EXPECT_EQ(cell-&gt;piece-&gt;backRow, <span class="Constant">0</span>);
+<span class="lnr"> 24 </span>            } <span class="Statement">else</span> {
+<span class="lnr"> 25 </span>               EXPECT_TRUE(cell-&gt;mask &amp; board.mWhite);
+<span class="lnr"> 26 </span>               EXPECT_EQ(cell-&gt;piece-&gt;kingRow, <span class="Constant">0</span>);
+<span class="lnr"> 27 </span>               EXPECT_EQ(cell-&gt;piece-&gt;backRow, <span class="Constant">7</span>);
+<span class="lnr"> 28 </span>            }
+<span class="lnr"> 29 </span>         } <span class="Statement">else</span> {
+<span class="lnr"> 30 </span>            EXPECT_FALSE(cell-&gt;mask &amp; (board.mWhite | board.mBlack));
+<span class="lnr"> 31 </span>         }
+<span class="lnr"> 32 </span>      }
+<span class="lnr"> 33 </span>   }
+<span class="lnr"> 34 </span>
+<span class="lnr"> 35 </span>   EXPECT_EQ(board.mNumBlackRegular, <span class="Constant">8</span>);
+<span class="lnr"> 36 </span>   EXPECT_EQ(board.mNumBlackBackRow, <span class="Constant">4</span>);
+<span class="lnr"> 37 </span>   EXPECT_EQ(board.mNumBlackKing, <span class="Constant">0</span>);
+<span class="lnr"> 38 </span>
+<span class="lnr"> 39 </span>   EXPECT_EQ(board.mNumWhiteRegular, <span class="Constant">8</span>);
+<span class="lnr"> 40 </span>   EXPECT_EQ(board.mNumWhiteBackRow, <span class="Constant">4</span>);
+<span class="lnr"> 41 </span>   EXPECT_EQ(board.mNumWhiteKing, <span class="Constant">0</span>);
+<span class="lnr"> 42 </span>
+<span class="lnr"> 43 </span>   EXPECT_EQ(board.mRemovedPieces.size(), <span class="Constant">0U</span>);
+<span class="lnr"> 44 </span>   EXPECT_EQ(board.mMoveHist.size(), <span class="Constant">0U</span>);
+<span class="lnr"> 45 </span>}
+<span class="lnr"> 46 </span>
+<span class="lnr"> 47 </span>TEST(CheckersBoardTest, MovePiece) {
+<span class="lnr"> 48 </span>   CheckersBoard board;
+<span class="lnr"> 49 </span>
+<span class="lnr"> 50 </span>   <span class="Comment">// Move from back row to regular.</span>
+<span class="lnr"> 51 </span>   board.MovePiece(board.mCells[<span class="Constant">0</span>][<span class="Constant">0</span>], board.mCells[<span class="Constant">3</span>][<span class="Constant">0</span>]);
+<span class="lnr"> 52 </span>   EXPECT_EQ(board.mNumBlackBackRow, <span class="Constant">3</span>);
+<span class="lnr"> 53 </span>   EXPECT_FALSE(board.mBlack &amp; board.mCells[<span class="Constant">0</span>][<span class="Constant">0</span>]-&gt;mask);
+<span class="lnr"> 54 </span>   EXPECT_TRUE(board.mBlack &amp; board.mCells[<span class="Constant">3</span>][<span class="Constant">0</span>]-&gt;mask);
+<span class="lnr"> 55 </span>
+<span class="lnr"> 56 </span>   <span class="Comment">// Move it to a king.</span>
+<span class="lnr"> 57 </span>   board.MovePiece(board.mCells[<span class="Constant">3</span>][<span class="Constant">0</span>], board.mCells[<span class="Constant">7</span>][<span class="Constant">0</span>]);
+<span class="lnr"> 58 </span>   EXPECT_EQ(board.mNumBlackKing, <span class="Constant">1</span>);
+<span class="lnr"> 59 </span>
+<span class="lnr"> 60 </span>   <span class="Comment">// Move back to the back row.</span>
+<span class="lnr"> 61 </span>   board.MovePiece(board.mCells[<span class="Constant">7</span>][<span class="Constant">0</span>], board.mCells[<span class="Constant">0</span>][<span class="Constant">0</span>]);
+<span class="lnr"> 62 </span>   EXPECT_EQ(board.mNumBlackKing, <span class="Constant">1</span>);
+<span class="lnr"> 63 </span>   EXPECT_EQ(board.mNumBlackBackRow, <span class="Constant">4</span>);
+<span class="lnr"> 64 </span>
+<span class="lnr"> 65 </span>   <span class="Comment">// And back to a king spot.</span>
+<span class="lnr"> 66 </span>   board.MovePiece(board.mCells[<span class="Constant">0</span>][<span class="Constant">0</span>], board.mCells[<span class="Constant">7</span>][<span class="Constant">2</span>]);
+<span class="lnr"> 67 </span>   EXPECT_EQ(board.mNumBlackKing, <span class="Constant">1</span>);
+<span class="lnr"> 68 </span>}
+<span class="lnr"> 69 </span>
+<span class="lnr"> 70 </span>TEST(CheckersBoardTest, SingleCapture) {
+<span class="lnr"> 71 </span>   CheckersBoard board;
+<span class="lnr"> 72 </span>
+<span class="lnr"> 73 </span>   board.MovePiece(board.mCells[<span class="Constant">5</span>][<span class="Constant">1</span>], board.mCells[<span class="Constant">3</span>][<span class="Constant">1</span>]);
+<span class="lnr"> 74 </span>
+<span class="lnr"> 75 </span>   CheckersMove::LocVector locs;
+<span class="lnr"> 76 </span>   locs.push_back(std::make_pair(<span class="Constant">2</span>, <span class="Constant">0</span>));
+<span class="lnr"> 77 </span>   locs.push_back(std::make_pair(<span class="Constant">3</span>, <span class="Constant">1</span>));
+<span class="lnr"> 78 </span>   locs.push_back(std::make_pair(<span class="Constant">4</span>, <span class="Constant">2</span>));
+<span class="lnr"> 79 </span>
+<span class="lnr"> 80 </span>   board.ApplyMove(<span class="Statement">new</span> CheckersMove(locs));
+<span class="lnr"> 81 </span>
+<span class="lnr"> 82 </span>   EXPECT_EQ(board.mNumWhiteRegular, <span class="Constant">7</span>);
+<span class="lnr"> 83 </span>}
+<span class="lnr"> 84 </span>
+<span class="lnr"> 85 </span>TEST(CheckersBoardTest, DoubleCapture) {
+<span class="lnr"> 86 </span>   CheckersBoard board;
+<span class="lnr"> 87 </span>
+<span class="lnr"> 88 </span>   board.MovePiece(board.mCells[<span class="Constant">6</span>][<span class="Constant">0</span>], board.mCells[<span class="Constant">3</span>][<span class="Constant">1</span>]);
+<span class="lnr"> 89 </span>
+<span class="lnr"> 90 </span>   CheckersMove::LocVector locs;
+<span class="lnr"> 91 </span>   locs.push_back(std::make_pair(<span class="Constant">2</span>, <span class="Constant">0</span>));
+<span class="lnr"> 92 </span>   locs.push_back(std::make_pair(<span class="Constant">3</span>, <span class="Constant">1</span>));
+<span class="lnr"> 93 </span>   locs.push_back(std::make_pair(<span class="Constant">4</span>, <span class="Constant">2</span>));
+<span class="lnr"> 94 </span>   locs.push_back(std::make_pair(<span class="Constant">5</span>, <span class="Constant">1</span>));
+<span class="lnr"> 95 </span>   locs.push_back(std::make_pair(<span class="Constant">6</span>, <span class="Constant">0</span>));
+<span class="lnr"> 96 </span>   CheckersMove move(locs);
+<span class="lnr"> 97 </span>
+<span class="lnr"> 98 </span>   board.ApplyMove(<span class="Statement">new</span> CheckersMove(locs));
+<span class="lnr"> 99 </span>
+<span class="lnr">100 </span>   EXPECT_EQ(board.mNumWhiteRegular, <span class="Constant">6</span>);
+<span class="lnr">101 </span>}
+<span class="lnr">102 </span>
+<span class="lnr">103 </span><span class="Comment">// Test AddCaptures for a simple single-piece capture.</span>
+<span class="lnr">104 </span>TEST(CheckersBoardTest, AddCaptures) {
+<span class="lnr">105 </span>   CheckersBoard board;
+<span class="lnr">106 </span>   std::list&lt;Board::Move *&gt; moves;
+<span class="lnr">107 </span>
+<span class="lnr">108 </span>   board.MovePiece(board.mCells[<span class="Constant">5</span>][<span class="Constant">1</span>], board.mCells[<span class="Constant">3</span>][<span class="Constant">1</span>]);
+<span class="lnr">109 </span>
+<span class="lnr">110 </span>   board.AddCaptures(board.mCells[<span class="Constant">2</span>][<span class="Constant">0</span>], &amp;moves);
+<span class="lnr">111 </span>   EXPECT_EQ(<span class="Constant">1U</span>, moves.size());
+<span class="lnr">112 </span>
+<span class="lnr">113 </span>   board.AddCaptures(board.mCells[<span class="Constant">2</span>][<span class="Constant">2</span>], &amp;moves);
+<span class="lnr">114 </span>   EXPECT_EQ(<span class="Constant">2U</span>, moves.size());
+<span class="lnr">115 </span>}
+<span class="lnr">116 </span>
+<span class="lnr">117 </span><span class="Comment">// Test AddCaptures for a multi-piece capture.</span>
+<span class="lnr">118 </span>TEST(CheckersBoardTest, AddCaptures2) {
+<span class="lnr">119 </span>   CheckersBoard board;
+<span class="lnr">120 </span>   std::list&lt;Board::Move *&gt; moves;
+<span class="lnr">121 </span>
+<span class="lnr">122 </span>   board.MovePiece(board.mCells[<span class="Constant">6</span>][<span class="Constant">0</span>], board.mCells[<span class="Constant">3</span>][<span class="Constant">1</span>]);
+<span class="lnr">123 </span>
+<span class="lnr">124 </span>   board.AddCaptures(board.mCells[<span class="Constant">2</span>][<span class="Constant">0</span>], &amp;moves);
+<span class="lnr">125 </span>   EXPECT_EQ(<span class="Constant">1U</span>, moves.size());
+<span class="lnr">126 </span>
+<span class="lnr">127 </span>   board.AddCaptures(board.mCells[<span class="Constant">2</span>][<span class="Constant">2</span>], &amp;moves);
+<span class="lnr">128 </span>   EXPECT_EQ(<span class="Constant">2U</span>, moves.size());
+<span class="lnr">129 </span>}
+<span class="lnr">130 </span>
+<span class="lnr">131 </span><span class="Comment">// Test GetAllMoves for the initial board.</span>
+<span class="lnr">132 </span>TEST(CheckersBoardTest, GetAllMoves) {
+<span class="lnr">133 </span>   CheckersBoard board;
+<span class="lnr">134 </span>
+<span class="lnr">135 </span>   std::list&lt;Board::Move *&gt; moves;
+<span class="lnr">136 </span>   board.GetAllMoves(&amp;moves);
+<span class="lnr">137 </span>
+<span class="lnr">138 </span>   EXPECT_EQ(<span class="Constant">7U</span>, moves.size());
+<span class="lnr">139 </span>}
+<span class="lnr">140 </span>
+<span class="lnr">141 </span>TEST(CheckersBoardTest, GetAllMovesForcedCapture) {
+<span class="lnr">142 </span>   CheckersBoard board;
+<span class="lnr">143 </span>   std::list&lt;Board::Move *&gt; moves;
+<span class="lnr">144 </span>
+<span class="lnr">145 </span>   board.MovePiece(board.mCells[<span class="Constant">5</span>][<span class="Constant">1</span>], board.mCells[<span class="Constant">3</span>][<span class="Constant">1</span>]);
+<span class="lnr">146 </span>   board.GetAllMoves(&amp;moves);
+<span class="lnr">147 </span>
+<span class="lnr">148 </span>   EXPECT_EQ(<span class="Constant">2U</span>, moves.size());
+<span class="lnr">149 </span>}
+<span class="lnr">150 </span>
+<span class="lnr">151 </span>TEST(CheckersBoardTest, GameEnd) {
+<span class="lnr">152 </span>   CheckersBoard board;
+<span class="lnr">153 </span>   std::list&lt;Board::Move *&gt; moves;
+<span class="lnr">154 </span>
+<span class="lnr">155 </span>   board.mBlack = <span class="Constant">0</span>;
+<span class="lnr">156 </span>   board.GetAllMoves(&amp;moves);
+<span class="lnr">157 </span>
+<span class="lnr">158 </span>   EXPECT_EQ(<span class="Constant">0U</span>, moves.size());
+<span class="lnr">159 </span>   EXPECT_EQ(-CheckersBoard::kWinVal, board.GetValue());
+<span class="lnr">160 </span>}
+<span class="lnr">161 </span>
+<span class="lnr">162 </span>TEST(CheckersBoardTest, UndoLastMove) {
+<span class="lnr">163 </span>   CheckersBoard board;
+<span class="lnr">164 </span>
+<span class="lnr">165 </span>   board.ApplyMove(<span class="Statement">new</span> CheckersMove(board.mCells[<span class="Constant">2</span>][<span class="Constant">0</span>], board.mCells[<span class="Constant">3</span>][<span class="Constant">1</span>]));
+<span class="lnr">166 </span>   board.UndoLastMove();
+<span class="lnr">167 </span>   EXPECT_EQ(<span class="Constant">0U</span>, board.mMoveHist.size());
+<span class="lnr">168 </span>   EXPECT_TRUE(board.mCells[<span class="Constant">2</span>][<span class="Constant">0</span>]-&gt;piece);
+<span class="lnr">169 </span>   EXPECT_FALSE(board.mCells[<span class="Constant">3</span>][<span class="Constant">1</span>]-&gt;piece);
+<span class="lnr">170 </span>
+<span class="lnr">171 </span>   board.MovePiece(board.mCells[<span class="Constant">5</span>][<span class="Constant">1</span>], board.mCells[<span class="Constant">3</span>][<span class="Constant">1</span>]);
+<span class="lnr">172 </span>
+<span class="lnr">173 </span>   std::vector&lt;<span class="Type">const</span> CheckersBoard::Cell *&gt; locs;
+<span class="lnr">174 </span>   locs.push_back(board.mCells[<span class="Constant">2</span>][<span class="Constant">0</span>]);
+<span class="lnr">175 </span>   locs.push_back(board.mCells[<span class="Constant">3</span>][<span class="Constant">1</span>]);
+<span class="lnr">176 </span>   locs.push_back(board.mCells[<span class="Constant">4</span>][<span class="Constant">2</span>]);
+<span class="lnr">177 </span>   board.ApplyMove(<span class="Statement">new</span> CheckersMove(locs));
+<span class="lnr">178 </span>   EXPECT_EQ(<span class="Constant">1U</span>, board.mMoveHist.size());
+<span class="lnr">179 </span>   EXPECT_FALSE(board.mCells[<span class="Constant">2</span>][<span class="Constant">0</span>]-&gt;piece);
+<span class="lnr">180 </span>   EXPECT_FALSE(board.mCells[<span class="Constant">3</span>][<span class="Constant">1</span>]-&gt;piece);
+<span class="lnr">181 </span>   EXPECT_TRUE(board.mCells[<span class="Constant">4</span>][<span class="Constant">2</span>]-&gt;piece);
+<span class="lnr">182 </span>
+<span class="lnr">183 </span>   board.UndoLastMove();
+<span class="lnr">184 </span>   EXPECT_EQ(<span class="Constant">0U</span>, board.mMoveHist.size());
+<span class="lnr">185 </span>   EXPECT_TRUE(board.mCells[<span class="Constant">2</span>][<span class="Constant">0</span>]-&gt;piece);
+<span class="lnr">186 </span>   EXPECT_TRUE(board.mCells[<span class="Constant">3</span>][<span class="Constant">1</span>]-&gt;piece);
+<span class="lnr">187 </span>   EXPECT_FALSE(board.mCells[<span class="Constant">4</span>][<span class="Constant">2</span>]-&gt;piece);
+<span class="lnr">188 </span>}
+<span class="lnr">189 </span>
+<span class="lnr">190 </span><span class="Comment">/*</span>
+<span class="lnr">191 </span><span class="Comment">TEST(CheckersBoardTest, GetKey) {</span>
+<span class="lnr">192 </span><span class="Comment">   // Test equal boards.</span>
+<span class="lnr">193 </span><span class="Comment">   CheckersBoard board1, board2;</span>
+<span class="lnr">194 </span><span class="Comment">   const Board::Key *key1 = board1.GetKey();</span>
+<span class="lnr">195 </span><span class="Comment">   const Board::Key *key2 = board2.GetKey();</span>
+<span class="lnr">196 </span><span class="Comment">   if (!(*key1 == *key2))</span>
+<span class="lnr">197 </span><span class="Comment">      EXPECT_TRUE(false);</span>
+<span class="lnr">198 </span><span class="Comment">   delete key1; delete key2;</span>
+<span class="lnr">199 </span>
+<span class="lnr">200 </span><span class="Comment">   // Test that white's move &gt; black's move.</span>
+<span class="lnr">201 </span><span class="Comment">   CheckersBoard board3, board4;</span>
+<span class="lnr">202 </span><span class="Comment">   //board3.mWhoseMove = CheckersBoard::kWhite;</span>
+<span class="lnr">203 </span><span class="Comment">   key1 = board3.GetKey(); key2 = board4.GetKey();</span>
+<span class="lnr">204 </span><span class="Comment">   if (!(*key2 &lt; *key1))</span>
+<span class="lnr">205 </span><span class="Comment">      EXPECT_TRUE(false);</span>
+<span class="lnr">206 </span><span class="Comment">   delete key1; delete key2;</span>
+<span class="lnr">207 </span>
+<span class="lnr">208 </span><span class="Comment">   // Test that regular black &gt; no piece.</span>
+<span class="lnr">209 </span><span class="Comment">   CheckersBoard board5, board6;</span>
+<span class="lnr">210 </span><span class="Comment">   board5.MovePiece(board5.mCells[2][0], board5.mCells[3][0]);</span>
+<span class="lnr">211 </span><span class="Comment">   key1 = board5.GetKey(); key2 = board6.GetKey();</span>
+<span class="lnr">212 </span><span class="Comment">   if (!(*key2 &lt; *key1))</span>
+<span class="lnr">213 </span><span class="Comment">      EXPECT_TRUE(false);</span>
+<span class="lnr">214 </span><span class="Comment">   delete key1; delete key2;</span>
+<span class="lnr">215 </span>
+<span class="lnr">216 </span><span class="Comment">   // Test that regular white &gt; regular black.</span>
+<span class="lnr">217 </span><span class="Comment">   CheckersBoard board7, board8;</span>
+<span class="lnr">218 </span><span class="Comment">   board8.RemovePiece(board8.mCells[5][1]);</span>
+<span class="lnr">219 </span><span class="Comment">   board8.MovePiece(board8.mCells[0][0], board8.mCells[5][1]);</span>
+<span class="lnr">220 </span><span class="Comment">   key1 = board7.GetKey(); key2 = board8.GetKey();</span>
+<span class="lnr">221 </span><span class="Comment">   if (!(*key2 &lt; *key1))</span>
+<span class="lnr">222 </span><span class="Comment">      EXPECT_TRUE(false);</span>
+<span class="lnr">223 </span><span class="Comment">   delete key1; delete key2;</span>
+<span class="lnr">224 </span>
+<span class="lnr">225 </span><span class="Comment">   // Test that black king &gt; regular white.</span>
+<span class="lnr">226 </span><span class="Comment">   CheckersBoard board9, board10;</span>
+<span class="lnr">227 </span><span class="Comment">   board9.RemovePiece(board9.mCells[7][1]);</span>
+<span class="lnr">228 </span><span class="Comment">   board9.MovePiece(board9.mCells[0][0], board9.mCells[7][1]);</span>
+<span class="lnr">229 </span><span class="Comment">   key1 = board9.GetKey(); key2 = board10.GetKey();</span>
+<span class="lnr">230 </span><span class="Comment">   if (!(*key2 &lt; *key1))</span>
+<span class="lnr">231 </span><span class="Comment">      EXPECT_TRUE(false);</span>
+<span class="lnr">232 </span><span class="Comment">   delete key1; delete key2;</span>
+<span class="lnr">233 </span>
+<span class="lnr">234 </span><span class="Comment">   // Test that white king &gt; black king.</span>
+<span class="lnr">235 </span><span class="Comment">   CheckersBoard board11, board12;</span>
+<span class="lnr">236 </span><span class="Comment">   board11.mCells[7][1]-&gt;piece-&gt;rank = CheckersBoard::kKing;</span>
+<span class="lnr">237 </span><span class="Comment">   board12.RemovePiece(board12.mCells[7][1]);</span>
+<span class="lnr">238 </span><span class="Comment">   board12.MovePiece(board12.mCells[0][0], board12.mCells[7][1]);</span>
+<span class="lnr">239 </span><span class="Comment">   key1 = board11.GetKey(); key2 = board12.GetKey();</span>
+<span class="lnr">240 </span><span class="Comment">   if (!(*key2 &lt; *key1))</span>
+<span class="lnr">241 </span><span class="Comment">      EXPECT_TRUE(false);</span>
+<span class="lnr">242 </span><span class="Comment">   delete key1; delete key2;</span>
+<span class="lnr">243 </span><span class="Comment">}</span>
+<span class="lnr">244 </span><span class="Comment">*/</span>
+<span class="lnr">245 </span>
+<span class="lnr">246 </span>TEST(CheckersBoardTest, TestPlay1) {
+<span class="lnr">247 </span>   CheckersBoard board;
+<span class="lnr">248 </span>   board.ApplyMove(<span class="Statement">new</span> CheckersMove(board.mCells[<span class="Constant">2</span>][<span class="Constant">2</span>], board.mCells[<span class="Constant">3</span>][<span class="Constant">1</span>]));
+<span class="lnr">249 </span>   board.ApplyMove(<span class="Statement">new</span> CheckersMove(board.mCells[<span class="Constant">5</span>][<span class="Constant">1</span>], board.mCells[<span class="Constant">4</span>][<span class="Constant">2</span>]));
+<span class="lnr">250 </span>   board.ApplyMove(<span class="Statement">new</span> CheckersMove(board.mCells[<span class="Constant">1</span>][<span class="Constant">3</span>], board.mCells[<span class="Constant">2</span>][<span class="Constant">2</span>]));
+<span class="lnr">251 </span>
+<span class="lnr">252 </span>   std::list&lt;Board::Move *&gt; moves;
+<span class="lnr">253 </span>   board.GetAllMoves(&amp;moves);
+<span class="lnr">254 </span>   EXPECT_EQ(<span class="Constant">7U</span>, moves.size());
+<span class="lnr">255 </span>}
+<span class="lnr">256 </span>
+<span class="lnr">257 </span>TEST(CheckersBoardTest, TestPlay2) {
+<span class="lnr">258 </span>   CheckersBoard board;
+<span class="lnr">259 </span>   board.ApplyMove(<span class="Statement">new</span> CheckersMove(board.mCells[<span class="Constant">2</span>][<span class="Constant">2</span>], board.mCells[<span class="Constant">3</span>][<span class="Constant">1</span>]));
+<span class="lnr">260 </span>   board.ApplyMove(<span class="Statement">new</span> CheckersMove(board.mCells[<span class="Constant">5</span>][<span class="Constant">1</span>], board.mCells[<span class="Constant">4</span>][<span class="Constant">2</span>]));
+<span class="lnr">261 </span>   board.ApplyMove(<span class="Statement">new</span> CheckersMove(board.mCells[<span class="Constant">1</span>][<span class="Constant">3</span>], board.mCells[<span class="Constant">2</span>][<span class="Constant">2</span>]));
+<span class="lnr">262 </span>   board.ApplyMove(<span class="Statement">new</span> CheckersMove(board.mCells[<span class="Constant">5</span>][<span class="Constant">3</span>], board.mCells[<span class="Constant">4</span>][<span class="Constant">4</span>]));
+<span class="lnr">263 </span>
+<span class="lnr">264 </span>   std::list&lt;Board::Move *&gt; moves;
+<span class="lnr">265 </span>   board.GetAllMoves(&amp;moves);
+<span class="lnr">266 </span>   EXPECT_EQ(<span class="Constant">1U</span>, moves.size());
+<span class="lnr">267 </span>}
+</pre>
+</body>
+</html>

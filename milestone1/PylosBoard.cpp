@@ -393,7 +393,7 @@ Board *PylosBoard::Clone() const
    return pb;
 }
 
-Board::Key *PylosBoard::GetKey() const
+const Board::Key *PylosBoard::GetKey() const
 {
    BasicKey<2> *rtn = dynamic_cast<BasicKey<2> *>(BasicKey<2>::Create());
 

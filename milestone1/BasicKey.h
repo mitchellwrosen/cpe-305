@@ -13,6 +13,25 @@ public:
       return &mClass;
    }
 
+   void *operator new(size_t sz) {
+      void *temp;
+
+      if (mFreeList.size()) {
+         temp = mFreeList.back();
+         mFreeList.pop_back();
+      } else {
+         temp = ::new char[sz];
+      }
+
+      mOutstanding++;
+      return temp;
+   }
+
+   void operator delete(void *p) {
+      mFreeList.push_back((BasicKey<n> *) p);
+      mOutstanding--;
+   }
+
    // Board:Key implementation.
    bool operator==(const Board::Key& rhs) const {
       const BasicKey<n>& other = dynamic_cast<const BasicKey<n>& >(rhs);
@@ -26,8 +45,8 @@ public:
    bool operator<(const Board::Key& rhs) const {
       const BasicKey<n>& other = dynamic_cast<const BasicKey<n>& >(rhs);
       for (int i = 0; i < n; i++) {
-         if (vals[i] < other.vals[i])
-            return true;
+         if (vals[i] != other.vals[i])
+            return vals[i] < other.vals[i];
       }
       return false;
    }
@@ -44,16 +63,26 @@ public:
 
    static Object *Create();
    static Class mClass;
+   static std::vector<BasicKey<n> *> mFreeList;
 
    ulong vals[n];
 };
 
 // static
 template<int n>
+std::vector<BasicKey<n> *> BasicKey<n>::mFreeList;
+
+// static
+template<int n>
 Object *BasicKey<n>::Create()
 {
-   return new BasicKey<n>();
+   // Zero-out the key.
+   BasicKey<n> *key = new BasicKey<n>();
+   for (int i = 0; i < n; i++)
+      key->vals[i] = 0;
+   return key;
 }
+
 // static
 template<int n>
 Class BasicKey<n>::mClass = Class(FString("BasicKey<%d>", n),

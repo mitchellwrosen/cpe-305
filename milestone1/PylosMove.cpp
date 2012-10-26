@@ -92,7 +92,8 @@ void PylosMove::operator=(const std::string &src)
    short type;
    LocVector temp;
 
-   sscanf(src.c_str(), "%10s", wd1); if (!strcmp(wd1, "Play")) {
+   sscanf(src.c_str(), "%10s", wd1);
+   if (!strcmp(wd1, "Play")) {
       type = kReserve;
       res = sscanf(src.c_str(), " Play at [ %hd , %hd %c %6s [ %hd , %hd %c %3s"
        " [ %hd , %hd %c %c", &p1.first, &p1.second, &bk1, wd1, &p2.first,

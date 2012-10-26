@@ -49,7 +49,7 @@ void PrintMoves(const std::list<const Board::Move *> &moves)
    for (std::list<const Board::Move *>::const_iterator iter = moves.begin();
          iter != moves.end(); iter++) {
       std::string moveString = (std::string) **iter;
-      if (curLineLen + longestMoveLen > 80) {
+      if (curLineLen + longestMoveLen >= 80) {
          std::cout << std::endl;
          curLineLen = 0;
       }
@@ -70,6 +70,7 @@ int main(int argc, char **argv)
    View *view;
    Dialog *dlg;
    Board::Move *move, *cmpMove;
+   const Board::Key *key, *cmpKey;
    void *options;
    std::list<Board::Move *> moves;
    std::list<const Board::Move *> constMoves;
@@ -82,7 +83,7 @@ int main(int argc, char **argv)
    const Class *viewCls, *dlgCls;
    const BoardClass *brdCls;
 
-   if (argc > 2)
+   if (argc < 2)
       PrintUsageAndExit();
 
    brdCls = dynamic_cast<const BoardClass *>(Class::ForName(argv[1]));
@@ -90,7 +91,6 @@ int main(int argc, char **argv)
    dlgCls = brdCls->GetDlgClass();
 
    board = dynamic_cast<Board *>(brdCls->NewInstance());
-   cmpBoard = dynamic_cast<Board *>(brdCls->NewInstance());
    view = dynamic_cast<View *>(viewCls->NewInstance());
    dlg = dynamic_cast<Dialog *>(dlgCls->NewInstance());
    view->SetModel(board);
@@ -113,11 +113,11 @@ int main(int argc, char **argv)
          } else if (command.compare("showMove") == 0) {
             std::cout << (std::string) *move << std::endl;
          } else if (command.compare("applyMove") == 0) {
-            board->ApplyMove(move);
+            board->ApplyMove(move->Clone());
          } else if (command.compare("doMove") == 0) {
             getline(std::cin, cArg);
             *move = cArg.c_str();
-            board->ApplyMove(move);
+            board->ApplyMove(move->Clone());
          } else if (command.compare("undoLastMove") == 0) {
             std::cin >> count;
             if (count > board->GetMoveHist().size())
@@ -128,7 +128,7 @@ int main(int argc, char **argv)
             std::cout << "Value: " << board->GetValue() << std::endl;
          } else if (command.compare("showMoveHist") == 0) {
             constMoves = board->GetMoveHist();
-            std::cout << std::endl << "Move History:" << std::endl;
+            std::cout << std::endl << "Move History: " << std::endl;
             PrintMoves(constMoves);
          } else if (command.compare("saveBoard") == 0) {
             std::cin >> cArg;
@@ -149,18 +149,25 @@ int main(int argc, char **argv)
          } else if (command.compare("compareKeys") == 0) {
             std::cin >> cArg;
             std::ifstream in(cArg.c_str());
+            cmpBoard = dynamic_cast<Board *>(brdCls->NewInstance());
             in >> *cmpBoard;
-            if (*board->GetKey() == *cmpBoard->GetKey()) {
+
+            key = board->GetKey();
+            cmpKey = cmpBoard->GetKey();
+            if (*key == *cmpKey) {
                std::cout << "Board keys are equal" << std::endl;
             } else {
                std::cout << "Board keys are unequal" << std::endl <<
                 "Current board is ";
-               if (*board->GetKey() < *cmpBoard->GetKey())
+               if (*key < *cmpKey)
                   std::cout << "less ";
                else
                   std::cout << "greater ";
                std::cout << "than " << cArg.c_str() << std::endl;
             }
+            delete key;
+            delete cmpKey;
+            delete cmpBoard;
          } else if (command.compare("compareMove") == 0) {
             getline(std::cin, cArg);
             cmpMove = board->CreateMove();
@@ -190,8 +197,7 @@ int main(int argc, char **argv)
                   std::list<Board::Move *>::iterator iter = moves.begin();
                   for (int j = 0, n = rand() % moves.size(); j < n; j++, iter++)
                      ;
-                  board->ApplyMove(*iter);
-                  moves.erase(iter);
+                  board->ApplyMove((*iter)->Clone());
                   ClearMovesList(&moves);
                }
             }
@@ -206,8 +212,7 @@ int main(int argc, char **argv)
                   std::list<Board::Move *>::iterator iter = moves.begin();
                   for (int j = 0, n = rand() % moves.size(); j < n; j++, iter++)
                      ;
-                  board->ApplyMove(*iter);
-                  moves.erase(iter);
+                  board->ApplyMove((*iter)->Clone());
                   ClearMovesList(&moves);
                } else {
                   for (int i = 0, n = rand() % board->GetMoveHist().size(); i <= n; i++)

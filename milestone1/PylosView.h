@@ -17,7 +17,7 @@ public:
    const char GetPiece(ulong mask) const;
 
    // Object implementation.
-   virtual const Class *GetClass() const { return Class::ForName("PylosView"); } 
+   virtual const Class *GetClass() const { return Class::ForName("PylosView"); }
 
    static Class *GetClassPtr();
 

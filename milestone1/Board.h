@@ -49,7 +49,7 @@ public:
       friend std::istream &operator>>(std::istream &is, Key &k)
        {return k.Read(is);}
 
-      static long GetOutstanding() {return mOutstanding;}
+      static long GetOutstanding() { return mOutstanding; }
 
    protected:
       virtual std::istream &Read(std::istream &) = 0;

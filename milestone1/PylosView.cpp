@@ -19,10 +19,11 @@ Class *PylosView::GetClassPtr()
 }
 
 // static
-Object *Create()
+Object *PylosView::Create()
 {
    return new PylosView();
 }
+
 
 const char PylosView::GetPiece(ulong mask) const
 {

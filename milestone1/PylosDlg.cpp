@@ -46,14 +46,13 @@ void PylosDlg::ReadMethodInt(std::istream &in, std::ostream &out,
 {
    int val;
    while (1) {
-      Dialog::ReadLimitInt(in, out, &val, 0, 0, prompt);
-      if (val != -1335) {
-         try {
-            (rls->*x)(val);
-            return;
-         } catch (BaseException e) {
-            out << "Error: " << e.what() << std::endl;
-         }
+      out << prompt;
+      in >> val;
+      try {
+         (rls->*x)(val);
+         return;
+      } catch (BaseException e) {
+         out << "Error: " << e.what() << std::endl;
       }
    }
 }

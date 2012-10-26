@@ -68,18 +68,49 @@ gtest.a : gtest-all.o
 gtest_main.a : gtest-all.o gtest_main.o
 	$(AR) $(ARFLAGS) $@ $^
 
-# Builds a sample test.  A test should link with either gtest.a or
+# A test should link with either gtest.a or
 # gtest_main.a, depending on whether it defines its own main()
 # function.
 
+# Class files
 CheckersBoard.o : $(USER_DIR)/CheckersBoard.cpp $(USER_DIR)/CheckersBoard.h \
-                  $(USER_DIR)/CheckersMove.cpp $(USER_DIR)/CheckersMove.h \
-                  $(USER_DIR)/MyLib.h $(GTEST_HEADERS)
+                  $(GTEST_HEADERS)
 	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -c $(USER_DIR)/CheckersBoard.cpp
 
-CheckersBoard_UnitTest.o : $(USER_TEST_DIR)/CheckersBoard_UnitTest.cpp \
-                     $(USER_DIR)/CheckersBoard.h $(GTEST_HEADERS)
-	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -c $(USER_TEST_DIR)/CheckersBoard_UnitTest.cpp
+CheckersMove.o : $(USER_DIR)/CheckersMove.cpp $(USER_DIR)/CheckersMove.h \
+                 $(GTEST_HEADERS)
+	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -c $(USER_DIR)/CheckersMove.cpp
 
-unittests : CheckersBoard.o CheckersBoard_UnitTest.o gtest_main.a
-	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -lpthread $^ -o $@
+CheckersView.o : $(USER_DIR)/CheckersView.cpp $(USER_DIR)/CheckersView.h \
+                 $(GTEST_HEADERS)
+	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -c $(USER_DIR)/CheckersView.cpp
+
+CheckersDlg.o : $(USER_DIR)/CheckersDlg.cpp $(USER_DIR)/CheckersDlg.h \
+                 $(GTEST_HEADERS)
+	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -c $(USER_DIR)/CheckersDlg.cpp
+
+Dialog.o : $(USER_DIR)/Dialog.cpp $(USER_DIR)/Dialog.h $(GTEST_HEADERS)
+	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -c $(USER_DIR)/Dialog.cpp
+
+Board.o : $(USER_DIR)/Board.cpp $(USER_DIR)/Board.h $(GTEST_HEADERS)
+	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -c $(USER_DIR)/Board.cpp
+
+Class.o : $(USER_DIR)/Class.cpp $(USER_DIR)/Class.h $(GTEST_HEADERS)
+	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -c $(USER_DIR)/Class.cpp
+
+# Test files
+CheckersBoardTest.o : $(USER_TEST_DIR)/CheckersBoardTest.cpp \
+                     		$(GTEST_HEADERS)
+	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -c $(USER_TEST_DIR)/CheckersBoardTest.cpp
+
+CheckersMoveTest.o : $(USER_TEST_DIR)/CheckersMoveTest.cpp \
+                     		$(GTEST_HEADERS)
+	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -c $(USER_TEST_DIR)/CheckersMoveTest.cpp
+
+# Targets
+unittests : CheckersBoard.o CheckersMove.o CheckersView.o CheckersDlg.o \
+	         Dialog.o Board.o Class.o \
+				CheckersBoardTest.o \
+				CheckersMoveTest.o \
+				gtest_main.a
+	$(CXX) $(CPPFLAGS) $(CXXFLAGS) $^ -o $@ -lpthread

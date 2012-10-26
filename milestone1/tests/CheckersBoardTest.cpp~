@@ -1,0 +1,136 @@
+#include "gtest/include/gtest/gtest.h"
+#include "../CheckersBoard.h"
+#include "../CheckersMove.h"
+
+TEST(CheckersBoardTest, Init) {
+   CheckersBoard board;
+
+   uint64_t mask = 1;
+   for (int row = 0; row < CheckersBoard::kDim; row++) {
+      for (int col = 0; col < CheckersBoard::kDim; col++, mask <<= 1) {
+         const CheckersBoard::Cell *cell = board.GetCell(row, col);
+         EXPECT_EQ(cell->row, row);
+         EXPECT_EQ(cell->col, col);
+         EXPECT_EQ(cell->mask, mask);
+         if (cell->piece) {
+            EXPECT_EQ(cell->piece->row, cell->row);
+            EXPECT_EQ(cell->piece->col, cell->col);
+            EXPECT_EQ(cell->piece->rank, CheckersBoard::kRegular);
+
+            if (cell->piece->whose == CheckersBoard::kBlack) {
+               EXPECT_TRUE(cell->mask & board.mBlack);
+               EXPECT_EQ(cell->piece->kingRow, 7);
+               EXPECT_EQ(cell->piece->backRow, 0);
+            } else {
+               EXPECT_TRUE(cell->mask & board.mWhite);
+               EXPECT_EQ(cell->piece->kingRow, 0);
+               EXPECT_EQ(cell->piece->backRow, 7);
+            }
+         } else {
+            EXPECT_FALSE(cell->mask & (board.mWhite | board.mBlack));
+         }
+      }
+   }
+
+   EXPECT_EQ(board.mNumBlackRegular, 8);
+   EXPECT_EQ(board.mNumBlackBackRow, 4);
+   EXPECT_EQ(board.mNumBlackKing, 0);
+
+   EXPECT_EQ(board.mNumWhiteRegular, 8);
+   EXPECT_EQ(board.mNumWhiteBackRow, 4);
+   EXPECT_EQ(board.mNumWhiteKing, 0);
+
+   EXPECT_EQ(board.mRemovedPieces.size(), 0U);
+   EXPECT_EQ(board.mMoveHist.size(), 0U);
+}
+
+TEST(CheckersBoardTest, MovePiece) {
+   CheckersBoard board;
+
+   // Move from back row to regular.
+   board.MovePiece(board.mCells[0][0], board.mCells[3][0]);
+   EXPECT_EQ(board.mNumBlackBackRow, 3);
+   EXPECT_FALSE(board.mBlack & board.mCells[0][0]->mask);
+   EXPECT_TRUE(board.mBlack & board.mCells[3][0]->mask);
+
+   // Move it to a king.
+   board.MovePiece(board.mCells[3][0], board.mCells[7][0]);
+   EXPECT_EQ(board.mNumBlackKing, 1);
+
+   // Move back to the back row.
+   board.MovePiece(board.mCells[7][0], board.mCells[0][0]);
+   EXPECT_EQ(board.mNumBlackKing, 1);
+   EXPECT_EQ(board.mNumBlackBackRow, 4);
+
+   // And back to a king spot.
+   board.MovePiece(board.mCells[0][0], board.mCells[7][2]);
+   EXPECT_EQ(board.mNumBlackKing, 1);
+}
+
+TEST(CheckersBoardTest, SingleCapture) {
+   CheckersBoard board;
+
+   board.MovePiece(board.mCells[5][1], board.mCells[3][1]);
+
+   CheckersMove::LocVector locs;
+   locs.push_back(std::make_pair(2, 0));
+   locs.push_back(std::make_pair(4, 2));
+   CheckersMove move(locs);
+
+   board.ApplyMove(&move);
+
+   EXPECT_EQ(board.mNumWhiteRegular, 7);
+}
+
+TEST(CheckersBoardTest, DoubleCapture) {
+   CheckersBoard board;
+
+   board.MovePiece(board.mCells[6][0], board.mCells[3][1]);
+
+   CheckersMove::LocVector locs;
+   locs.push_back(std::make_pair(2, 0));
+   locs.push_back(std::make_pair(4, 2));
+   locs.push_back(std::make_pair(6, 0));
+   CheckersMove move(locs);
+
+   board.ApplyMove(&move);
+
+   EXPECT_EQ(board.mNumWhiteRegular, 6);
+}
+
+// Test AddCaptures for a simple single-piece capture.
+TEST(CheckersBoardTest, AddCaptures) {
+   CheckersBoard board;
+   std::list<Board::Move *> moves;
+
+   board.MovePiece(board.mCells[5][1], board.mCells[3][1]);
+
+   board.AddCaptures(board.mCells[2][0], &moves);
+   EXPECT_EQ(1U, moves.size());
+
+   board.AddCaptures(board.mCells[2][2], &moves);
+   EXPECT_EQ(2U, moves.size());
+}
+
+// Test AddCaptures for a multi-piece capture.
+TEST(CheckersBoardTest, AddCaptures2) {
+   CheckersBoard board;
+   std::list<Board::Move *> moves;
+
+   board.MovePiece(board.mCells[6][0], board.mCells[3][1]);
+
+   board.AddCaptures(board.mCells[2][0], &moves);
+   EXPECT_EQ(1U, moves.size());
+
+   board.AddCaptures(board.mCells[2][2], &moves);
+   EXPECT_EQ(2U, moves.size());
+}
+
+TEST(CheckersBoardTest, GetAllMoves) {
+   CheckersBoard board;
+
+   std::list<Board::Move *> moves;
+   board.GetAllMoves(&moves);
+
+   EXPECT_EQ(7U, moves.size());
+}
