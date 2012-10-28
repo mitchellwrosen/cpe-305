@@ -10,14 +10,16 @@ class CheckersView : public View {
 public:
    // View implementation.
    virtual void Draw(std::ostream &out);
-   virtual void SetModel(const Board *brd) {
+   virtual void SetModel(const Board *brd)
+   {
       mModel = dynamic_cast<const CheckersBoard *>(brd);
    }
 
    char GetPiece(ulong mask) const;
 
    // Object implementation.
-   virtual const Class *GetClass() const {
+   virtual const Class *GetClass() const
+   {
       return Class::ForName("CheckersView");
    }
 

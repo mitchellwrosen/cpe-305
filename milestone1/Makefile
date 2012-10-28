@@ -4,7 +4,7 @@
 
 # General definitions
 CPP = g++
-CPPFLAGS = -Wall -std=c++98 -g
+CPPFLAGS = -Wall -std=c++98 -O3
 
 OTHELLOOBJS = OthelloBoard.o OthelloMove.o OthelloView.o OthelloDlg.o
 PYLOSOBJS = PylosBoard.o PylosMove.o PylosView.o PylosDlg.o

@@ -12,13 +12,8 @@
 
 void PrintUsageAndExit()
 {
-   std::cout << "Usage: TODO" << std::endl;
+   std::cout << "Give me the right class you silly goose" << std::endl;
    exit(1);
-}
-
-bool CompareMoves(Board::Move *m1, Board::Move *m2)
-{
-   return *m1 < *m2;
 }
 
 void ClearMovesList(std::list<Board::Move *>* moves)
@@ -75,7 +70,7 @@ int main(int argc, char **argv)
    std::list<Board::Move *> moves;
    std::list<const Board::Move *> constMoves;
 
-   int argLen, count;
+   unsigned int count;
    std::string command, cArg;
    long seed;
 
@@ -102,10 +97,11 @@ int main(int argc, char **argv)
          if (command.compare("showBoard") == 0) {
             view->Draw(std::cout);
             board->GetAllMoves(&moves);
-            moves.sort(CompareMoves);
+
             std::cout << "All Moves: " << std::endl;
             PrintMoves(*reinterpret_cast<std::list<
              const Board::Move *> *>(&moves));
+
             ClearMovesList(&moves);
          } else if (command.compare("enterMove") == 0) {
             getline(std::cin, cArg);
@@ -120,14 +116,17 @@ int main(int argc, char **argv)
             board->ApplyMove(move->Clone());
          } else if (command.compare("undoLastMove") == 0) {
             std::cin >> count;
+
             if (count > board->GetMoveHist().size())
                count = board->GetMoveHist().size();
+
             while (count-- > 0)
                board->UndoLastMove();
          } else if (command.compare("showVal") == 0) {
             std::cout << "Value: " << board->GetValue() << std::endl;
          } else if (command.compare("showMoveHist") == 0) {
             constMoves = board->GetMoveHist();
+
             std::cout << std::endl << "Move History: " << std::endl;
             PrintMoves(constMoves);
          } else if (command.compare("saveBoard") == 0) {
@@ -140,7 +139,8 @@ int main(int argc, char **argv)
             out << *move;
          } else if (command.compare("loadBoard") == 0) {
             std::cin >> cArg;
-            std::ifstream in(cArg.c_str(), std::ifstream::in | std::ifstream::out | std::ifstream::binary);
+            std::ifstream in(cArg.c_str(), std::ifstream::in |
+             std::ifstream::out | std::ifstream::binary);
             in >> *board;
          } else if (command.compare("loadMove") == 0) {
             std::cin >> cArg;
@@ -159,12 +159,15 @@ int main(int argc, char **argv)
             } else {
                std::cout << "Board keys are unequal" << std::endl <<
                 "Current board is ";
+
                if (*key < *cmpKey)
                   std::cout << "less ";
                else
                   std::cout << "greater ";
+
                std::cout << "than " << cArg.c_str() << std::endl;
             }
+
             delete key;
             delete cmpKey;
             delete cmpBoard;
@@ -172,28 +175,33 @@ int main(int argc, char **argv)
             getline(std::cin, cArg);
             cmpMove = board->CreateMove();
             *cmpMove = cArg.c_str();
-            if (*move == *cmpMove)
+
+            if (*move == *cmpMove) {
                std::cout << "Moves are equal" << std::endl;
-            else if (*move < *cmpMove)
+            } else if (*move < *cmpMove) {
                std::cout << "Current move is less than entered move" <<
                 std::endl;
-            else
+            } else {
                std::cout << "Current move is greater than entered move" <<
                 std::endl;
+            }
+
             delete cmpMove;
          } else if (command.compare("setOptions") == 0) {
             options = brdCls->GetOptions();
+
             if (dlg->Run(std::cin, std::cout, options))
                brdCls->SetOptions(options);
+
             free(options);
          } else if (command.compare("testPlay") == 0) {
             std::cin >> seed;
             std::cin >> count;
             srand(seed);
-            for (int i = 0; i < count; i++) {
+
+            for (unsigned int i = 0; i < count; i++) {
                board->GetAllMoves(&moves);
                if (!moves.empty()) {
-                  moves.sort(CompareMoves);
                   std::list<Board::Move *>::iterator iter = moves.begin();
                   for (int j = 0, n = rand() % moves.size(); j < n; j++, iter++)
                      ;
@@ -205,18 +213,20 @@ int main(int argc, char **argv)
             std::cin >> seed;
             std::cin >> count;
             srand(seed);
-            for (int i = 0; i < count; i++) {
+
+            for (unsigned int i = 0; i < count; i++) {
                board->GetAllMoves(&moves);
                if (!moves.empty()) {
-                  moves.sort(CompareMoves);
                   std::list<Board::Move *>::iterator iter = moves.begin();
                   for (int j = 0, n = rand() % moves.size(); j < n; j++, iter++)
                      ;
                   board->ApplyMove((*iter)->Clone());
                   ClearMovesList(&moves);
                } else {
-                  for (int i = 0, n = rand() % board->GetMoveHist().size(); i <= n; i++)
+                  for (int i = 0, n = rand() % board->GetMoveHist().size();
+                   i <= n; i++) {
                      board->UndoLastMove();
+                  }
                }
             }
          } else if (command.compare("keyMoveCount") == 0) {
@@ -224,12 +234,16 @@ int main(int argc, char **argv)
              << Board::Key::GetOutstanding() << std::endl;
          } else if (command.compare("quit") == 0) {
             break;
+         } else if (std::cin.eof()) {
+            std::cin.clear();
+            throw BaseException("Unexpected EOF");
          } else {
             std::cout << "Unknown command: " << command << std::endl;
          }
       } catch (BaseException e) {
          std::cout << "Error: " << e.what() << std::endl;
       }
+
       std::cout << std::endl;
    }
 

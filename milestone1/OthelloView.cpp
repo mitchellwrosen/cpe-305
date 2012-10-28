@@ -3,7 +3,23 @@
 
 using namespace std;
 
-void OthelloView::Draw(ostream &out) {
+// static
+Class OthelloView::mClass = Class("OthelloView", &OthelloView::Create);
+
+// static
+Class *OthelloView::GetClassPtr()
+{
+   return &mClass;
+}
+
+// static
+Object *OthelloView::Create()
+{
+   return new OthelloView();
+}
+
+void OthelloView::Draw(ostream &out)
+{
    string rtn;
    int row, col;
    char sqr;

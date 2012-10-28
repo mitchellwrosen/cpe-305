@@ -10,22 +10,21 @@ class PylosView : public View {
 public:
    // View implementation.
    virtual void Draw(std::ostream &out);
-   virtual void SetModel(const Board *brd) {
+   virtual void SetModel(const Board *brd)
+   {
       mModel = dynamic_cast<const PylosBoard *>(brd);
    }
 
-   const char GetPiece(ulong mask) const;
+   char GetPiece(ulong mask) const;
 
    // Object implementation.
    virtual const Class *GetClass() const { return Class::ForName("PylosView"); }
 
    static Class *GetClassPtr();
-
    static Object *Create();
 
 protected:
    static Class mClass;
-   const PylosBoard *mModel;
 };
 
 #endif   // PYLOSVIEW_H_

@@ -38,7 +38,7 @@ public:
    };
 
    PylosBoard();
-   ~PylosBoard() {Delete();}
+   ~PylosBoard() { Delete(); }
 
    void Init();
 
@@ -63,8 +63,8 @@ public:
    const Class *GetClass() const;
    static Object *Create();
 
-   const ulong GetWhite() const {return mWhite;}
-   const ulong GetBlack() const {return mBlack;}
+   ulong GetWhite() const {return mWhite;}
+   ulong GetBlack() const {return mBlack;}
 
    // Option accessor/mutator.  GetOptions returns dynamically allocated
    // object representing options. SetOptions takes similar object.  Caller
@@ -75,6 +75,7 @@ public:
    // Arrange for this to be called at static initialization time, to set up
    // the static mCells and mSets.  See below
    static void StaticInit();
+   static void AddSquareSets();
 
 protected:
    enum {kBitsPerCell = 2, kCellMask = 0x3, kBlack = -1, kWhite = 1};
@@ -128,8 +129,10 @@ protected:
    void Delete();
 
    // Is row, col in bounds assuming we are on level "lvl"?
-   static inline bool InBounds(int row, int col, int lvl = 0) {
-      return InRange<int>(0, row, kDim - lvl) && InRange<int>(0, col, kDim - lvl);
+   static inline bool InBounds(int row, int col, int lvl = 0)
+   {
+      return InRange<int>(0, row, kDim - lvl) && InRange<int>(0, col, 
+       kDim - lvl);
    }
 
    // Return the Cell, within mCells, corresponding to row, col, lvl.  Note
@@ -140,14 +143,16 @@ protected:
    }
 
    // Return a bitmask with a 1-bit for (row, col, lvl), or 0 if out of bounds.
-   static inline ulong GetMask(int row, int col, int lvl) {
+   static inline ulong GetMask(int row, int col, int lvl)
+   {
       return InBounds(row, col, lvl) ? GetCell(row, col, lvl)->mask : 0;
    }
 
    // Adjust "spt" to reflect putting a marble on its top, and adjust the mWhite
    // and mBlack masks, but do not update state relative to board valuation.
    // Used to "test out" a marble placement at low cost.
-   inline void HalfPut(Spot *spt) const {
+   inline void HalfPut(Spot *spt) const
+   {
       spt->top = spt->empty;
       spt->empty = spt->top->above;
 
@@ -158,7 +163,8 @@ protected:
    }
 
    // Like HalfPut, but in reverse
-   inline void HalfTake(Spot *spt) const {
+   inline void HalfTake(Spot *spt) const
+   {
       spt->empty = spt->top;
       if (spt->empty->level != 0)
          spt->top = spt->empty->below[kNW];

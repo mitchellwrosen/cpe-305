@@ -53,8 +53,8 @@ public:
    static void SetOptions(const void *opts);
 
    // Object override.
-   const Class* GetClass() const { // TODO
-   }
+   const Class* GetClass() const;
+   static Object *Create();
 
 protected:
    enum {mNumDirs = 8, squareCount = 64, sqrShift = 2, sqrMask = 0x3};

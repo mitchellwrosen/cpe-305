@@ -12,7 +12,7 @@ public:
    bool Run(std::istream &in, std::ostream &out, void *data);
    // Two methods and a member datum to support the Class system
 
-   static Object* Create();
+   static Object *Create();
 
    // Object implementation.
    const Class *GetClass() const { return Class::ForName("PylosDlg"); }

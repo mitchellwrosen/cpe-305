@@ -8,7 +8,8 @@ namespace {
    const char kBlackKind = 'B';
    const char kWhitePiece = 'w';
    const char kWhiteKing = 'W';
-   }
+}
+
 char PieceChar(const CheckersBoard::Piece *piece)
 {
    if (piece == NULL)

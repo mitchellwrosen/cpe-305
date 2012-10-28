@@ -7,6 +7,16 @@ namespace {
    const char kWhitePiece = 'W';
    const char kBlackPiece = 'B';
    const char kNoPiece = '.';
+
+   ulong kLevelThreeMask = 0x20000000;
+   ulong kLevelTwoMask = 0x2000000;
+   ulong kLevelOneMask = 0x10000;
+   ulong kLevelZeroMask = 0x1;
+
+   const int kNumLevelThreeCells = 1;
+   const int kNumLevelTwoCells = 4;
+   const int kNumLevelOneCells = 9;
+   const int kNumLevelZeroCells = 16;
 }
 
 // static
@@ -25,24 +35,24 @@ Object *PylosView::Create()
 }
 
 
-const char PylosView::GetPiece(ulong mask) const
+char PylosView::GetPiece(ulong mask) const
 {
-   return mask & mModel->GetWhite() ? kWhitePiece :
-          mask & mModel->GetBlack() ? kBlackPiece :
-          kNoPiece;
+   const PylosBoard *pb = dynamic_cast<const PylosBoard *>(mModel);
+   return mask & pb->GetWhite() ? kWhitePiece :
+    mask & pb->GetBlack() ? kBlackPiece : kNoPiece;
 }
 
-void PylosView::Draw(std::ostream &out) {
-   int ndx;
+void PylosView::Draw(std::ostream &out)
+{
    char c;
-   ulong mask = 0x20000000;
+   ulong mask = kLevelThreeMask;
    std::list<Board::Move *> allMoves;
 
    c = GetPiece(mask);
    out << "   " << c << " " << std::endl << std::endl;
 
-   mask = 0x2000000;
-   for (int i = 0; i < 4; i++, mask = mask << 1) {
+   mask = kLevelTwoMask;
+   for (int i = 0; i < kNumLevelTwoCells; i++, mask <<= 1) {
       c = GetPiece(mask);
       if (i % 2 == 0)
          out << "  ";
@@ -51,21 +61,21 @@ void PylosView::Draw(std::ostream &out) {
          out << std::endl << std::endl;
    }
 
-   mask = 0x10000;
-   for (int i = 0; i < 9; i++, mask = mask << 1) {
+   mask = kLevelOneMask;
+   for (int i = 0; i < kNumLevelOneCells; i++, mask = mask << 1) {
       c = GetPiece(mask);
-      if (i % 3 == 0)
+      if (i % (PylosBoard::kDim - 1) == 0)
          out << " ";
       out << c << " ";
-      if (i % 3 == 2)
+      if (i % (PylosBoard::kDim - 1) == 2)
          out << std::endl << std::endl;
    }
 
-   mask = 0x1;
-   for (int i = 0; i < 16; i++, mask = mask << 1) {
+   mask = kLevelZeroMask;
+   for (int i = 0; i < kNumLevelZeroCells; i++, mask = mask << 1) {
       c = GetPiece(mask);
       out << c << " ";
-      if (i % 4 == 3)
+      if (i % PylosBoard::kDim == PylosBoard::kDim - 1)
          out << std::endl << std::endl;
    }
 

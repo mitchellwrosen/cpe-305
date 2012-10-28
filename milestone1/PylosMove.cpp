@@ -38,7 +38,6 @@ bool PylosMove::operator==(const Board::Move &rhs) const
 // by lexicographic sort
 bool PylosMove::operator<(const Board::Move &rhs) const
 {
-   int ndx = 0;
    const PylosMove &oRhs = dynamic_cast<const PylosMove &>(rhs);
 
    if (mLocs[0] != oRhs.mLocs[0])
@@ -47,10 +46,10 @@ bool PylosMove::operator<(const Board::Move &rhs) const
    if (mType != oRhs.mType)
       return mType < oRhs.mType;
 
-   for (ndx = 1; ndx < 4; ndx++) {
-      if (mLocs.size() > ndx && oRhs.mLocs.size() > ndx) {
-         if (mLocs[ndx] != oRhs.mLocs[ndx])
-            return mLocs[ndx] < oRhs.mLocs[ndx];
+   for (unsigned int i = 1; i < 4; i++) {
+      if (mLocs.size() > i && oRhs.mLocs.size() > i) {
+         if (mLocs[i] != oRhs.mLocs[i])
+            return mLocs[i] < oRhs.mLocs[i];
       } else {
          break;
       }

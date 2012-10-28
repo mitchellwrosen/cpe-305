@@ -3,7 +3,20 @@
 
 using namespace std;
 
-bool OthelloDlg::Run(istream &in, ostream &out, void *data) {
+Class OthelloDlg::mClass = Class("OthelloDlg", &OthelloDlg::Create);
+
+Class *OthelloDlg::GetClassPtr()
+{
+   return &mClass;
+}
+
+Object *OthelloDlg::Create()
+{
+   return new OthelloDlg();
+}
+
+bool OthelloDlg::Run(istream &in, ostream &out, void *data) 
+{
    OthelloBoard::Rules *rules = reinterpret_cast<OthelloBoard::Rules *>(data);
    char resp;
 
@@ -15,7 +28,7 @@ bool OthelloDlg::Run(istream &in, ostream &out, void *data) {
    out << endl << "Modify? [y/n] ";
    if ((in >> resp).eof())
       throw BaseException("Unexpected EOF");
-      
+
    while (in.get() != '\n' && !in.eof())
       ;
 

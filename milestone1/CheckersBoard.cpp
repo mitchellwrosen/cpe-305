@@ -19,6 +19,9 @@ namespace {
          (*ptr)++;
       }
    }
+
+   const int kUpperBlackRow = 3;
+   const int kLowerWhiteRow = 5;
 }
 
 // static
@@ -45,34 +48,32 @@ CheckersBoard::CheckersBoard()
    Init();
 }
 
-void CheckersBoard::Init() {
+void CheckersBoard::Init() 
+{
    int cellNum = 0;
    mWhoseMove = kBlack;
 
    // Initialize mCells.
-   for (int row = 0; row < kDim; row++) {
+   for (int row = 0; row < kDim; row++)
       for (int col = 0; col < kDim; col++, cellNum++)
          mCells[row][col] = new Cell(row, col, (uint64_t) 1 << cellNum);
-   }
 
    // Initialize pieces inside appropriate cells, modify masks accordingly.
    mBlack = 0;
-   for (int row = 0; row < 3; row++) {
+   for (int row = 0; row < kUpperBlackRow; row++)
       for (int col = row % 2; col < kDim; col += 2) {
          mCells[row][col]->piece = new Piece(row, col, kBlack);
          mPieces.push_back(mCells[row][col]->piece);
          mBlack |= mCells[row][col]->mask;
       }
-   }
 
    mWhite = 0;
-   for (int row = 5; row < kDim; row++) {
+   for (int row = kLowerWhiteRow; row < kDim; row++)
       for (int col = row % 2; col < kDim; col += 2) {
          mCells[row][col]->piece = new Piece(row, col, kWhite);
          mPieces.push_back(mCells[row][col]->piece);
          mWhite |= mCells[row][col]->mask;
       }
-   }
 }
 
 long CheckersBoard::GetValue() const
@@ -95,12 +96,6 @@ long CheckersBoard::GetValue() const
    }
 
    val += mRules.moveWgt * mWhoseMove;
-   /*
-   return mRules.kingWgt*(mNumBlackKing - mNumWhiteKing) +
-    mRules.backRowWgt*(mNumBlackBackRow - mNumWhiteBackRow) +
-    mRules.moveWgt*mWhoseMove +
-    mRules.pieceWgt*(mNumBlackRegular - mNumWhiteRegular);
-   */
 
    GetAllMoves(&allMoves);
    if (allMoves.empty()) {
@@ -133,16 +128,6 @@ bool CheckersBoard::MovePiece(Location &src, Location &dst)
 
    Piece *piece = srcCell->piece;
 
-   /*
-   int &numKing = piece->whose == kBlack ? mNumBlackKing : mNumWhiteKing;
-   int &numBackRow = piece->whose == kBlack ? mNumBlackBackRow :
-    mNumWhiteBackRow;
-   int &numRegular = piece->whose == kBlack ? mNumBlackRegular :
-    mNumWhiteRegular;
-   bool wasBackRow;
-
-   wasBackRow = piece->row == piece->backRow;
-   */
    if (piece->whose == kBlack) {
       mBlack &= ~srcCell->mask;
       mBlack |= dstCell->mask;
@@ -154,23 +139,6 @@ bool CheckersBoard::MovePiece(Location &src, Location &dst)
    dstCell->piece = piece;
    srcCell->piece = NULL;
    piece->loc = dstCell->loc;
-
-   // Regular piece to king.
-   /*
-   if (piece->rank == kRegular && piece->row == piece->kingRow) {
-      numKing++;
-      numRegular--;
-   }
-
-   // Middle piece to back row piece or vice versa.
-   if (!wasBackRow && piece->row == piece->backRow) {
-      numBackRow++;
-      numRegular--;
-   } else if (wasBackRow && piece->row != piece->backRow) {
-      numBackRow--;
-      numRegular++;
-   }
-   */
 
    assert(!srcCell->piece);
    assert(dstCell->piece);
@@ -187,28 +155,11 @@ void CheckersBoard::AddPiece(Cell *cell)
 {
    assert(!cell->piece);
 
-   /*
-   int &numKing = piece->whose == kBlack ? mNumBlackKing : mNumWhiteKing;
-   int &numBackRow = piece->whose == kBlack ? mNumBlackBackRow :
-    mNumWhiteBackRow;
-   int &numRegular = piece->whose == kBlack ? mNumBlackRegular :
-    mNumWhiteRegular;
-    */
-
    Piece *piece = mRemovedPieces.back();
    if (piece->whose == kBlack)
       mBlack |= cell->mask;
    else
       mWhite |= cell->mask;
-
-   /*
-   if (piece->row == piece->backRow)
-      numBackRow++;
-   if (piece->rank == kKing)
-      numKing++;
-   else
-      numRegular++;
-   */
 
    mRemovedPieces.pop_back();
    mPieces.push_back(piece);
@@ -222,28 +173,11 @@ void CheckersBoard::RemovePiece(Cell *cell)
    assert(cell->piece);
 
    Piece *piece = cell->piece;
-   /*
-   uint64_t &mask = piece->whose == kBlack ? mBlack : mWhite;
-   int &numKing = piece->whose == kBlack ? mNumBlackKing : mNumWhiteKing;
-   int &numBackRow = piece->whose == kBlack ? mNumBlackBackRow :
-    mNumWhiteBackRow;
-   int &numRegular = piece->whose == kBlack ? mNumBlackRegular :
-    mNumWhiteRegular;
-   */
 
    if (piece->whose == kBlack)
       mBlack &= ~cell->mask;
    else
       mWhite &= ~cell->mask;
-
-   /*
-   if (piece->row == piece->backRow)
-      numBackRow--;
-   if (piece->rank == kKing)
-      numKing--;
-   else
-      numRegular--;
-   */
 
    mRemovedPieces.push_back(piece);
    mPieces.remove(piece);
@@ -256,7 +190,6 @@ void CheckersBoard::ApplyMove(Move *move)
 {
    CheckersMove *cm = dynamic_cast<CheckersMove *>(move);
    Piece *piece = PieceAt(cm->mLocs.front().first, cm->mLocs.front().second);
-
 
    // Remove every in-between piece.
    if (cm->IsCapture()) {
@@ -277,12 +210,6 @@ void CheckersBoard::UndoLastMove()
    CheckersMove* cm = dynamic_cast<CheckersMove *>(mMoveHist.back());
    Piece *piece = PieceAt(cm->mLocs.back().first, cm->mLocs.back().second);
 
-   /*
-   int &numKing = piece->whose == kBlack ? mNumBlackKing : mNumWhiteKing;
-   int &numRegular = piece->whose == kBlack ? mNumBlackRegular :
-    mNumWhiteRegular;
-   */
-
    // Add every in-between piece (backwards order).
    if (cm->IsCapture()) {
       for (int i = cm->mLocs.size() - 1; i > 0; i--)
@@ -293,10 +220,6 @@ void CheckersBoard::UndoLastMove()
    MovePiece(piece->loc, cm->mLocs.front());
    if (cm->mToKing)
       piece->rank = kRegular;
-      /*
-      numKing--;
-      numRegular++;
-      */
 
    assert(mMoveHist.size() > 0);
    mMoveHist.pop_back();
@@ -338,7 +261,8 @@ CheckersBoard::Cell *CheckersBoard::CellAt(Location &loc) const
 
 // inline
 CheckersBoard::Cell *CheckersBoard::CellInbetween(
- Location loc1, Location loc2) const {
+ Location loc1, Location loc2) const
+{
    return mCells[(loc1.first + loc2.first) / 2][(loc1.second +
     loc2.second) / 2];
 }
@@ -385,10 +309,15 @@ void CheckersBoard::AddCaptures(Piece *piece, std::list<Move *> *moves) const
    std::stack<LocVector> locVecStack;
    LocVector curLocs, temp;
    LocVector::const_iterator locIter;
-   const Cell *curCell, *prevCell, *dstCell;
+   const Cell *dstCell;
 
-   uint64_t &ourMask = mWhoseMove == kBlack ? mBlack : mWhite;
-   uint64_t &theirMask = mWhoseMove == kBlack ? mWhite : mBlack;
+   uint64_t &ourMask = mBlack;
+   uint64_t &theirMask = mWhite;
+
+   if (mWhoseMove == kWhite) {
+     ourMask = mWhite;
+     theirMask = mBlack;
+   }
 
    temp.push_back(piece->loc);
    locVecStack.push(temp);
@@ -472,6 +401,7 @@ const Board::Key *CheckersBoard::GetKey() const
    for (row = 0; row < kDim; row++) {
       for (col = 0; col < kDim; col++) {
          piece = mCells[row][col]->piece;
+
          if (piece) {
             *lp |= mask;
             RightShiftMask(&mask, &lp);
@@ -481,6 +411,7 @@ const Board::Key *CheckersBoard::GetKey() const
             if (piece->rank == kKing)
                *lp |= mask;
          }
+
          RightShiftMask(&mask, &lp);
       }
    }
@@ -512,26 +443,6 @@ std::istream &CheckersBoard::Read(std::istream &is)
       is >> *dynamic_cast<CheckersMove *>(temp);
       ApplyMove(temp);
    }
-
-   /*
-   Move *tempMove;
-   int mvCount = 0;
-
-   Delete();
-   mMoveHist.clear();
-   Init();
-
-   is.read((char *)&mRules, sizeof(Rules));
-   mRules.EndSwap();
-
-   is.read((char *)&mvCount, sizeof(int));
-   mvCount = EndianXfer(mvCount);
-   for (int i = 0; i < mvCount; i++) {
-      tempMove = CreateMove();
-      is >> *dynamic_cast<CheckersMove *>(tempMove);
-      ApplyMove(tempMove);
-   }
-   */
 
    return is;
 }

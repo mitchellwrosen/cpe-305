@@ -24,7 +24,8 @@ public:
    virtual void operator=(const std::string &src);
    virtual Board::Move *Clone() const;
 
-   inline bool IsCapture() {
+   inline bool IsCapture()
+   {
       return TAbs<int8_t>(mLocs[0].first - mLocs[1].first) == 2;
    }
 

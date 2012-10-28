@@ -27,6 +27,23 @@ OthelloBoard::Direction OthelloBoard::mDirs[mNumDirs] = {
 // static
 std::set<OthelloBoard *> OthelloBoard::mRoster;
 
+// static
+BoardClass OthelloBoard::mClass = BoardClass("OthelloBoard",
+ &OthelloBoard::Create, "Othello", OthelloView::GetClassPtr(),
+ OthelloDlg::GetClassPtr(), &OthelloBoard::GetOptions,
+ &OthelloBoard::SetOptions);
+
+// static
+Object *OthelloBoard::Create()
+{
+   return new OthelloBoard();
+}
+
+const Class *OthelloBoard::GetClass() const
+{
+   return &mClass;
+}
+
 OthelloBoard::OthelloBoard() : mNextMove(mBPiece), mWeight(0), mPassCount(0)
 {
    int row, col;

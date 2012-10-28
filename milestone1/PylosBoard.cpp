@@ -29,16 +29,16 @@ BoardClass PylosBoard::mClass = BoardClass("PylosBoard", &PylosBoard::Create,
 void PylosBoard::StaticInit()
 {
    Cell *cell;
-   int level, row, col, ndx, nextSet = 0, nextCell = 0;
+   int setNdx;
 
    for (int i = 0; i < kNumCells; i++)
       mCells[i] = Cell();
    for (int i = 0; i < kNumSets; i++)
       mSets[i] = 0;
 
-   for (level = 0; level < kDim; level++) {
-      for (row = 0; row < kDim - level; row++) {
-         for (col = 0; col < kDim - level; col++, nextCell++) {
+   for (int level = 0, nextCell = 0; level < kDim; level++) {
+      for (int row = 0; row < kDim - level; row++) {
+         for (int col = 0; col < kDim - level; col++, nextCell++) {
             cell = mCells + nextCell;
             cell->level = level;
             cell->mask = 1 << nextCell;
@@ -51,7 +51,7 @@ void PylosBoard::StaticInit()
                cell->below[kSE] = GetCell(row+1, col+1, level-1);
                cell->below[kSW] = GetCell(row+1, col, level-1);
 
-               for (ndx = 0; ndx < kSqr; ndx++) {
+               for (int ndx = 0; ndx < kSqr; ndx++) {
                   cell->below[ndx]->sups |= cell->mask;
                   cell->subs |= cell->below[ndx]->mask;
                }
@@ -62,12 +62,13 @@ void PylosBoard::StaticInit()
             if (level < 2) {
                // The last row -- create vertical set.
                if (row == kDim - level - 1) {
-                  int setNdx = 18 + col + 7*level;
-                  for (ndx = 0; ndx < kDim - level; ndx++) {
+                  setNdx = 18 + col + 7*level;
+                  for (int ndx = 0; ndx < kDim - level; ndx++) {
                      mSets[setNdx] |=
                       (mCells + nextCell - ndx*(4-level))->mask;
                   }
-                  for (ndx = 0; ndx < kDim - level; ndx++) {
+
+                  for (int ndx = 0; ndx < kDim - level; ndx++) {
                      (mCells + nextCell - ndx*(4-level))->
                       addSet(mSets[setNdx]);
                   }
@@ -75,10 +76,10 @@ void PylosBoard::StaticInit()
 
                // The last column in a row -- create horizontal set.
                if (col == kDim - level - 1) {
-                  int setNdx = 14 + row + 8*level;
-                  for (ndx = 0; ndx < kDim - level; ndx++)
+                  setNdx = 14 + row + 8*level;
+                  for (int ndx = 0; ndx < kDim - level; ndx++)
                      mSets[setNdx] |= (mCells + nextCell - ndx)->mask;
-                  for (ndx = 0; ndx < kDim - level; ndx++)
+                  for (int ndx = 0; ndx < kDim - level; ndx++)
                      (mCells + nextCell - ndx)->addSet(mSets[setNdx]);
                }
             }
@@ -86,14 +87,20 @@ void PylosBoard::StaticInit()
       }
    }
 
-   // Add cell masks to square alignments
-   for (level = 0, nextCell = 0; level < kDim - 1; level++) {
-      for (row = 0; row < kDim - level - 1; row++) {
-         for (col = 0; col < kDim - level - 1; col++, nextCell++) {
+   AddSquareSets();
+}
+
+// static
+void PylosBoard::AddSquareSets()
+{
+   for (int level = 0, nextCell = 0; level < kDim - 1; level++) {
+      for (int row = 0; row < kDim - level - 1; row++) {
+         for (int col = 0; col < kDim - level - 1; col++, nextCell++) {
             mSets[nextCell] |= GetCell(row, col, level)->mask;
             mSets[nextCell] |= GetCell(row, col+1, level)->mask;
             mSets[nextCell] |= GetCell(row+1, col, level)->mask;
             mSets[nextCell] |= GetCell(row+1, col+1, level)->mask;
+
             GetCell(row, col, level)->addSet(mSets[nextCell]);
             GetCell(row, col+1, level)->addSet(mSets[nextCell]);
             GetCell(row+1, col, level)->addSet(mSets[nextCell]);
@@ -328,14 +335,14 @@ bool PylosBoard::CanTakeback(Spot *spot) const {
 // combination of spots to take back.
 void PylosBoard::AddTakeBacks(std::list<PylosMove *> *mvs) const
 {
-   ulong sideMask = mWhoseMove == kWhite ? mWhite : mBlack;
    int numMoves = mvs->size();
    PylosMove::LocVector locs;
    PylosMove *move;
    Spot *spot1, *spot2;
    for (std::list<PylosMove *>::iterator iter = mvs->begin(); numMoves > 0;
-    numMoves--, iter++) {
+    numMoves--) {
       move = *iter;
+      iter++;
       HalfApplyMove(move);
       if (PartOfAlignment(move->mLocs[0])) {
          for (short row1 = 0; row1 < kDim; row1++) {
@@ -345,7 +352,8 @@ void PylosBoard::AddTakeBacks(std::list<PylosMove *> *mvs) const
                   HalfTake(spot1);
                   locs = move->mLocs;
                   locs.push_back(std::make_pair(row1, col1));
-                  mvs->push_back(new PylosMove(locs, move->mType));
+
+                  mvs->insert(iter, new PylosMove(locs, move->mType));
 
                   for (short row2 = row1; row2 < kDim; row2++) {
                      for (short col2 = 0; col2 < kDim; col2++) {
@@ -355,7 +363,7 @@ void PylosBoard::AddTakeBacks(std::list<PylosMove *> *mvs) const
                         if (CanTakeback(spot2)) {
                            //HalfTake(spot2);
                            locs.push_back(std::make_pair(row2, col2));
-                           mvs->push_back(new PylosMove(locs, move->mType));
+                           mvs->insert(iter, new PylosMove(locs, move->mType));
                            locs.pop_back();
                            //HalfPut(spot2);
                         }
@@ -377,8 +385,6 @@ Board::Move *PylosBoard::CreateMove() const
 
 Board *PylosBoard::Clone() const
 {
-   // Think carefully about this one.  You should be able to do it in just
-   // 5-10 lines.  Don't do needless work
    PylosBoard *pb = new PylosBoard();
    pb->mWhite = mWhite;
    pb->mBlack = mBlack;
@@ -426,7 +432,6 @@ std::istream &PylosBoard::Read(std::istream &is)
    return is;
 }
 
-// Don't change this.  Make Read conform to it.
 std::ostream &PylosBoard::Write(std::ostream &os) const
 {
    Rules rls = mRules;

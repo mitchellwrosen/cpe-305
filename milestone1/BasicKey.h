@@ -9,11 +9,13 @@ template<int n>
 class BasicKey : public Board::Key {
 public:
    // Object implementation.
-   const Class* GetClass() const {
+   const Class* GetClass() const
+   {
       return &mClass;
    }
 
-   void *operator new(size_t sz) {
+   void *operator new(size_t sz)
+   {
       void *temp;
 
       if (mFreeList.size()) {
@@ -27,13 +29,15 @@ public:
       return temp;
    }
 
-   void operator delete(void *p) {
+   void operator delete(void *p)
+   {
       mFreeList.push_back((BasicKey<n> *) p);
       mOutstanding--;
    }
 
    // Board:Key implementation.
-   bool operator==(const Board::Key& rhs) const {
+   bool operator==(const Board::Key& rhs) const
+   {
       const BasicKey<n>& other = dynamic_cast<const BasicKey<n>& >(rhs);
       for (int i = 0; i < n; i++) {
          if (vals[i] != other.vals[i])
@@ -42,7 +46,8 @@ public:
       return true;
    }
 
-   bool operator<(const Board::Key& rhs) const {
+   bool operator<(const Board::Key& rhs) const
+   {
       const BasicKey<n>& other = dynamic_cast<const BasicKey<n>& >(rhs);
       for (int i = 0; i < n; i++) {
          if (vals[i] != other.vals[i])
@@ -51,13 +56,13 @@ public:
       return false;
    }
 
-   std::istream& Read(std::istream &is) {
-      // TODO
+   std::istream& Read(std::istream &is)
+   {
       return is;
    }
 
-   std::ostream& Write(std::ostream &os) const {
-      // TODO
+   std::ostream& Write(std::ostream &os) const
+   {
       return os;
    }
 

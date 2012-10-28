@@ -6,22 +6,6 @@
 // static
 std::vector<CheckersMove *> CheckersMove::mFreeList;
 
-/*
-CheckersMove::CheckersMove(const std::vector<const CheckersBoard::Cell *> &locs)
- : isPromotion(false)
-{
-   if (locs.size() > 2)
-      mType = kCapture;
-   else
-      mType = kMove;
-
-   for (std::vector<const CheckersBoard::Cell *>::const_iterator iter =
-    locs.begin(); iter != locs.end(); iter++) {
-      mLocs.push_back(std::make_pair((*iter)->row, (*iter)->col));
-   }
-}
-*/
-
 CheckersMove::CheckersMove(const Location &src, const Location &dst) :
  mToKing(false)
 {
@@ -46,15 +30,11 @@ bool CheckersMove::operator==(const Board::Move &rhs) const
 bool CheckersMove::operator<(const Board::Move &rhs) const
 {
    const CheckersMove &other = dynamic_cast<const CheckersMove &>(rhs);
-   /*
-   int thisPlus = (mType == kMove ? 1 : 2);
-   int otherPlus = (other.mType == kMove ? 1 : 2);
 
    // Compare each location in order, until we get to the end of one list.
    LocVector::const_iterator iter1, iter2;
    for (iter1 = mLocs.begin(), iter2 = other.mLocs.begin();
-    iter1 != mLocs.end() && iter2 != other.mLocs.end(); iter1 += thisPlus,
-    iter2 += otherPlus) {
+    iter1 != mLocs.end() && iter2 != other.mLocs.end(); iter1++, iter2++) {
       if (*iter1 < *iter2)
          return true;
    }
@@ -63,8 +43,6 @@ bool CheckersMove::operator<(const Board::Move &rhs) const
    if (iter1 == mLocs.end() && iter2 != other.mLocs.end())
       return true;
    return false;
-   */
-   return (std::string) *this < (std::string) other;
 }
 
 CheckersMove::operator std::string() const

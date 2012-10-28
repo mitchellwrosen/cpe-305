@@ -2,7 +2,7 @@
 #include "PylosDlg.h"
 
 // static
-Class PylosDlg::mClass = Class("PylosDialog", &PylosDlg::Create);
+Class PylosDlg::mClass = Class("PylosDlg", &PylosDlg::Create);
 
 // static
 Class *PylosDlg::GetClassPtr()
@@ -18,15 +18,20 @@ Object *PylosDlg::Create()
 
 bool PylosDlg::Run(std::istream &in, std::ostream &out, void *data)
 {
-   std::string yn;
+   char resp;
    PylosBoard::Rules *rules = (PylosBoard::Rules *) data;
    out << "Marble weight: " << rules->GetMarble() << std::endl;
    out << "Level weight: " << rules->GetLevel() << std::endl;
    out << "Free weight: " << rules->GetFree() << std::endl;
    out << "Modify? [y/n] ";
-   in >> yn;
 
-   if (yn[0] == 'y') {
+   if ((in >> resp).eof())
+      throw BaseException("Unexpected EOF");
+
+   while (in.get() != '\n' && !in.eof())
+      ;
+
+   if (resp == 'y') {
       out << std::endl;
       ReadMethodInt(in, out, "Enter marble weight: ", rules,
        &PylosBoard::Rules::SetMarble);
@@ -34,11 +39,9 @@ bool PylosDlg::Run(std::istream &in, std::ostream &out, void *data)
        &PylosBoard::Rules::SetLevel);
       ReadMethodInt(in, out, "Enter free weight: ", rules,
        &PylosBoard::Rules::SetFree);
-
-      return true;
    }
 
-   return false;
+   return resp == 'y';
 }
 
 void PylosDlg::ReadMethodInt(std::istream &in, std::ostream &out,
