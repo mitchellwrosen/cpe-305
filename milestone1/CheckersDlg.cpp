@@ -35,12 +35,12 @@ bool CheckersDlg::Run(std::istream &in, std::ostream &out, void *data)
 
    if (resp == 'y') {
       out << std::endl;
-      Dialog::ReadLimitInt(in, out, &rules->kingWgt, 0, 1001,
-       "Enter king weight [0, 1000]: ");
-      Dialog::ReadLimitInt(in, out, &rules->backRowWgt, 0, 1001,
-       "Enter back-row weight [0, 1000]: ");
-      Dialog::ReadLimitInt(in, out, &rules->moveWgt, 0, 101,
-       "Enter move weight [0, 100]: ");
+      Dialog::ReadLimitInt(in, out, &rules->kingWgt, 0, 1000,
+       "Enter king weight");
+      Dialog::ReadLimitInt(in, out, &rules->backRowWgt, 0, 1000,
+       "Enter back-row weight");
+      Dialog::ReadLimitInt(in, out, &rules->moveWgt, 0, 100,
+       "Enter move weight");
    }
 
    return resp == 'y';

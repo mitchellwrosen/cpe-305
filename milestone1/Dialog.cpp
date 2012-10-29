@@ -9,8 +9,9 @@ void Dialog::ReadLimitInt(std::istream &is, std::ostream &os,
    int ret;
    char extra;
    std::string line;
+
    while (1) {
-      os << prompt;
+      os << prompt << " [" << lo << ", " << hi << "]: ";
       getline(is, line);
       ret = sscanf(line.c_str(), "%d %c", val, &extra);
       if (ret == 0) {
@@ -21,11 +22,10 @@ void Dialog::ReadLimitInt(std::istream &is, std::ostream &os,
          continue;
       }
 
-      if (InRange<int>(lo, *val, hi))
+      if (InRange<int>(lo, *val, hi + 1))
          break;
 
-      os << "Please enter a value between " << lo << " and " << hi - 1 <<
-       std::endl;
+      os << "Please enter a value between " << lo << " and " << hi << std::endl;
    }
 
 }

@@ -47,15 +47,26 @@ bool PylosDlg::Run(std::istream &in, std::ostream &out, void *data)
 void PylosDlg::ReadMethodInt(std::istream &in, std::ostream &out,
  std::string prompt, PylosBoard::Rules *rls, void (PylosBoard::Rules::*x)(int))
 {
-   int val;
+   int val, ret;
+   char extra;
+   std::string line;
    while (1) {
       out << prompt;
-      in >> val;
-      try {
-         (rls->*x)(val);
-         return;
-      } catch (BaseException e) {
-         out << "Error: " << e.what() << std::endl;
+      getline(in, line);
+      ret = sscanf(line.c_str(), "%d %c", &val, &extra);
+      if (ret == 0) {
+         out << "Badly formatted input" << std::endl;
+         continue;
+      } else if (ret == 2) {
+         out << "Unexpected garbage after value." << std::endl;
+         continue;
+      } else {
+         try {
+            (rls->*x)(val);
+            return;
+         } catch (BaseException e) {
+            out << "Error: " << e.what() << std::endl;
+         }
       }
    }
 }

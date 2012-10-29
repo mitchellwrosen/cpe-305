@@ -15,7 +15,7 @@ Object *OthelloDlg::Create()
    return new OthelloDlg();
 }
 
-bool OthelloDlg::Run(istream &in, ostream &out, void *data) 
+bool OthelloDlg::Run(istream &in, ostream &out, void *data)
 {
    OthelloBoard::Rules *rules = reinterpret_cast<OthelloBoard::Rules *>(data);
    char resp;
