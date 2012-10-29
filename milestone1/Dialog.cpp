@@ -3,8 +3,8 @@
 #include "MyLib.h"
 
 // static
-void Dialog::ReadLimitInt(std::istream &is, std::ostream &os,
-    int *val, int lo, int hi, std::string prompt)
+void Dialog::ReadLimitInt(std::istream &is, std::ostream &os, int *val, int lo,
+ int hi, std::string prompt)
 {
    int ret;
    char extra;
@@ -12,8 +12,15 @@ void Dialog::ReadLimitInt(std::istream &is, std::ostream &os,
 
    while (1) {
       os << prompt << " [" << lo << ", " << hi << "]: ";
-      getline(is, line);
-      ret = sscanf(line.c_str(), "%d %c", val, &extra);
+
+      do {
+         getline(is, line);
+         if (is.eof())
+            throw BaseException("Unexpected EOF");
+      } while (line.empty());
+
+      ret = sscanf(line.c_str(), " %d %c ", val, &extra);
+
       if (ret == 0) {
          os << "Badly formatted input" << std::endl;
          continue;
