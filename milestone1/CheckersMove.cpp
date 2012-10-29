@@ -31,6 +31,7 @@ bool CheckersMove::operator<(const Board::Move &rhs) const
 {
    const CheckersMove &other = dynamic_cast<const CheckersMove &>(rhs);
 
+   /*
    // Compare each location in order, until we get to the end of one list.
    LocVector::const_iterator iter1, iter2;
    for (iter1 = mLocs.begin(), iter2 = other.mLocs.begin();
@@ -43,6 +44,8 @@ bool CheckersMove::operator<(const Board::Move &rhs) const
    if (iter1 == mLocs.end() && iter2 != other.mLocs.end())
       return true;
    return false;
+   */
+   return (std::string) *this < (std::string) other;
 }
 
 CheckersMove::operator std::string() const

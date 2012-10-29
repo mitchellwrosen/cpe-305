@@ -93,9 +93,9 @@ public:
 
    // Binary writing/reading overloads
    friend std::ostream &operator<<(std::ostream &os, const Board &b)
-    {return b.Write(os);}
+    { return b.Write(os); }
    friend std::istream &operator>>(std::istream &is, Board &b)
-    {return b.Read(is);}
+    { return b.Read(is); }
 
 protected:
    virtual std::istream &Read(std::istream &) = 0;

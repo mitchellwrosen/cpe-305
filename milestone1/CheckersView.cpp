@@ -59,7 +59,7 @@ void CheckersView::Draw(std::ostream &out)
    out << "   1  2  3  4  5  6  7  8" << std::endl << std::endl;
    out << "           Black" << std::endl << std::endl;
    if (mModel->GetWhoseMove() == CheckersBoard::kBlack)
-      out << "Black's move" << std::endl << std::endl;
+      out << "Black's move" << std::endl;
    else
-      out << "White's move" << std::endl << std::endl;
+      out << "White's move" << std::endl;
 }

@@ -1,6 +1,6 @@
 #include <assert.h>
 #include <memory.h>
-#include <stack>
+#include <queue>
 #include "Board.h"
 #include "Class.h"
 #include "CheckersBoard.h"
@@ -25,7 +25,7 @@ namespace {
 }
 
 // static
-const int CheckersBoard::kDirs[] = { 1, -1 };
+const int CheckersBoard::kDirs[] = { -1, 1 };
 
 // static
 BoardClass CheckersBoard::mClass = BoardClass("CheckersBoard",
@@ -48,7 +48,7 @@ CheckersBoard::CheckersBoard()
    Init();
 }
 
-void CheckersBoard::Init() 
+void CheckersBoard::Init()
 {
    int cellNum = 0;
    mWhoseMove = kBlack;
@@ -270,31 +270,41 @@ CheckersBoard::Cell *CheckersBoard::CellInbetween(
 void CheckersBoard::GetAllMoves(std::list<Move *> *moves) const
 {
    Cell *dst;
+   Piece *piece;
+
 
    moves->clear();
    if (mBlack == 0 || mWhite == 0)
       return;
 
    // Find any available captures.
-   for (std::list<Piece *>::const_iterator iter = mPieces.begin();
-    iter != mPieces.end(); iter++) {
-      if ((*iter)->whose == mWhoseMove)
-         AddCaptures(*iter, moves);
-   }
+   for (int row = 0; row < kDim; row++)
+      for (int col = 0; col < kDim; col++)
+         if ((piece = PieceAt(row, col)) && piece->whose == mWhoseMove)
+            AddCaptures(piece, moves);
 
    // If no captures are available, add regular moves.
    if (moves->empty()) {
-      for (std::list<Piece *>::const_iterator iter = mPieces.begin();
-       iter != mPieces.end(); iter++) {
-         if ((*iter)->whose == mWhoseMove) {
-            for (int i = 0; i < 2; i++) {
-               for (int j = 0; j < 2; j++) {
-                  dst = CellFrom((*iter)->loc, kDirs[i] * mWhoseMove, kDirs[j]);
-                  if (dst && IsCellEmpty(dst))
-                     moves->push_back(new CheckersMove((*iter)->loc, dst->loc));
+      for (int row = 0; row < kDim; row++) {
+         for (int col = 0; col < kDim; col++) {
+            if ((piece = PieceAt(row, col)) && piece->whose == mWhoseMove) {
+               for (int i = 0; i < 2; i++) {
+                  // Skip negative row if black regular piece.
+                  if (mWhoseMove == kBlack && piece->rank == kRegular)
+                     i++;
+
+                  for (int j = 0; j < 2; j++) {
+                     dst = CellFrom(piece->loc, kDirs[i], kDirs[j]);
+                     if (dst && IsCellEmpty(dst)) {
+                        moves->push_back(new CheckersMove(piece->loc,
+                         dst->loc));
+                     }
+                  }
+
+                  // Skip positive row if white regular piece.
+                  if (mWhoseMove == kWhite && piece->rank == kRegular)
+                     break;
                }
-               if ((*iter)->rank == kRegular)
-                  break;
             }
          }
       }
@@ -306,52 +316,58 @@ void CheckersBoard::AddCaptures(Piece *piece, std::list<Move *> *moves) const
    assert(piece);
 
    bool more; // set to true if the current "move" has "more" to do
-   std::stack<LocVector> locVecStack;
+   std::queue<LocVector> locVecQueue;
    LocVector curLocs, temp;
    LocVector::const_iterator locIter;
    const Cell *dstCell;
 
-   uint64_t &ourMask = mBlack;
-   uint64_t &theirMask = mWhite;
+   uint64_t *ourMask = &mBlack;
+   uint64_t *theirMask = &mWhite;
 
    if (mWhoseMove == kWhite) {
-     ourMask = mWhite;
-     theirMask = mBlack;
+     ourMask = &mWhite;
+     theirMask = &mBlack;
    }
 
    temp.push_back(piece->loc);
-   locVecStack.push(temp);
+   locVecQueue.push(temp);
 
-   while (!locVecStack.empty()) {
-      curLocs = locVecStack.top();
-      locVecStack.pop();
+   while (!locVecQueue.empty()) {
+      curLocs = locVecQueue.front();
+      locVecQueue.pop();
 
       // Set masks for the current cell and previous two.
       if (curLocs.size() > 1) {
-         ourMask |= CellAt(curLocs.back())->mask;
-         theirMask &= ~CellInbetween(curLocs.back(),
+         *ourMask |= CellAt(curLocs.back())->mask;
+         *theirMask &= ~CellInbetween(curLocs.back(),
           curLocs[curLocs.size() - 2])->mask;
-         ourMask &= ~CellAt(curLocs[curLocs.size() - 2])->mask;
+         *ourMask &= ~CellAt(curLocs[curLocs.size() - 2])->mask;
       }
 
       more = false;
       for (int i = 0; i < 2; i++) {
+         // Skip negative row if black regular piece.
+         if (mWhoseMove == kBlack && piece->rank == kRegular)
+            i++;
+
          for (int j = 0; j < 2; j++) {
-            if ((dstCell = CellFrom(curLocs.back(),
-             2 * kDirs[i] * mWhoseMove, 2 * kDirs[j]))) {
+            if ((dstCell = CellFrom(curLocs.back(), 2 * kDirs[i],
+             2 * kDirs[j]))) {
                // Ensure the next cell has an opponent's piece, and the
                // cell after that is empty.
-               if (CellFrom(curLocs.back(), kDirs[i] * mWhoseMove, kDirs[j])->
-                mask & theirMask && IsCellEmpty(dstCell)) {
+               if (CellFrom(curLocs.back(), kDirs[i], kDirs[j])->mask &
+                *theirMask && IsCellEmpty(dstCell)) {
                   temp = curLocs;
                   temp.push_back(dstCell->loc);
-                  locVecStack.push(temp);
+                  locVecQueue.push(temp);
 
                   more = true;
                }
             }
          }
-         if (piece->rank == kRegular)
+
+         // Skip positive row if white regular piece.
+         if (mWhoseMove == kWhite && piece->rank == kRegular)
             break;
       }
 
@@ -361,12 +377,12 @@ void CheckersBoard::AddCaptures(Piece *piece, std::list<Move *> *moves) const
          moves->push_back(new CheckersMove(curLocs));
 
          // Add the first piece, remove the last.
-         ourMask |= CellAt(curLocs.front())->mask;
-         ourMask &= ~CellAt(curLocs.back())->mask;
+         *ourMask |= CellAt(curLocs.front())->mask;
+         *ourMask &= ~CellAt(curLocs.back())->mask;
 
          // Add every opponent's piece back.
          for (unsigned int i = 0; i < curLocs.size() - 1; i++)
-            theirMask |= CellInbetween(curLocs[i], curLocs[i + 1])->mask;
+            *theirMask |= CellInbetween(curLocs[i], curLocs[i + 1])->mask;
       }
    }
 }
@@ -378,7 +394,33 @@ Board::Move *CheckersBoard::CreateMove() const
 
 Board *CheckersBoard::Clone() const
 {
-   return NULL;
+   CheckersBoard *board = new CheckersBoard();
+   Piece *newPiece;
+
+
+   board->mWhoseMove = mWhoseMove;
+   board->mBlack = mBlack;
+   board->mWhite = mWhite;
+
+   for (std::list<Piece *>::const_iterator iter = mPieces.begin();
+         iter != mPieces.end(); iter++) {
+      newPiece = new Piece(**iter);
+      board->mCells[newPiece->loc.first][newPiece->loc.second]->piece =
+       newPiece;
+      board->mPieces.push_back(newPiece);
+   }
+
+   for (std::list<Piece *>::const_iterator iter = mRemovedPieces.begin();
+         iter != mRemovedPieces.end(); iter++) {
+      board->mRemovedPieces.push_back(new Piece(**iter));
+   }
+
+   for (std::list<Move *>::const_iterator iter = mMoveHist.begin();
+         iter != mMoveHist.end(); iter++) {
+      board->mMoveHist.push_back((*iter)->Clone());
+   }
+
+   return board;
 }
 
 const Board::Key *CheckersBoard::GetKey() const

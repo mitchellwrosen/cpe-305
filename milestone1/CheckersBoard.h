@@ -37,6 +37,8 @@ public:
       Piece(int row, int col, const int whose) : loc(std::make_pair(row, col)),
        rank(kRegular), whose(whose), kingRow(whose == kBlack ? kDim - 1 : 0),
        backRow(whose == kBlack ? 0 : kDim - 1) { }
+      Piece(const Piece& other) : loc(other.loc), rank(other.rank),
+       whose(other.whose), kingRow(other.kingRow), backRow(other.backRow) { }
    };
 
    struct Cell {
@@ -74,9 +76,7 @@ public:
    uint64_t GetWhite() { return mWhite; }
    const Cell *GetCell(int row, int col) const { return mCells[row][col]; }
 
-#ifndef GTEST_INCLUDE_GTEST_GTEST_H_
 protected:
-#endif
    std::istream &Read(std::istream &);
    std::ostream &Write(std::ostream &) const;
 

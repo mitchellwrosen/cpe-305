@@ -80,7 +80,7 @@ void PylosView::Draw(std::ostream &out)
    }
 
    if (mModel->GetWhoseMove())
-      out << "Black's move" << std::endl << std::endl;
+      out << "Black's move" << std::endl;
    else
-      out << "White's move" << std::endl << std::endl;
+      out << "White's move" << std::endl;
 }

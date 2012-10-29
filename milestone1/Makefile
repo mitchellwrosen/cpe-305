@@ -4,14 +4,14 @@
 
 # General definitions
 CPP = g++
-CPPFLAGS = -Wall -std=c++98 -O3
+CPPFLAGS = -Wall -std=c++98 -g
 
 OTHELLOOBJS = OthelloBoard.o OthelloMove.o OthelloView.o OthelloDlg.o
 PYLOSOBJS = PylosBoard.o PylosMove.o PylosView.o PylosDlg.o
 CHECKERSOBJS = CheckersBoard.o CheckersMove.o CheckersView.o CheckersDlg.o
 GAMEOBJS = Board.o Dialog.o Class.o $(OTHELLOOBJS) $(PYLOSOBJS) $(CHECKERSOBJS)
 
-BOARDTESTOBJS = BoardTest.o $(GAMEOBJS)
+BOARDTESTOBJS = MyBoardTest.o $(GAMEOBJS)
 
 # Object file generation rules
 all: BoardTest
