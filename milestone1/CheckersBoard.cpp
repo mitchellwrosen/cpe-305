@@ -1,6 +1,6 @@
 #include <assert.h>
 #include <memory.h>
-#include <queue>
+#include <stack>
 #include "Board.h"
 #include "Class.h"
 #include "CheckersBoard.h"
@@ -106,6 +106,7 @@ long CheckersBoard::GetValue() const
       else
          val = 0;
    }
+
    for (std::list<Board::Move *>::iterator iter = allMoves.begin();
     iter != allMoves.end(); iter++) {
       delete *iter;
@@ -316,7 +317,7 @@ void CheckersBoard::AddCaptures(Piece *piece, std::list<Move *> *moves) const
    assert(piece);
 
    bool more; // set to true if the current "move" has "more" to do
-   std::queue<LocVector> locVecQueue;
+   std::stack<LocVector> locVecStack;
    LocVector curLocs, temp;
    LocVector::const_iterator locIter;
    const Cell *dstCell;
@@ -330,11 +331,11 @@ void CheckersBoard::AddCaptures(Piece *piece, std::list<Move *> *moves) const
    }
 
    temp.push_back(piece->loc);
-   locVecQueue.push(temp);
+   locVecStack.push(temp);
 
-   while (!locVecQueue.empty()) {
-      curLocs = locVecQueue.front();
-      locVecQueue.pop();
+   while (!locVecStack.empty()) {
+      curLocs = locVecStack.top();
+      locVecStack.pop();
 
       // Set masks for the current cell and previous two.
       if (curLocs.size() > 1) {
@@ -345,12 +346,13 @@ void CheckersBoard::AddCaptures(Piece *piece, std::list<Move *> *moves) const
       }
 
       more = false;
-      for (int i = 0; i < 2; i++) {
-         // Skip negative row if black regular piece.
-         if (mWhoseMove == kBlack && piece->rank == kRegular)
-            i++;
+      // Start with upper right, then upper left
+      for (int i = 1; i >= 0; i--) {
+         // Skip positive row if white regular piece.
+         if (mWhoseMove == kWhite && piece->rank == kRegular)
+            i--;
 
-         for (int j = 0; j < 2; j++) {
+         for (int j = 1; j >= 0; j--) {
             if ((dstCell = CellFrom(curLocs.back(), 2 * kDirs[i],
              2 * kDirs[j]))) {
                // Ensure the next cell has an opponent's piece, and the
@@ -359,20 +361,29 @@ void CheckersBoard::AddCaptures(Piece *piece, std::list<Move *> *moves) const
                 *theirMask && IsCellEmpty(dstCell)) {
                   temp = curLocs;
                   temp.push_back(dstCell->loc);
-                  locVecQueue.push(temp);
+                  locVecStack.push(temp);
 
                   more = true;
                }
             }
          }
 
-         // Skip positive row if white regular piece.
-         if (mWhoseMove == kWhite && piece->rank == kRegular)
+         // Skip negative row if black regular piece.
+         if (mWhoseMove == kBlack && piece->rank == kRegular)
             break;
       }
 
       // Add this move to |moves|, and then undo the damage it did to the
       // masks.
+      if (!more && curLocs.size() > 1) {
+         moves->push_back(new CheckersMove(curLocs));
+         for (int i = curLocs.size() - 2; i >= 0; i--) {
+            *ourMask |= CellAt(curLocs[i])->mask;
+            *theirMask |= CellInbetween(curLocs[i], curLocs[i + 1])->mask;
+            *ourMask &= ~CellAt(curLocs[i + 1])->mask;
+         }
+      }
+      /*
       if (!more && curLocs.size() > 1) {
          moves->push_back(new CheckersMove(curLocs));
 
@@ -384,6 +395,7 @@ void CheckersBoard::AddCaptures(Piece *piece, std::list<Move *> *moves) const
          for (unsigned int i = 0; i < curLocs.size() - 1; i++)
             *theirMask |= CellInbetween(curLocs[i], curLocs[i + 1])->mask;
       }
+      */
    }
 }
 
