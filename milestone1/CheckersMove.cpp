@@ -81,9 +81,13 @@ void CheckersMove::operator=(const std::string &src)
             throw BaseException(FString("Bad Checkers move: %s", src.c_str()));
          }
          tempLocs.push_back(std::make_pair(row, col));
+
+         // Get the '-' of '->', if it exists.
+         ss >> ch1;
+
          scanCell = false;
       } else {
-         ss >> ch1 >> std::noskipws >> ch2;
+         ss >> std::noskipws >> ch2;
          if (ch1 != '-' || ch2 != '>')
             throw BaseException(FString("Bad Checkers move: %s", src.c_str()));
          scanCell = true;

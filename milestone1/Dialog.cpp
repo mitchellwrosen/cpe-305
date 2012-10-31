@@ -34,5 +34,4 @@ void Dialog::ReadLimitInt(std::istream &is, std::ostream &os, int *val, int lo,
 
       os << "Please enter a value between " << lo << " and " << hi << std::endl;
    }
-
 }

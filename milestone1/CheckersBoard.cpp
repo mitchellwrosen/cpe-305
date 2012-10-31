@@ -337,6 +337,13 @@ void CheckersBoard::AddCaptures(Piece *piece, std::list<Move *> *moves) const
       curLocs = locVecStack.top();
       locVecStack.pop();
 
+      // Set masks for entire jump until this point.
+      for (unsigned int i = 0; i < curLocs.size() - 1; i++) {
+         *ourMask &= ~CellAt(curLocs[i])->mask;
+         *theirMask &= ~CellInbetween(curLocs[i], curLocs[i + 1])->mask;
+         *ourMask |= CellAt(curLocs[i + 1])->mask;
+      }
+      /*
       // Set masks for the current cell and previous two.
       if (curLocs.size() > 1) {
          *ourMask |= CellAt(curLocs.back())->mask;
@@ -344,6 +351,7 @@ void CheckersBoard::AddCaptures(Piece *piece, std::list<Move *> *moves) const
           curLocs[curLocs.size() - 2])->mask;
          *ourMask &= ~CellAt(curLocs[curLocs.size() - 2])->mask;
       }
+      */
 
       more = false;
       // Start with upper right, then upper left
@@ -375,13 +383,14 @@ void CheckersBoard::AddCaptures(Piece *piece, std::list<Move *> *moves) const
 
       // Add this move to |moves|, and then undo the damage it did to the
       // masks.
-      if (!more && curLocs.size() > 1) {
+      if (!more && curLocs.size() > 1)
          moves->push_back(new CheckersMove(curLocs));
-         for (int i = curLocs.size() - 2; i >= 0; i--) {
-            *ourMask |= CellAt(curLocs[i])->mask;
-            *theirMask |= CellInbetween(curLocs[i], curLocs[i + 1])->mask;
-            *ourMask &= ~CellAt(curLocs[i + 1])->mask;
-         }
+
+      // Undo entire jump until this point.
+      for (int i = curLocs.size() - 2; i >= 0; i--) {
+         *ourMask |= CellAt(curLocs[i])->mask;
+         *theirMask |= CellInbetween(curLocs[i], curLocs[i + 1])->mask;
+         *ourMask &= ~CellAt(curLocs[i + 1])->mask;
       }
       /*
       if (!more && curLocs.size() > 1) {

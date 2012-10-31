@@ -52,8 +52,15 @@ void PylosDlg::ReadMethodInt(std::istream &in, std::ostream &out,
    std::string line;
    while (1) {
       out << prompt;
-      getline(in, line);
+
+      do {
+         getline(in, line);
+         if (in.eof())
+            throw BaseException("Unexpected EOF");
+      } while (line.empty());
+
       ret = sscanf(line.c_str(), "%d %c", &val, &extra);
+
       if (ret == 0) {
          out << "Badly formatted input" << std::endl;
          continue;
