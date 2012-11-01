@@ -1,6 +1,29 @@
-testRun 1 10000000
+testPlay 1 1000
 showBoard
 showVal
-showMoveHist
 keyMoveCount
-quit
+undoLastMove 2000
+
+testPlay 2 1000
+showBoard
+showVal
+keyMoveCount
+undoLastMove 2000
+
+testPlay 3 1000
+showBoard
+showVal
+keyMoveCount
+undoLastMove 2000
+
+testPlay 4 1000
+showBoard
+showVal
+keyMoveCount
+undoLastMove 2000
+
+testPlay 5 1000
+showBoard
+showVal
+keyMoveCount
+undoLastMove 2000

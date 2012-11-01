@@ -99,6 +99,7 @@ void CheckersMove::operator=(const std::string &src)
       throw BaseException(FString("Bad Checkers move: %s", src.c_str()));
 
    mLocs = tempLocs;
+   mToKing = false;
 }
 
 Board::Move *CheckersMove::Clone() const

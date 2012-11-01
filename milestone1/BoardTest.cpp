@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <algorithm>
 #include <assert.h>
 #include <iomanip>
 #include <iostream>
@@ -59,6 +60,29 @@ void PrintMoves(const std::list<const Board::Move *> &moves)
    std::cout << std::endl;
 }
 
+void ApplyMoveToBoard(Board *board, Board::Move *move)
+{
+   std::list<Board::Move *>moves;
+   bool found = false;
+
+   board->GetAllMoves(&moves);
+
+   for (std::list<Board::Move *>::const_iterator iter = moves.begin();
+    iter != moves.end(); iter++) {
+      if (**iter == *move) {
+         found = true;
+         break;
+      }
+   }
+
+   if (found)
+      board->ApplyMove(move->Clone());
+   else
+      std::cout << "Invalid move being applied" << std::endl;
+
+   ClearMovesList(&moves);
+}
+
 int main(int argc, char **argv)
 {
    Board *board = 0, *cmpBoard;
@@ -70,7 +94,7 @@ int main(int argc, char **argv)
    std::list<Board::Move *> moves;
    std::list<const Board::Move *> constMoves;
 
-   unsigned int count;
+   int count;
    std::string command, cArg;
    long seed;
 
@@ -98,7 +122,7 @@ int main(int argc, char **argv)
             view->Draw(std::cout);
             board->GetAllMoves(&moves);
 
-            std::cout << "All Moves: " << std::endl;
+            std::cout << std::endl << "All Moves: " << std::endl;
             PrintMoves(*reinterpret_cast<std::list<
              const Board::Move *> *>(&moves));
 
@@ -109,15 +133,22 @@ int main(int argc, char **argv)
          } else if (command.compare("showMove") == 0) {
             std::cout << (std::string) *move << std::endl;
          } else if (command.compare("applyMove") == 0) {
-            board->ApplyMove(move->Clone());
+            ApplyMoveToBoard(board, move);
          } else if (command.compare("doMove") == 0) {
             getline(std::cin, cArg);
             *move = cArg.c_str();
-            board->ApplyMove(move->Clone());
+
+            ApplyMoveToBoard(board, move);
          } else if (command.compare("undoLastMove") == 0) {
             std::cin >> count;
 
-            if (count > board->GetMoveHist().size())
+            if (std::cin.fail() || count < 0) {
+               std::cin.clear();
+               throw BaseException("Must have a nonnegative count for "
+                "undoLastMove");
+            }
+
+            if ((unsigned int) count > board->GetMoveHist().size())
                count = board->GetMoveHist().size();
 
             while (count-- > 0)
@@ -199,7 +230,7 @@ int main(int argc, char **argv)
             std::cin >> count;
             srand(seed);
 
-            for (unsigned int i = 0; i < count; i++) {
+            for (int i = 0; i < count; i++) {
                board->GetAllMoves(&moves);
                if (!moves.empty()) {
                   std::list<Board::Move *>::iterator iter = moves.begin();
@@ -214,7 +245,7 @@ int main(int argc, char **argv)
             std::cin >> count;
             srand(seed);
 
-            for (unsigned int i = 0; i < count; i++) {
+            for (int i = 0; i < count; i++) {
                board->GetAllMoves(&moves);
                if (!moves.empty()) {
                   std::list<Board::Move *>::iterator iter = moves.begin();
@@ -234,9 +265,6 @@ int main(int argc, char **argv)
              << Board::Key::GetOutstanding() << std::endl;
          } else if (command.compare("quit") == 0) {
             break;
-         } else if (std::cin.eof()) {
-            std::cin.clear();
-            throw BaseException("Unexpected EOF");
          } else {
             std::cout << "Unknown command: " << command << std::endl;
          }
@@ -246,6 +274,9 @@ int main(int argc, char **argv)
 
       std::cout << std::endl;
    }
+
+   if (std::cin.eof())
+      std::cout << "Error: Unexpected EOF" << std::endl << std::endl;
 
    delete board;
 

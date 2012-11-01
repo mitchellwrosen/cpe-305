@@ -4,6 +4,23 @@ make all
 
 echo "foo.in"
 
+./BoardTest OthelloBoard < foo.in > out1
+./BoardTestClint OthelloBoard < foo.in > out2
+vimdiff out1 out2
+rm out1 out2
+
+./BoardTest PylosBoard < foo.in > out1
+./BoardTestClint PylosBoard < foo.in > out2
+vimdiff out1 out2
+rm out1 out2
+
+./BoardTest CheckersBoard < foo.in > out1
+./BoardTestClint CheckersBoard < foo.in > out2
+vimdiff out1 out2
+rm out1 out2
+
+exit
+
 echo "Checkers.0"
 ./BoardTest CheckersBoard < tests/milestone0_2/Checkers.0 > out1
 ./BoardTestClint CheckersBoard < tests/milestone0_2/Checkers.0 > out2
@@ -76,21 +93,6 @@ echo "Pylos.5"
 vimdiff out1 out2
 rm out1 out2
 exit
-
-./BoardTest CheckersBoard < foo.in > out1
-./BoardTestClint CheckersBoard < foo.in > out2
-vimdiff out1 out2
-rm out1 out2
-
-./BoardTest OthelloBoard < foo.in > out1
-./BoardTestClint OthelloBoard < foo.in > out2
-vimdiff out1 out2
-rm out1 out2
-
-./BoardTest PylosBoard < foo.in > out1
-./BoardTestClint PylosBoard < foo.in > out2
-vimdiff out1 out2
-rm out1 out2
 
 echo "Checkers.0"
 ./BoardTest CheckersBoard < tests/milestone0/Checkers.0 > out1
