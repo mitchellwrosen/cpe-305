@@ -1,20 +1,13 @@
-#include "MyLib.h"
 #include "CheckersDlg.h"
+#include "CheckersBoard.h"
+
+static Object *Create() { return new CheckersDlg(); }
 
 // static
-Class CheckersDlg::mClass = Class("CheckersDlg", &CheckersDlg::Create);
+Class CheckersDlg::mClass = Class("CheckersDlg", &Create);
 
 // static
-Class *CheckersDlg::GetClassPtr()
-{
-   return &mClass;
-}
-
-// static
-Object *CheckersDlg::Create()
-{
-   return new CheckersDlg();
-}
+Class *CheckersDlg::GetClassPtr() { return &mClass; }
 
 bool CheckersDlg::Run(std::istream &in, std::ostream &out, void *data)
 {

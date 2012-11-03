@@ -2,7 +2,6 @@
 #define CHECKERSMOVE_H
 
 #include <iostream>
-#include <list>
 #include <vector>
 #include "CheckersBoard.h"
 

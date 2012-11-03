@@ -43,6 +43,18 @@ void CheckersBoard::Rules::EndSwap()
    moveWgt = EndianXfer(moveWgt);
 }
 
+CheckersBoard::Piece::Piece(int row, int col, const int whose) :
+ loc(std::make_pair(row, col)), rank(kRegular), whose(whose) {
+    if (whose == kBlack) {
+       kingRow = kDim - 1;
+       backRow = 0;
+    } else {
+       kingRow = 0;
+       backRow = kDim - 1;
+    }
+}
+
+
 CheckersBoard::CheckersBoard()
 {
    Init();
@@ -343,15 +355,6 @@ void CheckersBoard::AddCaptures(Piece *piece, std::list<Move *> *moves) const
          *theirMask &= ~CellInbetween(curLocs[i], curLocs[i + 1])->mask;
          *ourMask |= CellAt(curLocs[i + 1])->mask;
       }
-      /*
-      // Set masks for the current cell and previous two.
-      if (curLocs.size() > 1) {
-         *ourMask |= CellAt(curLocs.back())->mask;
-         *theirMask &= ~CellInbetween(curLocs.back(),
-          curLocs[curLocs.size() - 2])->mask;
-         *ourMask &= ~CellAt(curLocs[curLocs.size() - 2])->mask;
-      }
-      */
 
       more = false;
       // Start with upper right, then upper left
@@ -392,19 +395,6 @@ void CheckersBoard::AddCaptures(Piece *piece, std::list<Move *> *moves) const
          *theirMask |= CellInbetween(curLocs[i], curLocs[i + 1])->mask;
          *ourMask &= ~CellAt(curLocs[i + 1])->mask;
       }
-      /*
-      if (!more && curLocs.size() > 1) {
-         moves->push_back(new CheckersMove(curLocs));
-
-         // Add the first piece, remove the last.
-         *ourMask |= CellAt(curLocs.front())->mask;
-         *ourMask &= ~CellAt(curLocs.back())->mask;
-
-         // Add every opponent's piece back.
-         for (unsigned int i = 0; i < curLocs.size() - 1; i++)
-            *theirMask |= CellInbetween(curLocs[i], curLocs[i + 1])->mask;
-      }
-      */
    }
 }
 
@@ -442,6 +432,25 @@ Board *CheckersBoard::Clone() const
    }
 
    return board;
+}
+
+char CheckersBoard::GetPieceChar(int row, int col) const
+{
+   Piece *piece = PieceAt(row, col);
+
+   if (piece == NULL)
+      return '.';
+   if (piece->whose == CheckersBoard::kBlack) {
+      if (piece->rank == CheckersBoard::kRegular)
+         return 'b';
+      else
+         return 'B';
+   } else {
+      if (piece->rank == CheckersBoard::kRegular)
+         return 'w';
+      else
+         return 'W';
+   }
 }
 
 const Board::Key *CheckersBoard::GetKey() const

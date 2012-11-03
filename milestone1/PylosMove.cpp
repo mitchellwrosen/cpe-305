@@ -106,11 +106,8 @@ void PylosMove::operator=(const std::string &src)
          temp.push_back(p1);
          if (res >= 7)
             temp.push_back(p2);
-         if (res == 11) {
-            //if (p2 > p3)
-            //   throw BaseException(FString("Bad Pylos move: %s", src.c_str()));
+         if (res == 11)
             temp.push_back(p3);
-         }
       } else {
          throw BaseException(FString("Bad Pylos move: %s", src.c_str()));
       }
@@ -131,11 +128,8 @@ void PylosMove::operator=(const std::string &src)
          temp.push_back(p1);
          if (res >= 11)
             temp.push_back(p3);
-         if (res == 15) {
-            //if (p3 > p4)
-            //   throw BaseException(FString("Bad Pylos move: %s", src.c_str()));
+         if (res == 15)
             temp.push_back(p4);
-         }
       } else {
          throw BaseException(FString("Bad Pylos move: %s", src.c_str()));
       }

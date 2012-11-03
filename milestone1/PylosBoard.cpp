@@ -18,6 +18,19 @@ PylosBoard::Cell PylosBoard::mCells[kNumCells];
 int PylosBoard::mOffs[kDim] = {0, 16, 25, 29};
 
 // static
+const ulong PylosBoard::kCellMasks[kDim] = {0x1, 0x10000, 0x2000000,
+ 0x20000000};
+
+// static
+const char PylosBoard::kWhitePiece = 'W';
+
+// static
+const char PylosBoard::kBlackPiece = 'B';
+
+// static
+const char PylosBoard::kNoPiece = '.';
+
+// static
 PylosBoard::StaticInitializer PylosBoard::staticInitializer;
 
 // static
@@ -273,7 +286,8 @@ void PylosBoard::GetAllMoves(std::list<Move *> *moves) const
    for (tRow = 0; tRow < kDim; tRow++) {
       for (tCol = 0; tCol < kDim; tCol++) {
          trg = mSpots[tRow][tCol].empty;
-         if (trg && (trg->subs & (mWhite|mBlack)) == trg->subs) { // found a target spot
+         // found a target spot
+         if (trg && (trg->subs & (mWhite|mBlack)) == trg->subs) {
             locs.clear();
             locs.push_back(std::pair<int, int>(tRow, tCol));
             moves->push_back(new PylosMove(locs, PylosMove::kReserve));
@@ -283,7 +297,7 @@ void PylosBoard::GetAllMoves(std::list<Move *> *moves) const
                   src = mSpots[sRow][sCol].top;
                   if (src && (src->sups & (mWhite|mBlack)) == 0
                    && (src->mask & sideMask) && src->level < trg->level
-                   && (sRow < tRow || sRow > tRow + 1    // Not a support for trg
+                   && (sRow < tRow || sRow > tRow + 1   // Not a support for trg
                    || sCol < tCol || sCol > tCol + 1)) {
                      locs.push_back(std::pair<int, int>(sRow, sCol));
                      moves->push_back(new PylosMove(locs, PylosMove::kPromote));
@@ -381,6 +395,11 @@ void PylosBoard::AddTakeBacks(std::list<PylosMove *> *mvs) const
 Board::Move *PylosBoard::CreateMove() const
 {
    return new PylosMove(PylosMove::LocVector(1), PylosMove::kReserve);
+}
+
+char PylosBoard::GetPieceChar(ulong mask) const
+{
+   return mask & mWhite ? kWhitePiece : mask & mBlack ? kBlackPiece : kNoPiece;
 }
 
 Board *PylosBoard::Clone() const

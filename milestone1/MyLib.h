@@ -82,8 +82,14 @@ typedef char *CStr;
 
 inline ushort EndianXfer(ushort val) {return val >> 8 | val << 8;}
 inline short  EndianXfer(short val)  {return ((val >> 8) & 0xFF) | val << 8;}
-inline uint   EndianXfer(uint val)   {return val >> 24 | ((val >> 8) & 0xFF00) | ((val << 8) & 0xFF0000) | val << 24;}
-inline int    EndianXfer(int val)    {return ((val >> 24) & 0xFF) | ((val >> 8) & 0xFF00) | ((val << 8) & 0xFF0000) | val << 24;}
+inline uint   EndianXfer(uint val)   {
+   return val >> 24 | ((val >> 8) & 0xFF00) | 
+    ((val << 8) & 0xFF0000) | val << 24;
+}
+inline int    EndianXfer(int val)    {
+   return ((val >> 24) & 0xFF) | ((val >> 8) & 0xFF00) |
+    ((val << 8) & 0xFF0000) | val << 24;
+}
 
 #else
 

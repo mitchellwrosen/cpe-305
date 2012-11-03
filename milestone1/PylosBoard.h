@@ -16,6 +16,13 @@ class PylosBoard : public Board {
 public:
    const static int kDim = 4;
 
+   const static char kWhitePiece;
+   const static char kBlackPiece;
+   const static char kNoPiece;
+
+   // Masks of first cell per level.
+   const static ulong kCellMasks[kDim];
+
    friend class PylosMove;
    friend class PylosBoardTest;
 
@@ -48,6 +55,7 @@ public:
    void GetAllMoves(std::list<Move *> *) const;
    Move *CreateMove() const;
    int GetWhoseMove() const {return mWhoseMove != kWhite;}
+   char GetPieceChar(ulong mask) const;
 
    const std::list<const Move *> &GetMoveHist() const
     {return *(std::list<const Move *> *)&mMoveHist;}
@@ -62,9 +70,6 @@ public:
    // Object implementation.
    const Class *GetClass() const;
    static Object *Create();
-
-   ulong GetWhite() const {return mWhite;}
-   ulong GetBlack() const {return mBlack;}
 
    // Option accessor/mutator.  GetOptions returns dynamically allocated
    // object representing options. SetOptions takes similar object.  Caller
@@ -131,7 +136,7 @@ protected:
    // Is row, col in bounds assuming we are on level "lvl"?
    static inline bool InBounds(int row, int col, int lvl = 0)
    {
-      return InRange<int>(0, row, kDim - lvl) && InRange<int>(0, col, 
+      return InRange<int>(0, row, kDim - lvl) && InRange<int>(0, col,
        kDim - lvl);
    }
 

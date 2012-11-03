@@ -33,10 +33,8 @@ public:
    struct Piece {
       Location loc;
       int rank;
-      const int whose, kingRow, backRow;
-      Piece(int row, int col, const int whose) : loc(std::make_pair(row, col)),
-       rank(kRegular), whose(whose), kingRow(whose == kBlack ? kDim - 1 : 0),
-       backRow(whose == kBlack ? 0 : kDim - 1) { }
+      int whose, kingRow, backRow;
+      Piece(int row, int col, const int whose);
       Piece(const Piece& other) : loc(other.loc), rank(other.rank),
        whose(other.whose), kingRow(other.kingRow), backRow(other.backRow) { }
    };
@@ -72,6 +70,7 @@ public:
    static void *GetOptions();
    static void SetOptions(const void *opts);
 
+   char GetPieceChar(int row, int col) const;
    uint64_t GetBlack() { return mBlack; }
    uint64_t GetWhite() { return mWhite; }
    const Cell *GetCell(int row, int col) const { return mCells[row][col]; }
