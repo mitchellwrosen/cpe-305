@@ -34,9 +34,9 @@ public:
    void SetKinematics(const std::vector<Vector> &newVal) {kinematics = newVal;}
    Number GetMobility()                                  {return mobility;}
 
-protected:
    enum {LOC, VEL, ACC};
 
+protected:
    std::string id;
    std::vector<Vector> kinematics;
    Number lastTime;
