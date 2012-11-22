@@ -3,7 +3,6 @@
 
 #include "NumTraits.h"
 #include "MyLib.h"
-#include "Heap.h"
 
 using NumTraits::Number;
 
@@ -14,7 +13,7 @@ static long INIT_SIZE = 1000;
 
 // Event queue for simulation.  Uses a Heap to maintain a priority
 // queue of Event-derived objects, which objects are owned by *themselves*,
-// not by the EventQueue.  Initial size of the heap is INIT_SIZE, or
+// not by the EventQueue.  Initial size of the heap is INIT_SIZE, or 
 // whatever is passed to the first call of GetEventQueue.
 //
 // EventQueue is also a singleton, and general "clock" for the simulation.
@@ -39,19 +38,6 @@ static long INIT_SIZE = 1000;
 
 class EventQueue {
 // Fill in methods and member data reflecting the above comments.
-public:
-   static const Heap<TCmpPtr<Event> > &GetEventQueue();
-   static void AddEvent(Event *e);
-   static Number GetTime();
-   static bool Advance();
-   static void Clear();
-
-private:
-   EventQueue();
-   ~EventQueue();
-
-   static Heap<TCmpPtr<Event> > *events;
-   static Number lastTime;
 };
 
 #endif

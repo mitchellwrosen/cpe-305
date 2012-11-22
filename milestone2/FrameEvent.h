@@ -18,14 +18,14 @@ public:
       void VisitSphere(Sphere *) {}
       void VisitPoint(Point *p);
    };
-
+   
    // Create a FrameEvent that generates an XML Frame output for
    // all Particles in "p", and which reschedules itself each "i"
    // time units, repeating "r" times, and then ending the simulation
    // after the "r"th Frame generation.
-   FrameEvent(std::vector<Particle *> p, Number i, int r)
-    : Event(0), prts(p), interval(i), reps(r) { }
-
+   FrameEvent( std::vector<Particle *> p, Number i, int r)
+    : Event(0), prts(p), interval(i), reps(r) {}
+   
    virtual void Execute();
 
 protected:

@@ -10,11 +10,12 @@
 // See derived class comments for more details.
 
 // Leave this base class unchanged!
+
 class ParticleSystemFactory {
 public:
    typedef std::vector<Particle *> PrtVector;
    typedef std::vector<Force *> FrcVector;
-
+   
    virtual PrtVector GetParticles() = 0;
    virtual FrcVector GetForces() = 0;
 };

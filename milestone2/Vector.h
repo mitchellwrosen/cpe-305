@@ -17,6 +17,7 @@ class Matrix;
 // to use any numerical representation.
 //
 // Fill in the missing methods of Vector
+
 class Vector {
 public:
    friend class Quaternion;
@@ -26,53 +27,35 @@ public:
     x(xp), y(yp), z(zp) {}
 
    // Dot-product of this Vector and another
-   Number Dot(const Vector &other) const {
-      return x*other.x + y*other.y + z*other.z;
-   }
 
    // Vector sum
-   Vector operator+(const Vector &other) const {
-      return Vector(x+other.x, y+other.y, z+other.z);
-   }
+   Vector operator+...
 
    // Vector difference
-   Vector operator-(const Vector &other) const {
-      return Vector(x-other.x, y-other.y, z-other.z);
-   }
+   Vector operator-...
 
    // Vector cross product
-   Vector Cross(const Vector &other) const {
-      return Vector(y*other.z - z*other.y, z*other.x - x*other.z,
-       x*other.y - y*other.x);
-   }
+   Vector Cross....
 
    // Multiply this Vector by factor, and return result.
-   Vector Scale(Number factor) const {
-      return Vector(x*factor, y*factor, z*factor);
-   }
+   Vector Scale...
 
    // Return squared length of this Vector
-   Number LengthSqr() const {
-      return x*x + y*y + z*z;
-   }
+   Number LengthSqr()...
 
    // Return length of this Vector
-   Number Length() const {
-      return NumTraits::Sqrt(x*x + y*y + z*z);
-   }
+   Number Length()...
 
    // Return Vector that is the unit-length version of this Vector
    // Assumes this Vector is nonzero.
-   Vector Unit() const {
-      return Vector(x/Length(), y/Length(), z/Length());
-   }
-
-   Number GetX() const   { return x; }
-   Number GetY() const   { return y; }
-   Number GetZ() const   { return z; }
-   void SetX(Number val) { x = val;  }
-   void SetY(Number val) { y = val;  }
-   void SetZ(Number val) { z = val;  }
+   Vector Unit()...
+   
+   Number GetX() const     {return x;}
+   Number SetX(Number val) {x = val;}
+   Number GetY() const     {return y;}
+   Number SetY(Number val) {y = val;}
+   Number GetZ() const     {return z;}
+   Number SetZ(Number val) {z = val;}
 
    friend std::istream &operator>>(std::istream &is, Vector &v) {
       return is >> v.x >> v.y >> v.z;
