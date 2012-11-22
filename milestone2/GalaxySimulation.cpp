@@ -29,10 +29,10 @@ int main() {
    vector<Particle *> particles;
    vector<Force *> forces;
    // Several declarations need adding here.
-   
+
    cin >> frameTime >> numFrames >> accuracy >> minWait >> maxWait;
    // Two lines needed here.
-   
+
    // Read a name, x/y/z location, radius and interval for a GlobularClusterPSF, until
    // EOF.  Create each globular cluster, and merge them using a GravityPSF.
    while (cin >> name >> x >> y >> z >> radius >> interval) {
@@ -40,7 +40,7 @@ int main() {
        LOMASS, HIMASS);
       // Add a line or two....
    }
-   
+
    // Start the Movie output, and traverse all Particles to produce initial property output.
    // Use a ParticleVisitor for this.
    printf("<Movie>\n<Objects>\n");
@@ -48,17 +48,17 @@ int main() {
    for (vector<Particle *>::iterator itr = particles.begin(); itr != particles.end(); itr++)
       // Add one line.
    printf("</Objects>\n");
-   
+
    // Create and schedule an initial ForceEvent for all Forces, and schedule one FrameEvent.
    forces = psf->GetForces();
    for (vector<Force *>::iterator itr = forces.begin(); itr != forces.end(); itr++)
       // Add one line
    // And one more after the loop.
-   
+
    // Advance the simulation till done, and add closing tag.
    while (q->Advance())
       ;
    printf("</Movie>");
-   
+
    delete psf;
 }

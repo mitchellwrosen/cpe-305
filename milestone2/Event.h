@@ -14,7 +14,7 @@ class Event {
 public:
    Event(Number t) : time(t) {}
 
-   Number GetTime() {return time;}
+   Number GetTime() { return time; }
    virtual void Execute() = 0;
 
 protected:

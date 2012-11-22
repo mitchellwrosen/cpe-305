@@ -16,9 +16,9 @@
 // Do not modify this header.
 class GravityPSF : public ParticleSystemFactory {
 public:
-   GravityPSF() {}
-   PrtVector GetParticles() {return particles;}
-   FrcVector GetForces()    {return forces;}
+   GravityPSF() { }
+   PrtVector GetParticles() { return particles; }
+   FrcVector GetForces()    { return forces; }
 
    void AddChild(ParticleSystemFactory *psf);
 

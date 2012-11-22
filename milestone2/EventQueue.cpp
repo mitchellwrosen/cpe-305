@@ -3,11 +3,13 @@
 #include "Event.h"
 
 // static
-const Heap<TCmpPtr<Event> > &EventQueue::GetEventQueue()
+Heap<TCmpPtr<Event> > *EventQueue::events = NULL;
+
+// static
+const Heap<TCmpPtr<Event> > &EventQueue::GetEventQueue(int size)
 {
-   // TODO how to initiailize to NULL?
    if (events == NULL)
-      events = new Heap<TCmpPtr<Event> >(INIT_SIZE);
+      events = new Heap<TCmpPtr<Event> >(size);
    return *events;
 }
 

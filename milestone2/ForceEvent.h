@@ -11,7 +11,7 @@ class Force;
 
 class ForceEvent : public Event {
 public:
-   ForceEvent(Number time, Force *f) : Event(time), force(f) {}
+   ForceEvent(Number time, Force *f) : Event(time), force(f) { }
 
    void Execute();
 

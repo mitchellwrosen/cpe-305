@@ -21,7 +21,7 @@ public:
    //   schedule the next update when a vector-delta of length .42 is predicted.
    // minWait -- The above computation may result in very short wait, e.g. if
    //   the particles are very close.  Many short updates can slow the
-   //   simulation, so wait at least minWait for the next Update. (This is 
+   //   simulation, so wait at least minWait for the next Update. (This is
    //   inaccurate, of course, and later versions may instead do closed-form
    //   two-body predictions for such "close pass" situations.)
    // maxWait -- The above computation may result in infinite wait, e.g. if
@@ -35,19 +35,22 @@ public:
       Number accuracy;
       Number minWait;
       Number maxWait;
-      Number minDist;     
-      
+      Number minDist;
+
       Parameters(Number g, Number a, Number minW, Number maxW, Number mD)
        : G(g), accuracy(a),minWait(minW),  maxWait(maxW), minDist(mD) {}
    };
-   
+
    GravityForce(Particle *pa, Particle *pb) : p1(pa), p2(pb) {}
 
    virtual Number Update();
-   
+
    static void SetParameters(const Parameters &val) {prms = val;}
 
 private:
+   Particle *p1;
+   Particle *p2;
+   static Parameters prms;
 };
 
 #endif

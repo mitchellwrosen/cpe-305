@@ -22,9 +22,9 @@ class GlobularClusterPSF : public ParticleSystemFactory {
 public:
    GlobularClusterPSF(const std::string &n, const Vector& center, Number radius,
     Number interval, Number loMass, Number hiMass);
-   PrtVector GetParticles() {return particles;}
-   FrcVector GetForces()    {return forces;}
-   
+   PrtVector GetParticles() { return particles; }
+   FrcVector GetForces()    { return forces; }
+
 private:
    PrtVector particles;
    FrcVector forces;

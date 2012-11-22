@@ -40,7 +40,7 @@ static long INIT_SIZE = 1000;
 class EventQueue {
 // Fill in methods and member data reflecting the above comments.
 public:
-   static const Heap<TCmpPtr<Event> > &GetEventQueue();
+   static const Heap<TCmpPtr<Event> > &GetEventQueue(int size);
    static void AddEvent(Event *e);
    static Number GetTime();
    static bool Advance();
