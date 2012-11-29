@@ -196,7 +196,7 @@ void Heap<Base>::Promote(long ndx)
 {
    long parentNdx = (ndx-1)/2;
 
-   while (ndx != 0 && data[ndx].val > data[parentNdx].val) {
+   while (ndx != 0 && data[parentNdx].val < data[ndx].val) {
       Swap(ndx, parentNdx);
 
       ndx = parentNdx;
@@ -234,11 +234,11 @@ void Heap<Base>::Demote(long ndx)
          break;
 
       maxChildNdx = child1Ndx;
-      if (child2Ndx < end && data[child2Ndx].val > data[child1Ndx].val)
+      if (child2Ndx < end && data[child1Ndx].val < data[child2Ndx].val)
          maxChildNdx = child2Ndx;
 
       // If this entry is bigger than both of its children, we're done demoting.
-      if (data[ndx].val >= data[maxChildNdx].val)
+      if (!(data[ndx].val < data[maxChildNdx].val))
          break;
 
       Swap(ndx, maxChildNdx);

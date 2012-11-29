@@ -17,6 +17,7 @@
 class GravityPSF : public ParticleSystemFactory {
 public:
    GravityPSF() { }
+   virtual ~GravityPSF() { }
    PrtVector GetParticles() { return particles; }
    FrcVector GetForces()    { return forces; }
 

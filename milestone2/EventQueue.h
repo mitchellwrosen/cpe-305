@@ -10,8 +10,6 @@ using NumTraits::Number;
 class Event;
 template <class C> class Heap;
 
-static long INIT_SIZE = 1000;
-
 // Event queue for simulation.  Uses a Heap to maintain a priority
 // queue of Event-derived objects, which objects are owned by *themselves*,
 // not by the EventQueue.  Initial size of the heap is INIT_SIZE, or
@@ -40,18 +38,23 @@ static long INIT_SIZE = 1000;
 class EventQueue {
 // Fill in methods and member data reflecting the above comments.
 public:
-   static const Heap<TCmpPtr<Event> > &GetEventQueue(int size);
-   static void AddEvent(Event *e);
-   static Number GetTime();
-   static bool Advance();
-   static void Clear();
+   static long INIT_SIZE;
+   static EventQueue *GetEventQueue(int size = INIT_SIZE);
+
+   void AddEvent(Event *e);
+   Number GetTime() { return lastTime; }
+   bool Advance();
+   void Clear();
 
 private:
-   EventQueue();
+   EventQueue(int size);
    ~EventQueue();
 
-   static Heap<TCmpPtr<Event> > *events;
-   static Number lastTime;
+   static EventQueue *eventQueue;
+
+   typedef Heap<TCmpPtr<Event> > EventHeap;
+   EventHeap *events;
+   Number lastTime;
 };
 
 #endif

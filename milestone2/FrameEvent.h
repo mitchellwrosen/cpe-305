@@ -15,7 +15,7 @@ class Particle;
 class FrameEvent : public Event {
 public:
    class FrameVisitor : public ParticleVisitor {
-      void VisitSphere(Sphere *) {}
+      void VisitSphere(Sphere *) { }
       void VisitPoint(Point *p);
    };
 

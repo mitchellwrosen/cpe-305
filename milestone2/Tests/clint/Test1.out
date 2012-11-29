@@ -1,0 +1,1007 @@
+<Movie frameRate="24">
+<Objects>
+<Point id="GCa[0,0,0]" color="F0F0F"/>
+<Point id="GCb[0,0,0]" color="F0F0F"/>
+<Point id="GCc[0,0,0]" color="F0F0F"/>
+</Objects>
+<Frame time="0.000000">
+<Update id="GCa[0,0,0]" position="0.000, 0.000, 0.000"/>
+<Update id="GCb[0,0,0]" position="1.000, 1.000, 1.000"/>
+<Update id="GCc[0,0,0]" position="-1.000, 0.000, 2.000"/>
+</Frame>
+<Frame time="500000.000000">
+<Update id="GCa[0,0,0]" position="0.001, 0.011, 0.029"/>
+<Update id="GCb[0,0,0]" position="0.971, 0.980, 0.999"/>
+<Update id="GCc[0,0,0]" position="-0.972, 0.009, 1.972"/>
+</Frame>
+<Frame time="1000000.000000">
+<Update id="GCa[0,0,0]" position="0.006, 0.043, 0.117"/>
+<Update id="GCb[0,0,0]" position="0.883, 0.920, 0.994"/>
+<Update id="GCc[0,0,0]" position="-0.890, 0.037, 1.890"/>
+</Frame>
+<Frame time="1500000.000000">
+<Update id="GCa[0,0,0]" position="0.016, 0.097, 0.260"/>
+<Update id="GCb[0,0,0]" position="0.741, 0.822, 0.984"/>
+<Update id="GCc[0,0,0]" position="-0.757, 0.081, 1.756"/>
+</Frame>
+<Frame time="2000000.000000">
+<Update id="GCa[0,0,0]" position="0.030, 0.172, 0.458"/>
+<Update id="GCb[0,0,0]" position="0.546, 0.687, 0.968"/>
+<Update id="GCc[0,0,0]" position="-0.576, 0.141, 1.574"/>
+</Frame>
+<Frame time="2500000.000000">
+<Update id="GCa[0,0,0]" position="0.047, 0.268, 0.710"/>
+<Update id="GCb[0,0,0]" position="0.300, 0.516, 0.947"/>
+<Update id="GCc[0,0,0]" position="-0.347, 0.216, 1.342"/>
+</Frame>
+<Frame time="3000000.000000">
+<Update id="GCa[0,0,0]" position="0.067, 0.382, 1.012"/>
+<Update id="GCb[0,0,0]" position="0.002, 0.310, 0.927"/>
+<Update id="GCc[0,0,0]" position="-0.068, 0.308, 1.061"/>
+</Frame>
+<Frame time="3500000.000000">
+<Update id="GCa[0,0,0]" position="0.062, 0.476, 1.303"/>
+<Update id="GCb[0,0,0]" position="-0.295, 0.116, 0.938"/>
+<Update id="GCc[0,0,0]" position="0.233, 0.408, 0.759"/>
+</Frame>
+<Frame time="4000000.000000">
+<Update id="GCa[0,0,0]" position="0.045, 0.542, 1.536"/>
+<Update id="GCb[0,0,0]" position="-0.540, -0.039, 0.964"/>
+<Update id="GCc[0,0,0]" position="0.495, 0.497, 0.500"/>
+</Frame>
+<Frame time="4500000.000000">
+<Update id="GCa[0,0,0]" position="0.020, 0.585, 1.714"/>
+<Update id="GCb[0,0,0]" position="-0.732, -0.156, 0.997"/>
+<Update id="GCc[0,0,0]" position="0.711, 0.571, 0.290"/>
+</Frame>
+<Frame time="5000000.000000">
+<Update id="GCa[0,0,0]" position="-0.010, 0.606, 1.837"/>
+<Update id="GCb[0,0,0]" position="-0.871, -0.235, 1.036"/>
+<Update id="GCc[0,0,0]" position="0.881, 0.630, 0.127"/>
+</Frame>
+<Frame time="5500000.000000">
+<Update id="GCa[0,0,0]" position="-0.045, 0.605, 1.905"/>
+<Update id="GCb[0,0,0]" position="-0.955, -0.277, 1.078"/>
+<Update id="GCc[0,0,0]" position="1.000, 0.672, 0.016"/>
+</Frame>
+<Frame time="6000000.000000">
+<Update id="GCa[0,0,0]" position="-0.083, 0.584, 1.919"/>
+<Update id="GCb[0,0,0]" position="-0.980, -0.280, 1.122"/>
+<Update id="GCc[0,0,0]" position="1.063, 0.695, -0.041"/>
+</Frame>
+<Frame time="6500000.000000">
+<Update id="GCa[0,0,0]" position="-0.123, 0.543, 1.875"/>
+<Update id="GCb[0,0,0]" position="-0.945, -0.242, 1.164"/>
+<Update id="GCc[0,0,0]" position="1.067, 0.699, -0.039"/>
+</Frame>
+<Frame time="7000000.000000">
+<Update id="GCa[0,0,0]" position="-0.163, 0.483, 1.776"/>
+<Update id="GCb[0,0,0]" position="-0.848, -0.164, 1.204"/>
+<Update id="GCc[0,0,0]" position="1.011, 0.681, 0.021"/>
+</Frame>
+<Frame time="7500000.000000">
+<Update id="GCa[0,0,0]" position="-0.205, 0.405, 1.624"/>
+<Update id="GCb[0,0,0]" position="-0.694, -0.049, 1.240"/>
+<Update id="GCc[0,0,0]" position="0.898, 0.644, 0.136"/>
+</Frame>
+<Frame time="8000000.000000">
+<Update id="GCa[0,0,0]" position="-0.248, 0.309, 1.424"/>
+<Update id="GCb[0,0,0]" position="-0.485, 0.102, 1.275"/>
+<Update id="GCc[0,0,0]" position="0.733, 0.589, 0.302"/>
+</Frame>
+<Frame time="8500000.000000">
+<Update id="GCa[0,0,0]" position="-0.292, 0.200, 1.184"/>
+<Update id="GCb[0,0,0]" position="-0.223, 0.284, 1.298"/>
+<Update id="GCc[0,0,0]" position="0.515, 0.516, 0.518"/>
+</Frame>
+<Frame time="9000000.000000">
+<Update id="GCa[0,0,0]" position="-0.303, 0.112, 0.942"/>
+<Update id="GCb[0,0,0]" position="0.058, 0.464, 1.275"/>
+<Update id="GCc[0,0,0]" position="0.245, 0.424, 0.783"/>
+</Frame>
+<Frame time="9500000.000000">
+<Update id="GCa[0,0,0]" position="-0.263, 0.063, 0.715"/>
+<Update id="GCb[0,0,0]" position="0.326, 0.617, 1.199"/>
+<Update id="GCc[0,0,0]" position="-0.064, 0.320, 1.087"/>
+</Frame>
+<Frame time="10000000.000000">
+<Update id="GCa[0,0,0]" position="-0.184, 0.054, 0.531"/>
+<Update id="GCb[0,0,0]" position="0.547, 0.729, 1.093"/>
+<Update id="GCc[0,0,0]" position="-0.363, 0.217, 1.377"/>
+</Frame>
+<Frame time="10500000.000000">
+<Update id="GCa[0,0,0]" position="-0.088, 0.075, 0.401"/>
+<Update id="GCb[0,0,0]" position="0.712, 0.800, 0.976"/>
+<Update id="GCc[0,0,0]" position="-0.625, 0.124, 1.623"/>
+</Frame>
+<Frame time="11000000.000000">
+<Update id="GCa[0,0,0]" position="0.018, 0.120, 0.323"/>
+<Update id="GCb[0,0,0]" position="0.822, 0.834, 0.858"/>
+<Update id="GCc[0,0,0]" position="-0.841, 0.046, 1.820"/>
+</Frame>
+<Frame time="11500000.000000">
+<Update id="GCa[0,0,0]" position="0.132, 0.186, 0.294"/>
+<Update id="GCb[0,0,0]" position="0.876, 0.830, 0.740"/>
+<Update id="GCc[0,0,0]" position="-1.007, -0.016, 1.967"/>
+</Frame>
+<Frame time="12000000.000000">
+<Update id="GCa[0,0,0]" position="0.249, 0.270, 0.312"/>
+<Update id="GCb[0,0,0]" position="0.868, 0.789, 0.630"/>
+<Update id="GCc[0,0,0]" position="-1.117, -0.058, 2.058"/>
+</Frame>
+<Frame time="12500000.000000">
+<Update id="GCa[0,0,0]" position="0.367, 0.370, 0.376"/>
+<Update id="GCb[0,0,0]" position="0.797, 0.709, 0.533"/>
+<Update id="GCc[0,0,0]" position="-1.164, -0.079, 2.091"/>
+</Frame>
+<Frame time="13000000.000000">
+<Update id="GCa[0,0,0]" position="0.485, 0.484, 0.482"/>
+<Update id="GCb[0,0,0]" position="0.660, 0.592, 0.455"/>
+<Update id="GCc[0,0,0]" position="-1.145, -0.076, 2.062"/>
+</Frame>
+<Frame time="13500000.000000">
+<Update id="GCa[0,0,0]" position="0.598, 0.601, 0.608"/>
+<Update id="GCb[0,0,0]" position="0.465, 0.449, 0.418"/>
+<Update id="GCc[0,0,0]" position="-1.063, -0.051, 1.974"/>
+</Frame>
+<Frame time="14000000.000000">
+<Update id="GCa[0,0,0]" position="0.667, 0.689, 0.734"/>
+<Update id="GCb[0,0,0]" position="0.254, 0.314, 0.435"/>
+<Update id="GCc[0,0,0]" position="-0.921, -0.004, 1.832"/>
+</Frame>
+<Frame time="14500000.000000">
+<Update id="GCa[0,0,0]" position="0.682, 0.742, 0.862"/>
+<Update id="GCb[0,0,0]" position="0.043, 0.195, 0.499"/>
+<Update id="GCc[0,0,0]" position="-0.725, 0.063, 1.640"/>
+</Frame>
+<Frame time="15000000.000000">
+<Update id="GCa[0,0,0]" position="0.642, 0.758, 0.991"/>
+<Update id="GCb[0,0,0]" position="-0.163, 0.094, 0.608"/>
+<Update id="GCc[0,0,0]" position="-0.479, 0.148, 1.400"/>
+</Frame>
+<Frame time="15500000.000000">
+<Update id="GCa[0,0,0]" position="0.542, 0.734, 1.119"/>
+<Update id="GCb[0,0,0]" position="-0.354, 0.019, 0.766"/>
+<Update id="GCc[0,0,0]" position="-0.188, 0.246, 1.115"/>
+</Frame>
+<Frame time="16000000.000000">
+<Update id="GCa[0,0,0]" position="0.385, 0.668, 1.234"/>
+<Update id="GCb[0,0,0]" position="-0.504, -0.016, 0.959"/>
+<Update id="GCc[0,0,0]" position="0.119, 0.348, 0.807"/>
+</Frame>
+<Frame time="16500000.000000">
+<Update id="GCa[0,0,0]" position="0.183, 0.561, 1.316"/>
+<Update id="GCb[0,0,0]" position="-0.594, -0.011, 1.155"/>
+<Update id="GCc[0,0,0]" position="0.411, 0.450, 0.529"/>
+</Frame>
+<Frame time="17000000.000000">
+<Update id="GCa[0,0,0]" position="-0.040, 0.426, 1.356"/>
+<Update id="GCb[0,0,0]" position="-0.625, 0.030, 1.340"/>
+<Update id="GCc[0,0,0]" position="0.665, 0.544, 0.304"/>
+</Frame>
+<Frame time="17500000.000000">
+<Update id="GCa[0,0,0]" position="-0.273, 0.273, 1.366"/>
+<Update id="GCb[0,0,0]" position="-0.597, 0.103, 1.503"/>
+<Update id="GCc[0,0,0]" position="0.870, 0.624, 0.132"/>
+</Frame>
+<Frame time="18000000.000000">
+<Update id="GCa[0,0,0]" position="-0.510, 0.114, 1.363"/>
+<Update id="GCb[0,0,0]" position="-0.513, 0.200, 1.625"/>
+<Update id="GCc[0,0,0]" position="1.023, 0.686, 0.013"/>
+</Frame>
+<Frame time="18500000.000000">
+<Update id="GCa[0,0,0]" position="-0.721, -0.026, 1.366"/>
+<Update id="GCb[0,0,0]" position="-0.398, 0.297, 1.685"/>
+<Update id="GCc[0,0,0]" position="1.119, 0.729, -0.051"/>
+</Frame>
+<Frame time="19000000.000000">
+<Update id="GCa[0,0,0]" position="-0.877, -0.130, 1.364"/>
+<Update id="GCb[0,0,0]" position="-0.275, 0.381, 1.691"/>
+<Update id="GCc[0,0,0]" position="1.152, 0.749, -0.056"/>
+</Frame>
+<Frame time="19500000.000000">
+<Update id="GCa[0,0,0]" position="-0.969, -0.195, 1.351"/>
+<Update id="GCb[0,0,0]" position="-0.151, 0.449, 1.650"/>
+<Update id="GCc[0,0,0]" position="1.120, 0.746, -0.001"/>
+</Frame>
+<Frame time="20000000.000000">
+<Update id="GCa[0,0,0]" position="-0.994, -0.221, 1.323"/>
+<Update id="GCb[0,0,0]" position="-0.032, 0.501, 1.568"/>
+<Update id="GCc[0,0,0]" position="1.026, 0.720, 0.109"/>
+</Frame>
+<Frame time="20500000.000000">
+<Update id="GCa[0,0,0]" position="-0.951, -0.208, 1.280"/>
+<Update id="GCb[0,0,0]" position="0.079, 0.536, 1.448"/>
+<Update id="GCc[0,0,0]" position="0.872, 0.672, 0.273"/>
+</Frame>
+<Frame time="21000000.000000">
+<Update id="GCa[0,0,0]" position="-0.845, -0.156, 1.223"/>
+<Update id="GCb[0,0,0]" position="0.182, 0.552, 1.291"/>
+<Update id="GCc[0,0,0]" position="0.663, 0.604, 0.486"/>
+</Frame>
+<Frame time="21500000.000000">
+<Update id="GCa[0,0,0]" position="-0.676, -0.067, 1.153"/>
+<Update id="GCb[0,0,0]" position="0.273, 0.549, 1.101"/>
+<Update id="GCc[0,0,0]" position="0.404, 0.518, 0.747"/>
+</Frame>
+<Frame time="22000000.000000">
+<Update id="GCa[0,0,0]" position="-0.445, 0.060, 1.069"/>
+<Update id="GCb[0,0,0]" position="0.338, 0.519, 0.881"/>
+<Update id="GCc[0,0,0]" position="0.107, 0.421, 1.050"/>
+</Frame>
+<Frame time="22500000.000000">
+<Update id="GCa[0,0,0]" position="-0.153, 0.224, 0.980"/>
+<Update id="GCb[0,0,0]" position="0.348, 0.459, 0.681"/>
+<Update id="GCc[0,0,0]" position="-0.195, 0.317, 1.339"/>
+</Frame>
+<Frame time="23000000.000000">
+<Update id="GCa[0,0,0]" position="0.167, 0.412, 0.902"/>
+<Update id="GCb[0,0,0]" position="0.306, 0.379, 0.526"/>
+<Update id="GCc[0,0,0]" position="-0.472, 0.209, 1.572"/>
+</Frame>
+<Frame time="23500000.000000">
+<Update id="GCa[0,0,0]" position="0.474, 0.588, 0.818"/>
+<Update id="GCb[0,0,0]" position="0.230, 0.298, 0.434"/>
+<Update id="GCc[0,0,0]" position="-0.703, 0.114, 1.748"/>
+</Frame>
+<Frame time="24000000.000000">
+<Update id="GCa[0,0,0]" position="0.738, 0.735, 0.730"/>
+<Update id="GCb[0,0,0]" position="0.147, 0.231, 0.399"/>
+<Update id="GCc[0,0,0]" position="-0.885, 0.034, 1.871"/>
+</Frame>
+<Frame time="24500000.000000">
+<Update id="GCa[0,0,0]" position="0.945, 0.846, 0.649"/>
+<Update id="GCb[0,0,0]" position="0.069, 0.183, 0.410"/>
+<Update id="GCc[0,0,0]" position="-1.014, -0.029, 1.942"/>
+</Frame>
+<Frame time="25000000.000000">
+<Update id="GCa[0,0,0]" position="1.087, 0.919, 0.583"/>
+<Update id="GCb[0,0,0]" position="-0.002, 0.152, 0.458"/>
+<Update id="GCc[0,0,0]" position="-1.085, -0.071, 1.958"/>
+</Frame>
+<Frame time="25500000.000000">
+<Update id="GCa[0,0,0]" position="1.158, 0.952, 0.540"/>
+<Update id="GCb[0,0,0]" position="-0.064, 0.138, 0.541"/>
+<Update id="GCc[0,0,0]" position="-1.094, -0.090, 1.919"/>
+</Frame>
+<Frame time="26000000.000000">
+<Update id="GCa[0,0,0]" position="1.156, 0.945, 0.522"/>
+<Update id="GCb[0,0,0]" position="-0.117, 0.140, 0.654"/>
+<Update id="GCc[0,0,0]" position="-1.039, -0.085, 1.824"/>
+</Frame>
+<Frame time="26500000.000000">
+<Update id="GCa[0,0,0]" position="1.082, 0.898, 0.532"/>
+<Update id="GCb[0,0,0]" position="-0.162, 0.156, 0.793"/>
+<Update id="GCc[0,0,0]" position="-0.920, -0.055, 1.676"/>
+</Frame>
+<Frame time="27000000.000000">
+<Update id="GCa[0,0,0]" position="0.938, 0.815, 0.570"/>
+<Update id="GCb[0,0,0]" position="-0.199, 0.185, 0.952"/>
+<Update id="GCc[0,0,0]" position="-0.739, 0.000, 1.478"/>
+</Frame>
+<Frame time="27500000.000000">
+<Update id="GCa[0,0,0]" position="0.731, 0.699, 0.636"/>
+<Update id="GCb[0,0,0]" position="-0.231, 0.221, 1.126"/>
+<Update id="GCc[0,0,0]" position="-0.499, 0.080, 1.238"/>
+</Frame>
+<Frame time="28000000.000000">
+<Update id="GCa[0,0,0]" position="0.462, 0.552, 0.732"/>
+<Update id="GCb[0,0,0]" position="-0.260, 0.257, 1.291"/>
+<Update id="GCc[0,0,0]" position="-0.202, 0.191, 0.977"/>
+</Frame>
+<Frame time="28500000.000000">
+<Update id="GCa[0,0,0]" position="0.135, 0.377, 0.861"/>
+<Update id="GCb[0,0,0]" position="-0.259, 0.294, 1.402"/>
+<Update id="GCc[0,0,0]" position="0.125, 0.329, 0.737"/>
+</Frame>
+<Frame time="29000000.000000">
+<Update id="GCa[0,0,0]" position="-0.216, 0.189, 1.001"/>
+<Update id="GCb[0,0,0]" position="-0.220, 0.337, 1.451"/>
+<Update id="GCc[0,0,0]" position="0.437, 0.474, 0.548"/>
+</Frame>
+<Frame time="29500000.000000">
+<Update id="GCa[0,0,0]" position="-0.539, 0.025, 1.154"/>
+<Update id="GCb[0,0,0]" position="-0.159, 0.373, 1.436"/>
+<Update id="GCc[0,0,0]" position="0.698, 0.602, 0.410"/>
+</Frame>
+<Frame time="30000000.000000">
+<Update id="GCa[0,0,0]" position="-0.809, -0.104, 1.307"/>
+<Update id="GCb[0,0,0]" position="-0.097, 0.394, 1.375"/>
+<Update id="GCc[0,0,0]" position="0.906, 0.710, 0.318"/>
+</Frame>
+<Frame time="30500000.000000">
+<Update id="GCa[0,0,0]" position="-1.017, -0.196, 1.445"/>
+<Update id="GCb[0,0,0]" position="-0.040, 0.401, 1.284"/>
+<Update id="GCc[0,0,0]" position="1.057, 0.795, 0.271"/>
+</Frame>
+<Frame time="31000000.000000">
+<Update id="GCa[0,0,0]" position="-1.154, -0.251, 1.556"/>
+<Update id="GCb[0,0,0]" position="0.012, 0.399, 1.173"/>
+<Update id="GCc[0,0,0]" position="1.142, 0.852, 0.271"/>
+</Frame>
+<Frame time="31500000.000000">
+<Update id="GCa[0,0,0]" position="-1.217, -0.267, 1.633"/>
+<Update id="GCb[0,0,0]" position="0.060, 0.390, 1.050"/>
+<Update id="GCc[0,0,0]" position="1.157, 0.877, 0.317"/>
+</Frame>
+<Frame time="32000000.000000">
+<Update id="GCa[0,0,0]" position="-1.205, -0.246, 1.671"/>
+<Update id="GCb[0,0,0]" position="0.107, 0.378, 0.922"/>
+<Update id="GCc[0,0,0]" position="1.098, 0.868, 0.407"/>
+</Frame>
+<Frame time="32500000.000000">
+<Update id="GCa[0,0,0]" position="-1.120, -0.190, 1.669"/>
+<Update id="GCb[0,0,0]" position="0.154, 0.368, 0.794"/>
+<Update id="GCc[0,0,0]" position="0.965, 0.823, 0.537"/>
+</Frame>
+<Frame time="33000000.000000">
+<Update id="GCa[0,0,0]" position="-0.967, -0.103, 1.625"/>
+<Update id="GCb[0,0,0]" position="0.204, 0.362, 0.678"/>
+<Update id="GCc[0,0,0]" position="0.763, 0.741, 0.697"/>
+</Frame>
+<Frame time="33500000.000000">
+<Update id="GCa[0,0,0]" position="-0.753, 0.012, 1.541"/>
+<Update id="GCb[0,0,0]" position="0.256, 0.366, 0.586"/>
+<Update id="GCc[0,0,0]" position="0.497, 0.622, 0.873"/>
+</Frame>
+<Frame time="34000000.000000">
+<Update id="GCa[0,0,0]" position="-0.482, 0.151, 1.416"/>
+<Update id="GCb[0,0,0]" position="0.300, 0.380, 0.541"/>
+<Update id="GCc[0,0,0]" position="0.182, 0.469, 1.042"/>
+</Frame>
+<Frame time="34500000.000000">
+<Update id="GCa[0,0,0]" position="-0.157, 0.311, 1.246"/>
+<Update id="GCb[0,0,0]" position="0.312, 0.394, 0.559"/>
+<Update id="GCc[0,0,0]" position="-0.155, 0.295, 1.195"/>
+</Frame>
+<Frame time="35000000.000000">
+<Update id="GCa[0,0,0]" position="0.187, 0.470, 1.035"/>
+<Update id="GCb[0,0,0]" position="0.283, 0.401, 0.638"/>
+<Update id="GCc[0,0,0]" position="-0.470, 0.129, 1.327"/>
+</Frame>
+<Frame time="35500000.000000">
+<Update id="GCa[0,0,0]" position="0.505, 0.604, 0.803"/>
+<Update id="GCb[0,0,0]" position="0.222, 0.406, 0.775"/>
+<Update id="GCc[0,0,0]" position="-0.727, -0.010, 1.422"/>
+</Frame>
+<Frame time="36000000.000000">
+<Update id="GCa[0,0,0]" position="0.766, 0.704, 0.581"/>
+<Update id="GCb[0,0,0]" position="0.158, 0.418, 0.937"/>
+<Update id="GCc[0,0,0]" position="-0.924, -0.122, 1.482"/>
+</Frame>
+<Frame time="36500000.000000">
+<Update id="GCa[0,0,0]" position="0.965, 0.774, 0.392"/>
+<Update id="GCb[0,0,0]" position="0.093, 0.428, 1.099"/>
+<Update id="GCc[0,0,0]" position="-1.059, -0.203, 1.510"/>
+</Frame>
+<Frame time="37000000.000000">
+<Update id="GCa[0,0,0]" position="1.099, 0.815, 0.246"/>
+<Update id="GCb[0,0,0]" position="0.025, 0.433, 1.249"/>
+<Update id="GCc[0,0,0]" position="-1.124, -0.248, 1.505"/>
+</Frame>
+<Frame time="37500000.000000">
+<Update id="GCa[0,0,0]" position="1.165, 0.826, 0.148"/>
+<Update id="GCb[0,0,0]" position="-0.048, 0.428, 1.382"/>
+<Update id="GCc[0,0,0]" position="-1.117, -0.255, 1.470"/>
+</Frame>
+<Frame time="38000000.000000">
+<Update id="GCa[0,0,0]" position="1.162, 0.809, 0.102"/>
+<Update id="GCb[0,0,0]" position="-0.127, 0.412, 1.491"/>
+<Update id="GCc[0,0,0]" position="-1.035, -0.221, 1.407"/>
+</Frame>
+<Frame time="38500000.000000">
+<Update id="GCa[0,0,0]" position="1.094, 0.765, 0.106"/>
+<Update id="GCb[0,0,0]" position="-0.212, 0.382, 1.571"/>
+<Update id="GCc[0,0,0]" position="-0.882, -0.147, 1.323"/>
+</Frame>
+<Frame time="39000000.000000">
+<Update id="GCa[0,0,0]" position="0.964, 0.696, 0.161"/>
+<Update id="GCb[0,0,0]" position="-0.300, 0.337, 1.612"/>
+<Update id="GCc[0,0,0]" position="-0.664, -0.033, 1.227"/>
+</Frame>
+<Frame time="39500000.000000">
+<Update id="GCa[0,0,0]" position="0.779, 0.607, 0.263"/>
+<Update id="GCb[0,0,0]" position="-0.384, 0.278, 1.603"/>
+<Update id="GCc[0,0,0]" position="-0.395, 0.115, 1.134"/>
+</Frame>
+<Frame time="40000000.000000">
+<Update id="GCa[0,0,0]" position="0.541, 0.499, 0.415"/>
+<Update id="GCb[0,0,0]" position="-0.444, 0.215, 1.532"/>
+<Update id="GCc[0,0,0]" position="-0.097, 0.286, 1.052"/>
+</Frame>
+<Frame time="40500000.000000">
+<Update id="GCa[0,0,0]" position="0.254, 0.376, 0.621"/>
+<Update id="GCb[0,0,0]" position="-0.459, 0.162, 1.404"/>
+<Update id="GCc[0,0,0]" position="0.206, 0.462, 0.974"/>
+</Frame>
+<Frame time="41000000.000000">
+<Update id="GCa[0,0,0]" position="-0.059, 0.255, 0.884"/>
+<Update id="GCb[0,0,0]" position="-0.421, 0.129, 1.230"/>
+<Update id="GCc[0,0,0]" position="0.480, 0.615, 0.886"/>
+</Frame>
+<Frame time="41500000.000000">
+<Update id="GCa[0,0,0]" position="-0.370, 0.144, 1.171"/>
+<Update id="GCb[0,0,0]" position="-0.325, 0.124, 1.021"/>
+<Update id="GCc[0,0,0]" position="0.694, 0.732, 0.807"/>
+</Frame>
+<Frame time="42000000.000000">
+<Update id="GCa[0,0,0]" position="-0.649, 0.044, 1.429"/>
+<Update id="GCb[0,0,0]" position="-0.197, 0.144, 0.826"/>
+<Update id="GCc[0,0,0]" position="0.846, 0.812, 0.745"/>
+</Frame>
+<Frame time="42500000.000000">
+<Update id="GCa[0,0,0]" position="-0.875, -0.036, 1.643"/>
+<Update id="GCb[0,0,0]" position="-0.059, 0.179, 0.657"/>
+<Update id="GCc[0,0,0]" position="0.935, 0.857, 0.700"/>
+</Frame>
+<Frame time="43000000.000000">
+<Update id="GCa[0,0,0]" position="-1.044, -0.093, 1.811"/>
+<Update id="GCb[0,0,0]" position="0.086, 0.230, 0.518"/>
+<Update id="GCc[0,0,0]" position="0.959, 0.863, 0.670"/>
+</Frame>
+<Frame time="43500000.000000">
+<Update id="GCa[0,0,0]" position="-1.152, -0.125, 1.930"/>
+<Update id="GCb[0,0,0]" position="0.236, 0.295, 0.413"/>
+<Update id="GCc[0,0,0]" position="0.916, 0.830, 0.657"/>
+</Frame>
+<Frame time="44000000.000000">
+<Update id="GCa[0,0,0]" position="-1.195, -0.131, 1.996"/>
+<Update id="GCb[0,0,0]" position="0.389, 0.375, 0.346"/>
+<Update id="GCc[0,0,0]" position="0.806, 0.756, 0.657"/>
+</Frame>
+<Frame time="44500000.000000">
+<Update id="GCa[0,0,0]" position="-1.171, -0.112, 2.007"/>
+<Update id="GCb[0,0,0]" position="0.536, 0.467, 0.329"/>
+<Update id="GCc[0,0,0]" position="0.635, 0.645, 0.663"/>
+</Frame>
+<Frame time="45000000.000000">
+<Update id="GCa[0,0,0]" position="-1.081, -0.067, 1.962"/>
+<Update id="GCb[0,0,0]" position="0.658, 0.563, 0.374"/>
+<Update id="GCc[0,0,0]" position="0.423, 0.504, 0.664"/>
+</Frame>
+<Frame time="45500000.000000">
+<Update id="GCa[0,0,0]" position="-0.930, 0.000, 1.861"/>
+<Update id="GCb[0,0,0]" position="0.727, 0.643, 0.476"/>
+<Update id="GCc[0,0,0]" position="0.203, 0.356, 0.662"/>
+</Frame>
+<Frame time="46000000.000000">
+<Update id="GCa[0,0,0]" position="-0.724, 0.087, 1.709"/>
+<Update id="GCb[0,0,0]" position="0.734, 0.695, 0.616"/>
+<Update id="GCc[0,0,0]" position="-0.011, 0.218, 0.675"/>
+</Frame>
+<Frame time="46500000.000000">
+<Update id="GCa[0,0,0]" position="-0.467, 0.190, 1.504"/>
+<Update id="GCb[0,0,0]" position="0.681, 0.715, 0.781"/>
+<Update id="GCc[0,0,0]" position="-0.214, 0.096, 0.715"/>
+</Frame>
+<Frame time="47000000.000000">
+<Update id="GCa[0,0,0]" position="-0.171, 0.301, 1.246"/>
+<Update id="GCb[0,0,0]" position="0.568, 0.699, 0.961"/>
+<Update id="GCc[0,0,0]" position="-0.397, -0.000, 0.793"/>
+</Frame>
+<Frame time="47500000.000000">
+<Update id="GCa[0,0,0]" position="0.142, 0.412, 0.951"/>
+<Update id="GCb[0,0,0]" position="0.394, 0.645, 1.147"/>
+<Update id="GCc[0,0,0]" position="-0.536, -0.057, 0.902"/>
+</Frame>
+<Frame time="48000000.000000">
+<Update id="GCa[0,0,0]" position="0.445, 0.520, 0.670"/>
+<Update id="GCb[0,0,0]" position="0.171, 0.550, 1.308"/>
+<Update id="GCc[0,0,0]" position="-0.616, -0.070, 1.022"/>
+</Frame>
+<Frame time="48500000.000000">
+<Update id="GCa[0,0,0]" position="0.704, 0.613, 0.432"/>
+<Update id="GCb[0,0,0]" position="-0.068, 0.430, 1.425"/>
+<Update id="GCc[0,0,0]" position="-0.637, -0.043, 1.143"/>
+</Frame>
+<Frame time="49000000.000000">
+<Update id="GCa[0,0,0]" position="0.911, 0.687, 0.240"/>
+<Update id="GCb[0,0,0]" position="-0.311, 0.292, 1.499"/>
+<Update id="GCc[0,0,0]" position="-0.600, 0.021, 1.262"/>
+</Frame>
+<Frame time="49500000.000000">
+<Update id="GCa[0,0,0]" position="1.063, 0.740, 0.093"/>
+<Update id="GCb[0,0,0]" position="-0.551, 0.141, 1.526"/>
+<Update id="GCc[0,0,0]" position="-0.512, 0.119, 1.381"/>
+</Frame>
+<Frame time="50000000.000000">
+<Update id="GCa[0,0,0]" position="1.155, 0.769, -0.002"/>
+<Update id="GCb[0,0,0]" position="-0.752, -0.001, 1.500"/>
+<Update id="GCc[0,0,0]" position="-0.403, 0.232, 1.502"/>
+</Frame>
+<Frame time="50500000.000000">
+<Update id="GCa[0,0,0]" position="1.183, 0.775, -0.041"/>
+<Update id="GCb[0,0,0]" position="-0.887, -0.110, 1.444"/>
+<Update id="GCc[0,0,0]" position="-0.296, 0.335, 1.597"/>
+</Frame>
+<Frame time="51000000.000000">
+<Update id="GCa[0,0,0]" position="1.144, 0.755, -0.022"/>
+<Update id="GCb[0,0,0]" position="-0.955, -0.180, 1.368"/>
+<Update id="GCc[0,0,0]" position="-0.190, 0.425, 1.654"/>
+</Frame>
+<Frame time="51500000.000000">
+<Update id="GCa[0,0,0]" position="1.042, 0.712, 0.054"/>
+<Update id="GCb[0,0,0]" position="-0.954, -0.211, 1.276"/>
+<Update id="GCc[0,0,0]" position="-0.087, 0.499, 1.670"/>
+</Frame>
+<Frame time="52000000.000000">
+<Update id="GCa[0,0,0]" position="0.880, 0.648, 0.184"/>
+<Update id="GCb[0,0,0]" position="-0.890, -0.202, 1.174"/>
+<Update id="GCc[0,0,0]" position="0.010, 0.554, 1.642"/>
+</Frame>
+<Frame time="52500000.000000">
+<Update id="GCa[0,0,0]" position="0.666, 0.566, 0.365"/>
+<Update id="GCb[0,0,0]" position="-0.765, -0.154, 1.067"/>
+<Update id="GCc[0,0,0]" position="0.099, 0.589, 1.568"/>
+</Frame>
+<Frame time="53000000.000000">
+<Update id="GCa[0,0,0]" position="0.405, 0.469, 0.595"/>
+<Update id="GCb[0,0,0]" position="-0.584, -0.069, 0.960"/>
+<Update id="GCc[0,0,0]" position="0.178, 0.601, 1.445"/>
+</Frame>
+<Frame time="53500000.000000">
+<Update id="GCa[0,0,0]" position="0.105, 0.360, 0.871"/>
+<Update id="GCb[0,0,0]" position="-0.345, 0.056, 0.858"/>
+<Update id="GCc[0,0,0]" position="0.240, 0.584, 1.271"/>
+</Frame>
+<Frame time="54000000.000000">
+<Update id="GCa[0,0,0]" position="-0.211, 0.249, 1.169"/>
+<Update id="GCb[0,0,0]" position="-0.056, 0.223, 0.779"/>
+<Update id="GCc[0,0,0]" position="0.266, 0.528, 1.052"/>
+</Frame>
+<Frame time="54500000.000000">
+<Update id="GCa[0,0,0]" position="-0.489, 0.151, 1.432"/>
+<Update id="GCb[0,0,0]" position="0.249, 0.416, 0.751"/>
+<Update id="GCc[0,0,0]" position="0.240, 0.432, 0.817"/>
+</Frame>
+<Frame time="55000000.000000">
+<Update id="GCa[0,0,0]" position="-0.714, 0.073, 1.648"/>
+<Update id="GCb[0,0,0]" position="0.522, 0.602, 0.763"/>
+<Update id="GCc[0,0,0]" position="0.192, 0.324, 0.589"/>
+</Frame>
+<Frame time="55500000.000000">
+<Update id="GCa[0,0,0]" position="-0.886, 0.014, 1.815"/>
+<Update id="GCb[0,0,0]" position="0.739, 0.754, 0.784"/>
+<Update id="GCc[0,0,0]" position="0.147, 0.232, 0.401"/>
+</Frame>
+<Frame time="56000000.000000">
+<Update id="GCa[0,0,0]" position="-1.006, -0.026, 1.933"/>
+<Update id="GCb[0,0,0]" position="0.900, 0.869, 0.808"/>
+<Update id="GCc[0,0,0]" position="0.105, 0.157, 0.259"/>
+</Frame>
+<Frame time="56500000.000000">
+<Update id="GCa[0,0,0]" position="-1.068, -0.046, 1.998"/>
+<Update id="GCb[0,0,0]" position="1.000, 0.946, 0.836"/>
+<Update id="GCc[0,0,0]" position="0.068, 0.101, 0.166"/>
+</Frame>
+<Frame time="57000000.000000">
+<Update id="GCa[0,0,0]" position="-1.072, -0.045, 2.007"/>
+<Update id="GCb[0,0,0]" position="1.038, 0.981, 0.868"/>
+<Update id="GCc[0,0,0]" position="0.033, 0.064, 0.125"/>
+</Frame>
+<Frame time="57500000.000000">
+<Update id="GCa[0,0,0]" position="-1.014, -0.023, 1.960"/>
+<Update id="GCb[0,0,0]" position="1.012, 0.976, 0.904"/>
+<Update id="GCc[0,0,0]" position="0.002, 0.047, 0.136"/>
+</Frame>
+<Frame time="58000000.000000">
+<Update id="GCa[0,0,0]" position="-0.900, 0.019, 1.858"/>
+<Update id="GCb[0,0,0]" position="0.924, 0.930, 0.941"/>
+<Update id="GCc[0,0,0]" position="-0.024, 0.051, 0.201"/>
+</Frame>
+<Frame time="58500000.000000">
+<Update id="GCa[0,0,0]" position="-0.734, 0.079, 1.707"/>
+<Update id="GCb[0,0,0]" position="0.778, 0.844, 0.976"/>
+<Update id="GCc[0,0,0]" position="-0.043, 0.077, 0.317"/>
+</Frame>
+<Frame time="59000000.000000">
+<Update id="GCa[0,0,0]" position="-0.521, 0.155, 1.507"/>
+<Update id="GCb[0,0,0]" position="0.577, 0.721, 1.008"/>
+<Update id="GCc[0,0,0]" position="-0.056, 0.124, 0.485"/>
+</Frame>
+<Frame time="59500000.000000">
+<Update id="GCa[0,0,0]" position="-0.261, 0.245, 1.258"/>
+<Update id="GCb[0,0,0]" position="0.322, 0.559, 1.034"/>
+<Update id="GCc[0,0,0]" position="-0.061, 0.196, 0.708"/>
+</Frame>
+<Frame time="60000000.000000">
+<Update id="GCa[0,0,0]" position="0.040, 0.349, 0.965"/>
+<Update id="GCb[0,0,0]" position="0.013, 0.359, 1.051"/>
+<Update id="GCc[0,0,0]" position="-0.053, 0.293, 0.985"/>
+</Frame>
+<Frame time="60500000.000000">
+<Update id="GCa[0,0,0]" position="0.326, 0.445, 0.685"/>
+<Update id="GCb[0,0,0]" position="-0.302, 0.146, 1.043"/>
+<Update id="GCc[0,0,0]" position="-0.024, 0.408, 1.272"/>
+</Frame>
+<Frame time="61000000.000000">
+<Update id="GCa[0,0,0]" position="0.562, 0.526, 0.454"/>
+<Update id="GCb[0,0,0]" position="-0.564, -0.031, 1.035"/>
+<Update id="GCc[0,0,0]" position="0.002, 0.505, 1.511"/>
+</Frame>
+<Frame time="61500000.000000">
+<Update id="GCa[0,0,0]" position="0.749, 0.590, 0.272"/>
+<Update id="GCb[0,0,0]" position="-0.772, -0.171, 1.031"/>
+<Update id="GCc[0,0,0]" position="0.023, 0.581, 1.696"/>
+</Frame>
+<Frame time="62000000.000000">
+<Update id="GCa[0,0,0]" position="0.889, 0.639, 0.139"/>
+<Update id="GCb[0,0,0]" position="-0.926, -0.273, 1.031"/>
+<Update id="GCc[0,0,0]" position="0.037, 0.634, 1.829"/>
+</Frame>
+<Frame time="62500000.000000">
+<Update id="GCa[0,0,0]" position="0.978, 0.671, 0.057"/>
+<Update id="GCb[0,0,0]" position="-1.023, -0.337, 1.034"/>
+<Update id="GCc[0,0,0]" position="0.045, 0.666, 1.909"/>
+</Frame>
+<Frame time="63000000.000000">
+<Update id="GCa[0,0,0]" position="1.012, 0.684, 0.026"/>
+<Update id="GCb[0,0,0]" position="-1.059, -0.360, 1.038"/>
+<Update id="GCc[0,0,0]" position="0.047, 0.676, 1.936"/>
+</Frame>
+<Frame time="63500000.000000">
+<Update id="GCa[0,0,0]" position="0.991, 0.677, 0.050"/>
+<Update id="GCb[0,0,0]" position="-1.033, -0.341, 1.042"/>
+<Update id="GCc[0,0,0]" position="0.043, 0.664, 1.908"/>
+</Frame>
+<Frame time="64000000.000000">
+<Update id="GCa[0,0,0]" position="0.912, 0.651, 0.128"/>
+<Update id="GCb[0,0,0]" position="-0.946, -0.282, 1.046"/>
+<Update id="GCc[0,0,0]" position="0.033, 0.631, 1.825"/>
+</Frame>
+<Frame time="64500000.000000">
+<Update id="GCa[0,0,0]" position="0.783, 0.607, 0.256"/>
+<Update id="GCb[0,0,0]" position="-0.800, -0.182, 1.052"/>
+<Update id="GCc[0,0,0]" position="0.017, 0.575, 1.691"/>
+</Frame>
+<Frame time="65000000.000000">
+<Update id="GCa[0,0,0]" position="0.604, 0.547, 0.434"/>
+<Update id="GCb[0,0,0]" position="-0.599, -0.045, 1.062"/>
+<Update id="GCc[0,0,0]" position="-0.005, 0.498, 1.505"/>
+</Frame>
+<Frame time="65500000.000000">
+<Update id="GCa[0,0,0]" position="0.376, 0.470, 0.660"/>
+<Update id="GCb[0,0,0]" position="-0.343, 0.129, 1.073"/>
+<Update id="GCc[0,0,0]" position="-0.033, 0.401, 1.268"/>
+</Frame>
+<Frame time="66000000.000000">
+<Update id="GCa[0,0,0]" position="0.096, 0.375, 0.933"/>
+<Update id="GCb[0,0,0]" position="-0.031, 0.339, 1.080"/>
+<Update id="GCc[0,0,0]" position="-0.065, 0.286, 0.987"/>
+</Frame>
+<Frame time="66500000.000000">
+<Update id="GCa[0,0,0]" position="-0.212, 0.268, 1.227"/>
+<Update id="GCb[0,0,0]" position="0.289, 0.543, 1.051"/>
+<Update id="GCc[0,0,0]" position="-0.077, 0.190, 0.722"/>
+</Frame>
+<Frame time="67000000.000000">
+<Update id="GCa[0,0,0]" position="-0.484, 0.170, 1.478"/>
+<Update id="GCb[0,0,0]" position="0.557, 0.708, 1.009"/>
+<Update id="GCc[0,0,0]" position="-0.073, 0.122, 0.513"/>
+</Frame>
+<Frame time="67500000.000000">
+<Update id="GCa[0,0,0]" position="-0.711, 0.087, 1.681"/>
+<Update id="GCb[0,0,0]" position="0.770, 0.834, 0.962"/>
+<Update id="GCc[0,0,0]" position="-0.059, 0.079, 0.356"/>
+</Frame>
+<Frame time="68000000.000000">
+<Update id="GCa[0,0,0]" position="-0.890, 0.019, 1.837"/>
+<Update id="GCb[0,0,0]" position="0.928, 0.923, 0.913"/>
+<Update id="GCc[0,0,0]" position="-0.038, 0.058, 0.251"/>
+</Frame>
+<Frame time="68500000.000000">
+<Update id="GCa[0,0,0]" position="-1.018, -0.032, 1.941"/>
+<Update id="GCb[0,0,0]" position="1.027, 0.973, 0.863"/>
+<Update id="GCc[0,0,0]" position="-0.010, 0.059, 0.196"/>
+</Frame>
+<Frame time="69000000.000000">
+<Update id="GCa[0,0,0]" position="-1.088, -0.061, 1.992"/>
+<Update id="GCb[0,0,0]" position="1.063, 0.981, 0.818"/>
+<Update id="GCc[0,0,0]" position="0.025, 0.080, 0.190"/>
+</Frame>
+<Frame time="69500000.000000">
+<Update id="GCa[0,0,0]" position="-1.098, -0.069, 1.988"/>
+<Update id="GCb[0,0,0]" position="1.033, 0.948, 0.778"/>
+<Update id="GCc[0,0,0]" position="0.065, 0.121, 0.234"/>
+</Frame>
+<Frame time="70000000.000000">
+<Update id="GCa[0,0,0]" position="-1.046, -0.055, 1.929"/>
+<Update id="GCb[0,0,0]" position="0.937, 0.873, 0.747"/>
+<Update id="GCc[0,0,0]" position="0.109, 0.181, 0.325"/>
+</Frame>
+<Frame time="70500000.000000">
+<Update id="GCa[0,0,0]" position="-0.935, -0.018, 1.817"/>
+<Update id="GCb[0,0,0]" position="0.777, 0.759, 0.724"/>
+<Update id="GCc[0,0,0]" position="0.158, 0.259, 0.460"/>
+</Frame>
+<Frame time="71000000.000000">
+<Update id="GCa[0,0,0]" position="-0.769, 0.039, 1.655"/>
+<Update id="GCb[0,0,0]" position="0.557, 0.608, 0.710"/>
+<Update id="GCc[0,0,0]" position="0.212, 0.353, 0.635"/>
+</Frame>
+<Frame time="71500000.000000">
+<Update id="GCa[0,0,0]" position="-0.548, 0.117, 1.447"/>
+<Update id="GCb[0,0,0]" position="0.279, 0.423, 0.713"/>
+<Update id="GCc[0,0,0]" position="0.269, 0.460, 0.840"/>
+</Frame>
+<Frame time="72000000.000000">
+<Update id="GCa[0,0,0]" position="-0.272, 0.216, 1.193"/>
+<Update id="GCb[0,0,0]" position="-0.032, 0.234, 0.764"/>
+<Update id="GCc[0,0,0]" position="0.304, 0.550, 1.043"/>
+</Frame>
+<Frame time="72500000.000000">
+<Update id="GCa[0,0,0]" position="0.047, 0.332, 0.904"/>
+<Update id="GCb[0,0,0]" position="-0.332, 0.067, 0.865"/>
+<Update id="GCc[0,0,0]" position="0.285, 0.601, 1.231"/>
+</Frame>
+<Frame time="73000000.000000">
+<Update id="GCa[0,0,0]" position="0.358, 0.448, 0.629"/>
+<Update id="GCb[0,0,0]" position="-0.581, -0.058, 0.990"/>
+<Update id="GCc[0,0,0]" position="0.224, 0.610, 1.382"/>
+</Frame>
+<Frame time="73500000.000000">
+<Update id="GCa[0,0,0]" position="0.632, 0.555, 0.400"/>
+<Update id="GCb[0,0,0]" position="-0.773, -0.143, 1.116"/>
+<Update id="GCc[0,0,0]" position="0.140, 0.588, 1.484"/>
+</Frame>
+<Frame time="74000000.000000">
+<Update id="GCa[0,0,0]" position="0.862, 0.648, 0.221"/>
+<Update id="GCb[0,0,0]" position="-0.906, -0.191, 1.238"/>
+<Update id="GCc[0,0,0]" position="0.044, 0.543, 1.540"/>
+</Frame>
+<Frame time="74500000.000000">
+<Update id="GCa[0,0,0]" position="1.038, 0.723, 0.093"/>
+<Update id="GCb[0,0,0]" position="-0.977, -0.201, 1.351"/>
+<Update id="GCc[0,0,0]" position="-0.061, 0.478, 1.556"/>
+</Frame>
+<Frame time="75000000.000000">
+<Update id="GCa[0,0,0]" position="1.155, 0.776, 0.018"/>
+<Update id="GCb[0,0,0]" position="-0.981, -0.172, 1.446"/>
+<Update id="GCc[0,0,0]" position="-0.174, 0.396, 1.535"/>
+</Frame>
+<Frame time="75500000.000000">
+<Update id="GCa[0,0,0]" position="1.207, 0.804, -0.001"/>
+<Update id="GCb[0,0,0]" position="-0.914, -0.103, 1.518"/>
+<Update id="GCc[0,0,0]" position="-0.293, 0.299, 1.483"/>
+</Frame>
+<Frame time="76000000.000000">
+<Update id="GCa[0,0,0]" position="1.191, 0.806, 0.035"/>
+<Update id="GCb[0,0,0]" position="-0.776, 0.002, 1.560"/>
+<Update id="GCc[0,0,0]" position="-0.415, 0.192, 1.405"/>
+</Frame>
+<Frame time="76500000.000000">
+<Update id="GCa[0,0,0]" position="1.109, 0.781, 0.125"/>
+<Update id="GCb[0,0,0]" position="-0.573, 0.137, 1.558"/>
+<Update id="GCc[0,0,0]" position="-0.536, 0.082, 1.317"/>
+</Frame>
+<Frame time="77000000.000000">
+<Update id="GCa[0,0,0]" position="0.964, 0.731, 0.265"/>
+<Update id="GCb[0,0,0]" position="-0.332, 0.278, 1.499"/>
+<Update id="GCc[0,0,0]" position="-0.632, -0.009, 1.237"/>
+</Frame>
+<Frame time="77500000.000000">
+<Update id="GCa[0,0,0]" position="0.763, 0.658, 0.448"/>
+<Update id="GCb[0,0,0]" position="-0.086, 0.407, 1.393"/>
+<Update id="GCc[0,0,0]" position="-0.676, -0.065, 1.159"/>
+</Frame>
+<Frame time="78000000.000000">
+<Update id="GCa[0,0,0]" position="0.506, 0.562, 0.674"/>
+<Update id="GCb[0,0,0]" position="0.156, 0.520, 1.248"/>
+<Update id="GCc[0,0,0]" position="-0.663, -0.082, 1.078"/>
+</Frame>
+<Frame time="78500000.000000">
+<Update id="GCa[0,0,0]" position="0.202, 0.449, 0.942"/>
+<Update id="GCb[0,0,0]" position="0.386, 0.612, 1.065"/>
+<Update id="GCc[0,0,0]" position="-0.588, -0.061, 0.992"/>
+</Frame>
+<Frame time="79000000.000000">
+<Update id="GCa[0,0,0]" position="-0.117, 0.331, 1.226"/>
+<Update id="GCb[0,0,0]" position="0.568, 0.667, 0.865"/>
+<Update id="GCc[0,0,0]" position="-0.451, 0.002, 0.909"/>
+</Frame>
+<Frame time="79500000.000000">
+<Update id="GCa[0,0,0]" position="-0.424, 0.209, 1.476"/>
+<Update id="GCb[0,0,0]" position="0.688, 0.685, 0.681"/>
+<Update id="GCc[0,0,0]" position="-0.264, 0.105, 0.844"/>
+</Frame>
+<Frame time="80000000.000000">
+<Update id="GCa[0,0,0]" position="-0.695, 0.093, 1.670"/>
+<Update id="GCb[0,0,0]" position="0.747, 0.672, 0.522"/>
+<Update id="GCc[0,0,0]" position="-0.052, 0.235, 0.808"/>
+</Frame>
+<Frame time="80500000.000000">
+<Update id="GCa[0,0,0]" position="-0.917, -0.007, 1.812"/>
+<Update id="GCb[0,0,0]" position="0.747, 0.630, 0.398"/>
+<Update id="GCc[0,0,0]" position="0.170, 0.377, 0.790"/>
+</Frame>
+<Frame time="81000000.000000">
+<Update id="GCa[0,0,0]" position="-1.081, -0.086, 1.903"/>
+<Update id="GCb[0,0,0]" position="0.687, 0.564, 0.320"/>
+<Update id="GCc[0,0,0]" position="0.394, 0.522, 0.777"/>
+</Frame>
+<Frame time="81500000.000000">
+<Update id="GCa[0,0,0]" position="-1.183, -0.141, 1.942"/>
+<Update id="GCb[0,0,0]" position="0.575, 0.484, 0.302"/>
+<Update id="GCc[0,0,0]" position="0.608, 0.657, 0.756"/>
+</Frame>
+<Frame time="82000000.000000">
+<Update id="GCa[0,0,0]" position="-1.219, -0.170, 1.929"/>
+<Update id="GCb[0,0,0]" position="0.433, 0.405, 0.348"/>
+<Update id="GCc[0,0,0]" position="0.787, 0.765, 0.723"/>
+</Frame>
+<Frame time="82500000.000000">
+<Update id="GCa[0,0,0]" position="-1.188, -0.171, 1.863"/>
+<Update id="GCb[0,0,0]" position="0.280, 0.335, 0.447"/>
+<Update id="GCc[0,0,0]" position="0.908, 0.835, 0.691"/>
+</Frame>
+<Frame time="83000000.000000">
+<Update id="GCa[0,0,0]" position="-1.088, -0.143, 1.748"/>
+<Update id="GCb[0,0,0]" position="0.126, 0.278, 0.583"/>
+<Update id="GCc[0,0,0]" position="0.962, 0.864, 0.669"/>
+</Frame>
+<Frame time="83500000.000000">
+<Update id="GCa[0,0,0]" position="-0.925, -0.087, 1.589"/>
+<Update id="GCb[0,0,0]" position="-0.023, 0.234, 0.748"/>
+<Update id="GCc[0,0,0]" position="0.948, 0.853, 0.663"/>
+</Frame>
+<Frame time="84000000.000000">
+<Update id="GCa[0,0,0]" position="-0.700, -0.004, 1.387"/>
+<Update id="GCb[0,0,0]" position="-0.167, 0.200, 0.935"/>
+<Update id="GCc[0,0,0]" position="0.867, 0.804, 0.678"/>
+</Frame>
+<Frame time="84500000.000000">
+<Update id="GCa[0,0,0]" position="-0.416, 0.106, 1.149"/>
+<Update id="GCb[0,0,0]" position="-0.307, 0.174, 1.136"/>
+<Update id="GCc[0,0,0]" position="0.723, 0.720, 0.715"/>
+</Frame>
+<Frame time="85000000.000000">
+<Update id="GCa[0,0,0]" position="-0.086, 0.244, 0.904"/>
+<Update id="GCb[0,0,0]" position="-0.431, 0.153, 1.320"/>
+<Update id="GCc[0,0,0]" position="0.517, 0.603, 0.776"/>
+</Frame>
+<Frame time="85500000.000000">
+<Update id="GCa[0,0,0]" position="0.254, 0.397, 0.683"/>
+<Update id="GCb[0,0,0]" position="-0.504, 0.150, 1.458"/>
+<Update id="GCc[0,0,0]" position="0.250, 0.453, 0.859"/>
+</Frame>
+<Frame time="86000000.000000">
+<Update id="GCa[0,0,0]" position="0.569, 0.550, 0.511"/>
+<Update id="GCb[0,0,0]" position="-0.523, 0.167, 1.548"/>
+<Update id="GCc[0,0,0]" position="-0.046, 0.283, 0.942"/>
+</Frame>
+<Frame time="86500000.000000">
+<Update id="GCa[0,0,0]" position="0.831, 0.682, 0.385"/>
+<Update id="GCb[0,0,0]" position="-0.494, 0.199, 1.583"/>
+<Update id="GCc[0,0,0]" position="-0.337, 0.119, 1.032"/>
+</Frame>
+<Frame time="87000000.000000">
+<Update id="GCa[0,0,0]" position="1.035, 0.790, 0.300"/>
+<Update id="GCb[0,0,0]" position="-0.428, 0.234, 1.559"/>
+<Update id="GCc[0,0,0]" position="-0.607, -0.024, 1.141"/>
+</Frame>
+<Frame time="87500000.000000">
+<Update id="GCa[0,0,0]" position="1.180, 0.872, 0.256"/>
+<Update id="GCb[0,0,0]" position="-0.347, 0.263, 1.483"/>
+<Update id="GCc[0,0,0]" position="-0.833, -0.135, 1.262"/>
+</Frame>
+<Frame time="88000000.000000">
+<Update id="GCa[0,0,0]" position="1.259, 0.923, 0.253"/>
+<Update id="GCb[0,0,0]" position="-0.264, 0.281, 1.370"/>
+<Update id="GCc[0,0,0]" position="-0.995, -0.204, 1.377"/>
+</Frame>
+<Frame time="88500000.000000">
+<Update id="GCa[0,0,0]" position="1.267, 0.942, 0.292"/>
+<Update id="GCb[0,0,0]" position="-0.184, 0.290, 1.237"/>
+<Update id="GCc[0,0,0]" position="-1.084, -0.232, 1.472"/>
+</Frame>
+<Frame time="89000000.000000">
+<Update id="GCa[0,0,0]" position="1.202, 0.925, 0.372"/>
+<Update id="GCb[0,0,0]" position="-0.105, 0.294, 1.092"/>
+<Update id="GCc[0,0,0]" position="-1.097, -0.219, 1.536"/>
+</Frame>
+<Frame time="89500000.000000">
+<Update id="GCa[0,0,0]" position="1.064, 0.873, 0.491"/>
+<Update id="GCb[0,0,0]" position="-0.027, 0.297, 0.945"/>
+<Update id="GCc[0,0,0]" position="-1.037, -0.170, 1.565"/>
+</Frame>
+<Frame time="90000000.000000">
+<Update id="GCa[0,0,0]" position="0.855, 0.784, 0.642"/>
+<Update id="GCb[0,0,0]" position="0.052, 0.303, 0.803"/>
+<Update id="GCc[0,0,0]" position="-0.907, -0.087, 1.555"/>
+</Frame>
+<Frame time="90500000.000000">
+<Update id="GCa[0,0,0]" position="0.582, 0.660, 0.816"/>
+<Update id="GCb[0,0,0]" position="0.135, 0.316, 0.677"/>
+<Update id="GCc[0,0,0]" position="-0.717, 0.024, 1.507"/>
+</Frame>
+<Frame time="91000000.000000">
+<Update id="GCa[0,0,0]" position="0.251, 0.499, 0.996"/>
+<Update id="GCb[0,0,0]" position="0.219, 0.342, 0.587"/>
+<Update id="GCc[0,0,0]" position="-0.470, 0.159, 1.416"/>
+</Frame>
+<Frame time="91500000.000000">
+<Update id="GCa[0,0,0]" position="-0.113, 0.313, 1.163"/>
+<Update id="GCb[0,0,0]" position="0.282, 0.374, 0.557"/>
+<Update id="GCc[0,0,0]" position="-0.169, 0.314, 1.279"/>
+</Frame>
+<Frame time="92000000.000000">
+<Update id="GCa[0,0,0]" position="-0.460, 0.132, 1.315"/>
+<Update id="GCb[0,0,0]" position="0.307, 0.401, 0.590"/>
+<Update id="GCc[0,0,0]" position="0.153, 0.467, 1.094"/>
+</Frame>
+<Frame time="92500000.000000">
+<Update id="GCa[0,0,0]" position="-0.750, -0.022, 1.433"/>
+<Update id="GCb[0,0,0]" position="0.297, 0.426, 0.684"/>
+<Update id="GCc[0,0,0]" position="0.454, 0.597, 0.883"/>
+</Frame>
+<Frame time="93000000.000000">
+<Update id="GCa[0,0,0]" position="-0.981, -0.148, 1.516"/>
+<Update id="GCb[0,0,0]" position="0.275, 0.456, 0.818"/>
+<Update id="GCc[0,0,0]" position="0.706, 0.693, 0.665"/>
+</Frame>
+<Frame time="93500000.000000">
+<Update id="GCa[0,0,0]" position="-1.149, -0.244, 1.566"/>
+<Update id="GCb[0,0,0]" position="0.253, 0.489, 0.961"/>
+<Update id="GCc[0,0,0]" position="0.896, 0.755, 0.473"/>
+</Frame>
+<Frame time="94000000.000000">
+<Update id="GCa[0,0,0]" position="-1.248, -0.304, 1.582"/>
+<Update id="GCb[0,0,0]" position="0.229, 0.518, 1.097"/>
+<Update id="GCc[0,0,0]" position="1.019, 0.787, 0.321"/>
+</Frame>
+<Frame time="94500000.000000">
+<Update id="GCa[0,0,0]" position="-1.273, -0.327, 1.565"/>
+<Update id="GCb[0,0,0]" position="0.199, 0.538, 1.216"/>
+<Update id="GCc[0,0,0]" position="1.074, 0.789, 0.219"/>
+</Frame>
+<Frame time="95000000.000000">
+<Update id="GCa[0,0,0]" position="-1.223, -0.311, 1.514"/>
+<Update id="GCb[0,0,0]" position="0.162, 0.547, 1.317"/>
+<Update id="GCc[0,0,0]" position="1.061, 0.764, 0.169"/>
+</Frame>
+<Frame time="95500000.000000">
+<Update id="GCa[0,0,0]" position="-1.099, -0.254, 1.434"/>
+<Update id="GCb[0,0,0]" position="0.117, 0.542, 1.392"/>
+<Update id="GCc[0,0,0]" position="0.982, 0.713, 0.173"/>
+</Frame>
+<Frame time="96000000.000000">
+<Update id="GCa[0,0,0]" position="-0.905, -0.160, 1.330"/>
+<Update id="GCb[0,0,0]" position="0.061, 0.520, 1.439"/>
+<Update id="GCc[0,0,0]" position="0.844, 0.640, 0.231"/>
+</Frame>
+<Frame time="96500000.000000">
+<Update id="GCa[0,0,0]" position="-0.646, -0.028, 1.208"/>
+<Update id="GCb[0,0,0]" position="-0.005, 0.480, 1.450"/>
+<Update id="GCc[0,0,0]" position="0.651, 0.548, 0.342"/>
+</Frame>
+<Frame time="97000000.000000">
+<Update id="GCa[0,0,0]" position="-0.331, 0.139, 1.078"/>
+<Update id="GCb[0,0,0]" position="-0.079, 0.420, 1.417"/>
+<Update id="GCc[0,0,0]" position="0.410, 0.441, 0.504"/>
+</Frame>
+<Frame time="97500000.000000">
+<Update id="GCa[0,0,0]" position="0.027, 0.335, 0.951"/>
+<Update id="GCb[0,0,0]" position="-0.151, 0.341, 1.327"/>
+<Update id="GCc[0,0,0]" position="0.124, 0.323, 0.722"/>
+</Frame>
+<Frame time="98000000.000000">
+<Update id="GCa[0,0,0]" position="0.377, 0.528, 0.831"/>
+<Update id="GCb[0,0,0]" position="-0.196, 0.260, 1.171"/>
+<Update id="GCc[0,0,0]" position="-0.182, 0.212, 0.998"/>
+</Frame>
+<Frame time="98500000.000000">
+<Update id="GCa[0,0,0]" position="0.667, 0.690, 0.735"/>
+<Update id="GCb[0,0,0]" position="-0.215, 0.182, 0.975"/>
+<Update id="GCc[0,0,0]" position="-0.453, 0.128, 1.290"/>
+</Frame>
+<Frame time="99000000.000000">
+<Update id="GCa[0,0,0]" position="0.896, 0.818, 0.664"/>
+<Update id="GCb[0,0,0]" position="-0.226, 0.114, 0.795"/>
+<Update id="GCc[0,0,0]" position="-0.670, 0.067, 1.542"/>
+</Frame>
+<Frame time="99500000.000000">
+<Update id="GCa[0,0,0]" position="1.062, 0.912, 0.613"/>
+<Update id="GCb[0,0,0]" position="-0.224, 0.065, 0.643"/>
+<Update id="GCc[0,0,0]" position="-0.837, 0.023, 1.744"/>
+</Frame>
+</Movie>

@@ -17,6 +17,8 @@ public:
    Number GetTime() { return time; }
    virtual void Execute() = 0;
 
+   bool operator<(const Event& rhs) const;
+
 protected:
    Number time;
 };

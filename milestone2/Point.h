@@ -5,7 +5,20 @@
 
 // Point adds just a color to Particle, suitable for point-sprite display
 class Point : public Particle {
-  // Yours to fill in.
+public:
+   Point(const std::string &i, const std::vector<Vector> &k, const Number &m,
+    int c)
+    : Particle(i, k, m), color(c) { }
+
+   Point(const std::string &i, const Vector &loc, const Number &m, int c)
+    : Particle(i, loc, m), color(c) { }
+
+   virtual void Visit(ParticleVisitor *);
+
+   const int &GetColor() const { return color; }
+
+protected:
+   int color;
 };
 
 #endif

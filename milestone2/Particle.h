@@ -33,14 +33,15 @@ public:
    const std::vector<Vector> &GetKinematics()            {return kinematics;}
    void SetKinematics(const std::vector<Vector> &newVal) {kinematics = newVal;}
    Number GetMobility()                                  {return mobility;}
+   Number GetLastTime()                                  {return lastTime;}
 
    enum {LOC, VEL, ACC};
 
 protected:
    std::string id;
    std::vector<Vector> kinematics;
-   Number lastTime;
    Number mobility;
+   Number lastTime;
 };
 
 #endif

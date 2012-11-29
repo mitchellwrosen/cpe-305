@@ -38,19 +38,23 @@ public:
       Number minDist;
 
       Parameters(Number g, Number a, Number minW, Number maxW, Number mD)
-       : G(g), accuracy(a),minWait(minW),  maxWait(maxW), minDist(mD) {}
+       : G(g), accuracy(a), minWait(minW), maxWait(maxW), minDist(mD) { }
    };
 
-   GravityForce(Particle *pa, Particle *pb) : p1(pa), p2(pb) {}
+   GravityForce(Particle *pa, Particle *pb) : p1(pa), p2(pb) { }
 
    virtual Number Update();
 
-   static void SetParameters(const Parameters &val) {prms = val;}
+   static void SetParameters(const Parameters &val) { prms = val; }
 
 private:
    Particle *p1;
    Particle *p2;
    static Parameters prms;
+
+   // The last acceleration this GravityForce caused on p1 and p2.
+   Vector lastAcc1;
+   Vector lastAcc2;
 };
 
 #endif
