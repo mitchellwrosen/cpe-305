@@ -12,7 +12,7 @@ GravityForce::Parameters GravityForce::prms = GravityForce::Parameters(0, 0, 0,
 
 Number GravityForce::Update()
 {
-   Number dist;
+   Number dist, force;
    Vector newAcc1, newAcc2;
    std::vector<Vector> p1k, p2k;
 
@@ -29,6 +29,11 @@ Number GravityForce::Update()
 
    dist = TMax<Number>((p1k[Particle::LOC] - p2k[Particle::LOC]).Length(),
     prms.minDist);
+
+   force = (1.0 / p1->GetMobility()) * (1.0 / p2->GetMobility()) * prms.G /
+    (p1k[Particle::LOC] - p2k[Particle::LOC]).LengthSqr();
+
+
 
    newAcc1 = (p2k[Particle::LOC] - p1k[Particle::LOC]).Unit().Scale(
     prms.G * (1.0 / p2->GetMobility()) / (dist * dist));
