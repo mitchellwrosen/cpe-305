@@ -8,7 +8,7 @@
 using namespace std;
 typedef map<string, set<int> > Map;
 
-void main() {
+int main() {
    Map map;
    string line, sub;
    int lineNum = 0;
@@ -17,11 +17,10 @@ void main() {
       while (iss >> sub)
          map[sub].insert(lineNum);
    }
-   for (Map::iterator iter = map.begin(); iter != map.end(); ++iter) {
-      cout << left << setw(20) << iter->first << " appears on";
-      for (set<int>::iterator iter2 = iter->second.begin();
-            iter2 != iter->second.end(); iter2++)
-         cout << " " << *iter2;
+   for (Map::iterator i = map.begin(); i != map.end(); ++i) {
+      cout << left << setw(20) << i->first << " appears on";
+      for (set<int>::iterator j = i->second.begin(); j != i->second.end(); j++)
+         cout << " " << *j;
       cout << endl;
    }
 }

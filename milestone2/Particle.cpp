@@ -23,10 +23,16 @@ void Particle::Update() {
       kinematics[VEL] = kinematics[VEL] + kinematics[ACC].Scale(timeDelta);
 
 #ifdef DEBUG
-      std::cout << std::fixed << std::setprecision(NumTraits::PRECISION) <<
-       "Part " << id << " moves at (" << kinematics[VEL] << ") to (" <<
-       kinematics[LOC] << ") at " << EventQueue::GetEventQueue()->GetTime() <<
-       ")" << std::endl;
+      printf("Part %s moves at (%0.4g, %0.4g, %0.4g) to "
+       "(%0.4g, %0.4g, %0.4g) at %0.4g\n",
+       id.c_str(),
+       kinematics[VEL].GetX(),
+       kinematics[VEL].GetY(),
+       kinematics[VEL].GetZ(),
+       kinematics[LOC].GetX(),
+       kinematics[LOC].GetY(),
+       kinematics[LOC].GetZ(),
+       EventQueue::GetEventQueue()->GetTime());
 #endif
 
       lastTime = curTime;

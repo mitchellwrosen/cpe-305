@@ -11,8 +11,8 @@ void FrameEvent::FrameVisitor::VisitPoint(Point *point)
    std::cout.precision(3);
    std::cout.setf(std::ios::fixed, std::ios::floatfield);
    std::cout << "<Update id=\"" << point->GetId() << "\" position=\"" <<
-    loc.GetX() << ", " << loc.GetY() << ", " << loc.GetZ() << "\"/>" <<
-    std::endl;
+    NumTraits::Round(loc.GetX()) << ", " << NumTraits::Round(loc.GetY()) <<
+    ", " << NumTraits::Round(loc.GetZ()) << "\"/>" << std::endl;
 }
 
 void FrameEvent::Execute()

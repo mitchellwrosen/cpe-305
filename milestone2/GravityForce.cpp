@@ -17,8 +17,8 @@ Number GravityForce::Update()
    std::vector<Vector> p1k, p2k;
 
 #ifdef DEBUG
-   Number origDist = TMax<Number>((p1->GetKinematics()[Particle::LOC] -
-    p2->GetKinematics()[Particle::LOC]).Length(), prms.minDist);
+   //Number origDist = TMax<Number>((p1->GetKinematics()[Particle::LOC] -
+    //p2->GetKinematics()[Particle::LOC]).Length(), prms.minDist);
 #endif
 
    p1->Update();
@@ -37,11 +37,22 @@ Number GravityForce::Update()
 
    // p2 on p1
    p1k[Particle::ACC] = p1k[Particle::ACC] + newAcc1 - lastAcc1;
+
 #ifdef DEBUG
-   std::cout << "Update force between " << p1->GetId() << " and " << p2->GetId()
-    << ". (" << p1->GetKinematics()[Particle::ACC] << ")->(" <<
-    p1k[Particle::ACC] << ")" << std::endl << std::endl;
+   //printf("Update force between %s and %s. (%0.4g, %0.4g, %0.4g)->"
+    //"(%0.4g, %0.4g, %0.4g)\n\n",  p1->GetId().c_str(), p2->GetId().c_str(),
+    //p1->GetKinematics()[Particle::ACC].GetX(),
+    //p1->GetKinematics()[Particle::ACC].GetY(),
+    //p1->GetKinematics()[Particle::ACC].GetZ(),
+    //p1k[Particle::ACC].GetX(),
+    //p1k[Particle::ACC].GetY(),
+    //p1k[Particle::ACC].GetZ());
+   printf("Update force between %s and %s. (%0.4g, %0.4g, %0.4g)->"
+    "(%0.4g, %0.4g, %0.4g)\n\n",  p1->GetId().c_str(), p2->GetId().c_str(),
+    lastAcc1.GetX(), lastAcc1.GetY(), lastAcc1.GetZ(),
+    newAcc1.GetX(), newAcc1.GetY(), newAcc1.GetZ());
 #endif
+
    p1->SetKinematics(p1k);
 
    // p1 on p2
@@ -57,15 +68,23 @@ Number GravityForce::Update()
    // T = Sqrt(--------------------------------)
    //               |(P1.Vel - P2.Vel)|^2
    //
+   // distance * Sqrt(accuracy)
+   // -------------------------
+   //      vel1 - vel2
+   //
    // T = Bound(min, T, max)
    //
-   Number wait = Bound<Number>(prms.minWait, NumTraits::Sqrt((
-    p1k[Particle::LOC] - p2k[Particle::LOC]).LengthSqr() * prms.accuracy /
-    (p1k[Particle::VEL] - p2k[Particle::VEL]).LengthSqr()), prms.maxWait);
+   Number wait = Bound<Number>(prms.minWait,
+
+         //NumTraits::Sqrt((p1k[Particle::LOC] - p2k[Particle::LOC]).LengthSqr() * prms.accuracy / (p1k[Particle::VEL] - p2k[Particle::VEL]).LengthSqr()),
+         (p1k[Particle::LOC] - p2k[Particle::LOC]).Length() * NumTraits::Sqrt(prms.accuracy) / (p1k[Particle::VEL] - p2k[Particle::VEL]).Length(),
+
+   prms.maxWait);
+
 #ifdef DEBUG
-   std::cout << std::fixed << std::setprecision(6) <<
-    "Deltaspeed " << (p1k[Particle::VEL]-p2k[Particle::VEL]).Length() <<
-    " dist " << dist << " wait: " << wait << std::endl;
+   printf("Deltaspeed %0.5g dist %0.5g wait: %0.5g\n",
+    (p1k[Particle::VEL]-p2k[Particle::VEL]).Length(), dist, wait);
 #endif
+
    return EventQueue::GetEventQueue()->GetTime() + wait;
 }
