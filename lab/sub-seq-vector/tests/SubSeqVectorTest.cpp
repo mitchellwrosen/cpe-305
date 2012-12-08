@@ -8,7 +8,7 @@ TEST(SubSeqVectorTest, Simple) {
    SubSeqVector<double> test;
    EXPECT_EQ(0U, test.size());
 
-   SubSeqVector<double> v1(vals, vals+5);
+   SubSeqVector<float> v1(vals, vals+5);
    EXPECT_EQ(5U, v1.size());
    EXPECT_EQ(2.2, v1[0]);
    EXPECT_EQ(3.4, v1[1]);
@@ -16,7 +16,7 @@ TEST(SubSeqVectorTest, Simple) {
    EXPECT_EQ(7.7, v1[3]);
    EXPECT_EQ(11.6, v1[4]);
 
-   SubSeqVector<double> v2(v1.begin(), v1.end());
+   SubSeqVector<float> v2(v1.begin(), v1.end());
    EXPECT_EQ(5U, v2.size());
    for (int i = 0; i < 5; ++i)
       EXPECT_EQ(v1[i], v2[i]);

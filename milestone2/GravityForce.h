@@ -53,8 +53,7 @@ private:
    static Parameters prms;
 
    // The last acceleration this GravityForce caused on p1 and p2.
-   Vector lastAcc1;
-   Vector lastAcc2;
+   Vector oldForce;
 };
 
 #endif

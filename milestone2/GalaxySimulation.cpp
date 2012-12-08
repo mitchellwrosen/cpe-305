@@ -6,8 +6,6 @@
 #include "ForceEvent.h"
 #include "FrameEvent.h"
 
-#include "Debug.h"
-
 #include <iostream>
 #include <iomanip>
 

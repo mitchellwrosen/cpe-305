@@ -5,7 +5,7 @@
 # General definitions
 CPP = g++
 PROFFLAGS =
-CPPFLAGS = $(PROFFLAGS) -Wall -std=c++98 -g
+CPPFLAGS = $(PROFFLAGS) -Wall -std=c++98 -g -m32
 
 SIMOBJS = Event.o EventQueue.o ForceEvent.o FrameEvent.o GlobularClusterPSF.o \
           GravityForce.o GravityPSF.o Particle.o Point.o
@@ -14,8 +14,13 @@ OBJS = GalaxySimulation.o $(SIMOBJS)
 # Object file generation rules
 all: MyGalaxySimulation
 
+debug: MyGalaxySimulationDebug
+
 MyGalaxySimulation : $(OBJS)
-	$(CPP) $(PROFFLAGS) $(OBJS) -o MyGalaxySimulation
+	$(CPP) -m32 $(PROFFLAGS) $(OBJS) -o MyGalaxySimulation
+
+MyGalaxySimulationDebug : $(OBJS)
+	$(CPP) -DDEBUG $(PROFFLAGS) $(OBJS) -o MyGalaxySimulation
 
 clean:
 	rm MyGalaxySimulation *.o

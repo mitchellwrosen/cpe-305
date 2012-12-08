@@ -7,8 +7,6 @@
 #include <list>
 #include "MyLib.h"
 
-#include <iostream> //TODO remove
-
 // Heap implements a max heap of Base objects (largest object is on the top).
 // It uses the array-based tree representation typical of data structures
 // like the heap, where it's possible to keep the tree complete at all
@@ -115,8 +113,6 @@ Heap<Base>::Heap(long lm) : incr(lm), cap(lm), limit(999), end(0),
 template <class Base>
 long Heap<Base>::Add(const Base &val)
 {
-   //std::cout << "Adding " << val << std::endl;
-
    int id;
 
    if (end == cap)
@@ -143,7 +139,6 @@ long Heap<Base>::Remove(Base *pVal) {
    if (end == 0)
       return -1;
 
-   //std::cout << "Removing " << data[0].val << std::endl;
    assert(map[data[0].id] == 0);
 
    long thisFree, nextFree, retId;
@@ -184,9 +179,6 @@ template <class Base>
 void Heap<Base>::Adjust(long id, const Base &val)
 {
    // TODO
-   //data[map[id]].val = val;
-   //Promote(data[map[id]], map[id]);
-   //Demote(data[map[id]], map[id]);
 }
 
 // Premotes Base |val| at index |ndx| to its proper location at the heap.
@@ -252,7 +244,8 @@ void Heap<Base>::Demote(long ndx)
 template <class Base>
 void Heap<Base>::Delete()
 {
-   // TODO
+   delete[] data;
+   delete[] map;
 }
 
 template <class Base>

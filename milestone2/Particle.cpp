@@ -1,6 +1,5 @@
 #include "Particle.h"
 
-#include "Debug.h"
 #include "EventQueue.h"
 
 #include <iostream>
@@ -32,7 +31,7 @@ void Particle::Update() {
        kinematics[LOC].GetX(),
        kinematics[LOC].GetY(),
        kinematics[LOC].GetZ(),
-       EventQueue::GetEventQueue()->GetTime());
+       curTime);
 #endif
 
       lastTime = curTime;
